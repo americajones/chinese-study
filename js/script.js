@@ -31,6 +31,7 @@ function loadZhuyin() {
 function loadZhuyinQuiz1() {
     removeAllChildren(answersBox);
     swapButt.classList.remove('hidden');
+    swapButt.removeEventListener('click', loadZhuyinQuiz1);
     swapButt.addEventListener('click', loadZhuyinQuiz2);
     randoNumber = Math.floor(Math.random() * zhuyinArray.length);
     thisHanzi = zhuyinArray[randoNumber];
@@ -57,6 +58,7 @@ function loadZhuyinQuiz1() {
 function loadZhuyinQuiz2() {
     removeAllChildren(answersBox);
     swapButt.classList.remove('hidden');
+    swapButt.removeEventListener('click', loadZhuyinQuiz2);
     swapButt.addEventListener('click', loadZhuyinQuiz1);
     randoNumber = Math.floor(Math.random() * pinyinArray.length);
     thisHanzi = pinyinArray[randoNumber];
@@ -121,6 +123,8 @@ function getSet1() {
 function loadHanziQuiz0() {
     removeAllChildren(answersBox);
     swapButt.classList.remove('hidden');
+    swapButt.removeEventListener('click', loadHanziQuiz0);
+    swapButt.removeEventListener('click', loadHanziQuiz2);
     swapButt.addEventListener('click', loadHanziQuiz1);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
@@ -158,6 +162,8 @@ function handleAnswerClick0() {
 function loadHanziQuiz1() {
     removeAllChildren(answersBox);
     swapButt.classList.remove('hidden');
+    swapButt.removeEventListener('click', loadHanziQuiz0);
+    swapButt.removeEventListener('click', loadHanziQuiz1);
     swapButt.addEventListener('click', loadHanziQuiz2);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
@@ -195,6 +201,8 @@ function handleAnswerClick3() {
 function loadHanziQuiz2() {
     removeAllChildren(answersBox);
     swapButt.classList.remove('hidden');
+    swapButt.removeEventListener('click', loadHanziQuiz1);
+    swapButt.removeEventListener('click', loadHanziQuiz2);
     swapButt.addEventListener('click', loadHanziQuiz0);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = zhuyinArray[randoNumber];
@@ -249,6 +257,7 @@ function loadRadicalQuiz1() {
     removeAllChildren(answersBox);
     swapButt.classList.remove('hidden');
     swapButt.addEventListener('click', loadRadicalQuiz2);
+    swapButt.removeEventListener('click', loadRadicalQuiz1);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -285,6 +294,7 @@ function handleAnswerClick5() {
 function loadRadicalQuiz2() {
     removeAllChildren(answersBox);
     swapButt.classList.remove('hidden');
+    swapButt.removeEventListener('click', loadRadicalQuiz2);
     swapButt.addEventListener('click', loadRadicalQuiz1);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = zhuyinArray[randoNumber];
