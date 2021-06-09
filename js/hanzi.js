@@ -1,17 +1,17 @@
 const hanziLevel1 = {
-    "一": {
-        "zhuyin": "一",
-        "pinyin": "yī",
-        "tone": 1,
-        "english": "one",
-        "radicals": ["一"]
-    },
     "我": {
         "zhuyin": "ㄨㄛˇ",
         "pinyin": "wǒ ",
         "tone": 3,
-        "english": "I",
+        "english": "I, me",
         "radicals": ["手", "戈"]
+    },
+    "的": {
+        "zhuyin": "ㄉㄜ.",
+        "pinyin": "de",
+        "tone": 5,
+        "english": "of, (possessive p.)",
+        "radicals": ["白", "勺"]
     },
     "你": {
         "zhuyin": "ㄋ一ˇ",
@@ -20,53 +20,18 @@ const hanziLevel1 = {
         "english": "you",
         "radicals": ["亻", "尔"]
     },
-    "的": {
-        "zhuyin": "ㄉㄜ.",
-        "pinyin": "de",
-        "tone": 5,
-        "english": "of",
-        "radicals": ["白", "勺"]
-    },
     "是": {
         "zhuyin": "ㄕˋ",
         "pinyin": "shì",
         "tone": 4,
-        "english": "is",
+        "english": "is, to be",
         "radicals": ["日", "一", "止"]
     },
-    "有": {
-        "zhuyin": "一ㄡˇ",
-        "pinyin": "yǒu",
-        "tone": 3,
-        "english": "to have, there is",
-        "radicals": ["𠂇", "月"]
-    },
-    "在": {
-        "zhuyin": "ㄗㄞˋ",
-        "pinyin": "zài",
-        "tone": 4,
-        "english": "at",
-        "radicals": ["𠂇", "土"]
-    },
-    "要": {
-        "zhuyin": "一ㄠˋ",
-        "pinyin": "yào",
-        "tone": 4,
-        "english": "want",
-        "radicals": ["覀", "女"]
-    },
-    "就": {
-        "zhuyin": "ㄐ一ㄡˋ",
-        "pinyin": "jiù",
-        "tone": 4,
-        "english": "at once",
-        "radicals": ["京", "尤"]
-    },
-    "人": {
-        "zhuyin": "ㄖㄣˊ",
-        "pinyin": "rén",
-        "tone": 2,
-        "english": "person",
+    "了": {
+        "zhuyin": "ㄌㄜ˙",
+        "pinyin": "le",
+        "tone": 5,
+        "english": "-ed, (completed action p.)",
         "radicals": [""]
     },
     "不": {
@@ -76,6 +41,114 @@ const hanziLevel1 = {
         "english": "no, not",
         "radicals": ["丆", "卜"]
     },
+    "們": {
+        "zhuyin": "ㄇㄣ˙",
+        "pinyin": "men",
+        "tone": 3,
+        "english": "(plural p.)",
+        "radicals": ["亻", "門"]
+    },
+    "這 ": {
+        "zhuyin": "ㄓㄜˋ",
+        "pinyin": "zhè",
+        "tone": 4,
+        "english": "this",
+        "radicals": ["辶", "言"]
+    },
+
+    "一": {
+        "zhuyin": "一",
+        "pinyin": "yī",
+        "tone": 1,
+        "english": "one, a",
+        "radicals": ["一"]
+    },
+    "他": {
+        "zhuyin": "ㄊㄚ",
+        "pinyin": "tā",
+        "tone": 1,
+        "english": "he",
+        "radicals": ["亻", "也"]
+    },
+    "麼": {
+        "zhuyin": "ㄇㄜ˙",
+        "pinyin": "me",
+        "tone": 5,
+        "english": "(interrogative p.)",
+        "radicals": ["麻", "幺"]
+    },
+    "在": {
+        "zhuyin": "ㄗㄞˋ",
+        "pinyin": "zài",
+        "tone": 4,
+        "english": "at",
+        "radicals": ["𠂇", "土"]
+    },
+    "有": {
+        "zhuyin": "一ㄡˇ",
+        "pinyin": "yǒu",
+        "tone": 3,
+        "english": "to have, there is",
+        "radicals": ["𠂇", "月"]
+    },
+    "個": {
+        "zhuyin": "ㄍㄜˋ",
+        "pinyin": "gè",
+        "tone": 4,
+        "english": "individual, (general measure word)",
+        "radicals": ["亻", "固"]
+    },
+    "好": {
+        "zhuyin": "ㄏㄠˇ",
+        "pinyin": "hǎo",
+        "tone": 3,
+        "english": "good, well",
+        "radicals": ["女", "子"]
+    },
+    "來": {
+        "zhuyin": "ㄌㄞˊ",
+        "pinyin": "lái",
+        "tone": 2,
+        "english": "to come",
+        "radicals": ["木", "从"]
+    },
+
+    "人": {
+        "zhuyin": "ㄖㄣˊ",
+        "pinyin": "rén",
+        "tone": 2,
+        "english": "person",
+        "radicals": [""]
+    },
+    "那": {
+        "zhuyin": "ㄋㄚ ˋ",
+        "pinyin": "nà",
+        "tone": 4,
+        "english": "that",
+        "radicals": ["二", "阝"]
+    },
+    "要": {
+        "zhuyin": "一ㄠˋ",
+        "pinyin": "yào",
+        "tone": 4,
+        "english": "to want, important",
+        "radicals": ["覀", "女"]
+    },
+    "會": {
+        "zhuyin": "ㄏㄨㄟˋ",
+        "pinyin": "huì",
+        "tone": 4,
+        "english": "meet, can, will, to know",
+        "radicals": ["京", "尤"]
+    },
+    "就": {
+        "zhuyin": "ㄐ一ㄡˋ",
+        "pinyin": "jiù",
+        "tone": 4,
+        "english": "then, just(emp.), at once",
+        "radicals": ["京", "尤"]
+    },
+
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
@@ -83,6 +156,7 @@ const hanziLevel1 = {
     //     "english": "",
     //     "radicals": ["", ""]
     // },
+
 }
 
 const chineseRadicals = {
