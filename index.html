@@ -15,7 +15,7 @@
     <div class="header">
         <h1 class='title'>Chinese Traditional Study</h1>
         <div class="level-dropdown">
-            <button onClick="dropdownFunction()" class="drop-butt butt">Study <div class="arrow">></div></button>
+            <button onClick="dropdownFunction()" class="drop-butt top butt">Study <div class="arrow">></div></button>
             <div id='level-drop' class='dropdown-content'>
                 <button onClick='loadZhuyin()'>zhuyin</button>
                 <button onClick='getSet1()'>level 1 hanzi</button>
@@ -37,7 +37,10 @@
             <div class="answers">
                 <img src="./images/trad.jpg" alt="traditional chinese">
             </div>
-            <button class="swap butt hidden">swap quiz style</button>
+            <div class="bottom-buttons">
+                <button class="swap butt hidden">swap quiz style</button>
+                <button class="skip butt hidden">skip</button>
+            </div>
         </div>
     </div>
     <script src="./js/script.js"></script>

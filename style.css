@@ -5,6 +5,7 @@ body{
     margin:auto;
     font-family: system-ui;
     font-size: 17px;
+    padding: 0;
 }
 h2{
     text-align: center;
@@ -19,6 +20,7 @@ h1{
 }
 .title {
     font-size: 30px;
+    color: rgb(175, 175, 175);
 }
 .answers img {
     width: 100%;
@@ -29,10 +31,15 @@ h1{
     height: 100vw;
     border: solid 1px rgb(66, 66, 66);
     margin:auto;
+    margin-top: 1em;
     flex-wrap: wrap;
     align-content: stretch;
     min-width: 300px;
     min-height: 300px;
+}
+.bottom-buttons {
+    display: flex;
+    flex-direction: row;
 }
 .answer:hover{
     background-color: black;
@@ -43,18 +50,21 @@ h1{
     flex-flow: column;
     justify-content: center;
     border: solid 1px rgb(66, 66, 66);
-    font-size: 1.5em;
+    font-size: 1em;
     width:33%;
     height:33%;
     overflow: hidden;
     border-inline-start: none;
     cursor: pointer;
 }
+.top {
+    z-index: 2;
+}
 .butt {
     background-color: rgb(17, 17, 17);
-    color: white;
+    color: rgb(192, 192, 192);
     padding: 16px;
-    font-size: 16px;
+    font-size: 15px;
     border: none;
     cursor: pointer;
     display: flex;
@@ -64,22 +74,35 @@ h1{
 .header {
     display: flex;
     justify-content: space-evenly;
+    padding: 5px;
 }
 .swap {
     margin: auto;
     width: 150px;
     text-align: center;
     margin-top: 1rem;
+    position: absolute;
+    bottom: 0;
+}
+.skip {
+    margin: auto;
+    width: 150px;
+    text-align: center;
+    margin-top: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .level-dropdown {
-    align-self: center;
+    height: 1.5em;
+    width: max-content;
 }
 .arrow {
     transform: rotate(90deg);
     margin-left: 1em;
 }
 .drop-butt:hover, .drop-butt:focus {
-    background-color: #449684;
+    background-color: #964444;
 }
 .dropdown {
     position: relative;
@@ -102,6 +125,7 @@ h1{
     display: block;
     width: 100%;
     border: none;
+    border-top: 1px solid rgb(17, 17, 17);
 }
 .dropdown-content button:hover {
     background-color: rgb(0, 0, 0);
@@ -109,7 +133,9 @@ h1{
 }
 #quiz-practice {
     background-color: rgb(39, 39, 39);
-}
+    height: 100vh;
+}  
+
 .show {display:block;}
 .hidden {display:none;}
 @media only screen and (min-width: 700px) {
@@ -118,5 +144,15 @@ h1{
         height: 600px;
         border: none;
         border-left: 1px solid rgb(66, 66, 66);
+    }
+    #quiz-practice {
+        height: auto;
+    }
+    .answer{
+        font-size: 1.5em
+    }
+    .skip,
+    .swap {
+        position:relative;
     }
 }

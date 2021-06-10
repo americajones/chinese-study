@@ -30,9 +30,12 @@ function loadZhuyin() {
 };
 function loadZhuyinQuiz1() {
     removeAllChildren(answersBox);
+    skipButt.classList.remove('hidden');
     swapButt.classList.remove('hidden');
     swapButt.removeEventListener('click', loadZhuyinQuiz1);
     swapButt.addEventListener('click', loadZhuyinQuiz2);
+    skipButt.removeEventListener('click', loadZhuyinQuiz2);
+    skipButt.addEventListener('click', loadZhuyinQuiz1);
     randoNumber = Math.floor(Math.random() * zhuyinArray.length);
     thisHanzi = zhuyinArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -57,9 +60,12 @@ function loadZhuyinQuiz1() {
 };
 function loadZhuyinQuiz2() {
     removeAllChildren(answersBox);
+    skipButt.classList.remove('hidden');
     swapButt.classList.remove('hidden');
     swapButt.removeEventListener('click', loadZhuyinQuiz2);
     swapButt.addEventListener('click', loadZhuyinQuiz1);
+    skipButt.addEventListener('click', loadZhuyinQuiz2);
+    skipButt.removeEventListener('click', loadZhuyinQuiz1);
     randoNumber = Math.floor(Math.random() * pinyinArray.length);
     thisHanzi = pinyinArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -88,7 +94,7 @@ function handleAnswerClick() {
         console.log('. * nice! * .');
         setTimeout(() => {
             loadZhuyinQuiz1();
-        }, 200);
+        }, 300);
     } else {
         console.log('try again.');
     }
@@ -99,7 +105,7 @@ function handleAnswerClick2() {
         console.log('. * nice! * .');
         setTimeout(() => {
             loadZhuyinQuiz2();
-        }, 200);
+        }, 300);
     } else {
         console.log('try again.');
     }
@@ -110,7 +116,7 @@ function getSet1() {
     zhuyinArray = [];
     meaningsArray = [];
     pageHeader.textContent = "";
-    pageHeader.textContent = "Level 1 Hanzi";
+    pageHeader.textContent = "漢字(ㄏㄢˋㄗˋ)";
     quizStudyBox.classList.remove('hidden');
     for (var [hanzi, value] of Object.entries(hanziLevel1)) {
         // console.log(value.zhuyin);
@@ -122,10 +128,14 @@ function getSet1() {
 };
 function loadHanziQuiz0() {
     removeAllChildren(answersBox);
+    skipButt.classList.remove('hidden');
     swapButt.classList.remove('hidden');
     swapButt.removeEventListener('click', loadHanziQuiz0);
     swapButt.removeEventListener('click', loadHanziQuiz2);
     swapButt.addEventListener('click', loadHanziQuiz1);
+    skipButt.removeEventListener('click', loadHanziQuiz1);
+    skipButt.removeEventListener('click', loadHanziQuiz2);
+    skipButt.addEventListener('click', loadHanziQuiz0);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -154,7 +164,7 @@ function handleAnswerClick0() {
         console.log('. * nice! * .');
         setTimeout(() => {
             loadHanziQuiz0();
-        }, 200);
+        }, 300);
     } else {
         console.log('try again.');
     }
@@ -162,9 +172,13 @@ function handleAnswerClick0() {
 function loadHanziQuiz1() {
     removeAllChildren(answersBox);
     swapButt.classList.remove('hidden');
+    skipButt.classList.remove('hidden');
     swapButt.removeEventListener('click', loadHanziQuiz0);
     swapButt.removeEventListener('click', loadHanziQuiz1);
     swapButt.addEventListener('click', loadHanziQuiz2);
+    skipButt.removeEventListener('click', loadHanziQuiz0);
+    skipButt.removeEventListener('click', loadHanziQuiz2);
+    skipButt.addEventListener('click', loadHanziQuiz1);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -193,7 +207,7 @@ function handleAnswerClick3() {
         console.log('. * nice! * .');
         setTimeout(() => {
             loadHanziQuiz1();
-        }, 200);
+        }, 300);
     } else {
         console.log('try again.');
     }
@@ -201,9 +215,13 @@ function handleAnswerClick3() {
 function loadHanziQuiz2() {
     removeAllChildren(answersBox);
     swapButt.classList.remove('hidden');
+    skipButt.classList.remove('hidden');
     swapButt.removeEventListener('click', loadHanziQuiz1);
     swapButt.removeEventListener('click', loadHanziQuiz2);
     swapButt.addEventListener('click', loadHanziQuiz0);
+    skipButt.removeEventListener('click', loadHanziQuiz0);
+    skipButt.removeEventListener('click', loadHanziQuiz1);
+    skipButt.addEventListener('click', loadHanziQuiz2);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = zhuyinArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -232,7 +250,7 @@ function handleAnswerClick4() {
         console.log('. * nice! * .');
         setTimeout(() => {
             loadHanziQuiz2();
-        }, 200);
+        }, 300);
     } else {
         console.log('try again.');
     }
@@ -243,7 +261,7 @@ function getRadicals() {
     zhuyinArray = [];
     meaningsArray = [];
     pageHeader.textContent = "";
-    pageHeader.textContent = "Radicals";
+    pageHeader.textContent = "部首(ㄅㄨˋㄕㄡˇ)";
     quizStudyBox.classList.remove('hidden');
     for (var [radical, value] of Object.entries(chineseRadicals)) {
         console.log(value.zhuyin);
@@ -251,11 +269,14 @@ function getRadicals() {
         zhuyinArray.push(value.zhuyin);
         meaningsArray.push(value.english);
     }
-    loadRadicalQuiz1();
+    loadRadicalQuiz2();
 };
 function loadRadicalQuiz1() {
     removeAllChildren(answersBox);
     swapButt.classList.remove('hidden');
+    skipButt.classList.remove('hidden');
+    skipButt.addEventListener('click', loadRadicalQuiz1);
+    skipButt.removeEventListener('click', loadRadicalQuiz2);
     swapButt.addEventListener('click', loadRadicalQuiz2);
     swapButt.removeEventListener('click', loadRadicalQuiz1);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
@@ -286,7 +307,7 @@ function handleAnswerClick5() {
         console.log('. * nice! * .');
         setTimeout(() => {
             loadRadicalQuiz1();
-        }, 200);
+        }, 300);
     } else {
         console.log('try again.');
     }
@@ -294,6 +315,9 @@ function handleAnswerClick5() {
 function loadRadicalQuiz2() {
     removeAllChildren(answersBox);
     swapButt.classList.remove('hidden');
+    skipButt.classList.remove('hidden');
+    skipButt.removeEventListener('click', loadRadicalQuiz1);
+    skipButt.addEventListener('click', loadRadicalQuiz2);
     swapButt.removeEventListener('click', loadRadicalQuiz2);
     swapButt.addEventListener('click', loadRadicalQuiz1);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
@@ -324,14 +348,14 @@ function handleAnswerClick6() {
         console.log('. * nice! * .');
         setTimeout(() => {
             loadRadicalQuiz2();
-        }, 200);
+        }, 300);
     } else {
         console.log('try again.');
     }
 }
 function getFlashcards() {
     pageHeader.textContent = "";
-    pageHeader.textContent = "Flashcards(under construction)";
+    pageHeader.textContent = "Flashcards under construction.";
     quizStudyBox.classList.add('hidden');
 };
 function shuffleArray(array) {
