@@ -116,7 +116,7 @@ function getSet1() {
     zhuyinArray = [];
     meaningsArray = [];
     pageHeader.textContent = "";
-    pageHeader.textContent = "漢字(ㄏㄢˋㄗˋ)";
+    pageHeader.textContent = "漢字";
     quizStudyBox.classList.remove('hidden');
     for (var [hanzi, value] of Object.entries(hanziLevel1)) {
         // console.log(value.zhuyin);
@@ -261,7 +261,7 @@ function getRadicals() {
     zhuyinArray = [];
     meaningsArray = [];
     pageHeader.textContent = "";
-    pageHeader.textContent = "部首(ㄅㄨˋㄕㄡˇ)";
+    pageHeader.textContent = "部首";
     quizStudyBox.classList.remove('hidden');
     for (var [radical, value] of Object.entries(chineseRadicals)) {
         console.log(value.zhuyin);
