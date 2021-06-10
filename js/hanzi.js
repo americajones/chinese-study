@@ -55,7 +55,6 @@ const hanziLevel1 = {
         "english": "this",
         "radicals": ["辶", "言"]
     },
-
     "一": {
         "zhuyin": "一",
         "pinyin": "yī",
@@ -112,7 +111,6 @@ const hanziLevel1 = {
         "english": "to come",
         "radicals": ["木", "从"]
     },
-
     "人": {
         "zhuyin": "ㄖㄣˊ",
         "pinyin": "rén",
@@ -148,13 +146,77 @@ const hanziLevel1 = {
         "english": "then, just(emp.), at once",
         "radicals": ["京", "尤"]
     },
+    "什": {
+        "zhuyin": "ㄕㄣˊ",
+        "pinyin": "shén",
+        "tone": 2,
+        "english": "what",
+        "radicals": ["亻", "十"]
+    },
+    "沒": {
+        "zhuyin": "ㄇㄟˊ",
+        "pinyin": "méi",
+        "tone": 2,
+        "english": "have not",
+        "radicals": ["氵", "又"]
+    },
+    "到": {
+        "zhuyin": "ㄉㄠˋ",
+        "pinyin": "dào",
+        "tone": 4,
+        "english": "to arrive",
+        "radicals": ["至", "刂"]
+    },
+    "說": {
+        "zhuyin": "ㄕㄨㄛ",
+        "pinyin": "shuō",
+        "tone": 1,
+        "english": "to speak",
+        "radicals": ["言", "兌"]
+    },
+    "嗎": {
+        "zhuyin": "ㄇㄚ˙",
+        "pinyin": "ma",
+        "tone": 5,
+        "english": "(question p.)",
+        "radicals": ["口", "馬"]
+    },
+    "為": {
+        "zhuyin": "ㄨㄟˋ",
+        "pinyin": "wèi",
+        "tone": 4,
+        "english": "because of",
+        "radicals": ["丶", "灬"]
+    },
+    "想": {
+        "zhuyin": "ㄒ一ㄤˇ",
+        "pinyin": "xiǎng",
+        "tone": 3,
+        "english": "to think, to want",
+        "radicals": ["相", "心"]
+    },
+    "能": {
+        "zhuyin": "ㄋㄥˊ",
+        "pinyin": "néng",
+        "tone": 2,
+        "english": "to be able to",
+        "radicals": ["厶", "匕"]
+    },
+    "上": {
+        "zhuyin": "ㄕㄤˋ",
+        "pinyin": "shàng",
+        "tone": 4,
+        "english": "above",
+        "radicals": ["丨", "一"]
+    },
+    // 30/100 done
 
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
     //     "tone": ,
     //     "english": "",
-    //     "radicals": ["", ""
+    //     "radicals": ["", ""]
     // },
 
 }
@@ -797,13 +859,13 @@ const chineseRadicals = {
         "english": "white",
     },
     "皮": {
-        "zhuyin": "ㄆㄧˊ",
+        "zhuyin": "ㄆ一ˊ",
         "pinyin": "pí",
         "tone": 2,
         "english": "skin",
     },
     "皿": {
-        "zhuyin": "ㄇㄧㄣˇ",
+        "zhuyin": "ㄇ一ㄣˇ",
         "pinyin": "mǐn",
         "tone": 3,
         "english": "dish",
@@ -857,7 +919,7 @@ const chineseRadicals = {
         "english": "cave",
     },
     "立": {
-        "zhuyin": "ㄌㄧˋ",
+        "zhuyin": "ㄌ一ˋ",
         "pinyin": "lì",
         "tone": 4,
         "english": "stand",
@@ -869,7 +931,7 @@ const chineseRadicals = {
         "english": "bamboo",
     },
     "米": {
-        "zhuyin": "ㄇㄧˇ",
+        "zhuyin": "ㄇ一ˇ",
         "pinyin": "mǐ",
         "tone": 3,
         "english": "rice",
@@ -893,7 +955,7 @@ const chineseRadicals = {
         "english": "net",
     },
     "羊": {
-        "zhuyin": "ㄧㄤˊ",
+        "zhuyin": "一ㄤˊ",
         "pinyin": "yáng",
         "tone": 2,
         "english": "sheep",
@@ -959,7 +1021,7 @@ const chineseRadicals = {
         "english": "arrive",
     },
     "臼": {
-        "zhuyin": "ㄐㄧㄡˋ",
+        "zhuyin": "ㄐ一ㄡˋ",
         "pinyin": "jiù",
         "tone": 4,
         "english": "mortar",
@@ -970,7 +1032,105 @@ const chineseRadicals = {
         "tone": 2,
         "english": "tongue",
     },
-    // 135/214 done
+    "舛": {
+        "zhuyin": "ㄔㄨㄢˇ",
+        "pinyin": "chuǎn",
+        "tone": 3,
+        "english": "contrary",
+    },
+    "舟": {
+        "zhuyin": "ㄓㄡ",
+        "pinyin": "zhōu",
+        "tone": 1,
+        "english": "boat",
+    },
+    "艮": {
+        "zhuyin": "ㄍㄣˋ",
+        "pinyin": "gèn",
+        "tone": 4,
+        "english": "mountain",
+    },
+    "色": {
+        "zhuyin": "ㄙㄜˋ",
+        "pinyin": "sè",
+        "tone": 4,
+        "english": "color",
+    },
+    "艸": {
+        "zhuyin": "ㄘㄠˇ",
+        "pinyin": "cǎo",
+        "tone": 3,
+        "english": "grass",
+    },
+    "虍": {
+        "zhuyin": "ㄏㄨˇ",
+        "pinyin": "hǔ",
+        "tone": 3,
+        "english": "tiger",
+    },
+    "虫": {
+        "zhuyin": "ㄔㄨㄥˊ",
+        "pinyin": "chóng",
+        "tone": 2,
+        "english": "insect",
+    },
+    "血": {
+        "zhuyin": "ㄒㄩㄝˇ",
+        "pinyin": "xuě",
+        "tone": 3,
+        "english": "blood",
+    },
+    "行": {
+        "zhuyin": "ㄒ一ㄥˊ",
+        "pinyin": "xíng",
+        "tone": 2,
+        "english": "walk",
+    },
+    "衣": {
+        "zhuyin": "一",
+        "pinyin": "yī",
+        "tone": 1,
+        "english": "clothes",
+    },
+    "西": {
+        "zhuyin": "ㄒ一",
+        "pinyin": "xī",
+        "tone": 1,
+        "english": "west",
+    },
+    "見": {
+        "zhuyin": "ㄐ一ㄢˋ",
+        "pinyin": "jiàn",
+        "tone": 4,
+        "english": "see",
+    },
+    "角": {
+        "zhuyin": "ㄐ一ㄠˇ",
+        "pinyin": "jiǎo",
+        "tone": 3,
+        "english": "horn",
+    },
+    "言": {
+        "zhuyin": "一ㄢˊ",
+        "pinyin": "yán",
+        "tone": 2,
+        "english": "speech",
+    },
+    "谷": {
+        "zhuyin": "ㄍㄨˇ",
+        "pinyin": "gǔ",
+        "tone": 3,
+        "english": "valley",
+    },
+
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    // },
+
+    // 150/214 done
 
     // "丄": {
     //     "zhuyin": "ㄕㄤˋ",
