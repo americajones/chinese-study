@@ -159,11 +159,22 @@ h1{
     margin-top: 5px;
     font-size: 14px;
 }
+.zhuyinFlashcards h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
 .zhuyinFlashcards {
     text-align: center;
-    background-color: black;
+    /* background-color: rgb(50, 50, 50); */
     margin: 1px 1px;
-    padding: 10px 20px;
+    padding: 13px 0px;
+    padding-bottom: 0px;
+    color: rgb(192, 192, 192);
+}
+.zhuyinFlashcards:nth-child(22) p{
+    /* background-color: rgb(66, 66, 66); */
+    margin: 0;
+
 }
 .radicalFlashcards h2 {
 font-weight: 300;
@@ -171,14 +182,17 @@ font-size: 40px;
 }
 .radicalFlashcards {
     text-align: center;
-    background-color: black;
+    background-color: rgb(36, 36, 36);
     padding: 20px;
     margin-right: .5em;
     margin-bottom: .5em;
     width: 100px;
 }
-.radicalFlashcards:nth-child(even) {
-    background-color: rgb(6, 6, 6);
+.radicalFlashcards:nth-child(3n + 3) {
+    background-color: rgb(20, 20, 20);
+}
+.radicalFlashcards:nth-child(3n+2) {
+    background-color: rgb(7, 7, 7);
 }
 .show {display:block;}
 .hidden {display:none;}
