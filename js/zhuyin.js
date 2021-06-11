@@ -1087,6 +1087,157 @@ const chineseRadicals = {
         "tone": 3,
         "english": "valley",
     },
+    "豆": {
+        "zhuyin": "ㄉㄡˋ",
+        "pinyin": "dòu",
+        "tone": 4,
+        "english": "bean",
+    },
+    "豕": {
+        "zhuyin": "ㄕˇ",
+        "pinyin": "shǐ",
+        "tone": 3,
+        "english": "pig",
+    },
+    "豸": {
+        "zhuyin": "ㄓˋ",
+        "pinyin": "zhì",
+        "tone": 4,
+        "english": "badger",
+    },
+    "貝": {
+        "zhuyin": "ㄅㄟˋ",
+        "pinyin": "bèi",
+        "tone": 4,
+        "english": "shell",
+    },
+    "赤": {
+        "zhuyin": "ㄔˋ",
+        "pinyin": "chì",
+        "tone": 4,
+        "english": "red",
+    },
+    "走": {
+        "zhuyin": "ㄗㄡˇ",
+        "pinyin": "zǒu",
+        "tone": 3,
+        "english": "walk",
+    },
+    "足": {
+        "zhuyin": "ㄗㄨˊ",
+        "pinyin": "zú",
+        "tone": 2,
+        "english": "foot",
+    },
+    "身	": {
+        "zhuyin": "ㄕㄣ",
+        "pinyin": "shēn",
+        "tone": 1,
+        "english": "body",
+    },
+    "車": {
+        "zhuyin": "ㄔㄜ",
+        "pinyin": "chē",
+        "tone": 1,
+        "english": "cart",
+    },
+    "辛": {
+        "zhuyin": "ㄒㄧㄣ",
+        "pinyin": "xīn",
+        "tone": 1,
+        "english": "bitter",
+    },
+    "辰": {
+        "zhuyin": "ㄔㄣˊ",
+        "pinyin": "chén",
+        "tone": 2,
+        "english": "morning",
+    },
+    "辶": {
+        "zhuyin": "ㄔㄨㄛˋ",
+        "pinyin": "chuò",
+        "tone": 4,
+        "english": "walk",
+    },
+    "邑": {
+        "zhuyin": "ㄧˋ",
+        "pinyin": "yì",
+        "tone": 4,
+        "english": "city",
+    },
+    "酉": {
+        "zhuyin": "ㄧㄡˇ",
+        "pinyin": "yǒu",
+        "tone": 3,
+        "english": "wine",
+    },
+    "釆": {
+        "zhuyin": "ㄅㄧㄢˋ",
+        "pinyin": "biàn",
+        "tone": 4,
+        "english": "distinguish",
+    },
+    "里": {
+        "zhuyin": "ㄌㄧˇ",
+        "pinyin": "lǐ",
+        "tone": 3,
+        "english": "village",
+    },
+    "金": {
+        "zhuyin": "ㄐㄧㄣ",
+        "pinyin": "jīn",
+        "tone": 1,
+        "english": "metal",
+    },
+    "長": {
+        "zhuyin": "ㄔㄤˊ",
+        "pinyin": "cháng",
+        "tone": 2,
+        "english": "long",
+    },
+    "門": {
+        "zhuyin": "ㄇㄣˊ",
+        "pinyin": "mén",
+        "tone": 2,
+        "english": "gate",
+    },
+    "阜": {
+        "zhuyin": "ㄈㄨˋ",
+        "pinyin": "fù",
+        "tone": 4,
+        "english": "mound",
+    },
+    "隶": {
+        "zhuyin": "ㄌㄧˋ",
+        "pinyin": "lì",
+        "tone": 4,
+        "english": "slave",
+    },
+    "隹": {
+        "zhuyin": "ㄓㄨㄟ",
+        "pinyin": "zhuī",
+        "tone": 1,
+        "english": "short-tailed bird",
+    },
+    "雨": {
+        "zhuyin": "ㄩˇ",
+        "pinyin": "yǔ",
+        "tone": 3,
+        "english": "rain",
+    },
+    "青": {
+        "zhuyin": "ㄑㄧㄥ",
+        "pinyin": "qīng",
+        "tone": 1,
+        "english": "blue",
+    },
+    "非": {
+        "zhuyin": "ㄈㄟ",
+        "pinyin": "fēi",
+        "tone": 1,
+        "english": "wrong",
+    },
+    // 175/214 done
 
     // "": {
     //     "zhuyin": "",
@@ -1095,7 +1246,6 @@ const chineseRadicals = {
     //     "english": "",
     // },
 
-    // 150/214 done
 
     // "丄": {
     //     "zhuyin": "ㄕㄤˋ",

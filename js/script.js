@@ -30,6 +30,7 @@ function getFlashcards() {
     quizStudyBox.classList.add('hidden');
     flashButt0.classList.remove('hidden');
     flashButt1.classList.remove('hidden');
+
     loadZhuyinRadicalFlashcards();
 };
 function loadZhuyinRadicalFlashcards() {
@@ -110,6 +111,8 @@ function loadZhuyin() {
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
+    flashButt1.classList.add('hidden');
+    flashButt0.classList.add('hidden');
     pageHeader.textContent = "";
     pageHeader.textContent = "ㄅㄆㄇㄈ";
     quizStudyBox.classList.remove('hidden');
@@ -219,6 +222,8 @@ function getSet1() {
     pinyinArray = [];
     zhuyinArray = [];
     meaningsArray = [];
+    flashButt1.classList.add('hidden');
+    flashButt0.classList.add('hidden');
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
@@ -385,6 +390,8 @@ function getRadicals() {
     pinyinArray = [];
     zhuyinArray = [];
     meaningsArray = [];
+    flashButt1.classList.add('hidden');
+    flashButt0.classList.add('hidden');
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
