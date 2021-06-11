@@ -1,9 +1,15 @@
 const quizStudyBox = document.querySelector('#quiz-practice');
 const mainCharText = document.querySelector('.main-char');
+const mainBox = document.querySelector('#main-box');
 const secondaryCharText = document.querySelector('.optional-char');
 const answersBox = document.querySelector('.answers');
 const skipButt = document.querySelector('.skip');
 const swapButt = document.querySelector('.swap');
+const flashButt0 = document.querySelector('#zrbutt');
+const flashButt1 = document.querySelector('#hbutt');
+const flashBox = document.querySelector('.flashBox');
+const flashBox2 = document.querySelector('.flashBox2');
+const flashBox3 = document.querySelector('.flashBox3');
 const pageHeader = document.querySelector('.title');
 let hanziArray = [];
 let zhuyinArray = [];
@@ -14,10 +20,95 @@ let trueAnswer;
 let selectedAnswer;
 let answersArray = [];
 let randoNumber = 69;
+pageHeader.addEventListener('click', function () {
+    location.reload()
+});
+function getFlashcards() {
+    pageHeader.textContent = "";
+    pageHeader.textContent = "Flashcards";
+    quizStudyBox.classList.add('hidden');
+    flashButt0.classList.remove('hidden');
+    flashButt1.classList.remove('hidden');
+    loadZhuyinRadicalFlashcards();
+};
+function loadZhuyinRadicalFlashcards() {
+    let zhuyinCharArray = [];
+    let zhuyinMeaningsArray = [];
+    let radicalCharArray = [];
+    let radicalZhuArray = [];
+    let radicalMeaningsArray = [];
+    removeAllChildren(flashBox);
+    removeAllChildren(flashBox2);
+    removeAllChildren(flashBox3);
+    for (var [zhuyin, value] of Object.entries(zhuyinCharacters)) {
+        zhuyinCharArray.push(zhuyin);
+        zhuyinMeaningsArray.push(value.pinyin);
+        let nuDiv = document.createElement('div');
+        let nuDivTit = document.createElement('h2');
+        let nuTxt = document.createElement('p');
+        nuDivTit.textContent = zhuyin;
+        nuTxt.textContent = value.pinyin;
+        nuTxt.classList.add('small');
+        nuDiv.classList.add('zhuyinFlashcards')
+        nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt);
+        flashBox.append(nuDiv);
+    };
+    for (var [hanzi, value] of Object.entries(chineseRadicals)) {
+        radicalCharArray.push(hanzi);
+        radicalZhuArray.push(value.zhuyin);
+        radicalMeaningsArray.push(value.english);
+        let nuDiv = document.createElement('div');
+        let nuDivTit = document.createElement('h2');
+        let nuTxt = document.createElement('p');
+        let nuTxt2 = document.createElement('p');
+        nuDivTit.textContent = hanzi;
+        nuTxt.textContent = value.zhuyin;
+        nuTxt2.textContent = value.english;
+        // nuTxt.classList.add('small');
+        nuTxt2.classList.add('small');
+        nuDiv.classList.add('radicalFlashcards')
+        nuDiv.append(nuTxt);
+        nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt2);
+        flashBox2.append(nuDiv);
+    };
+
+}
+function loadHanziFlashcards() {
+    let hanziCharArray = [];
+    let hanziZhuyinArray = [];
+    let hanziMeaningsArray = [];
+    removeAllChildren(flashBox);
+    removeAllChildren(flashBox2);
+    removeAllChildren(flashBox3);
+    for (var [hanzi, value] of Object.entries(hanziLevel1)) {
+        hanziCharArray.push(hanzi);
+        hanziZhuyinArray.push(value.zhuyin);
+        hanziMeaningsArray.push(value.english);
+        let nuDiv = document.createElement('div');
+        let nuDivTit = document.createElement('h2');
+        let nuTxt = document.createElement('p');
+        let nuTxt2 = document.createElement('p');
+        nuDivTit.textContent = hanzi;
+        nuTxt.textContent = value.zhuyin;
+        nuTxt2.textContent = value.english;
+        // nuTxt.classList.add('small');
+        nuTxt2.classList.add('small');
+        nuDiv.classList.add('radicalFlashcards')
+        nuDiv.append(nuTxt);
+        nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt2);
+        flashBox2.append(nuDiv);
+    };
+}
 
 function loadZhuyin() {
     pinyinArray = [];
     zhuyinArray = [];
+    removeAllChildren(flashBox);
+    removeAllChildren(flashBox2);
+    removeAllChildren(flashBox3);
     pageHeader.textContent = "";
     pageHeader.textContent = "ㄅㄆㄇㄈ";
     quizStudyBox.classList.remove('hidden');
@@ -115,6 +206,9 @@ function getSet1() {
     pinyinArray = [];
     zhuyinArray = [];
     meaningsArray = [];
+    removeAllChildren(flashBox);
+    removeAllChildren(flashBox2);
+    removeAllChildren(flashBox3);
     pageHeader.textContent = "";
     pageHeader.textContent = "漢字";
     quizStudyBox.classList.remove('hidden');
@@ -260,6 +354,9 @@ function getRadicals() {
     pinyinArray = [];
     zhuyinArray = [];
     meaningsArray = [];
+    removeAllChildren(flashBox);
+    removeAllChildren(flashBox2);
+    removeAllChildren(flashBox3);
     pageHeader.textContent = "";
     pageHeader.textContent = "部首";
     quizStudyBox.classList.remove('hidden');
@@ -353,11 +450,7 @@ function handleAnswerClick6() {
         console.log('try again.');
     }
 }
-function getFlashcards() {
-    pageHeader.textContent = "";
-    pageHeader.textContent = "Flashcards under construction.";
-    quizStudyBox.classList.add('hidden');
-};
+
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));

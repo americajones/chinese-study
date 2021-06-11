@@ -103,7 +103,7 @@ h1{
     transform: rotate(90deg);
     margin-left: 1em;
 }
-.drop-butt:hover, .drop-butt:focus {
+.butt:hover, .butt:focus {
     background-color: #964444;
 }
 .dropdown {
@@ -137,7 +137,46 @@ h1{
     background-color: rgb(39, 39, 39);
     height: 100vh;
 }  
-
+.flashbutt:active {
+    background-color: #964444;
+}
+.flashButtBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.flashBox,
+.flashBox2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.small {
+    padding: 0;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.zhuyinFlashcards {
+    text-align: center;
+    background-color: black;
+    margin: 1px 1px;
+    padding: 10px 20px;
+}
+.radicalFlashcards h2 {
+font-weight: 300;
+font-size: 40px;
+}
+.radicalFlashcards {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    width: 100px;
+}
+.radicalFlashcards:nth-child(even) {
+    background-color: rgb(6, 6, 6);
+}
 .show {display:block;}
 .hidden {display:none;}
 @media only screen and (min-width: 700px) {
