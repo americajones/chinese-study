@@ -15,9 +15,9 @@
     <div class="header">
         <h1 class='title'>Chinese Traditional Study</h1>
         <div onClick="dropdownFunction()" class="level-dropdown">
-            <button class="drop-butt top butt">Study <div class="arrow">></div></button>
+            <button class="drop-butt top butt">pick study <div class="arrow">></div></button>
             <div id='level-drop' class='dropdown-content'>
-                <button onClick='loadZhuyin()'>zhuyin</button>
+                <button onClick='loadZhuyin()'>level 0 zhuyin</button>
                 <button onClick='getSet1()'>level 1 hanzi</button>
                 <button onClick='getRadicals()'>radicals</button>
                 <button onClick='getFlashcards()'>flashcards</button>
@@ -39,6 +39,7 @@
             </div>
             <div class="bottom-buttons">
                 <button class="swap butt hidden">swap quiz style</button>
+                <div class='secret-message'></div>
                 <button class="skip butt hidden">skip</button>
             </div>
         </div>

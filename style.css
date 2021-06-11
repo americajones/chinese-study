@@ -106,6 +106,9 @@ h1{
 .butt:hover, .butt:focus {
     background-color: #964444;
 }
+.secret-message {
+    position: absolute;
+}
 .dropdown {
     position: relative;
     display: inline-block;

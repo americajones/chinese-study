@@ -11,6 +11,7 @@ const flashBox = document.querySelector('.flashBox');
 const flashBox2 = document.querySelector('.flashBox2');
 const flashBox3 = document.querySelector('.flashBox3');
 const pageHeader = document.querySelector('.title');
+const secretMessage = document.querySelector('.secret-message')
 let hanziArray = [];
 let zhuyinArray = [];
 let pinyinArray = [];
@@ -182,23 +183,35 @@ function loadZhuyinQuiz2() {
 function handleAnswerClick() {
     selectedAnswer = this.textContent;
     if (selectedAnswer === trueAnswer) {
+        secretMessage.textContent = '. * nice! * .';
+        mainCharText.append(" = ", selectedAnswer);
         console.log('. * nice! * .');
         setTimeout(() => {
             loadZhuyinQuiz1();
-        }, 300);
+            secretMessage.textContent = '';
+        }, 1000);
     } else {
-        console.log('try again.');
+        secretMessage.textContent = 'try again.';
+        setTimeout(() => {
+            secretMessage.textContent = '';
+        }, 1000);
     }
 }
 function handleAnswerClick2() {
     selectedAnswer = this.textContent;
     if (selectedAnswer === trueAnswer) {
+        secretMessage.textContent = '. * nice! * .';
+        mainCharText.append(" = ", selectedAnswer);
         console.log('. * nice! * .');
         setTimeout(() => {
             loadZhuyinQuiz2();
-        }, 300);
+            secretMessage.textContent = '';
+        }, 1000);
     } else {
-        console.log('try again.');
+        secretMessage.textContent = 'try again.';
+        setTimeout(() => {
+            secretMessage.textContent = '';
+        }, 1000);
     }
 }
 function getSet1() {
@@ -255,12 +268,18 @@ function loadHanziQuiz0() {
 function handleAnswerClick0() {
     selectedAnswer = this.textContent;
     if (selectedAnswer === trueAnswer) {
+        secretMessage.textContent = '. * nice! * .';
+        mainCharText.append(" = ", selectedAnswer);
         console.log('. * nice! * .');
         setTimeout(() => {
             loadHanziQuiz0();
-        }, 300);
+            secretMessage.textContent = '';
+        }, 1000);
     } else {
-        console.log('try again.');
+        secretMessage.textContent = 'try again.';
+        setTimeout(() => {
+            secretMessage.textContent = '';
+        }, 1000);
     }
 }
 function loadHanziQuiz1() {
@@ -298,12 +317,18 @@ function loadHanziQuiz1() {
 function handleAnswerClick3() {
     selectedAnswer = this.textContent;
     if (selectedAnswer === trueAnswer) {
+        secretMessage.textContent = '. * nice! * .';
+        mainCharText.append(" = ", selectedAnswer);
         console.log('. * nice! * .');
         setTimeout(() => {
             loadHanziQuiz1();
-        }, 300);
+            secretMessage.textContent = '';
+        }, 1000);
     } else {
-        console.log('try again.');
+        secretMessage.textContent = 'try again.';
+        setTimeout(() => {
+            secretMessage.textContent = '';
+        }, 1000);
     }
 }
 function loadHanziQuiz2() {
@@ -341,12 +366,18 @@ function loadHanziQuiz2() {
 function handleAnswerClick4() {
     selectedAnswer = this.textContent;
     if (selectedAnswer === trueAnswer) {
+        secretMessage.textContent = '. * nice! * .';
+        mainCharText.append(" = ", selectedAnswer);
         console.log('. * nice! * .');
         setTimeout(() => {
             loadHanziQuiz2();
-        }, 300);
+            secretMessage.textContent = '';
+        }, 1000);
     } else {
-        console.log('try again.');
+        secretMessage.textContent = 'try again.';
+        setTimeout(() => {
+            secretMessage.textContent = '';
+        }, 1000);
     }
 }
 function getRadicals() {
@@ -401,12 +432,18 @@ function loadRadicalQuiz1() {
 function handleAnswerClick5() {
     selectedAnswer = this.textContent;
     if (selectedAnswer === trueAnswer) {
+        secretMessage.textContent = '. * nice! * .';
+        mainCharText.append(" = ", selectedAnswer);
         console.log('. * nice! * .');
         setTimeout(() => {
             loadRadicalQuiz1();
-        }, 300);
+            secretMessage.textContent = '';
+        }, 1000);
     } else {
-        console.log('try again.');
+        secretMessage.textContent = 'try again.';
+        setTimeout(() => {
+            secretMessage.textContent = '';
+        }, 1000);
     }
 }
 function loadRadicalQuiz2() {
@@ -442,12 +479,18 @@ function loadRadicalQuiz2() {
 function handleAnswerClick6() {
     selectedAnswer = this.textContent;
     if (selectedAnswer === trueAnswer) {
+        secretMessage.textContent = '. * nice! * .';
+        mainCharText.append(" = ", selectedAnswer);
         console.log('. * nice! * .');
         setTimeout(() => {
             loadRadicalQuiz2();
-        }, 300);
+            secretMessage.textContent = '';
+        }, 1000);
     } else {
-        console.log('try again.');
+        secretMessage.textContent = 'try again.';
+        setTimeout(() => {
+            secretMessage.textContent = '';
+        }, 1000);
     }
 }
 
