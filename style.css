@@ -106,6 +106,7 @@ h1{
 .butt:hover, .butt:focus {
     background-color: #964444;
 }
+
 .secret-message {
     position: absolute;
 }
@@ -136,8 +137,11 @@ h1{
     background-color: rgb(0, 0, 0);
     color: white;
 }
+.side {
+    text-align: right;
+}
 #quiz-practice {
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(66, 66, 66);
     height: 100vh;
 }  
 .flashbutt:active {
@@ -175,6 +179,9 @@ h1{
     /* background-color: rgb(66, 66, 66); */
     margin: 0;
 
+}
+.opacity {
+    opacity: 0;
 }
 .radicalFlashcards h2 {
 font-weight: 300;

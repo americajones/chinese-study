@@ -67,14 +67,18 @@ function loadZhuyinRadicalFlashcards() {
         nuDivTit.textContent = hanzi;
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
-        // nuTxt.classList.add('small');
         nuTxt2.classList.add('small');
-        nuDiv.classList.add('radicalFlashcards')
+        nuDiv.classList.add('radicalFlashcards');
+        nuDiv.addEventListener('click', toggleEnglish);
         nuDiv.append(nuTxt);
         nuDiv.append(nuDivTit);
         nuDiv.append(nuTxt2);
         flashBox2.append(nuDiv);
+        function toggleEnglish() {
+            nuTxt2.classList.toggle('opacity');
+        }
     };
+
 
 }
 function loadHanziFlashcards() {
@@ -95,13 +99,17 @@ function loadHanziFlashcards() {
         nuDivTit.textContent = hanzi;
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
-        // nuTxt.classList.add('small');
         nuTxt2.classList.add('small');
+        nuTxt2.classList.add('opacity');
         nuDiv.classList.add('radicalFlashcards')
+        nuDiv.addEventListener('click', toggleEnglish);
         nuDiv.append(nuTxt);
         nuDiv.append(nuDivTit);
         nuDiv.append(nuTxt2);
         flashBox2.append(nuDiv);
+        function toggleEnglish() {
+            nuTxt2.classList.toggle('opacity');
+        }
     };
 }
 
@@ -145,7 +153,6 @@ function loadZhuyinQuiz1() {
     }
     shuffleArray(answersArray);
     answersArray.forEach(answer => {
-        // console.log("YO");
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick)
@@ -175,7 +182,6 @@ function loadZhuyinQuiz2() {
     }
     shuffleArray(answersArray);
     answersArray.forEach(answer => {
-        // console.log("YO");
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick2)
@@ -262,7 +268,6 @@ function loadHanziQuiz0() {
     }
     shuffleArray(answersArray);
     answersArray.forEach(answer => {
-        // console.log("YO");
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick0)
@@ -311,7 +316,6 @@ function loadHanziQuiz1() {
     }
     shuffleArray(answersArray);
     answersArray.forEach(answer => {
-        // console.log("YO");
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick3)
@@ -360,7 +364,6 @@ function loadHanziQuiz2() {
     }
     shuffleArray(answersArray);
     answersArray.forEach(answer => {
-        // console.log("YO");
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick4)
@@ -428,7 +431,6 @@ function loadRadicalQuiz1() {
     }
     shuffleArray(answersArray);
     answersArray.forEach(answer => {
-        // console.log("YO");
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick5)
@@ -475,7 +477,6 @@ function loadRadicalQuiz2() {
     }
     shuffleArray(answersArray);
     answersArray.forEach(answer => {
-        // console.log("YO");
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick6)
