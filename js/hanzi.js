@@ -10,7 +10,7 @@ const hanziLevel1 = {
         "zhuyin": "ㄉㄜ.",
         "pinyin": "de",
         "tone": 5,
-        "english": "of, (possessive p.)",
+        "english": "'s",
         "radicals": ["白", "勺"]
     },
     "你": {
@@ -143,7 +143,7 @@ const hanziLevel1 = {
         "zhuyin": "ㄐ一ㄡˋ",
         "pinyin": "jiù",
         "tone": 4,
-        "english": "then, just(emp.), at once",
+        "english": "then, just, at once",
         "radicals": ["京", "尤"]
     },
     "什": {
@@ -178,7 +178,7 @@ const hanziLevel1 = {
         "zhuyin": "ㄇㄚ˙",
         "pinyin": "ma",
         "tone": 5,
-        "english": "(question p.)",
+        "english": "?",
         "radicals": ["口", "馬"]
     },
     "為": {
@@ -209,7 +209,78 @@ const hanziLevel1 = {
         "english": "above",
         "radicals": ["丨", "一"]
     },
-    // 30/100 done
+
+    "去": {
+        "zhuyin": "ㄑㄩˋ",
+        "pinyin": "qù",
+        "tone": 4,
+        "english": "to go",
+        "radicals": ["土", "厶"]
+    },
+    "道": {
+        "zhuyin": "ㄉㄠˋ",
+        "pinyin": "dào",
+        "tone": 4,
+        "english": "way, method",
+        "radicals": ["辶", "首"]
+    },
+    "她": {
+        "zhuyin": "ㄊㄚ",
+        "pinyin": "tā",
+        "tone": 1,
+        "english": "she",
+        "radicals": ["女", "也"]
+    },
+    "很": {
+        "zhuyin": "ㄏㄣˇ",
+        "pinyin": "hěn",
+        "tone": 3,
+        "english": "very, is (Adj)",
+        "radicals": ["彳", "艮"]
+    },
+    "看": {
+        "zhuyin": "ㄎㄢˋ",
+        "pinyin": "kàn",
+        "tone": 2,
+        "english": "to see, look at",
+        "radicals": ["龵", "目"]
+    },
+    "可": {
+        "zhuyin": "ㄎㄜˇ",
+        "pinyin": "kě",
+        "tone": 3,
+        "english": "can able to",
+        "radicals": ["一", "口"]
+    },
+    "知": {
+        "zhuyin": "ㄓ",
+        "pinyin": "zhī",
+        "tone": 1,
+        "english": "to know",
+        "radicals": ["矢", "口"]
+    },
+    "得": {
+        "zhuyin": "ㄉㄜ",
+        "pinyin": "de",
+        "tone": 5,
+        "english": "(V + 得 + Adverb) p. indicates effect, degree, possibility etc",
+        "radicals": ["彳", "寸"]
+    },
+    "過": {
+        "zhuyin": "ㄍㄨㄛˋ",
+        "pinyin": "guo",
+        "tone": 5,
+        "english": "(experienced action p.)",
+        "radicals": ["辶", "口"]
+    },
+    "吧": {
+        "zhuyin": "ㄅㄚ˙",
+        "pinyin": "ba",
+        "tone": 5,
+        "english": "...right?",
+        "radicals": ["口", "匚"]
+    },
+    // 40/100 done
 
     // "": {
     //     "zhuyin": "",
@@ -221,3 +292,158 @@ const hanziLevel1 = {
 
 }
 
+const A1grammar = {
+    "沒": {
+        "zhuyin": "ㄇㄟˊ",
+        "pinyin": "méi",
+        "english": "have not",
+        "radicals": ["氵", "又"],
+        "pattern": "沒 + 有",
+        "explanation": "Nearly all verbs can be negated with 不(ㄅㄨˋ). The verb 有(一ㄡˇ) is an important exception to this rule, and must be negated with 沒 (ㄇㄟˊ).",
+        "section": "adverbs"
+    },
+    "不": {
+        "zhuyin": "ㄅㄨˋ",
+        "pinyin": "bù",
+        "english": "no, not",
+        "radicals": ["丆", "卜"],
+        "pattern": "不 + Verb / Adj.",
+        "explanation": "不 (ㄅㄨˋ) is generally used to negate a verb in the present or future, or to talk about what you do not do, as a habit. Almost all verbs can be negated with 不 (unless you're talking about the past). The only verb that can never be negated with 不 is 有(一ㄡˇ).",
+        "section": "adverbs"
+    },
+    "沒有": {
+        "zhuyin": "ㄇㄟˊ一ㄡˇ",
+        "pinyin": "méiyǒu",
+        "english": "did not",
+        "pattern": "Subj. + 沒有 / 沒 + Verb",
+        "explanation": "Usually verbs can be negated with 不(ㄅㄨˋ), but that construction is used for habitual or present actions. If the verb is about an action in the past, though, 沒有 should be used. Remember when using 没有, that 了(ㄌㄜ˙) is not normally used with 没有. 了 marks completed actions, while 没有 is used for actions that didn't happen (so they're not completed).",
+        "section": "adverbs",
+        "example": "我没有时間。"
+    },
+    "都": {
+        "zhuyin": "ㄉㄡ",
+        "pinyin": "dōu",
+        "english": "all, (both, neither)",
+        "pattern": "Subj. + 都 + Verb",
+        "explanation": `都 (dōu) appears after the subject and before the verb. Chinese doesn't normally use a special word for "both" like English does. It just uses 都 (dōu) as if it were any other number greater than one. Chinese also doesn't have a special pattern like "neither / nor" for the negative case. Just use 都 (dōu) and make the sentence negative.`,
+        "section": "adverbs",
+        "example": "我們都要冰水。"
+    },
+    "也": {
+        "zhuyin": "一ㄝˇ",
+        "pinyin": "yě",
+        "english": "also, too",
+        "pattern": "也 + Verb / Adj.",
+        "explanation": "也 (一ㄝˇ) is inserted after the subject, before the verb or verb phrase or before the 很(ㄏㄣˇ) before the adjective. ",
+        "example": "我也喜欢。你也很高。"
+    },
+    "很": {
+        "zhuyin": "ㄏㄣˇ",
+        "pinyin": "hěn",
+        "english": "is (very)",
+        "pattern": "Noun + 很 + Adj.",
+        "explanation": "Links adjectives. Nouns are linked to other nouns with 是(ㄕˋ). Nouns are linked to adjectives with 很(ㄏㄣˇ). ",
+        "example": "我很高。"
+    },
+    "還是": {
+        "zhuyin": "ㄏㄞˊㄕˋ",
+        "pinyin": "háishì",
+        "english": "or (in a question)",
+        "pattern": "A + 还是 + B ?",
+        "explanation": "Used to offer chioces in a question",
+        "example": "冰的還是熱的？ 你要喝茶還是咖啡？"
+    },
+    "或者": {
+        "zhuyin": "ㄏㄨㄛˋ ㄓㄜˇ ",
+        "pinyin": "huòzhě",
+        "english": "or (statement)",
+        "pattern": "A + 还是 + B",
+        "explanation": `used as an "or" statement ("it doesn't matter if we eat chicken or beef")`,
+        "example": "我喝咖啡或者茶，都行。"
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    //     "pattern": "",
+    //     "explanation": "",
+    //     "example": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    //     "pattern": "",
+    //     "explanation": "",
+    //     "example": ""
+    // },
+}
+
+const A1sentences = {
+    "你 去 或者 她 去，都 可以。": {
+        "english": "You go or she goes, either way is fine.",
+        "zhuyin": "ㄋ一ˇ ㄑㄩˋ ㄏㄨㄛˋ ㄓㄜˇ ㄊㄚ ㄑㄩˋ， ㄉㄨ ㄎㄜˇ 一ˇ。",
+        "pinyin": "Nǐ qù huòzhě tā qù, dōu kěyǐ.",
+        "category": "或者"
+    },
+    "下 個 月 我 打算 去 杭州 或者 蘇州 旅行。": {
+        "english": "Next month I plan to go to Hangzhou or Suzhou to travel.",
+        "zhuyin": "ㄒ一ㄚˋ ㄍㄜˋ ㄩㄝˋ ㄨㄛˇ ㄉㄚˇ ㄙㄨㄢˋ ㄑㄩˋ ㄏㄤˊㄓㄡ ㄏㄨㄛˋㄓㄜˇ ㄙㄨㄓㄡ ㄌㄩ ˇ ㄒ一ㄥˊ",
+        "pinyin": "Xià gè yuè wǒ dǎsuàn qù Hángzhōu huòzhě Sūzhōu lǚxíng.",
+        "category": "或者"
+    },
+    "晚飯 以後 我 和 家人 聊天或者看電視。": {
+        "english": "After dinner I chat with or watch TV with my family.",
+        "zhuyin": "ㄨㄢˇ ㄈㄢˋ 一ˇㄏㄡˋ ㄨㄛˇ ㄏㄜˊ ㄐ一ㄚㄖㄣˊ ㄌ一ㄠˊㄊ一ㄢ ㄏㄨㄛˋㄓㄜˇ ㄎㄢˋ ㄉ一ㄢˋㄕˋ",
+        "pinyin": "Wǎnfàn yǐhòu wǒ hé jiārén liáotiān huòzhě kàn diànshì.",
+        "category": "或者"
+    },
+    "下班 以後 我 去 你 家 或者 你 來 我 家，都 可以。": {
+        "english": "",
+        "zhuyin": "ㄒ一ㄚˋㄅㄢ 一ˇㄏㄡˋ ㄨㄛˇ ㄑㄩˋ ㄋ一ˇ ㄐ一ㄚ ㄏㄨㄛˋㄓㄜˇ ㄋ一ˇ ㄌㄞˊ ㄨㄛˇ ㄐ一ㄚ， ㄉㄨ ㄎㄜˇ一ˇ 。",
+        "pinyin": "Xiàbān yǐhòu wǒ qù nǐ jiā huòzhě nǐ lái wǒ jiā, dōu kěyǐ.",
+        "category": "或者"
+    },
+    "我 沒有 問題。": {
+        "english": "I don't have any questions.",
+        "zhuyin": "ㄨㄛˇ ㄇㄟˊ一ㄡˇ ㄨㄣˋ ㄊ一ˊ 。",
+        "pinyin": "Wǒ méiyǒu wèntí.",
+        "category": "沒有"
+    },
+    "我們 現在 沒有 錢。": {
+        "english": "We don't have money now.",
+        "zhuyin": "ㄨㄛˇㄇㄣˊ ㄒ一ㄢˋㄗㄞˋ ㄇㄟˊ一ㄡˇ ㄑ一ㄢˊ 。",
+        "pinyin": "Wǒmen xiànzài méiyǒu qián.",
+        "category": "沒有"
+    },
+    "你們 沒 車 嗎？": {
+        "english": "Yall don't have a car?",
+        "zhuyin": "ㄋ一ˇㄇㄣˊ ㄇㄟˊ ㄔㄜ ㄇㄚˊ ？",
+        "pinyin": "Nǐmen méi chē ma?",
+        "category": "沒有"
+    },
+    "明天 我們 都 可以 去 。": {
+        "english": "Tomorrow we all can go.",
+        "zhuyin": "ㄇ一ㄥˊㄊ一ㄢ ㄨㄛˇㄇㄣˊ ㄉㄨ ㄎㄜˇ一ˇ ㄑㄩˋ。",
+        "pinyin": "Míngtiān wǒmen dōu kěyǐ qù.",
+        "category": "都"
+    },
+    "你 爸爸 和 你 媽媽 都 是 美國人 嗎？": {
+        "english": "Are your father and your mother both American?",
+        "zhuyin": "ㄋ一ˇ ㄅㄚˋㄅㄚˋ ㄏㄜˊ ㄋ一ˇ ㄇㄚㄇㄚ ㄉㄨ ㄕˋ ㄇㄟˇㄍㄨㄛˊ ㄖㄣˊ ㄇㄚˊ ？",
+        "pinyin": "Nǐ bàba hé nǐ māma dōu shì Měiguó rén ma?",
+        "category": "都"
+    },
+    "我 和 我 太太 都 不 吃 肉。": {
+        "english": "Neither my wife nor I eat meat.",
+        "zhuyin": "ㄨㄛˇ ㄏㄜˊ ㄨㄛˇ ㄊㄞˋㄊㄞˋ ㄉㄨ ㄅㄨˋ ㄔ ㄖㄡˋ。",
+        "pinyin": "Wǒ hé wǒ tàitai dōu bù chī ròu.",
+        "category": "都"
+    },
+    // "": {
+    //     "english": "",
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "category": ""
+    // },
+}
