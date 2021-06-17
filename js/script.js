@@ -35,6 +35,7 @@ function getSentences() {
     pageHeader.textContent = "";
     pageHeader.textContent = "Sentences";
     quizStudyBox.classList.add('hidden');
+    sentenceBox.classList.remove('hidden');
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
@@ -91,6 +92,7 @@ function getFlashcards() {
     pageHeader.textContent = "";
     pageHeader.textContent = "Flashcards";
     quizStudyBox.classList.add('hidden');
+    sentenceBox.classList.add('hidden');
     flashButt0.classList.remove('hidden');
     flashButt1.classList.remove('hidden');
     loadZhuyinRadicalFlashcards();
@@ -181,6 +183,7 @@ function loadZhuyin() {
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
+    sentenceBox.classList.add('hidden');
     flashButt1.classList.add('hidden');
     flashButt0.classList.add('hidden');
     pageHeader.textContent = "";
@@ -292,6 +295,7 @@ function getSet1() {
     meaningsArray = [];
     flashButt1.classList.add('hidden');
     flashButt0.classList.add('hidden');
+    sentenceBox.classList.add('hidden');
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
@@ -457,6 +461,7 @@ function getRadicals() {
     meaningsArray = [];
     flashButt1.classList.add('hidden');
     flashButt0.classList.add('hidden');
+    sentenceBox.classList.add('hidden');
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
