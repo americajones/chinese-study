@@ -280,7 +280,106 @@ const hanziLevel1 = {
         "english": "...right?",
         "radicals": ["口", "匚"]
     },
-    // 40/100 done
+
+    "還": {
+        "zhuyin": "ㄏㄞˊ",
+        "pinyin": "hái",
+        "tone": 2,
+        "english": "still, yet, to return",
+        "radicals": ["辶", "口"]
+    },
+    "對": {
+        "zhuyin": "ㄉㄨㄟˋ",
+        "pinyin": "duì",
+        "tone": 4,
+        "english": "correct, opposite",
+        "radicals": ["羊", "寸"]
+    },
+    "里": {
+        "zhuyin": "ㄌ一ˇ",
+        "pinyin": "lǐ",
+        "tone": 3,
+        "english": "inside",
+        "radicals": ["田", "土"]
+    },
+    "以": {
+        "zhuyin": "一ˇ",
+        "pinyin": "yǐ",
+        "tone": 3,
+        "english": "so as to, according to",
+        "radicals": ["丶", "人"]
+    },
+    "都": {
+        "zhuyin": "ㄉㄡ",
+        "pinyin": "dōu",
+        "tone": 1,
+        "english": "all, both",
+        "radicals": ["日", "阝"]
+    },
+    "事": {
+        "zhuyin": "ㄕˋ",
+        "pinyin": "shì",
+        "tone": 4,
+        "english": "thing, item, matter",
+        "radicals": ["中", "匚"]
+    },
+    "子": {
+        "zhuyin": "ㄗ˙",
+        "pinyin": "zi",
+        "tone": 5,
+        "english": "child, son",
+        "radicals": ["了", "一"]
+    },
+    "生": {
+        "zhuyin": "ㄕㄥ",
+        "pinyin": "shēng",
+        "tone": 1,
+        "english": "life, raw",
+        "radicals": ["龶", "㇒"]
+    },
+    "時": {
+        "zhuyin": "ㄕˊ",
+        "pinyin": "shí",
+        "tone": 2,
+        "english": "time",
+        "radicals": ["日", "寸"]
+    },
+    "樣": {
+        "zhuyin": "一ㄤˋ",
+        "pinyin": "yàng",
+        "tone": 4,
+        "english": "manner, appearance",
+        "radicals": ["木", "羊"]
+    },
+    "也": {
+        "zhuyin": "一ㄝˇ",
+        "pinyin": "yě",
+        "tone": 3,
+        "english": "also, too",
+        "radicals": ["丨"]
+    },
+    "和": {
+        "zhuyin": "ㄏㄜˊ",
+        "pinyin": "hé",
+        "tone": 2,
+        "english": "and",
+        "radicals": ["禾", "口"]
+    },
+    "下": {
+        "zhuyin": "ㄒ一ㄚˋ",
+        "pinyin": "xià",
+        "tone": 4,
+        "english": "below, down",
+        "radicals": ["一", "卜"]
+    },
+    "真": {
+        "zhuyin": "ㄓㄣ",
+        "pinyin": "zhēn",
+        "tone": 1,
+        "english": "really",
+        "radicals": ["十", "目"]
+    },
+    // 54/100 done
 
     // "": {
     //     "zhuyin": "",
@@ -399,7 +498,7 @@ const A1sentences = {
         "category": "或者"
     },
     "下班 以後 我 去 你 家 或者 你 來 我 家，都 可以。": {
-        "english": "",
+        "english": "After work I will go to your house, or you can come to my house, either way is fine.",
         "zhuyin": "ㄒ一ㄚˋㄅㄢ 一ˇㄏㄡˋ ㄨㄛˇ ㄑㄩˋ ㄋ一ˇ ㄐ一ㄚ ㄏㄨㄛˋㄓㄜˇ ㄋ一ˇ ㄌㄞˊ ㄨㄛˇ ㄐ一ㄚ， ㄉㄨ ㄎㄜˇ一ˇ 。",
         "pinyin": "Xiàbān yǐhòu wǒ qù nǐ jiā huòzhě nǐ lái wǒ jiā, dōu kěyǐ.",
         "category": "或者"
@@ -439,6 +538,48 @@ const A1sentences = {
         "zhuyin": "ㄨㄛˇ ㄏㄜˊ ㄨㄛˇ ㄊㄞˋㄊㄞˋ ㄉㄨ ㄅㄨˋ ㄔ ㄖㄡˋ。",
         "pinyin": "Wǒ hé wǒ tàitai dōu bù chī ròu.",
         "category": "都"
+    },
+    "他們 不 是 壞 孩子。": {
+        "english": "They are not bad kids.",
+        "zhuyin": "ㄊㄚㄇㄣˊ ㄅㄨˋ ㄕˋ ㄏㄨㄞˋ ㄏㄞˊㄗˇ",
+        "pinyin": "Tāmen bù shì huài háizi.",
+        "category": "不"
+    },
+    "我們 不 喝 酒。": {
+        "english": "We don't drink alcohol.",
+        "zhuyin": "ㄨㄛˇㄇㄣˊ ㄅㄨˋ ㄏㄜ ㄐ一ㄡˇ",
+        "pinyin": "Wǒmen bù hējiǔ.",
+        "category": "不"
+    },
+    "我 不 餓。": {
+        "english": "I'm not hungry.",
+        "zhuyin": "ㄨㄛˇ ㄅㄨˋ ㄜˋ。",
+        "pinyin": "Wǒ bù è.",
+        "category": "不"
+    },
+    "我 哥哥 不 高，但是 很 帥。": {
+        "english": "My older brother is not tall, but he is very handsome.",
+        "zhuyin": "ㄨㄛˇ ㄍㄜㄍㄜ ㄅㄨˋ ㄍㄠ， ㄉㄢˋㄕˋ ㄏㄣˇ ㄕㄨㄞˋ。",
+        "pinyin": "Wǒ gēge bù gāo , dànshì hěn shuài.",
+        "category": "不"
+    },
+    "我 也 喜歡。": {
+        "english": "I also like it.",
+        "zhuyin": "ㄨㄛˇ 一ㄝˇ ㄒ一ˇㄏㄨㄢ。",
+        "pinyin": "Wǒ yě xǐhuan.",
+        "category": "也"
+    },
+    "我 也 想 學 中文。": {
+        "english": "I also want to study Chinese.",
+        "zhuyin": "ㄨㄛˇ 一ㄝˇ ㄒ一ㄤˇ ㄒㄩㄝˊ ㄓㄨㄥㄨㄣˊ 。",
+        "pinyin": "Wǒ yě xiǎng xué Zhōngwén.",
+        "category": "也"
+    },
+    "你 也 想 來 我 家 嗎？": {
+        "english": "Do you want to come to my house too?",
+        "zhuyin": "ㄋ一ˇ 一ㄝˇ ㄒ一ㄤˇ ㄌㄞˊ ㄨㄛˇ ㄐ一ㄚ ㄇㄚˊ？",
+        "pinyin": "Nǐ yě xiǎng lái wǒ jiā ma?",
+        "category": "也"
     },
     // "": {
     //     "english": "",

@@ -140,6 +140,9 @@ h1{
 .side {
     text-align: right;
 }
+.center {
+    text-align: center;
+}
 #quiz-practice {
     background-color: rgb(66, 66, 66);
     height: 100vh;
@@ -182,6 +185,13 @@ h1{
 }
 .opacity {
     opacity: 0;
+}
+.sentence:first-child {
+    margin-top: 2em;
+}
+.sentence {
+    font-weight: 200;
+    padding: 3em;
 }
 .radicalFlashcards h2 {
 font-weight: 300;

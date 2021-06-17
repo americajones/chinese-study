@@ -10,6 +10,7 @@ const flashButt1 = document.querySelector('#hbutt');
 const flashBox = document.querySelector('.flashBox');
 const flashBox2 = document.querySelector('.flashBox2');
 const flashBox3 = document.querySelector('.flashBox3');
+const sentenceBox = document.querySelector('.sentenceBox');
 const pageHeader = document.querySelector('.title');
 const secretMessage = document.querySelector('.secret-message')
 let hanziArray = [];
@@ -24,13 +25,74 @@ let randoNumber = 69;
 pageHeader.addEventListener('click', function () {
     location.reload()
 });
+let sentencesArray = [];
+let sMeaningsArray = [];
+let sZhuyinArray = [];
+function getSentences() {
+    sentencesArray = [];
+    sMeaningsArray = [];
+    sZhuyinArray = [];
+    pageHeader.textContent = "";
+    pageHeader.textContent = "Sentences";
+    quizStudyBox.classList.add('hidden');
+    removeAllChildren(flashBox);
+    removeAllChildren(flashBox2);
+    removeAllChildren(flashBox3);
+    flashButt1.classList.add('hidden');
+    flashButt0.classList.add('hidden');
+    for (var [sentence, value] of Object.entries(A1sentences)) {
+        sentencesArray.push(sentence);
+        sZhuyinArray.push(value.zhuyin);
+        sMeaningsArray.push(value.english);
+        let nuDiv = document.createElement('div');
+        let nuDivTit = document.createElement('h2');
+        let nuTxt = document.createElement('p');
+        let nuTxt2 = document.createElement('p');
+        nuDivTit.textContent = sentence;
+        nuTxt.textContent = value.zhuyin;
+        nuTxt2.textContent = value.english;
+        nuDivTit.classList.add('sentence');
+        nuTxt.classList.add('opacity');
+        nuTxt2.classList.add('opacity');
+        nuTxt.classList.add('center');
+        nuTxt2.classList.add('center');
+        nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt);
+        nuDiv.append(nuTxt2);
+        sentenceBox.append(nuDiv);
+        nuDivTit.addEventListener('click', function () {
+            nuTxt.classList.toggle('opacity');
+            nuTxt2.classList.toggle('opacity');
+        })
+
+    };
+};
+// function loadSentenceStudy() {
+//     let nuDiv = document.createElement('div');
+//     let nuDivTit = document.createElement('h1');
+//     let nuTxt = document.createElement('p');
+//     nuDivTit.textContent = sentence;
+//     nuTxt.textContent = value.zhuyin;
+//     nuDiv.classList.add('sentence');
+//     nuTxt.classList.add('opacity');
+//     nuTxt.classList.add('center');
+//     nuDiv.append(nuDivTit);
+//     nuDiv.append(nuTxt);
+//     sentenceBox.append(nuDiv);
+//     let sentences = document.querySelectorAll('.sentence');
+//     sentences.forEach(sentance => {
+//         sentance.addEventListener('click', toggleZhuyin())
+//     });
+//     function toggleZhuyin() {
+//         nuTxt2.classList.toggle('opacity');
+//     }
+// }
 function getFlashcards() {
     pageHeader.textContent = "";
     pageHeader.textContent = "Flashcards";
     quizStudyBox.classList.add('hidden');
     flashButt0.classList.remove('hidden');
     flashButt1.classList.remove('hidden');
-
     loadZhuyinRadicalFlashcards();
 };
 function loadZhuyinRadicalFlashcards() {
