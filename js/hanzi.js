@@ -1,3 +1,4 @@
+//most commonly found 100 characters
 const hanziLevel1 = {
     "我": {
         "zhuyin": "ㄨㄛˇ",
@@ -376,10 +377,333 @@ const hanziLevel1 = {
         "zhuyin": "ㄓㄣ",
         "pinyin": "zhēn",
         "tone": 1,
-        "english": "really",
+        "english": "really, truly",
         "radicals": ["十", "目"]
     },
-    // 54/100 done
+    "現": {
+        "zhuyin": "ㄒ一ㄢˋ",
+        "pinyin": "xiàn",
+        "tone": 4,
+        "english": "appear, present",
+        "radicals": ["王", "目"]
+    },
+    "做": {
+        "zhuyin": "ㄗㄨㄛˋ",
+        "pinyin": "zuò",
+        "tone": 4,
+        "english": "make, to do",
+        "radicals": ["亻", "古"]
+    },
+    "大": {
+        "zhuyin": "ㄉㄚˋ",
+        "pinyin": "dà",
+        "tone": 4,
+        "english": "big",
+        "radicals": ["人", "一"]
+    },
+    "啊": {
+        "zhuyin": "ㄚ˙",
+        "pinyin": "a",
+        "tone": 5,
+        "english": "ah!",
+        "radicals": ["口", "阝", "可"]
+    },
+    "怎": {
+        "zhuyin": "ㄗㄣˇ",
+        "pinyin": "zěn",
+        "tone": 3,
+        "english": "how",
+        "radicals": ["丨", "心"]
+    },
+    "出": {
+        "zhuyin": "ㄔㄨ",
+        "pinyin": "chū",
+        "tone": 1,
+        "english": "exit, to go out",
+        "radicals": ["山"]
+    },
+    "點": {
+        "zhuyin": "ㄉ一ㄢˇ",
+        "pinyin": "diǎn",
+        "tone": 3,
+        "english": "dot",
+        "radicals": ["黑", "口"]
+    },
+    "起": {
+        "zhuyin": "ㄑ一ˇ",
+        "pinyin": "qǐ",
+        "tone": 3,
+        "english": "rise",
+        "radicals": ["土", "止", "匚"]
+    },
+    "天": {
+        "zhuyin": "ㄊ一ㄢ",
+        "pinyin": "tiān",
+        "tone": 1,
+        "english": "sky, heavens",
+        "radicals": ["一", "大"]
+    },
+    "把": {
+        "zhuyin": "ㄅㄚˇ",
+        "pinyin": "bǎ",
+        "tone": 3,
+        "english": "(direct obj p.), to hold",
+        "radicals": ["扌", "巴"]
+    },
+    "開": {
+        "zhuyin": "ㄎㄞ",
+        "pinyin": "kāi",
+        "tone": 1,
+        "english": "to open, to start",
+        "radicals": ["門", "一"]
+    },
+    "讓": {
+        "zhuyin": "ㄖㄤˋ",
+        "pinyin": "ràng",
+        "tone": 4,
+        "english": "yield, to allow, permit, by (passive p.)",
+        "radicals": ["言", "口"]
+    },
+    "給": {
+        "zhuyin": "ㄍㄟˇ",
+        "pinyin": "gěi",
+        "tone": 3,
+        "english": "give, to, for",
+        "radicals": ["糹", "口"]
+    },
+    "但": {
+        "zhuyin": "ㄉㄢˋ",
+        "pinyin": "dàn",
+        "tone": 4,
+        "english": "but",
+        "radicals": ["亻", "日"]
+    },
+    "謝": {
+        "zhuyin": "ㄒ一ㄝˋ",
+        "pinyin": "xiè",
+        "tone": 4,
+        "english": "thanks",
+        "radicals": ["言", "身", "寸"]
+    },
+    "着": {
+        "zhuyin": "ㄓㄜ˙",
+        "pinyin": "zhe",
+        "tone": 5,
+        "english": "(action in progress p.)",
+        "radicals": ["羊", "目"]
+    },
+    "只": {
+        "zhuyin": "ㄓˇ",
+        "pinyin": "zhǐ",
+        "tone": 3,
+        "english": "only",
+        "radicals": ["口", "八"]
+    },
+    "些": {
+        "zhuyin": "ㄒ一ㄝ",
+        "pinyin": "xiē",
+        "tone": 1,
+        "english": "some, few",
+        "radicals": ["止", "匕", "二"]
+    },
+    "如": {
+        "zhuyin": "ㄖㄨˊ",
+        "pinyin": "rú",
+        "tone": 2,
+        "english": "as, as if, such as",
+        "radicals": ["女", "口"]
+    },
+    "家": {
+        "zhuyin": "ㄐ一ㄚ",
+        "pinyin": "jiā",
+        "tone": 1,
+        "english": "home, family",
+        "radicals": ["宀", "一", "𧰨"]
+    },
+    "后": {
+        "zhuyin": "ㄏㄡˋ",
+        "pinyin": "hòu",
+        "tone": 4,
+        "english": "behind, after",
+        "radicals": ["一", "口"]
+    },
+    "兒": {
+        "zhuyin": "ㄦˊ",
+        "pinyin": "ér",
+        "tone": 2,
+        "english": "son",
+        "radicals": ["彐", "儿"]
+    },
+    "多": {
+        "zhuyin": "ㄉㄨㄛ",
+        "pinyin": "duō",
+        "tone": 1,
+        "english": "many, much",
+        "radicals": ["夕"]
+    },
+    "意": {
+        "zhuyin": "一ˋ",
+        "pinyin": "yì",
+        "tone": 4,
+        "english": "idea, meaning",
+        "radicals": ["音", "心"]
+    },
+    "别": {
+        "zhuyin": "ㄅ一ㄝˊ",
+        "pinyin": "bié",
+        "tone": 2,
+        "english": "must not, other, don't",
+        "radicals": ["力", "刂"]
+    },
+    "所": {
+        "zhuyin": "ㄙㄨㄛˇ",
+        "pinyin": "suǒ",
+        "tone": 3,
+        "english": "place, actually",
+        "radicals": ["戶", "斤"]
+    },
+    "話": {
+        "zhuyin": "ㄏㄨㄚˋ",
+        "pinyin": "huà",
+        "tone": 4,
+        "english": "language, talk",
+        "radicals": ["言", "舌"]
+    },
+    "小": {
+        "zhuyin": "ㄒ一ㄠˇ",
+        "pinyin": "xiǎo",
+        "tone": 3,
+        "english": "small",
+        "radicals": ["㇚", "八"]
+    },
+    "自": {
+        "zhuyin": "ㄗˋ",
+        "pinyin": "zì",
+        "tone": 4,
+        "english": "self",
+        "radicals": ["目", "丶"]
+    },
+    "回": {
+        "zhuyin": "ㄏㄨㄟˊ",
+        "pinyin": "huí",
+        "tone": 2,
+        "english": "to answer, to return",
+        "radicals": ["囗", "口"]
+    },
+    "然": {
+        "zhuyin": "ㄖㄢˊ",
+        "pinyin": "rán",
+        "tone": 2,
+        "english": "correct",
+        "radicals": ["⺼", "犬", "灬"]
+    },
+    "果": {
+        "zhuyin": "ㄍㄨㄛˇ",
+        "pinyin": "guǒ",
+        "tone": 3,
+        "english": "fruit",
+        "radicals": ["田", "木"]
+    },
+    "發": {
+        "zhuyin": "ㄈㄚ",
+        "pinyin": "fā",
+        "tone": 1,
+        "english": "to send, to develop",
+        "radicals": ["癶", "弓", "殳"]
+    },
+    "見": {
+        "zhuyin": "ㄐ一ㄢˋ",
+        "pinyin": "jiàn",
+        "tone": 4,
+        "english": "to see, to meet",
+        "radicals": ["目", "儿"]
+    },
+    "心": {
+        "zhuyin": "ㄒ一ㄣ",
+        "pinyin": "xīn",
+        "tone": 1,
+        "english": "heart",
+        "radicals": ["丶"]
+    },
+    "走": {
+        "zhuyin": "ㄗㄡˇ",
+        "pinyin": "zǒu",
+        "tone": 3,
+        "english": "to walk, away",
+        "radicals": ["", ""]
+    },
+    "定": {
+        "zhuyin": "ㄉ一ㄥˋ",
+        "pinyin": "dìng",
+        "tone": 4,
+        "english": "to set, decide",
+        "radicals": ["宀", "一", "止"]
+    },
+    "聽": {
+        "zhuyin": "ㄊ一ㄥ",
+        "pinyin": "tīng",
+        "tone": 1,
+        "english": "to listen",
+        "radicals": ["耳", "王", "十", "罒", "一", "心"]
+    },
+    "覺": {
+        "zhuyin": "ㄐㄩㄝˊ",
+        "pinyin": "jué",
+        "tone": 2,
+        "english": "to feel",
+        "radicals": ["臼", "爻", "冖", "見"]
+    },
+    "太": {
+        "zhuyin": "ㄊㄞˋ",
+        "pinyin": "tài",
+        "tone": 4,
+        "english": "too (much)",
+        "radicals": ["大", "丶"]
+    },
+    "該": {
+        "zhuyin": "ㄍㄞ",
+        "pinyin": "gāi",
+        "tone": 1,
+        "english": "should",
+        "radicals": ["言", "亠"]
+    },
+    "當": {
+        "zhuyin": "ㄉㄤ",
+        "pinyin": "dāng",
+        "tone": 1,
+        "english": "to be, just at",
+        "radicals": ["冖", "口", "田"]
+    },
+    "經": {
+        "zhuyin": "ㄐ一ㄥ",
+        "pinyin": "jīng",
+        "tone": 1,
+        "english": "pass through",
+        "radicals": ["糹", "巛", "工"]
+    },
+    "媽": {
+        "zhuyin": "ㄇㄚ",
+        "pinyin": "mā",
+        "tone": 1,
+        "english": "mom",
+        "radicals": ["女", "灬"]
+    },
+    "用": {
+        "zhuyin": "ㄩㄥˋ",
+        "pinyin": "yòng",
+        "tone": 4,
+        "english": "to use",
+        "radicals": ["丨", "二"]
+    },
+    "打": {
+        "zhuyin": "ㄉㄚˇ",
+        "pinyin": "dǎ",
+        "tone": 3,
+        "english": "to hit",
+        "radicals": ["扌", "一"]
+    },
+
+    // 100/100 done!
 
     // "": {
     //     "zhuyin": "",
@@ -468,16 +792,7 @@ const A1grammar = {
     //     "explanation": "",
     //     "example": ""
     // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "english": "",
-    //     "pattern": "",
-    //     "explanation": "",
-    //     "example": ""
-    // },
 }
-
 const A1sentences = {
     "你 去 或者 她 去，都 可以。": {
         "english": "You go or she goes, either way is fine.",
