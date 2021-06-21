@@ -7,36 +7,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chinese Study</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./js/zhuyin.js"></script>
     <script src="./js/hanzi.js"></script>
 </head>
 
 <body>
-    <div class="header">
-        <h1 class='title'>Chinese Traditional Study</h1>
-        <div onClick="dropdownFunction()" class="level-dropdown">
-            <button class="drop-butt top butt">Study <div class="arrow">></div></button>
-            <div id='level-drop' class='dropdown-content'>
-                <button class="side" onClick='loadZhuyin()'>Level 0 Zhuyin</button>
-                <button class="side" onClick='getRadicals()'>Radicals</button>
-                <button class="side" onClick='getSet1()'>Level 1 Hanzi</button>
-                <button class="side" onClick='getSentences()'>Sentence Review</button>
-                <button class="side" onClick='getFlashcards()'>Flashcards</button>
-                <!-- <button onClick='getSet2()'>level 2</button>
-                    <button onClick='getSet3()'>level 3</button>
-                    <button onClick='getSet4()'>level 4</button>
-                    <button onClick='getSet5()'>level 5</button> -->
-            </div>
-        </div>
-    </div>
+    <nav>
+        <ul class="menu header">
+            <li class="title"><a href="#">中文(繁体字)</a></li>
+            <li class="item has-submenu">
+                <a tabindex="0">Flashcards</a>
+                <ul class="submenu">
+                    <li class="subitem final"><a href="#" onclick="loadZhuyinRadicalFlashcards()">Radicals and ㄅㄆㄇㄈ</a>
+                    </li>
+                    <li class="subitem final"><a href="#" onclick="loadHanziFlashcards()">漢字</a></li>
+                </ul>
+            </li>
+            <li class="item final"><a href="#" onclick="loadZhuyin()">Study ㄅㄆㄇㄈ</a></li>
+            <li class="item has-submenu">
+                <a tabindex="0">Study Radicals</a>
+                <ul class="submenu">
+                    <li class="subitem final"><a href="#" onclick="loadRadicalMeaningsQuiz()">Familiarity</a>
+                    </li>
+                    <li class="subitem final"><a href="#" onclick="loadRadicalZhuyinQuiz()">ㄅㄆㄇㄈ</a></li>
+                    <li class="subitem final"><a href="#" onclick="loadRadicalWritingQuiz()">Writing</a></li>
+                </ul>
+            </li>
+            <li class="item has-submenu">
+                <a tabindex="0">Study 漢字</a>
+                <ul class="submenu">
+                    <li class="subitem final"><a href="#" onclick="loadHanziMeaningsQuiz()">Familiarity</a></li>
+                    <li class="subitem final"><a href="#" onclick="loadHanziZhuyinQuiz()">ㄅㄆㄇㄈ</a></li>
+                    <li class="subitem final"><a href="#" onclick="loadHanziToneQuiz()">Tone</a></li>
+                    <li class="subitem final"><a href="#" onclick="loadHanziWritingQuiz()">Writing</a></li>
+                </ul>
+            </li>
+            <li class="item final"><a href="#" onclick="getGrammar()">Grammar</a></li>
+            <li class="item final"><a href="#" onclick="getSentences()">Sentences</a></li>
+
+            <li class="toggle">
+                <h3><a href="#">學 ▼</a></h3>
+            </li>
+        </ul>
+    </nav>
     <div id="main-box">
         <div id="quiz-practice">
             <div>
-                <h1 class="main-char"></h1>
-                <h2 class="optional-char"></h2>
+                <h1 id="main-char"></h1>
+                <h2 id="optional-char"></h2>
             </div>
             <div class="answers">
-                <img src="./images/trad.jpg" alt="traditional chinese">
+                <img src="./trad.jpg" alt="traditional chinese">
             </div>
             <div class="bottom-buttons">
                 <button class="swap butt hidden">swap quiz style</button>
@@ -44,11 +64,11 @@
                 <button class="skip butt hidden">skip</button>
             </div>
         </div>
-        <div class="flashButtBox">
+        <!-- <div class="flashButtBox">
             <button class="flashbutt butt hidden" id="zrbutt"
                 onclick="loadZhuyinRadicalFlashcards()">Zhuyin/Radicals</button>
             <button class="flashbutt butt hidden" id="hbutt" onclick="loadHanziFlashcards()">Hanzi</button>
-        </div>
+        </div> -->
         <div class="flashBox"></div>
         <div class="flashBox2"></div>
         <div class="flashBox3"></div>

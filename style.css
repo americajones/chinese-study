@@ -1,4 +1,391 @@
-body{
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  body{
+    background-color: rgb(17, 17, 17);
+    color: rgb(200, 200, 200);
+    margin:auto;
+    font-family: fantasy;
+    font-size: 17px;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    margin:0;
+}
+h1{
+    text-align: center;
+    margin:0;
+    padding: 5px;
+    font-size: 40px;
+}
+  nav {
+    background: #222;
+    padding: 0 15px;
+    position: relative;
+  }
+  a {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+  }
+  .menu,
+  .submenu {
+    list-style-type: none;
+  }
+  .logo {
+    font-size: 20px;
+    padding: 7.5px 10px 7.5px 0;
+  }
+  .item {
+    padding: 10px;
+  }
+  .item.button {
+    padding: 9px 5px;
+  }
+  .item:not(.button) a:hover,
+  .item a:hover::after {
+    color: rgb(255, 255, 255);
+    background-color: rgb(75, 75, 75);
+  }
+  /* Mobile menu */
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu li a {
+    display: block;
+    padding: 15px 5px;
+  }
+  .menu li.subitem a {
+    padding: 15px;
+  }
+  .toggle {
+    order: 1;
+    font-size: 20px;
+  }
+  .item.button {
+    order: 2;
+  }
+  .item {
+    order: 3;
+    width: 100%;
+    text-align: right;
+    display: none;
+  }
+  .active .item {
+    display: block;
+  }
+  .button.secondary {
+    /* divider between buttons and menu links */
+    border-bottom: 1px #444 solid;
+  }
+  /* Submenu up from mobile screens */
+  .submenu {
+    display: none;
+  }
+  .submenu-active .submenu {
+    display: block;
+    width: 100%;
+  }
+  .has-submenu {
+    cursor: pointer;
+  }
+  .has-submenu > a::after {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 900;
+    content: "▼";
+    color: rgb(200, 200, 200);
+    padding-left: 5px;
+  }
+  .subitem a {
+    padding: 10px 15px;
+  }
+  .submenu-active {
+    background-color: #111;
+    border-radius: 3px;
+  }
+  .answers img {
+    width: 100%;
+    max-width: 800px;
+    max-height: 800px;
+    margin: auto;
+    margin-top: 0;
+    padding: 10px;
+}
+.answers{
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+    border: solid 1px rgb(66, 66, 66);
+    margin:auto;
+    margin-top: 1em;
+    flex-wrap: wrap;
+    align-content: stretch;
+    min-width: 300px;
+    min-height: 300px;
+
+}
+.bottom-buttons {
+    display: flex;
+    flex-direction: row;
+}
+.answer:hover{
+    background-color: black;
+}
+.answer{    
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border: solid 1px rgb(66, 66, 66);
+    font-size: 1em;
+    width:33%;
+    height:33%;
+    overflow: hidden;
+    border-inline-start: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.butt {
+    background-color: rgb(17, 17, 17);
+    color: rgb(192, 192, 192);
+    padding: 16px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    width: 160px;
+    text-align: center;
+}
+.swap {
+  margin: auto;
+  width: 150px;
+  text-align: center;
+  margin-top: 1rem;
+  position: absolute;
+  bottom: 0;
+}
+.skip {
+  margin: auto;
+  width: 150px;
+  text-align: center;
+  margin-top: 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.side {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+#quiz-practice {
+  background-color: rgb(66, 66, 66);
+  height: 100vh;
+}  
+.flashbutt:active {
+  background-color: #964444;
+}
+.flashButtBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.flashBox,
+.flashBox2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.toggle {
+  padding: .5em;
+}
+.small {
+  padding: 0;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.zhuyinFlashcards h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.zhuyinFlashcards {
+  text-align: center;
+  margin: 1px 1px;
+  padding: 13px 0px;
+  padding-bottom: 0px;
+  color: rgb(192, 192, 192);
+}
+.zhuyinFlashcards:nth-child(22) p{
+  margin: 0;
+
+}
+.opacity {
+  opacity: 0;
+}
+.sentence:first-child {
+  margin-top: 2em;
+}
+.sentence {
+  font-weight: 200;
+  padding: 3em;
+}
+.radicalFlashcards h2 {
+font-weight: 300;
+font-size: 40px;
+}
+.radicalFlashcards {
+  text-align: center;
+  background-color: rgb(36, 36, 36);
+  padding: 20px;
+  margin-right: .5em;
+  margin-bottom: .5em;
+  width: 100px;
+}
+.radicalFlashcards:nth-child(3n + 3) {
+  background-color: rgb(20, 20, 20);
+}
+.radicalFlashcards:nth-child(3n+2) {
+  background-color: rgb(7, 7, 7);
+}
+.grammBox {
+  background-color: rgb(37, 37, 37);
+  padding: 1em;
+  margin-top: 1.5em;
+  width: 100%;
+}
+.grammBox:nth-child(odd) {
+  background-color: rgb(63, 63, 63);
+}
+.show {display:block;}
+.hidden {display:none;}
+.left {
+  text-align: left;
+}
+.light {
+  font-weight: 300;
+  font-size: 22px;
+}
+.padding {
+  padding: 1em;
+}
+  /* Tablet menu */
+  @media all and (min-width: 700px) {
+    .menu {
+      justify-content: center;
+    }
+    .logo {
+      flex: 1;
+    }
+    .item.button {
+      width: auto;
+      order: 1;
+      display: block;
+    }
+    .toggle {
+      flex: 1;
+      text-align: right;
+      order: 2;
+    }
+    /* Button up from tablet screen */
+    .menu li.button a {
+      padding: 10px 15px;
+      margin: 5px 0;
+    }
+    .button a {
+      background: #0080ff;
+      border: 1px royalblue solid;
+    }
+    .button.secondary {
+      border: 0;
+    }
+    .button.secondary a {
+      background: transparent;
+      border: 1px #0080ff solid;
+    }
+    .button a:hover {
+      text-decoration: none;
+    }
+    .button:not(.secondary) a:hover {
+      background: royalblue;
+      border-color: darkblue;
+    }
+      .answers{
+          width: 600px;
+          height: 600px;
+          border: none;
+          border-left: 1px solid rgb(66, 66, 66);
+      }
+      #quiz-practice {
+          height: auto;
+      }
+      .answer{
+          font-size: 1.5em
+      }
+      .skip,
+      .swap {
+          position:relative;
+      }
+      .grammBox {
+        width: 370px;
+      }
+  
+  }
+  /* Desktop menu */
+  @media all and (min-width: 960px) {
+    body {
+      max-width: 1200px;
+    }
+    .menu {
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      background: none;
+    }
+    .logo {
+      order: 0;
+    }
+    .item {
+      order: 1;
+      position: relative;
+      display: block;
+      width: auto;
+    }
+    .button {
+      order: 2;
+    }
+    .submenu-active .submenu {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 68px;
+      background: #111;
+    }
+    .toggle {
+      display: none;
+    }
+    .submenu-active {
+      border-radius: 0;
+    }
+    .grammBox {
+      margin-right: 1em;
+    }
+  }
+
+
+/* body{
     background-color: rgb(17, 17, 17);
     color: white;
     max-width: 900px;
@@ -137,82 +524,7 @@ h1{
     background-color: rgb(0, 0, 0);
     color: white;
 }
-.side {
-    text-align: right;
-}
-.center {
-    text-align: center;
-}
-#quiz-practice {
-    background-color: rgb(66, 66, 66);
-    height: 100vh;
-}  
-.flashbutt:active {
-    background-color: #964444;
-}
-.flashButtBox {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.flashBox,
-.flashBox2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.small {
-    padding: 0;
-    margin-top: 5px;
-    font-size: 14px;
-}
-.zhuyinFlashcards h2 {
-    font-size: 20px;
-    font-weight: 300;
-}
-.zhuyinFlashcards {
-    text-align: center;
-    /* background-color: rgb(50, 50, 50); */
-    margin: 1px 1px;
-    padding: 13px 0px;
-    padding-bottom: 0px;
-    color: rgb(192, 192, 192);
-}
-.zhuyinFlashcards:nth-child(22) p{
-    /* background-color: rgb(66, 66, 66); */
-    margin: 0;
 
-}
-.opacity {
-    opacity: 0;
-}
-.sentence:first-child {
-    margin-top: 2em;
-}
-.sentence {
-    font-weight: 200;
-    padding: 3em;
-}
-.radicalFlashcards h2 {
-font-weight: 300;
-font-size: 40px;
-}
-.radicalFlashcards {
-    text-align: center;
-    background-color: rgb(36, 36, 36);
-    padding: 20px;
-    margin-right: .5em;
-    margin-bottom: .5em;
-    width: 100px;
-}
-.radicalFlashcards:nth-child(3n + 3) {
-    background-color: rgb(20, 20, 20);
-}
-.radicalFlashcards:nth-child(3n+2) {
-    background-color: rgb(7, 7, 7);
-}
-.show {display:block;}
-.hidden {display:none;}
 @media only screen and (min-width: 700px) {
     .answers{
         width: 600px;
@@ -230,4 +542,4 @@ font-size: 40px;
     .swap {
         position:relative;
     }
-}
+} */
