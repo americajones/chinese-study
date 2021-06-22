@@ -41,7 +41,7 @@ function getGrammar() {
     gExplanationArray = [];
     gPatternsArray = [];
     pageHeader.textContent = "";
-    pageHeader.textContent = "Grammar";
+    pageHeader.textContent = "語法";
     quizStudyBox.classList.add('hidden');
     sentenceBox.classList.remove('hidden');
     removeAllChildren(flashBox);
@@ -64,8 +64,11 @@ function getGrammar() {
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.explanation;
         nuDivTit.classList.add('light');
+        nuDivTit.classList.add('cursive');
+        nuDivTit2.classList.add('cursive');
         nuDivTit2.classList.add('padding');
         nuTxt.classList.add('center');
+        nuTxt.classList.add('cursive');
         nuTxt2.classList.add('left');
         nuDiv.append(nuDivTit);
         nuDiv.append(nuTxt);
@@ -80,7 +83,7 @@ function getSentences() {
     sMeaningsArray = [];
     sZhuyinArray = [];
     pageHeader.textContent = "";
-    pageHeader.textContent = "Sentences";
+    pageHeader.textContent = "句子";
     quizStudyBox.classList.add('hidden');
     sentenceBox.classList.remove('hidden');
     removeAllChildren(sentenceBox);
@@ -100,6 +103,8 @@ function getSentences() {
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
         nuDivTit.classList.add('sentence');
+        nuDivTit.classList.add('cursive');
+        nuDivTit.classList.add('center');
         nuTxt.classList.add('opacity');
         nuTxt2.classList.add('opacity');
         nuTxt.classList.add('center');
@@ -117,7 +122,7 @@ function getSentences() {
 };
 function loadZhuyinRadicalFlashcards() {
     pageHeader.textContent = "";
-    pageHeader.textContent = "Flashcards";
+    pageHeader.textContent = "方字";
     quizStudyBox.classList.add('hidden');
     sentenceBox.classList.add('hidden');
     let zhuyinCharArray = [];
@@ -137,6 +142,7 @@ function loadZhuyinRadicalFlashcards() {
         let nuTxt = document.createElement('p');
         nuDivTit.textContent = zhuyin;
         nuTxt.textContent = value.pinyin;
+        nuDivTit.classList.add('cursive');
         nuTxt.classList.add('small');
         nuDiv.classList.add('zhuyinFlashcards')
         nuDiv.append(nuDivTit);
@@ -154,6 +160,8 @@ function loadZhuyinRadicalFlashcards() {
         nuDivTit.textContent = hanzi;
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
+        nuDivTit.classList.add('cursive');
+        nuTxt.classList.add('cursive');
         nuTxt2.classList.add('small');
         nuDiv.classList.add('radicalFlashcards');
         nuDiv.addEventListener('click', toggleEnglish);
@@ -174,7 +182,7 @@ function loadZhuyinRadicalFlashcards() {
 }
 function loadHanziFlashcards() {
     pageHeader.textContent = "";
-    pageHeader.textContent = "Flashcards";
+    pageHeader.textContent = "方字";
     quizStudyBox.classList.add('hidden');
     sentenceBox.classList.add('hidden');
     let hanziCharArray = [];
@@ -196,6 +204,8 @@ function loadHanziFlashcards() {
         nuTxt2.textContent = value.english;
         nuTxt2.classList.add('small');
         // nuTxt2.classList.add('opacity');
+        nuDivTit.classList.add('cursive')
+        nuTxt.classList.add('cursive')
         nuDiv.classList.add('radicalFlashcards')
         nuDiv.addEventListener('click', toggleEnglish);
         nuDiv.append(nuTxt);
@@ -223,9 +233,9 @@ function loadZhuyin() {
         zhuyinArray.push(zhuyin);
         pinyinArray.push(value.pinyin);
     };
-    loadZhuyinQuiz2();
 };
 function loadZhuyinQuiz1() {
+    loadZhuyin();
     removeAllChildren(answersBox);
     skipButt.classList.remove('hidden');
     swapButt.classList.remove('hidden');
@@ -236,6 +246,7 @@ function loadZhuyinQuiz1() {
     randoNumber = Math.floor(Math.random() * zhuyinArray.length);
     thisHanzi = zhuyinArray[randoNumber];
     mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
     secondaryCharText.textContent = "";
     let answersArray = [];
     trueAnswer = pinyinArray[randoNumber];
@@ -255,6 +266,7 @@ function loadZhuyinQuiz1() {
     });
 };
 function loadZhuyinQuiz2() {
+    loadZhuyin();
     removeAllChildren(answersBox);
     skipButt.classList.remove('hidden');
     swapButt.classList.remove('hidden');
@@ -265,6 +277,7 @@ function loadZhuyinQuiz2() {
     randoNumber = Math.floor(Math.random() * pinyinArray.length);
     thisHanzi = pinyinArray[randoNumber];
     mainCharText.textContent = thisHanzi;
+    mainCharText.classList.remove('cursive');
     secondaryCharText.textContent = "";
     let answersArray = [];
     trueAnswer = zhuyinArray[randoNumber];
@@ -280,6 +293,8 @@ function loadZhuyinQuiz2() {
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick2)
         newDiv.classList.add('answer');
+        newDiv.classList.add('large');
+        newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
 }
@@ -348,7 +363,9 @@ function loadHanziMeaningsQuiz() {
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
     secondaryCharText.textContent = zhuyinArray[randoNumber];
+    secondaryCharText.classList.add('cursive');
     let answersArray = [];
     trueAnswer = meaningsArray[randoNumber];
     answersArray.push(trueAnswer);
@@ -371,6 +388,7 @@ function loadHanziMeaningsQuiz2() {
     removeAllChildren(answersBox);
     skipButt.classList.remove('hidden');
     swapButt.classList.remove('hidden');
+    mainCharText.classList.remove('cursive');
     swapButt.removeEventListener('click', loadHanziMeaningsQuiz2);
     swapButt.addEventListener('click', loadHanziMeaningsQuiz);
     skipButt.removeEventListener('click', loadHanziMeaningsQuiz);
@@ -393,6 +411,8 @@ function loadHanziMeaningsQuiz2() {
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick1)
         newDiv.classList.add('answer');
+        newDiv.classList.add('cursive');
+        newDiv.classList.add('large');
         answersBox.append(newDiv);
     });
 }
@@ -442,6 +462,7 @@ function loadHanziZhuyinQuiz() {
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
     secondaryCharText.textContent = "";
     let answersArray = [];
     trueAnswer = zhuyinArray[randoNumber];
@@ -457,6 +478,7 @@ function loadHanziZhuyinQuiz() {
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick3)
         newDiv.classList.add('answer');
+        newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
 }
@@ -505,6 +527,8 @@ function loadHanziZhuyinQuiz2() {
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick4)
         newDiv.classList.add('answer');
+        newDiv.classList.add('cursive');
+        newDiv.classList.add('large');
         answersBox.append(newDiv);
     });
 }
@@ -580,7 +604,9 @@ function loadRadicalMeaningsQuiz() {
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
     secondaryCharText.textContent = zhuyinArray[randoNumber];
+    secondaryCharText.classList.add('cursive');
     let answersArray = [];
     trueAnswer = meaningsArray[randoNumber];
     answersArray.push(trueAnswer);
@@ -610,7 +636,9 @@ function loadRadicalMeaningsQuiz2() {
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = meaningsArray[randoNumber];
     mainCharText.textContent = thisHanzi;
+    mainCharText.classList.remove('cursive');
     secondaryCharText.textContent = zhuyinArray[randoNumber];
+    secondaryCharText.classList.add('cursive');
     let answersArray = [];
     trueAnswer = hanziArray[randoNumber];
     answersArray.push(trueAnswer);
@@ -625,6 +653,8 @@ function loadRadicalMeaningsQuiz2() {
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick7)
         newDiv.classList.add('answer');
+        newDiv.classList.add('cursive');
+        newDiv.classList.add('large');
         answersBox.append(newDiv);
     });
 }
@@ -674,7 +704,9 @@ function loadRadicalZhuyinQuiz() {
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
     secondaryCharText.textContent = meaningsArray[randoNumber];
+    secondaryCharText.classList.remove('cursive');
     let answersArray = [];
     trueAnswer = zhuyinArray[randoNumber];
     answersArray.push(trueAnswer);
@@ -689,6 +721,7 @@ function loadRadicalZhuyinQuiz() {
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick6)
         newDiv.classList.add('answer');
+        newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
 }
@@ -721,7 +754,9 @@ function loadRadicalZhuyinQuiz2() {
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = zhuyinArray[randoNumber];
     mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
     secondaryCharText.textContent = meaningsArray[randoNumber];
+    secondaryCharText.classList.remove('cursive');
     let answersArray = [];
     trueAnswer = hanziArray[randoNumber];
     answersArray.push(trueAnswer);
@@ -736,6 +771,8 @@ function loadRadicalZhuyinQuiz2() {
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick8)
         newDiv.classList.add('answer');
+        newDiv.classList.add('large');
+        newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
 }
@@ -794,7 +831,7 @@ function toggleMenu() {
         toggle.querySelector("a").innerHTML = "學 ▼";
     } else {
         menu.classList.add("active");
-        toggle.querySelector("a").innerHTML = "X";
+        toggle.querySelector("a").innerHTML = "✖";
     }
 }
 

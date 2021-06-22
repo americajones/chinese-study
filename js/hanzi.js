@@ -772,7 +772,7 @@ const A1grammar = {
         "zhuyin": "ㄏㄞˊㄕˋ",
         "pinyin": "háishì",
         "english": "or (in a question)",
-        "pattern": "A + 还是 + B ?",
+        "pattern": "A + 還是 + B ?",
         "explanation": "Used to offer chioces in a question",
         "example": "冰的還是熱的？ 你要喝茶還是咖啡？"
     },
@@ -780,7 +780,7 @@ const A1grammar = {
         "zhuyin": "ㄏㄨㄛˋ ㄓㄜˇ ",
         "pinyin": "huòzhě",
         "english": "or (statement)",
-        "pattern": "A + 还是 + B",
+        "pattern": "A + 或者 + B",
         "explanation": `used as an "or" statement ("it doesn't matter if we eat chicken or beef")`,
         "example": "我喝咖啡或者茶，都行。"
     },
@@ -794,6 +794,84 @@ const A1grammar = {
     // },
 }
 const A1sentences = {
+    "你好嗎？": {
+        "english": "How are you?",
+        "zhuyin": "ㄋ一ˇ ㄏㄠˇ ㄇㄚˊ",
+        "pinyin": "",
+        "category": "simple"
+    },
+    "我很好。": {
+        "english": "I am fine.",
+        "zhuyin": "ㄨㄛˇ ㄏㄣˇ ㄏㄠˇ",
+        "pinyin": "",
+        "category": "simple"
+    },
+    "最近還好嗎？": {
+        "english": "Are you okay recently?",
+        "zhuyin": "ㄗㄨㄟˋ ㄐ一ㄣˋ ㄏㄨㄢˊ ㄏㄠˇ ㄇㄚˊ",
+        "pinyin": "",
+        "category": "simple"
+    },
+    "好久不見。": {
+        "english": "Long time no see.",
+        "zhuyin": "ㄏㄠˇ ㄐ一ㄡˇ ㄅㄨˋ ㄐ一ㄢˋ",
+        "pinyin": "",
+        "category": "simple"
+    },
+    "還不錯。": {
+        "english": "I am quite good.",
+        "zhuyin": "ㄏㄨㄢˊ ㄅㄨˋ ㄘㄨㄛˋ",
+        "pinyin": "",
+        "category": "simple"
+    },
+    "你叫什麼名字？": {
+        "english": "What is your name?",
+        "zhuyin": "ㄋ一ˇ ㄐ一ㄠˋ ㄕˊ ㄇㄜ˙ ㄇ一ㄥˊ ㄗˋ",
+        "pinyin": "",
+        "category": "simple"
+    },
+    "很高興認識你！": {
+        "english": "It’s nice to meet you!",
+        "zhuyin": "ㄏㄣˇ ㄍㄠ ㄒ一ㄥ ㄖㄣˋ ㄕˊ ㄋ一ˇ",
+        "pinyin": "",
+        "category": "simple"
+    },
+    "我二十九歲。": {
+        "english": "I am twenty nine years old",
+        "zhuyin": "ㄨㄛˇ ㄦˋ ㄕˊ ㄐ一ㄡˇ ㄙㄨㄟˋ",
+        "pinyin": "",
+        "category": "simple"
+    },
+    "你住哪裡?": {
+        "english": "Where do you live?",
+        "zhuyin": "ㄋ一ˇ ㄓㄨˋ ㄋㄚˇ ㄌ一ˇ",
+        "pinyin": "",
+        "category": "simple"
+    },
+    "我很喜歡臺灣。": {
+        "english": "I love Taiwan.",
+        "zhuyin": "ㄨㄛˇ ㄏㄣˇ ㄒ一ˇ ㄏㄨㄢ ㄊㄞˊ ㄨㄢ",
+        "pinyin": "",
+        "category": "simple"
+    },
+    "早安。": {
+        "english": "Good morning.",
+        "zhuyin": "ㄗㄠˇ ㄢ。",
+        "pinyin": "",
+        "category": "simple"
+    },
+    "午安。": {
+        "english": "Good afternoon.",
+        "zhuyin": "ㄨˇ ㄢ。",
+        "pinyin": "",
+        "category": "simple"
+    },
+    "晚安。": {
+        "english": "Good evening.",
+        "zhuyin": "ㄨㄢˇ ㄢ。",
+        "pinyin": "",
+        "category": "simple"
+    },
     "你 去 或者 她 去，都 可以。": {
         "english": "You go or she goes, either way is fine.",
         "zhuyin": "ㄋ一ˇ ㄑㄩˋ ㄏㄨㄛˋ ㄓㄜˇ ㄊㄚ ㄑㄩˋ， ㄉㄨ ㄎㄜˇ 一ˇ。",
@@ -896,6 +974,7 @@ const A1sentences = {
         "pinyin": "Nǐ yě xiǎng lái wǒ jiā ma?",
         "category": "也"
     },
+
     // "": {
     //     "english": "",
     //     "zhuyin": "",

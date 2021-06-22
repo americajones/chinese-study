@@ -18,12 +18,16 @@
 h2{
     text-align: center;
     margin:0;
+    font-size: 30px;
 }
 h1{
     text-align: center;
     margin:0;
     padding: 5px;
     font-size: 40px;
+}
+.cursive {
+  font-family: cursive, fantasy;
 }
   nav {
     background: #222;
@@ -38,10 +42,7 @@ h1{
   .submenu {
     list-style-type: none;
   }
-  .logo {
-    font-size: 20px;
-    padding: 7.5px 10px 7.5px 0;
-  }
+
   .item {
     padding: 10px;
   }
@@ -51,7 +52,7 @@ h1{
   .item:not(.button) a:hover,
   .item a:hover::after {
     color: rgb(255, 255, 255);
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(10, 10, 10);
   }
   /* Mobile menu */
   .menu {
@@ -63,6 +64,7 @@ h1{
   .menu li a {
     display: block;
     padding: 15px 5px;
+    min-width: 80px
   }
   .menu li.subitem a {
     padding: 15px;
@@ -240,20 +242,28 @@ h1{
   margin-top: 2em;
 }
 .sentence {
-  font-weight: 200;
+  font-weight: 300;
+  font-size: 35px;
   padding: 3em;
+  padding-bottom: 1em;
+  writing-mode: vertical-rl;
+}
+.sentenceBox {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
 .radicalFlashcards h2 {
-font-weight: 300;
+font-weight: 200;
 font-size: 40px;
 }
 .radicalFlashcards {
   text-align: center;
   background-color: rgb(36, 36, 36);
-  padding: 20px;
+  padding: 2em 1em;
   margin-right: .5em;
   margin-bottom: .5em;
-  width: 100px;
+  width: 175px;
 }
 .radicalFlashcards:nth-child(3n + 3) {
   background-color: rgb(20, 20, 20);
@@ -277,10 +287,16 @@ font-size: 40px;
 }
 .light {
   font-weight: 300;
-  font-size: 22px;
+  font-size: 28px;
 }
 .padding {
   padding: 1em;
+}
+.topdrop {
+  text-align: right;
+}
+.large {
+  font-size: 40px;
 }
   /* Tablet menu */
   @media all and (min-width: 700px) {
@@ -333,7 +349,7 @@ font-size: 40px;
           height: auto;
       }
       .answer{
-          font-size: 1.5em
+          font-size: 1.3em;
       }
       .skip,
       .swap {
@@ -342,7 +358,12 @@ font-size: 40px;
       .grammBox {
         width: 370px;
       }
-  
+      .large {
+        font-size: 40px;
+      }
+      .title{
+        margin-right: 1em;
+      }
   }
   /* Desktop menu */
   @media all and (min-width: 960px) {

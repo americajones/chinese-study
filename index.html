@@ -13,7 +13,7 @@
 <body>
     <nav>
         <ul class="menu header">
-            <li class="title"><a href="#">中文(繁体字)</a></li>
+            <li class="title cursive"><a href="#">中文(繁体字)</a></li>
             <li class="item has-submenu">
                 <a tabindex="0">Flashcards</a>
                 <ul class="submenu">
@@ -22,9 +22,8 @@
                     <li class="subitem final"><a href="#" onclick="loadHanziFlashcards()">漢字</a></li>
                 </ul>
             </li>
-            <li class="item final"><a href="#" onclick="loadZhuyin()">Study ㄅㄆㄇㄈ</a></li>
             <li class="item has-submenu">
-                <a tabindex="0">Study Radicals</a>
+                <a tabindex="0">Radicals</a>
                 <ul class="submenu">
                     <li class="subitem final"><a href="#" onclick="loadRadicalMeaningsQuiz()">Familiarity</a>
                     </li>
@@ -32,8 +31,9 @@
                     <li class="subitem final"><a href="#" onclick="loadRadicalWritingQuiz()">Writing</a></li>
                 </ul>
             </li>
+            <li class="item final"><a href="#" onclick="loadZhuyinQuiz2()">ㄅㄆㄇㄈ</a></li>
             <li class="item has-submenu">
-                <a tabindex="0">Study 漢字</a>
+                <a tabindex="0">漢字</a>
                 <ul class="submenu">
                     <li class="subitem final"><a href="#" onclick="loadHanziMeaningsQuiz()">Familiarity</a></li>
                     <li class="subitem final"><a href="#" onclick="loadHanziZhuyinQuiz()">ㄅㄆㄇㄈ</a></li>
@@ -45,7 +45,7 @@
             <li class="item final"><a href="#" onclick="getSentences()">Sentences</a></li>
 
             <li class="toggle">
-                <h3><a href="#">學 ▼</a></h3>
+                <h2><a class="cursive topdrop" href="#">學 ▼</a></h2>
             </li>
         </ul>
     </nav>
