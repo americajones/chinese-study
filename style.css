@@ -6,6 +6,7 @@
   .title {
     font-size: 30px;
     font-weight: 700;
+    color: grey;
   }
   body{
     background-color: rgb(17, 17, 17);
@@ -294,6 +295,7 @@ font-size: 40px;
 }
 .topdrop {
   text-align: right;
+  color: rgb(160, 160, 160);
 }
 .large {
   font-size: 40px;
