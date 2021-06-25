@@ -758,6 +758,7 @@ const A1grammar = {
         "english": "also, too",
         "pattern": "也 + Verb / Adj.",
         "explanation": "也 (一ㄝˇ) is inserted after the subject, before the verb or verb phrase or before the 很(ㄏㄣˇ) before the adjective. ",
+        "section": "adverbs",
         "example": "我也喜欢。你也很高。"
     },
     "很": {
@@ -766,6 +767,7 @@ const A1grammar = {
         "english": "is (very)",
         "pattern": "Noun + 很 + Adj.",
         "explanation": "Links adjectives. Nouns are linked to other nouns with 是(ㄕˋ). Nouns are linked to adjectives with 很(ㄏㄣˇ). ",
+        "section": "basics",
         "example": "我很高。"
     },
     "還是": {
@@ -774,6 +776,7 @@ const A1grammar = {
         "english": "or (in a question)",
         "pattern": "A + 還是 + B ?",
         "explanation": "Used to offer chioces in a question",
+        "section": "conjunctions",
         "example": "冰的還是熱的？ 你要喝茶還是咖啡？"
     },
     "或者": {
@@ -782,6 +785,7 @@ const A1grammar = {
         "english": "or (statement)",
         "pattern": "A + 或者 + B",
         "explanation": `used as an "or" statement ("it doesn't matter if we eat chicken or beef")`,
+        "section": "conjunctions",
         "example": "我喝咖啡或者茶，都行。"
     },
     // "": {
@@ -790,6 +794,7 @@ const A1grammar = {
     //     "english": "",
     //     "pattern": "",
     //     "explanation": "",
+    //     "section": "",
     //     "example": ""
     // },
 }
