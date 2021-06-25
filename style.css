@@ -151,6 +151,8 @@ h1{
     flex-flow: column;
     justify-content: center;
     border: solid 1px rgb(66, 66, 66);
+    border-top: none;
+    border-bottom: none;
     font-size: 1em;
     width:33%;
     height:33%;
@@ -166,7 +168,6 @@ h1{
     font-size: 15px;
     border: none;
     cursor: pointer;
-    display: flex;
     width: 160px;
     text-align: center;
 }
@@ -174,17 +175,15 @@ h1{
   margin: auto;
   width: 150px;
   text-align: center;
-  margin-top: 1rem;
-  position: absolute;
-  bottom: 0;
+  margin-top: 2rem;
+
 }
 .skip {
   margin: auto;
   width: 150px;
   text-align: center;
-  margin-top: 1rem;
-  position: absolute;
-  bottom: 0;
+  margin-top: 2rem;
+  position: relative;
   right: 0;
 }
 .side {
@@ -278,6 +277,18 @@ font-size: 40px;
   margin-top: 1.5em;
   width: 100%;
 }
+#hanziWriteBox {
+  width: 200px;
+  margin: auto;
+}
+.inputBox{
+  width: 200px;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+
+}
 .grammBox:nth-child(odd) {
   background-color: rgb(63, 63, 63);
 }
@@ -299,6 +310,9 @@ font-size: 40px;
 }
 .large {
   font-size: 40px;
+}
+.faded {
+  opacity: 13%;
 }
   /* Tablet menu */
   @media all and (min-width: 700px) {

@@ -716,6 +716,42 @@ const hanziLevel1 = {
 }
 
 const A1grammar = {
+    ".": {
+        "zhuyin": "",
+        "pinyin": "",
+        "english": "",
+        "pattern": "Subj. + Verb + Obj.",
+        "explanation": "You can form very simple sentences with just two words, the subject + a verb. ",
+        "section": "basics",
+        "example": "誰想玩？"
+    },
+    "是": {
+        "zhuyin": "ㄕˋ",
+        "pinyin": "shì",
+        "english": "to be",
+        "pattern": "Noun1 + 是 + Noun2",
+        "explanation": "是 is only used to link two nouns. It cannot be used to link a noun and an adjective.",
+        "section": "basics",
+        "example": ""
+    },
+    "太": {
+        "zhuyin": "ㄊㄞˋ",
+        "pinyin": "tài",
+        "english": "so, very, excessive",
+        "pattern": "太 + Adj. + 了",
+        "explanation": "Can express that something really is excessive (as a complaint), or can also colloquially express the meaning of 'so' or 'very'",
+        "section": "basics",
+        "example": "小貓太可愛了！"
+    },
+    "很": {
+        "zhuyin": "ㄏㄣˇ",
+        "pinyin": "hěn",
+        "english": "is (very)",
+        "pattern": "Noun + 很 + Adj.",
+        "explanation": "Links adjectives. Nouns are linked to other nouns with 是(ㄕˋ). Nouns are linked to adjectives with 很(ㄏㄣˇ). ",
+        "section": "basics",
+        "example": "我很高。"
+    },
     "沒": {
         "zhuyin": "ㄇㄟˊ",
         "pinyin": "méi",
@@ -757,18 +793,9 @@ const A1grammar = {
         "pinyin": "yě",
         "english": "also, too",
         "pattern": "也 + Verb / Adj.",
-        "explanation": "也 (一ㄝˇ) is inserted after the subject, before the verb or verb phrase or before the 很(ㄏㄣˇ) before the adjective. ",
+        "explanation": "Always needs to come before the verb (or adjective). 也 is inserted after the subject, before the verb or verb phrase or before the 很(ㄏㄣˇ) before the adjective. ",
         "section": "adverbs",
         "example": "我也喜欢。你也很高。"
-    },
-    "很": {
-        "zhuyin": "ㄏㄣˇ",
-        "pinyin": "hěn",
-        "english": "is (very)",
-        "pattern": "Noun + 很 + Adj.",
-        "explanation": "Links adjectives. Nouns are linked to other nouns with 是(ㄕˋ). Nouns are linked to adjectives with 很(ㄏㄣˇ). ",
-        "section": "basics",
-        "example": "我很高。"
     },
     "還是": {
         "zhuyin": "ㄏㄞˊㄕˋ",
@@ -787,6 +814,15 @@ const A1grammar = {
         "explanation": `used as an "or" statement ("it doesn't matter if we eat chicken or beef")`,
         "section": "conjunctions",
         "example": "我喝咖啡或者茶，都行。"
+    },
+    "???": {
+        "zhuyin": "",
+        "pinyin": "",
+        "english": "affirmative-negative question",
+        "pattern": "Verb + 不 + Verb",
+        "explanation": "A common way to form questions in Chinese is to first use a verb in the positive, then repeat the same verb in its negative form, similar to how in English we can say, 'Do you have money or not?' The answer is either 'Verb' or '不 (bù) Verb.' It can also be done with adjectives (adjectives often behave like verbs in Chinese)",
+        "section": "",
+        "example": "他們來不來？"
     },
     // "": {
     //     "zhuyin": "",
@@ -876,6 +912,42 @@ const A1sentences = {
         "zhuyin": "ㄨㄢˇ ㄢ。",
         "pinyin": "",
         "category": "simple"
+    },
+    "好不好？": {
+        "english": "good or not good? is it good?",
+        "zhuyin": "ㄏㄠˇ ㄅㄨˋ ㄏㄠˇ ？ ",
+        "pinyin": "",
+        "category": "question"
+    },
+    "熱不熱？": {
+        "english": "good or not good? is it good?",
+        "zhuyin": "ㄖㄜˋ ㄅㄨˋ ㄖㄜˋ ？ ",
+        "pinyin": "",
+        "category": "question"
+    },
+    "他們來不來？": {
+        "english": "Are they going to come or not?",
+        "zhuyin": "ㄊㄚ ㄇㄣˊ ㄌㄞˊ ㄅㄨˋ ㄌㄞˊ ？",
+        "pinyin": "Tāmen lái bu lái?",
+        "category": "question"
+    },
+    "我去買咖啡你要不要？": {
+        "english": "I'm going to buy coffee. Do you want some?",
+        "zhuyin": "ㄨㄛˇ ㄑㄩˋ ㄇㄞˇ ㄎㄚ ㄈㄟ ， ㄋㄧˇ ㄧㄠˋ ㄅㄨˋ ㄧㄠˋ ？",
+        "pinyin": "Wǒ qù mǎi kāfēi, nǐ yào bu yào?",
+        "category": "question"
+    },
+    "你回不回家？": {
+        "english": "Are you coming back home or not?",
+        "zhuyin": "ㄋㄧˇ ㄏㄨㄟˊ ㄅㄨˋ ㄏㄨㄟˊ ㄐㄧㄚ ？",
+        "pinyin": "nǐ huí bu huíjiā?",
+        "category": "question"
+    },
+    "你們要不要米飯？": {
+        "english": "Yall want rice or nah?",
+        "zhuyin": "ㄋㄧˇ ㄇㄣˊ ㄧㄠˋ ㄅㄨˋ ㄧㄠˋ ㄇㄧˇ ㄈㄢˋ ？",
+        "pinyin": "",
+        "category": "question"
     },
     "你 去 或者 她 去，都 可以。": {
         "english": "You go or she goes, either way is fine.",
@@ -1437,7 +1509,7 @@ const chineseRadicals = {
         "variant": ""
     },
     "女": {
-        "zhuyin": "ㄋㄨˇ",
+        "zhuyin": "ㄋㄩˇ",
         "pinyin": "nǚ",
         "tone": 3,
         "english": "woman",
@@ -1545,7 +1617,7 @@ const chineseRadicals = {
         "zhuyin": "ㄍㄨㄤˇ",
         "pinyin": "guǎng",
         "tone": 3,
-        "english": "shelter",
+        "english": "shelter, house on cliff",
         "variant": ""
     },
     "廴": {
@@ -1602,7 +1674,7 @@ const chineseRadicals = {
         "pinyin": "xīn",
         "tone": 1,
         "english": "heart",
-        "variant": "忄"
+        "variant": "忄, ⺗"
     },
     "戈": {
         "zhuyin": "ㄍㄜ",
@@ -1797,7 +1869,7 @@ const chineseRadicals = {
         "zhuyin": "一ㄠˊ",
         "pinyin": "yáo",
         "tone": 2,
-        "english": "lines on a trigram",
+        "english": "lines on a trigram, diagrams for divination",
         "variant": ""
     },
     "爿": {
@@ -1895,14 +1967,14 @@ const chineseRadicals = {
         "zhuyin": "ㄆ一ˇ",
         "pinyin": "pǐ",
         "tone": 3,
-        "english": "cloth",
+        "english": "bolt of cloth",
         "variant": ""
     },
     "疒": {
         "zhuyin": "ㄅ一ㄥˋ",
         "pinyin": "bìng",
         "tone": 4,
-        "english": "ill",
+        "english": "illness",
         "variant": ""
     },
     "癶": {
@@ -2126,7 +2198,7 @@ const chineseRadicals = {
         "zhuyin": "ㄔㄨㄢˇ",
         "pinyin": "chuǎn",
         "tone": 3,
-        "english": "contrary",
+        "english": "contrary, oppose",
         "variant": ""
     },
     "舟": {
@@ -2140,7 +2212,7 @@ const chineseRadicals = {
         "zhuyin": "ㄍㄣˋ",
         "pinyin": "gèn",
         "tone": 4,
-        "english": "mountain",
+        "english": "stubborn, tough, trigram mountain, stopping",
         "variant": ""
     },
     "色": {
@@ -2266,7 +2338,7 @@ const chineseRadicals = {
         "zhuyin": "ㄗㄡˇ",
         "pinyin": "zǒu",
         "tone": 3,
-        "english": "walk",
+        "english": "walk, run",
         "variant": ""
     },
     "足": {
@@ -2343,7 +2415,7 @@ const chineseRadicals = {
         "zhuyin": "ㄐ一ㄣ",
         "pinyin": "jīn",
         "tone": 1,
-        "english": "metal",
+        "english": "metal, gold",
         "variant": "钅"
     },
     "長": {
@@ -2420,7 +2492,7 @@ const chineseRadicals = {
         "zhuyin": "ㄨㄟˇ",
         "pinyin": "wěi",
         "tone": 3,
-        "english": "soft leather",
+        "english": "soft leather, tanned leather",
         "variant": "韦"
     },
     "韭	": {
@@ -2441,7 +2513,7 @@ const chineseRadicals = {
         "zhuyin": "一ㄝˋ",
         "pinyin": "yè",
         "tone": 4,
-        "english": "page",
+        "english": "page, leaf",
         "variant": "页"
     },
     "風": {
@@ -2588,7 +2660,7 @@ const chineseRadicals = {
         "zhuyin": "ㄕㄨˇ",
         "pinyin": "shǔ",
         "tone": 3,
-        "english": "millet",
+        "english": "millet (an ancient seed cooked like a grain)",
         "variant": ""
     },
     "黑": {

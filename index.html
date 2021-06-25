@@ -8,6 +8,7 @@
     <title>Chinese Study</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./js/hanzi.js"></script>
+    <script src="./js/hanzi-reader.js"></script>
 </head>
 
 <body>
@@ -28,7 +29,7 @@
                     <li class="subitem final"><a href="#" onclick="loadRadicalMeaningsQuiz()">Familiarity</a>
                     </li>
                     <li class="subitem final"><a href="#" onclick="loadRadicalZhuyinQuiz()">ㄅㄆㄇㄈ</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadRadicalWritingQuiz()">Writing</a></li>
+                    <!-- <li class="subitem final"><a href="#" onclick="loadRadicalWritingQuiz()">Writing</a></li> -->
                 </ul>
             </li>
             <li class="item final"><a href="#" onclick="loadZhuyinQuiz2()">ㄅㄆㄇㄈ</a></li>
@@ -53,11 +54,22 @@
         <div id="quiz-practice">
             <div>
                 <h1 id="main-char"></h1>
-                <h2 id="optional-char"></h2>
+                <h2 id="optional-char" class="faded"></h2>
+                <div id='hanziWriteBox' class="hidden">
+                    <div id="character-target-div"></div>
+                    <button id="animate-button" class="butt">Animate</button>
+                    <div class="inputBox">
+                        <label for="char">Type this character:</label>
+                        <input type="text" id="char" name="char" active>
+                        <input id="subButt" type="submit" value="Submit">
+                        <div class="writingButtBox"></div>
+                    </div>
+                </div>
             </div>
             <div class="answers">
                 <img src="./trad.jpg" alt="traditional chinese">
             </div>
+
             <div class="bottom-buttons">
                 <button class="swap butt hidden">swap quiz style</button>
                 <div class='secret-message'></div>
@@ -69,6 +81,7 @@
                 onclick="loadZhuyinRadicalFlashcards()">Zhuyin/Radicals</button>
             <button class="flashbutt butt hidden" id="hbutt" onclick="loadHanziFlashcards()">Hanzi</button>
         </div> -->
+
         <div class="flashBox"></div>
         <div class="flashBox2"></div>
         <div class="flashBox3"></div>
