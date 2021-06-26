@@ -281,6 +281,10 @@ font-size: 40px;
   width: 200px;
   margin: auto;
 }
+input {
+  padding: 5px;
+  margin: 1em;
+}
 .inputBox{
   width: 200px;
   margin: auto;

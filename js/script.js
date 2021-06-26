@@ -229,6 +229,7 @@ function loadHanziFlashcards() {
 function loadZhuyin() {
     pinyinArray = [];
     zhuyinArray = [];
+    answersBox.classList.remove('hidden');
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
@@ -349,6 +350,7 @@ function getSet1() {
     toneArray = [];
     sentenceBox.classList.add('hidden');
     hanziWriteBox.classList.add('hidden');
+    answersBox.classList.remove('hidden');
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
@@ -626,6 +628,7 @@ function handleAnswerClick9() {
 const charTarget = document.querySelector('#character-target-div');
 const buttBox = document.querySelector('.writingButtBox');
 const subButt = document.querySelector('#subButt')
+const wskipButt = document.querySelector('#skipButt')
 function loadHanziWritingQuiz() {
     hanziArray = [];
     pinyinArray = [];
@@ -650,14 +653,11 @@ function loadHanziWritingQuiz() {
     trueAnswer = hanziArray[randoNumber];
     answersArray.push(trueAnswer);
     makeCharacter(thisHanzi);
-    charInput.focus();
+    // charInput.focus();
     subButt.addEventListener('click', handleAnswerClick10);
     subButt.classList.add('butt')
-    var nuButt = document.createElement('button');
-    nuButt.textContent = "skip";
-    nuButt.classList.add('butt')
-    nuButt.addEventListener('click', loadHanziWritingQuiz);
-    buttBox.append(nuButt);
+    wskipButt.classList.add('butt')
+    wskipButt.addEventListener('click', loadHanziWritingQuiz);
 
 }
 function handleAnswerClick10() {
@@ -703,6 +703,7 @@ function getRadicals() {
     meaningsArray = [];
     sentenceBox.classList.add('hidden');
     hanziWriteBox.classList.add('hidden');
+    answersBox.classList.remove('hidden');
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
