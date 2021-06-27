@@ -115,6 +115,7 @@ h1{
   .submenu-active {
     background-color: #111;
     border-radius: 3px;
+    z-index: 4;
   }
   .answers img {
     width: 100%;
@@ -168,7 +169,7 @@ h1{
     font-size: 15px;
     border: none;
     cursor: pointer;
-    width: 160px;
+    /* width: 160px; */
     text-align: center;
 }
 .swap {
@@ -281,6 +282,14 @@ font-size: 40px;
   width: 200px;
   margin: auto;
 }
+.center {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100px;
+  margin: auto;
+  padding: 5px;
+}
 input {
   padding: 5px;
   margin: 1em;
@@ -291,7 +300,12 @@ input {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
-
+}
+.words {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  margin: auto;
 }
 .grammBox:nth-child(odd) {
   background-color: rgb(63, 63, 63);
@@ -314,6 +328,9 @@ input {
 }
 .large {
   font-size: 40px;
+}
+.small {
+  font-size: 17px;
 }
 .faded {
   opacity: 13%;

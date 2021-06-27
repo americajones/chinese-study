@@ -20,7 +20,8 @@
                 <ul class="submenu">
                     <li class="subitem final"><a href="#" onclick="loadZhuyinRadicalFlashcards()">Radicals and ㄅㄆㄇㄈ</a>
                     </li>
-                    <li class="subitem final"><a href="#" onclick="loadHanziFlashcards()">漢字</a></li>
+                    <li class="subitem final"><a href="#" onclick="loadHanziFlashcards()">Hanzi</a></li>
+                    <li class="subitem final"><a href="#" onclick="loadWordFlashcards()">Words</a></li>
                 </ul>
             </li>
             <li class="item has-submenu">
@@ -44,6 +45,15 @@
             </li>
             <li class="item final"><a href="#" onclick="getGrammar()">Grammar</a></li>
             <li class="item final"><a href="#" onclick="getSentences()">Sentences</a></li>
+            <li class="item has-submenu">
+                <a tabindex="0">Words</a>
+                <ul class="submenu">
+                    <li class="subitem final"><a href="#" onclick="loadWordsMeaningsQuiz()">Familiarity</a></li>
+                    <li class="subitem final"><a href="#" onclick="loadWordsZhuyinQuiz()">ㄅㄆㄇㄈ</a></li>
+                    <!-- <li class="subitem final"><a href="#" onclick="loadWordFlashcards()">Flashcards</a></li> -->
+                    <li class="subitem final"><a href="#" onclick="loadWordsWritingQuiz()">Writing</a></li>
+                </ul>
+            </li>
 
             <li class="toggle">
                 <h2><a class="cursive topdrop" href="#">學 ▼</a></h2>
@@ -57,9 +67,9 @@
                 <h2 id="optional-char" class="faded"></h2>
                 <div id='hanziWriteBox' class="hidden">
                     <div id="character-target-div"></div>
-                    <button id="animate-button" class="butt">Animate</button>
+                    <button id="animate-button" class="butt center">Animate</button>
                     <div class="inputBox">
-                        <label for="char">Type this character:</label>
+                        <label for="char">Type this:</label>
                         <input type="text" id="char" name="char" active>
                         <input id="subButt" type="submit" value="Submit">
                         <input id="skipButt" type="submit" value="Skip">

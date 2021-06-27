@@ -179,7 +179,7 @@ const hanziLevel1 = {
         "zhuyin": "ㄇㄚ˙",
         "pinyin": "ma",
         "tone": 5,
-        "english": "?",
+        "english": "yes or no ?",
         "radicals": ["口", "馬"]
     },
     "為": {
@@ -1051,7 +1051,42 @@ const A1sentences = {
         "pinyin": "Nǐ yě xiǎng lái wǒ jiā ma?",
         "category": "也"
     },
-
+    "不客氣": {
+        "english": "you're welcome, don't mention it",
+        "zhuyin": "",
+        "pinyin": "bù kè qi",
+        "category": "basics"
+    },
+    "對不起": {
+        "english": "I'm sorry, unworthy, to let down, excuse me",
+        "zhuyin": "ㄉㄨㄟˋ ㄅㄨˋ ㄑㄧˇ",
+        "pinyin": "duì bu qǐ",
+        "category": "basics"
+    },
+    "沒關係": {
+        "english": "it doesn't matter",
+        "zhuyin": "ㄇㄟˊ ㄍㄨㄢ ㄒㄧˋ",
+        "pinyin": "méi guān xi",
+        "category": "basics"
+    },
+    "怎麼樣": {
+        "english": "how was it? how are things?",
+        "zhuyin": "ㄗㄣˇ ㄇㄜ˙ ㄧㄤˋ",
+        "pinyin": "zěn me yàng",
+        "category": "basics"
+    },
+    // "": {
+    //     "english": "",
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "category": ""
+    // },
+    // "": {
+    //     "english": "",
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "category": ""
+    // },
     // "": {
     //     "english": "",
     //     "zhuyin": "",
@@ -1059,7 +1094,293 @@ const A1sentences = {
     //     "category": ""
     // },
 }
-
+const A1words = {
+    "爸爸": {
+        "zhuyin": "ㄅㄚˋ ㄅㄚˋ",
+        "pinyin": "bà ba",
+        "english": "(informal) father"
+    },
+    "北京": {
+        "zhuyin": "ㄅㄟˇ ㄐㄧㄥ",
+        "pinyin": "Běi jīng",
+        "english": "Beijing"
+    },
+    "電腦": {
+        "zhuyin": "ㄉㄧㄢˋ ㄋㄠˇ",
+        "pinyin": "diàn nǎo",
+        "english": "computer"
+    },
+    "電視": {
+        "zhuyin": "ㄉㄧㄢˋ ㄕˋ",
+        "pinyin": "diàn shì",
+        "english": "tv"
+    },
+    "電影": {
+        "zhuyin": "ㄉㄧㄢˋ ㄧㄥˇ",
+        "pinyin": "diàn yǐng",
+        "english": "movie, film"
+    },
+    "東西": {
+        "zhuyin": "ㄉㄨㄥ ㄒㄧ",
+        "pinyin": "dōng xi",
+        "english": "thing, stuff"
+    },
+    "多少": {
+        "zhuyin": "ㄉㄨㄛ ㄕㄠˇ",
+        "pinyin": "duō shao",
+        "english": "how much, how many"
+    },
+    "兒子": {
+        "zhuyin": "ㄦˊ ㄗˇ",
+        "pinyin": "ér zi",
+        "english": "son"
+    },
+    "飯館": {
+        "zhuyin": "ㄈㄢˋ ㄍㄨㄢˇ",
+        "pinyin": "fàn guǎn",
+        "english": "restaurant"
+    },
+    "飛機": {
+        "zhuyin": "ㄈㄟ ㄐㄧ ",
+        "pinyin": "fēi jī",
+        "english": "airplane"
+    },
+    "分鐘": {
+        "zhuyin": "ㄈㄣ ㄓㄨㄥ",
+        "pinyin": "fēn zhōng",
+        "english": "minute"
+    },
+    "高興": {
+        "zhuyin": "ㄍㄠ ㄒㄧㄥ",
+        "pinyin": "gāo xìng",
+        "english": "happy, glad"
+    },
+    "工作": {
+        "zhuyin": "ㄍㄨㄥ ㄗㄨㄛˋ",
+        "pinyin": "gōng zuò",
+        "english": "to work, job, work, task"
+    },
+    "漢語": {
+        "zhuyin": "ㄏㄢˋ ㄩˇ",
+        "pinyin": "Hàn yǔ",
+        "english": "Chinese language"
+    },
+    "後面": {
+        "zhuyin": "ㄏㄡˋ ㄇㄧㄢˋ",
+        "pinyin": "hòu mian",
+        "english": "rear, back, behind, later, after"
+    },
+    "今天": {
+        "zhuyin": "ㄐㄧㄣ ㄊㄧㄢ",
+        "pinyin": "jīn tiān",
+        "english": "today, now"
+    },
+    "看見": {
+        "zhuyin": "ㄎㄢˋ ㄐㄧㄢˋ",
+        "pinyin": "kàn jiàn",
+        "english": "to see, to catch sight of"
+    },
+    "老師": {
+        "zhuyin": "ㄌㄠˇ ㄕ",
+        "pinyin": "lǎo shī",
+        "english": "teacher"
+    },
+    "媽媽": {
+        "zhuyin": "ㄇㄚ ㄇㄚ",
+        "pinyin": "mā ma",
+        "english": "mama"
+    },
+    "米飯": {
+        "zhuyin": "ㄇㄧˇ ㄈㄢˋ",
+        "pinyin": "mǐ fàn",
+        "english": "(cooked) rice"
+    },
+    "明天": {
+        "zhuyin": "ㄇㄧㄥˊ ㄊㄧㄢ",
+        "pinyin": "míng tiān",
+        "english": "tomorrow"
+    },
+    "名字": {
+        "zhuyin": "ㄇㄧㄥˊ ㄗˋ",
+        "pinyin": "míng zi",
+        "english": "name"
+    },
+    "女兒": {
+        "zhuyin": "ㄋㄩˇ ㄦˊ",
+        "pinyin": "nǚ ér",
+        "english": "daughter"
+    },
+    "朋友": {
+        "zhuyin": "ㄆㄥˊ ㄧㄡˇ",
+        "pinyin": "péng you",
+        "english": "friend"
+    },
+    "漂亮": {
+        "zhuyin": "ㄆㄧㄠ ㄌㄧㄤˋ",
+        "pinyin": "piào liang",
+        "english": "pretty, beautiful"
+    },
+    "蘋果": {
+        "zhuyin": "ㄆㄧㄥˊ ㄍㄨㄛˇ",
+        "pinyin": "píng guǒ",
+        "english": "apple"
+    },
+    "前面": {
+        "zhuyin": "ㄑㄧㄢˊ ㄇㄧㄢˋ",
+        "pinyin": "qián miàn",
+        "english": "ahead, in front, preceding"
+    },
+    "認識": {
+        "zhuyin": "ㄖㄣˋ ㄕˊ",
+        "pinyin": "rèn shi",
+        "english": "to know, to recognize, to be familliar with"
+    },
+    "商店": {
+        "zhuyin": "ㄕㄤ ㄉㄧㄢˋ",
+        "pinyin": "shāng diàn",
+        "english": "store, shop"
+    },
+    "上午": {
+        "zhuyin": "ㄕㄤˋ ㄨˇ",
+        "pinyin": "shàng wǔ",
+        "english": "morning"
+    },
+    "什麼": {
+        "zhuyin": "ㄕˊ ㄇㄜ˙",
+        "pinyin": "shén me",
+        "english": "what, who, something, anything"
+    },
+    "時候": {
+        "zhuyin": "ㄕˊ ㄏㄡˋ",
+        "pinyin": "shí hou",
+        "english": "time, length of time, moment, period"
+    },
+    "水果": {
+        "zhuyin": "ㄕㄨㄟˇ ㄍㄨㄛˇ",
+        "pinyin": "shuǐ guǒ",
+        "english": "fruit, fruits"
+    },
+    "睡覺": {
+        "zhuyin": "ㄕㄨㄟˋ ㄐㄩㄝˊ",
+        "pinyin": "shuì jiào",
+        "english": "to go to bed, to sleep"
+    },
+    "說話": {
+        "zhuyin": "ㄕㄨㄛ ㄏㄨㄚˋ",
+        "pinyin": "shuō huà",
+        "english": "to speak, say, talk, tell stories"
+    },
+    "天氣": {
+        "zhuyin": "ㄊㄧㄢ ㄑㄧˋ",
+        "pinyin": "tiān qì",
+        "english": "weather"
+    },
+    "同學": {
+        "zhuyin": "ㄊㄨㄥˊ ㄒㄩㄝˊ",
+        "pinyin": "tóng xué",
+        "english": "to study at the same school, classmate"
+    },
+    "喜歡": {
+        "zhuyin": "ㄒㄧˇ ㄏㄨㄢ",
+        "pinyin": "xǐ huan",
+        "english": "to like, be fond of"
+    },
+    "下午": {
+        "zhuyin": "ㄒㄧㄚˋ ㄨˇ",
+        "pinyin": "xià wǔ",
+        "english": "afternoon"
+    },
+    "下雨": {
+        "zhuyin": "ㄒㄧㄚˋ ㄩˇ",
+        "pinyin": "xià yǔ",
+        "english": "to rain, rainy"
+    },
+    "先生": {
+        "zhuyin": "ㄒㄧㄢ ㄕㄥ",
+        "pinyin": "xiān sheng",
+        "english": "Mr. or sir"
+    },
+    "小姐": {
+        "zhuyin": "ㄒㄧㄠˇ ㄐㄧㄝˇ",
+        "pinyin": "xiǎo jiě",
+        "english": "Miss"
+    },
+    "現在": {
+        "zhuyin": "ㄒㄧㄢˋ ㄗㄞˋ",
+        "pinyin": "xiàn zài",
+        "english": "now, at present, at the moment, nowadays, currently"
+    },
+    "星期": {
+        "zhuyin": "ㄒㄧㄥ ㄑㄧ ",
+        "pinyin": "xīng qī",
+        "english": "week"
+    },
+    "學生": {
+        "zhuyin": "ㄒㄩㄝˊ ㄕㄥ",
+        "pinyin": "xué sheng",
+        "english": "student"
+    },
+    "學習": {
+        "zhuyin": "ㄒㄩㄝˊ ㄒㄧˊ",
+        "pinyin": "xué xí",
+        "english": "to learn, to study"
+    },
+    " 學校": {
+        "zhuyin": "ㄒㄩㄝˊ ㄒㄧㄠˋ",
+        "pinyin": "xué xiào",
+        "english": "school"
+    },
+    "衣服": {
+        "zhuyin": "ㄧ ㄈㄨˊ",
+        "pinyin": "yī fu",
+        "english": "clothes"
+    },
+    "醫生": {
+        "zhuyin": "ㄧ ㄕㄥ",
+        "pinyin": "yī shēng",
+        "english": "doctor"
+    },
+    "醫院": {
+        "zhuyin": "ㄧ ㄩㄢˋ",
+        "pinyin": "yī yuàn",
+        "english": "hospital"
+    },
+    "椅子": {
+        "zhuyin": "ㄧˇ ㄗˇ",
+        "pinyin": "yǐ zi",
+        "english": "chair"
+    },
+    "再見": {
+        "zhuyin": " ㄗㄞˋ ㄐㄧㄢˋ",
+        "pinyin": "zài jiàn",
+        "english": "goodbye, see you later"
+    },
+    "中國": {
+        "zhuyin": "ㄓㄨㄥ ㄍㄨㄛˊ",
+        "pinyin": "Zhōng guó",
+        "english": "China"
+    },
+    "中午": {
+        "zhuyin": "ㄓㄨㄥ ㄨˇ",
+        "pinyin": "zhōng wǔ",
+        "english": "noon"
+    },
+    "桌子": {
+        "zhuyin": "ㄓㄨㄛ ㄗˇ ",
+        "pinyin": "zhuō zi",
+        "english": "table, desk"
+    },
+    "昨天": {
+        "zhuyin": "ㄗㄨㄛˊ ㄊㄧㄢ",
+        "pinyin": "zuó tiān",
+        "english": "yesterday"
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": ""
+    // },
+}
 const zhuyinCharacters = {
     "ㄅ": {
         "pinyin": "b",
