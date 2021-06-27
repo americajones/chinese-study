@@ -333,7 +333,7 @@ input {
   font-size: 17px;
 }
 .faded {
-  opacity: 13%;
+  opacity: 15%;
 }
   /* Tablet menu */
   @media all and (min-width: 700px) {

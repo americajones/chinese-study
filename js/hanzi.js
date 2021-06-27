@@ -1188,7 +1188,7 @@ const A1words = {
     "媽媽": {
         "zhuyin": "ㄇㄚ ㄇㄚ",
         "pinyin": "mā ma",
-        "english": "mama"
+        "english": "(informal) mother"
     },
     "米飯": {
         "zhuyin": "ㄇㄧˇ ㄈㄢˋ",
