@@ -24,6 +24,13 @@ let selectedAnswer;
 let answersArray = [];
 let randoNumber = 69;
 let numberArray = [];
+let lightercolor = "#fdecb8";
+let lightcolor = "#ffbf6f";
+let medlightcolor = "#f7b6a2";
+let redcolor = "#ca3b70";
+let medpurpcolor = "#58537b";
+let darkblucolor = "#1f2b53";
+let darkestblucolor = "#111b34";
 
 pageHeader.addEventListener('click', function () {
     location.reload()
@@ -142,6 +149,11 @@ function loadZhuyinRadicalFlashcards() {
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
+    let div = document.createElement('div');
+    div.classList.add('center');
+    div.classList.add('listen');
+    div.innerHTML = "<p><a href='https://www.mdnkids.com/BoPoMo/'>(listen)</a></p>";
+    flashBox.append(div);
     for (var [zhuyin, value] of Object.entries(zhuyinCharacters)) {
         zhuyinCharArray.push(zhuyin);
         zhuyinMeaningsArray.push(value.pinyin);
@@ -157,6 +169,7 @@ function loadZhuyinRadicalFlashcards() {
         nuDiv.append(nuTxt);
         flashBox.append(nuDiv);
     };
+
     for (var [hanzi, value] of Object.entries(chineseRadicals)) {
         radicalCharArray.push(hanzi);
         radicalZhuArray.push(value.zhuyin);
@@ -734,7 +747,7 @@ function makeCharacter(char) {
         delayBetweenStrokes: 500,
         drawingColor: "#ffffff",
         strokeColor: '#000',
-        outlineColor: '#555',
+        outlineColor: '#6670a0',
         // radicalColor: '#168F16'
     });
     document.getElementById('animate-button').addEventListener('click', function () {
@@ -1231,7 +1244,7 @@ function makeWord(char) {
         delayBetweenStrokes: 500,
         drawingColor: "#ffffff",
         strokeColor: '#000',
-        outlineColor: '#555',
+        outlineColor: '#6670a0',
         // radicalColor: '#168F16'
     });
     document.getElementById('animate-button').addEventListener('click', function () {

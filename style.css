@@ -6,15 +6,18 @@
   .title {
     font-size: 30px;
     font-weight: 700;
-    color: grey;
+    color: #cfb4df;
   }
   body{
-    background-color: rgb(17, 17, 17);
-    color: rgb(200, 200, 200);
+    background-color: #080b14;
+    color: #d5dfff;
     margin:auto;
     font-family: Arial, Helvetica, fantasy, sans-serif;
     font-size: 17px;
     padding: 0;
+}
+#main-char{
+  color:white;
 }
 h2{
     text-align: center;
@@ -31,12 +34,12 @@ h1{
   font-family: BradleyHand, cursive;
 }
   nav {
-    background: #222;
+    background: #111b34;
     padding: 0 15px;
     position: relative;
   }
   a {
-    color: rgb(200, 200, 200);
+    color: #d5dfff;
     text-decoration: none;
   }
   .menu,
@@ -52,8 +55,8 @@ h1{
   }
   .item:not(.button) a:hover,
   .item a:hover::after {
-    color: rgb(255, 255, 255);
-    background-color: rgb(10, 10, 10);
+    color: white;
+    background-color: #0d1425;
   }
   /* Mobile menu */
   .menu {
@@ -88,7 +91,7 @@ h1{
   }
   .button.secondary {
     /* divider between buttons and menu links */
-    border-bottom: 1px #444 solid;
+    border-bottom: 1px #4b5377 solid;
   }
   /* Submenu up from mobile screens */
   .submenu {
@@ -106,14 +109,14 @@ h1{
     line-height: 16px;
     font-weight: 900;
     content: "▼";
-    color: rgb(200, 200, 200);
+    color: white;
     padding-left: 5px;
   }
   .subitem a {
     padding: 10px 15px;
   }
   .submenu-active {
-    background-color: #111;
+    background-color: #111b34;
     border-radius: 3px;
     z-index: 4;
   }
@@ -123,13 +126,12 @@ h1{
     max-height: 800px;
     margin: auto;
     margin-top: 0;
-    padding: 10px;
 }
 .answers{
     display: flex;
     width: 100vw;
     height: 100vw;
-    border: solid 1px rgb(66, 66, 66);
+    border: solid 1px #4b5377;
     margin:auto;
     margin-top: 1em;
     flex-wrap: wrap;
@@ -143,15 +145,15 @@ h1{
     flex-direction: row;
 }
 .answer:hover{
-    background-color: black;
+    background-color: #080b14;
 }
 .answer{    
-    background-color: rgb(27, 27, 27);
+    background-color: #1f2b53;
     text-align: center;
     display: flex;
     flex-flow: column;
     justify-content: center;
-    border: solid 1px rgb(66, 66, 66);
+    border: solid 1px #4b5377;
     border-top: none;
     border-bottom: none;
     font-size: 1em;
@@ -162,15 +164,19 @@ h1{
     cursor: pointer;
     padding: 10px;
 }
+.butt:hover {
+background-color: #0d1425;
+}
 .butt {
-    background-color: rgb(17, 17, 17);
-    color: rgb(192, 192, 192);
+    background-color: #111b34;
+    color: #d5dfff;
     padding: 16px;
     font-size: 15px;
     border: none;
     cursor: pointer;
     /* width: 160px; */
     text-align: center;
+    border-radius: 5px;
 }
 .swap {
   margin: auto;
@@ -194,12 +200,9 @@ h1{
   text-align: center;
 }
 #quiz-practice {
-  background-color: rgb(66, 66, 66);
+  background-color: #4b5377;
   height: 100vh;
 }  
-.flashbutt:active {
-  background-color: #964444;
-}
 .flashButtBox {
   display: flex;
   flex-direction: row;
@@ -230,7 +233,7 @@ h1{
   margin: 1px 1px;
   padding: 13px 0px;
   padding-bottom: 0px;
-  color: rgb(192, 192, 192);
+  color: #d5dfff;
 }
 .zhuyinFlashcards:nth-child(22) p{
   margin: 0;
@@ -260,20 +263,23 @@ font-size: 40px;
 }
 .radicalFlashcards {
   text-align: center;
-  background-color: rgb(36, 36, 36);
+  background-color: #4b5377;
   padding: 2em 1em;
   margin-right: .5em;
   margin-bottom: .5em;
   width: 175px;
 }
 .radicalFlashcards:nth-child(3n + 3) {
-  background-color: rgb(20, 20, 20);
+  background-color: #24325f;
 }
 .radicalFlashcards:nth-child(3n+2) {
-  background-color: rgb(7, 7, 7);
+  background-color: #111b34;
+}
+.grammBox:nth-child(even) {
+  background-color: #24325f;
 }
 .grammBox {
-  background-color: rgb(37, 37, 37);
+  background-color: #4b5377;
   padding: 1em;
   margin-top: 1.5em;
   width: 100%;
@@ -308,7 +314,7 @@ input {
   margin: auto;
 }
 .grammBox:nth-child(odd) {
-  background-color: rgb(63, 63, 63);
+  background-color: #4b5377;
 }
 .show {display:block;}
 .hidden {display:none;}
@@ -319,12 +325,15 @@ input {
   font-weight: 300;
   font-size: 28px;
 }
+.listen a{
+ color: #cfb4df;
+}
 .padding {
   padding: 1em;
 }
 .topdrop {
   text-align: right;
-  color: rgb(160, 160, 160);
+  color: #d5dfff;
 }
 .large {
   font-size: 40px;
@@ -358,39 +367,27 @@ input {
       padding: 10px 15px;
       margin: 5px 0;
     }
-    .button a {
-      background: #0080ff;
-      border: 1px royalblue solid;
-    }
     .button.secondary {
       border: 0;
     }
-    .button.secondary a {
-      background: transparent;
-      border: 1px #0080ff solid;
-    }
     .button a:hover {
       text-decoration: none;
-    }
-    .button:not(.secondary) a:hover {
-      background: royalblue;
-      border-color: darkblue;
     }
       .answers{
           width: 600px;
           height: 600px;
           border: none;
-          border-left: 1px solid rgb(66, 66, 66);
+          border-left: 1px solid #58537b;
       }
       #quiz-practice {
           height: auto;
       }
       .answer{
-          font-size: 1.3em;
+        font-size: 1.3em;
       }
       .skip,
       .swap {
-          position:relative;
+        position:relative;
       }
       .grammBox {
         width: 370px;
@@ -401,17 +398,21 @@ input {
       .title{
         margin-right: 1em;
       }
-  }
-  /* Desktop menu */
-  @media all and (min-width: 960px) {
-    body {
-      max-width: 1200px;
     }
-    .menu {
-      align-items: flex-start;
-      flex-wrap: nowrap;
-      background: none;
-    }
+    /* Desktop menu */
+    @media all and (min-width: 960px) {
+      body {
+        max-width: 1200px;
+        padding: 1rem;
+      }
+      #quiz-practice {
+          padding:2rem;
+      }
+      .menu {
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        background: none;
+      }
     .logo {
       order: 0;
     }
@@ -429,7 +430,7 @@ input {
       position: absolute;
       left: 0;
       top: 68px;
-      background: #111;
+      background: #111b34;
     }
     .toggle {
       display: none;
@@ -441,163 +442,3 @@ input {
       margin-right: 1em;
     }
   }
-
-
-/* body{
-    background-color: rgb(17, 17, 17);
-    color: white;
-    max-width: 900px;
-    margin:auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    padding: 0;
-}
-h2{
-    text-align: center;
-    padding: 0;
-    margin:0;
-}
-h1{
-    text-align: center;
-    margin:0;
-    padding: 5px;
-    font-size: 45px;
-}
-.title {
-    font-size: 30px;
-    color: rgb(175, 175, 175);
-}
-.answers img {
-    width: 100%;
-}
-.answers{
-    display: flex;
-    width: 100vw;
-    height: 100vw;
-    border: solid 1px rgb(66, 66, 66);
-    margin:auto;
-    margin-top: 1em;
-    flex-wrap: wrap;
-    align-content: stretch;
-    min-width: 300px;
-    min-height: 300px;
-
-}
-.bottom-buttons {
-    display: flex;
-    flex-direction: row;
-}
-.answer:hover{
-    background-color: black;
-}
-.answer{    
-    background-color: rgb(27, 27, 27);
-    text-align: center;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    border: solid 1px rgb(66, 66, 66);
-    font-size: 1em;
-    width:33%;
-    height:33%;
-    overflow: hidden;
-    border-inline-start: none;
-    cursor: pointer;
-}
-.top {
-    z-index: 2;
-}
-.butt {
-    background-color: rgb(17, 17, 17);
-    color: rgb(192, 192, 192);
-    padding: 16px;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    width: 160px;
-    text-align: center;
-}
-.header {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 5px;
-}
-.swap {
-    margin: auto;
-    width: 150px;
-    text-align: center;
-    margin-top: 1rem;
-    position: absolute;
-    bottom: 0;
-}
-.skip {
-    margin: auto;
-    width: 150px;
-    text-align: center;
-    margin-top: 1rem;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-.level-dropdown {
-    height: 1.5em;
-    width: max-content;
-}
-.arrow {
-    transform: rotate(90deg);
-    margin-left: 1em;
-}
-.butt:hover, .butt:focus {
-    background-color: #964444;
-}
-
-.secret-message {
-    position: absolute;
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.6);
-    z-index: 1;
-}
-.dropdown-content button {
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    padding: 12px 16px;
-    background-color: rgb(65, 65, 65);
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    border: none;
-    border-top: 1px solid rgb(17, 17, 17);
-}
-.dropdown-content button:hover {
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
-
-@media only screen and (min-width: 700px) {
-    .answers{
-        width: 600px;
-        height: 600px;
-        border: none;
-        border-left: 1px solid rgb(66, 66, 66);
-    }
-    #quiz-practice {
-        height: auto;
-    }
-    .answer{
-        font-size: 1.5em
-    }
-    .skip,
-    .swap {
-        position:relative;
-    }
-} */
