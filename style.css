@@ -55,7 +55,7 @@ h1{
   }
   .item:not(.button) a:hover,
   .item a:hover::after {
-    color: white;
+    color: #f1daff;
     background-color: #0d1425;
   }
   /* Mobile menu */
@@ -85,10 +85,22 @@ h1{
     width: 100%;
     text-align: right;
     display: none;
+    border-bottom: dotted 1px #cfb4df;
+  }
+  .item:last-child {
+    border-bottom: none;
   }
   .active .item {
     display: block;
   }
+  .secret-message{
+    width: 80px;
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: 2em;
+    color: #cfb4df;
+}
   .button.secondary {
     /* divider between buttons and menu links */
     border-bottom: 1px #4b5377 solid;
@@ -114,9 +126,10 @@ h1{
   }
   .subitem a {
     padding: 10px 15px;
+    border-top: dotted 1px #4b5377;
   }
   .submenu-active {
-    background-color: #111b34;
+    background-color: #0c1324;
     border-radius: 3px;
     z-index: 4;
   }
@@ -143,6 +156,7 @@ h1{
 .bottom-buttons {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .answer:hover{
     background-color: #080b14;
@@ -264,20 +278,21 @@ background-color: #0d1425;
   position: absolute;
   left: 5px;
   top: 5px;
-  opacity: 36%;
+  opacity: 45%;
+  color: #d5dfff;
 }
 .radicalFlashcards h2 {
 font-weight: 200;
-font-size: 40px;
 }
 .radicalFlashcards {
   text-align: center;
   position: relative;
   background-color: #4b5377;
   padding: 2em 1em;
+  margin-top: .5em;
   margin-right: .5em;
-  margin-bottom: .5em;
   width: 175px;
+  border-radius: 4px;
 }
 .radicalFlashcards:nth-child(3n + 3) {
   background-color: #24325f;
@@ -345,14 +360,27 @@ input {
   text-align: right;
   color: #d5dfff;
 }
+.med {
+  font-size: 30px;
+}
 .large {
   font-size: 40px;
+}
+.xlarge {
+  font-size: 55px;
+  font-weight: 100;
 }
 .small {
   font-size: 17px;
 }
 .faded {
   opacity: 15%;
+}
+.semifaded {
+  opacity: 55%;
+}
+.pink {
+  color: #f1daff;
 }
   /* Tablet menu */
   @media all and (min-width: 700px) {
@@ -431,6 +459,7 @@ input {
       position: relative;
       display: block;
       width: auto;
+      border: none;
     }
     .button {
       order: 2;
@@ -450,5 +479,18 @@ input {
     }
     .grammBox {
       margin-right: 1em;
+    }
+    .med {
+      font-size: 30px;
+    }
+    .large {
+      font-size: 40px;
+    }
+    .xlarge {
+      font-size: 55px;
+      font-weight: 100;
+    }
+    .small {
+      font-size: 17px;
     }
   }

@@ -164,6 +164,7 @@ function loadZhuyinRadicalFlashcards() {
         nuTxt.textContent = value.pinyin;
         nuDivTit.classList.add('cursive');
         nuTxt.classList.add('small');
+        nuTxt.classList.add('semifaded');
         nuDiv.classList.add('zhuyinFlashcards')
         nuDiv.append(nuDivTit);
         nuDiv.append(nuTxt);
@@ -186,9 +187,11 @@ function loadZhuyinRadicalFlashcards() {
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
         nuDivTit.classList.add('cursive');
+        nuDivTit.classList.add('xlarge');
         nuTxt.classList.add('cursive');
         nuTxt.classList.add('faded');
         nuTxt2.classList.add('small');
+        nuTxt2.classList.add('pink');
         nuTxt2.classList.add('opacity');
         nuDiv.classList.add('radicalFlashcards');
         nuDiv.addEventListener('click', toggleEnglish);
@@ -206,8 +209,8 @@ function returnNumberArray(num) {
     let numberArr = new Array(num);
     return numberArr;
 }
-let numberrr = 0;
 function loadHanziFlashcards() {
+    let numberrr = 0;
     pageHeader.textContent = "";
     pageHeader.textContent = "方字";
     quizStudyBox.classList.add('hidden');
@@ -236,7 +239,9 @@ function loadHanziFlashcards() {
         nuTxt2.textContent = value.english;
         nuTxt2.classList.add('small');
         nuTxt2.classList.add('opacity');
+        nuTxt2.classList.add('pink');
         nuDivTit.classList.add('cursive');
+        nuDivTit.classList.add('xlarge');
         nuTxt.classList.add('cursive');
         nuTxt.classList.add('faded');
         nuDiv.classList.add('radicalFlashcards');
@@ -252,6 +257,7 @@ function loadHanziFlashcards() {
     };
 }
 function loadWordFlashcards() {
+    let number = 0;
     pageHeader.textContent = "";
     pageHeader.textContent = "方字";
     quizStudyBox.classList.add('hidden');
@@ -271,16 +277,23 @@ function loadWordFlashcards() {
         let nuDivTit = document.createElement('h2');
         let nuTxt = document.createElement('p');
         let nuTxt2 = document.createElement('p');
+        number++;
+        let nuNumDiv = document.createElement('div');
+        nuNumDiv.classList.add('numLabel');
+        nuNumDiv.textContent = number;
         nuDivTit.textContent = word;
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
         nuTxt2.classList.add('small');
         nuTxt2.classList.add('opacity');
+        nuTxt2.classList.add('pink');
         nuDivTit.classList.add('cursive');
+        nuDivTit.classList.add('xlarge');
         nuTxt.classList.add('cursive');
         nuTxt.classList.add('faded');
         nuDiv.classList.add('radicalFlashcards');
         nuDiv.addEventListener('click', toggleEnglish);
+        nuDiv.append(nuNumDiv);
         nuDiv.append(nuTxt);
         nuDiv.append(nuDivTit);
         nuDiv.append(nuTxt2);
@@ -368,7 +381,7 @@ function loadZhuyinQuiz2() {
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick2)
         newDiv.classList.add('answer');
-        // newDiv.classList.add('large');
+        newDiv.classList.add('med');
         newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
@@ -715,6 +728,7 @@ function loadHanziWritingQuiz() {
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
+    mainCharText.classList.remove('cursive');
     secondaryCharText.textContent = "";
     let answersArray = [];
     trueAnswer = hanziArray[randoNumber];
