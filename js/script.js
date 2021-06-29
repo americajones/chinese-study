@@ -152,7 +152,7 @@ function loadZhuyinRadicalFlashcards() {
     let div = document.createElement('div');
     div.classList.add('center');
     div.classList.add('listen');
-    div.innerHTML = "<p><a href='https://www.mdnkids.com/BoPoMo/'>(listen)</a></p>";
+    div.innerHTML = "<p><a href='https://www.mdnkids.com/BoPoMo/'>(alphabet listen)</a></p>";
     flashBox.append(div);
     for (var [zhuyin, value] of Object.entries(zhuyinCharacters)) {
         zhuyinCharArray.push(zhuyin);
@@ -169,7 +169,7 @@ function loadZhuyinRadicalFlashcards() {
         nuDiv.append(nuTxt);
         flashBox.append(nuDiv);
     };
-
+    let numberr = 0;
     for (var [hanzi, value] of Object.entries(chineseRadicals)) {
         radicalCharArray.push(hanzi);
         radicalZhuArray.push(value.zhuyin);
@@ -178,6 +178,10 @@ function loadZhuyinRadicalFlashcards() {
         let nuDivTit = document.createElement('h2');
         let nuTxt = document.createElement('p');
         let nuTxt2 = document.createElement('p');
+        numberr++;
+        let nuNumDiv = document.createElement('div');
+        nuNumDiv.classList.add('numLabel');
+        nuNumDiv.textContent = numberr;
         nuDivTit.textContent = hanzi;
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
@@ -188,6 +192,7 @@ function loadZhuyinRadicalFlashcards() {
         nuTxt2.classList.add('opacity');
         nuDiv.classList.add('radicalFlashcards');
         nuDiv.addEventListener('click', toggleEnglish);
+        nuDiv.append(nuNumDiv);
         nuDiv.append(nuTxt);
         nuDiv.append(nuDivTit);
         nuDiv.append(nuTxt2);
@@ -196,13 +201,12 @@ function loadZhuyinRadicalFlashcards() {
             nuTxt2.classList.toggle('opacity');
         }
     };
-    // let number = radicalCharArray.length;
-    // let nuDiv = document.createElement
-    // flashBox2.prepend(number);
-
-    // console.log(numberArray);
-
 }
+function returnNumberArray(num) {
+    let numberArr = new Array(num);
+    return numberArr;
+}
+let numberrr = 0;
 function loadHanziFlashcards() {
     pageHeader.textContent = "";
     pageHeader.textContent = "方字";
@@ -223,6 +227,10 @@ function loadHanziFlashcards() {
         let nuDivTit = document.createElement('h2');
         let nuTxt = document.createElement('p');
         let nuTxt2 = document.createElement('p');
+        numberrr++;
+        let nuNumDiv = document.createElement('div');
+        nuNumDiv.classList.add('numLabel');
+        nuNumDiv.textContent = numberrr;
         nuDivTit.textContent = hanzi;
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
@@ -233,6 +241,7 @@ function loadHanziFlashcards() {
         nuTxt.classList.add('faded');
         nuDiv.classList.add('radicalFlashcards');
         nuDiv.addEventListener('click', toggleEnglish);
+        nuDiv.append(nuNumDiv);
         nuDiv.append(nuTxt);
         nuDiv.append(nuDivTit);
         nuDiv.append(nuTxt2);
@@ -1253,11 +1262,9 @@ function makeWord(char) {
 }
 function handleAnswerClick15() {
     selectedAnswer = charInput.value;
-    console.log("ANSWER IS: ", selectedAnswer);
     if (selectedAnswer == trueAnswer) {
         secretMessage.textContent = '. * nice! * .';
         mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
         charInput.value = "";
         setTimeout(() => {
             loadWordsWritingQuiz();
