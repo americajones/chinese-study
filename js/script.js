@@ -735,10 +735,12 @@ function loadHanziWritingQuiz() {
     answersArray.push(trueAnswer);
     makeCharacter(thisHanzi);
     // charInput.focus();
+    subButt.removeEventListener('click', handleAnswerClick15);
     subButt.addEventListener('click', handleAnswerClick10);
     subButt.classList.add('butt')
     wskipButt.classList.add('butt')
     wskipButt.addEventListener('click', loadHanziWritingQuiz);
+    wskipButt.removeEventListener('click', loadWordsWritingQuiz);
 
 }
 function handleAnswerClick10() {
@@ -1253,9 +1255,11 @@ function loadWordsWritingQuiz() {
     makeWord(char1);
     makeWord(char2);
     // charInput.focus();
+    subButt.removeEventListener('click', handleAnswerClick10);
     subButt.addEventListener('click', handleAnswerClick15);
     subButt.classList.add('butt')
     wskipButt.classList.add('butt')
+    wskipButt.removeEventListener('click', loadHanziWritingQuiz);
     wskipButt.addEventListener('click', loadWordsWritingQuiz);
 };
 function makeWord(char) {
