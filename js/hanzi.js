@@ -123,7 +123,7 @@ const hanziLevel1 = {
         "zhuyin": "ㄋㄚ ˋ",
         "pinyin": "nà",
         "tone": 4,
-        "english": "that",
+        "english": "that, those",
         "radicals": ["二", "阝"]
     },
     "要": {
@@ -705,6 +705,358 @@ const hanziLevel1 = {
 
     // 100/100 done!
 
+    "地": {
+        "zhuyin": "ㄉㄜ˙",
+        "pinyin": "de",
+        "tone": 5,
+        "english": "-ly, structural p.",
+        "radicals": ["土", "也"]
+    },
+    "再": {
+        "zhuyin": "ㄗㄞˋ",
+        "pinyin": "zài",
+        "tone": 4,
+        "english": "again, then",
+        "radicals": ["一", "土"]
+    },
+    "因": {
+        "zhuyin": "ㄧㄣ",
+        "pinyin": "yīn",
+        "tone": 1,
+        "english": "reason, cause",
+        "radicals": ["囗", "大"]
+    },
+    "呢": {
+        "zhuyin": "ㄋㄜ˙",
+        "pinyin": "ne",
+        "tone": 5,
+        "english": "how about...? (continuing p.)",
+        "radicals": ["", ""]
+    },
+    "女": {
+        "zhuyin": "ㄋㄩˇ",
+        "pinyin": "nǚ",
+        "tone": 3,
+        "english": "woman",
+        "radicals": ["", ""]
+    },
+    "告": {
+        "zhuyin": "ㄍㄠˋ",
+        "pinyin": "gào",
+        "tone": 4,
+        "english": "to tell",
+        "radicals": ["⺧", "口"]
+    },
+    "最": {
+        "zhuyin": "ㄗㄨㄟˋ",
+        "pinyin": "zuì",
+        "tone": 4,
+        "english": "most, -est",
+        "radicals": ["日", ""]
+    },
+    "手": {
+        "zhuyin": "ㄕㄡˇ",
+        "pinyin": "shǒu",
+        "tone": 3,
+        "english": "hand",
+        "radicals": ["", ""]
+    },
+    "前": {
+        "zhuyin": "ㄑㄧㄢˊ",
+        "pinyin": "qián",
+        "tone": 2,
+        "english": "front",
+        "radicals": ["", ""]
+    },
+    "找": {
+        "zhuyin": "ㄓㄠˇ",
+        "pinyin": "zhǎo",
+        "tone": 3,
+        "english": "find, to look for",
+        "radicals": ["扌", "戈"]
+    },
+    "行": {
+        "zhuyin": "ㄒㄧㄥˊ",
+        "pinyin": "xíng",
+        "tone": 2,
+        "english": "go, travel, walk, OK!",
+        "radicals": ["彳", "亍"]
+    },
+    "快": {
+        "zhuyin": "ㄎㄨㄞˋ",
+        "pinyin": "kuài",
+        "tone": 4,
+        "english": "quick, rapid, almost",
+        "radicals": ["忄", "人"]
+    },
+    "而": {
+        "zhuyin": "ㄦˊ",
+        "pinyin": "ér",
+        "tone": 2,
+        "english": "and, as well as",
+        "radicals": ["", ""]
+    },
+    "死": {
+        "zhuyin": "ㄙˇ",
+        "pinyin": "sǐ",
+        "tone": 3,
+        "english": "die",
+        "radicals": ["歹", "匕"]
+    },
+    "先": {
+        "zhuyin": "ㄒㄧㄢ",
+        "pinyin": "xiān",
+        "tone": 1,
+        "english": "first, former",
+        "radicals": ["⺧", "儿"]
+    },
+    "像": {
+        "zhuyin": "ㄒㄧㄤˋ",
+        "pinyin": "xiàng",
+        "tone": 4,
+        "english": "resemble, to be like, image",
+        "radicals": ["", ""]
+    },
+    "等": {
+        "zhuyin": "ㄉㄥˇ",
+        "pinyin": "děng",
+        "tone": 3,
+        "english": "rank, to wait for",
+        "radicals": ["", ""]
+    },
+    "被": {
+        "zhuyin": "ㄅㄟˋ",
+        "pinyin": "bèi",
+        "tone": 4,
+        "english": "(passive p.), quilt",
+        "radicals": ["", ""]
+    },
+    "從": {
+        "zhuyin": "ㄘㄨㄥˊ",
+        "pinyin": "cóng",
+        "tone": 2,
+        "english": "from, via, to follow",
+        "radicals": ["", ""]
+    },
+    "明": {
+        "zhuyin": "ㄇㄧㄥˊ",
+        "pinyin": "míng",
+        "tone": 2,
+        "english": "bright",
+        "radicals": ["日", "月"]
+    },
+    "中": {
+        "zhuyin": "ㄓㄨㄥ",
+        "pinyin": "zhōng",
+        "tone": 1,
+        "english": "middle, center",
+        "radicals": ["口", "丨"]
+    },
+    "哦": {
+        "zhuyin": "ㄛˊ",
+        "pinyin": "ó",
+        "tone": 2,
+        "english": "oh",
+        "radicals": ["口", "我"]
+    },
+    "情": {
+        "zhuyin": "ㄑㄧㄥˊ",
+        "pinyin": "qíng",
+        "tone": 2,
+        "english": "feeling, emotion",
+        "radicals": ["忄", "青"]
+    },
+    "作": {
+        "zhuyin": "ㄗㄨㄛˋ",
+        "pinyin": "zuò",
+        "tone": 4,
+        "english": "to do, grow, write",
+        "radicals": ["亻", "乍"]
+    },
+    "跟": {
+        "zhuyin": "ㄍㄣ",
+        "pinyin": "gēn",
+        "tone": 1,
+        "english": "with, to follow",
+        "radicals": ["", ""]
+    },
+    "面": {
+        "zhuyin": "ㄇㄧㄢˋ",
+        "pinyin": "miàn",
+        "tone": 4,
+        "english": "face, surface, noodles",
+        "radicals": ["", ""]
+    },
+    "訴": {
+        "zhuyin": "ㄙㄨˋ",
+        "pinyin": "sù",
+        "tone": 4,
+        "english": "complain, tell, accuse",
+        "radicals": ["", ""]
+    },
+    "愛": {
+        "zhuyin": "ㄞˋ",
+        "pinyin": "ài",
+        "tone": 4,
+        "english": "love",
+        "radicals": ["", ""]
+    },
+    "已": {
+        "zhuyin": "ㄧˇ",
+        "pinyin": "yǐ",
+        "tone": 3,
+        "english": "already",
+        "radicals": ["", ""]
+    },
+    "之": {
+        "zhuyin": "ㄓ",
+        "pinyin": "zhī",
+        "tone": 1,
+        "english": "of, (possessive p.)",
+        "radicals": ["", ""]
+    },
+    "問": {
+        "zhuyin": "ㄨㄣˋ",
+        "pinyin": "wèn",
+        "tone": 4,
+        "english": "ask",
+        "radicals": ["門", "口"]
+    },
+    "錯": {
+        "zhuyin": "ㄘㄨㄛˋ",
+        "pinyin": "cuò",
+        "tone": 4,
+        "english": "mistake",
+        "radicals": ["", ""]
+    },
+    "孩": {
+        "zhuyin": "ㄏㄞˊ",
+        "pinyin": "hái",
+        "tone": 2,
+        "english": "child",
+        "radicals": ["", ""]
+    },
+    "斯": {
+        "zhuyin": "ㄙ",
+        "pinyin": "sī",
+        "tone": 1,
+        "english": "this, (phonetic s)",
+        "radicals": ["", ""]
+    },
+    "成": {
+        "zhuyin": "ㄔㄥˊ",
+        "pinyin": "chéng",
+        "tone": 2,
+        "english": "to succeed, become",
+        "radicals": ["", ""]
+    },
+    "它": {
+        "zhuyin": "ㄊㄚ",
+        "pinyin": "tā",
+        "tone": 1,
+        "english": "it",
+        "radicals": ["宀", "匕"]
+    },
+    "感": {
+        "zhuyin": "ㄍㄢˇ",
+        "pinyin": "gǎn",
+        "tone": 3,
+        "english": "feel, emotiuon",
+        "radicals": ["咸", "心"]
+    },
+    "幹": {
+        "zhuyin": "ㄍㄢˋ",
+        "pinyin": "gàn",
+        "tone": 4,
+        "english": "do/work",
+        "radicals": ["干", ""]
+    },
+    "法": {
+        "zhuyin": "ㄈㄚˇ",
+        "pinyin": "fǎ",
+        "tone": 3,
+        "english": "law, method, way",
+        "radicals": ["", ""]
+    },
+    "電": {
+        "zhuyin": "ㄉㄧㄢˋ",
+        "pinyin": "diàn",
+        "tone": 4,
+        "english": "electric",
+        "radicals": ["雨", "电"]
+    },
+    "間": {
+        "zhuyin": "ㄐㄧㄢ",
+        "pinyin": "jiān",
+        "tone": 1,
+        "english": "between, among, room, space",
+        "radicals": ["門", "日"]
+    },
+    "哪": {
+        "zhuyin": "ㄋㄚˇ",
+        "pinyin": "nǎ",
+        "tone": 3,
+        "english": "which",
+        "radicals": ["口", "那"]
+    },
+    "西": {
+        "zhuyin": "ㄒㄧ",
+        "pinyin": "xī",
+        "tone": 1,
+        "english": "west",
+        "radicals": ["兀", "囗"]
+    },
+    "己": {
+        "zhuyin": "ㄐㄧˇ",
+        "pinyin": "jǐ",
+        "tone": 3,
+        "english": "self",
+        "radicals": ["", ""]
+    },
+    "候": {
+        "zhuyin": "ㄏㄡˋ",
+        "pinyin": "hòu",
+        "tone": 4,
+        "english": "to wait, season",
+        "radicals": ["", ""]
+    },
+    "次": {
+        "zhuyin": "ㄘˋ",
+        "pinyin": "cì",
+        "tone": 4,
+        "english": "once, time sequence, order",
+        "radicals": ["", ""]
+    },
+    "信": {
+        "zhuyin": "ㄒㄧㄣˋ",
+        "pinyin": "xìn",
+        "tone": 4,
+        "english": "letter, to trust",
+        "radicals": ["", ""]
+    },
+    "歡": {
+        "zhuyin": "ㄏㄨㄢ",
+        "pinyin": "huān",
+        "tone": 1,
+        "english": "joyous, pleased",
+        "radicals": ["雚", "欠"]
+    },
+    "正": {
+        "zhuyin": "ㄓㄥˋ",
+        "pinyin": "zhèng",
+        "tone": 4,
+        "english": "correct, just (right)",
+        "radicals": ["一", "止"]
+    },
+    "實": {
+        "zhuyin": "ㄕˊ",
+        "pinyin": "shí",
+        "tone": 2,
+        "english": "real, honest",
+        "radicals": ["", ""]
+    },
+    //150/200 done!
+
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
@@ -1070,7 +1422,7 @@ const A1sentences = {
         "category": "basics"
     },
     "怎麼樣": {
-        "english": "how was it? how are things?",
+        "english": "how was it? how are things? how about?",
         "zhuyin": "ㄗㄣˇ ㄇㄜ˙ ㄧㄤˋ",
         "pinyin": "zěn me yàng",
         "category": "basics"
@@ -1099,6 +1451,11 @@ const A1words = {
         "zhuyin": "ㄅㄚˋ ㄅㄚˋ",
         "pinyin": "bà ba",
         "english": "(informal) father"
+    },
+    "杯子": {
+        "zhuyin": "ㄅㄟ ㄗˇ",
+        "pinyin": "bēi zi",
+        "english": "cup, glass"
     },
     "北京": {
         "zhuyin": "ㄅㄟˇ ㄐㄧㄥ",
@@ -1134,6 +1491,11 @@ const A1words = {
         "zhuyin": "ㄦˊ ㄗˇ",
         "pinyin": "ér zi",
         "english": "son"
+    },
+    "飯店": {
+        "zhuyin": "ㄈㄢˋ ㄉㄧㄢˋ",
+        "pinyin": "fàn diàn",
+        "english": "restaurant, hotel"
     },
     "飯館": {
         "zhuyin": "ㄈㄢˋ ㄍㄨㄢˇ",
@@ -1204,6 +1566,11 @@ const A1words = {
         "zhuyin": "ㄇㄧㄥˊ ㄗˋ",
         "pinyin": "míng zi",
         "english": "name"
+    },
+    "哪兒": {
+        "zhuyin": "ㄋㄚˇ ㄦˊ",
+        "pinyin": "nǎ ér",
+        "english": "where?, wherever, anywhere"
     },
     "女兒": {
         "zhuyin": "ㄋㄩˇ ㄦˊ",
@@ -1280,6 +1647,11 @@ const A1words = {
         "pinyin": "tóng xué",
         "english": "to study at the same school, classmate"
     },
+    "我們": {
+        "zhuyin": "ㄨㄛˇ ㄇㄣˊ",
+        "pinyin": "wǒ men",
+        "english": "we, us, ourselves, our"
+    },
     "喜歡": {
         "zhuyin": "ㄒㄧˇ ㄏㄨㄢ",
         "pinyin": "xǐ huan",
@@ -1310,6 +1682,11 @@ const A1words = {
         "pinyin": "xiàn zài",
         "english": "now, at present, at the moment, nowadays, currently"
     },
+    "謝謝": {
+        "zhuyin": "ㄒㄧㄝˋ ㄒㄧㄝˋ",
+        "pinyin": "xiè xie",
+        "english": "thanks, to thank"
+    },
     "星期": {
         "zhuyin": "ㄒㄧㄥ ㄑㄧ ",
         "pinyin": "xīng qī",
@@ -1325,7 +1702,7 @@ const A1words = {
         "pinyin": "xué xí",
         "english": "to learn, to study"
     },
-    " 學校": {
+    "學校": {
         "zhuyin": "ㄒㄩㄝˊ ㄒㄧㄠˋ",
         "pinyin": "xué xiào",
         "english": "school"
@@ -1354,6 +1731,11 @@ const A1words = {
         "zhuyin": " ㄗㄞˋ ㄐㄧㄢˋ",
         "pinyin": "zài jiàn",
         "english": "goodbye, see you later"
+    },
+    "怎麼": {
+        "zhuyin": "ㄗㄣˇ ㄇㄜ˙",
+        "pinyin": "zěn me",
+        "english": "how?, what?, why?"
     },
     "中國": {
         "zhuyin": "ㄓㄨㄥ ㄍㄨㄛˊ",

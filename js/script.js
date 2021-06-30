@@ -702,7 +702,7 @@ function handleAnswerClick9() {
         }, 1000);
     }
 }
-
+let writingAnswers = "";
 const charTarget = document.querySelector('#character-target-div');
 const buttBox = document.querySelector('.writingButtBox');
 const subButt = document.querySelector('#subButt')
@@ -727,6 +727,7 @@ function loadHanziWritingQuiz() {
     hanziWriteBox.classList.remove('hidden');
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
+    writingAnswers = zhuyinArray[randoNumber] + " - " + meaningsArray[randoNumber];
     mainCharText.textContent = thisHanzi;
     mainCharText.classList.remove('cursive');
     secondaryCharText.textContent = "";
@@ -749,18 +750,19 @@ function handleAnswerClick10() {
     if (selectedAnswer == trueAnswer) {
         secretMessage.textContent = '. * nice! * .';
         mainCharText.append(" = ", selectedAnswer);
+        secondaryCharText.textContent = writingAnswers;
         console.log('. * nice! * .');
         charInput.value = "";
         setTimeout(() => {
             loadHanziWritingQuiz();
             secretMessage.textContent = '';
-        }, 1300);
+        }, 2500);
     } else {
         secretMessage.textContent = 'try again.';
         charInput.value = "";
         setTimeout(() => {
             secretMessage.textContent = '';
-        }, 1000);
+        }, 1500);
     }
 }
 function makeCharacter(char) {
@@ -1230,6 +1232,7 @@ function loadWordsWritingQuiz() {
     zhuyinArray = [];
     meaningsArray = [];
     charInput.value = "";
+    writingAnswers = "";
     getWords();
     sentenceBox.classList.add('hidden');
     answersBox.classList.add('hidden');
@@ -1245,6 +1248,7 @@ function loadWordsWritingQuiz() {
     writeBox.classList.add('words');
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
+    writingAnswers = zhuyinArray[randoNumber] + " - " + meaningsArray[randoNumber];
     mainCharText.textContent = thisHanzi;
     secondaryCharText.textContent = "";
     let answersArray = [];
@@ -1283,17 +1287,18 @@ function handleAnswerClick15() {
     if (selectedAnswer == trueAnswer) {
         secretMessage.textContent = '. * nice! * .';
         mainCharText.append(" = ", selectedAnswer);
+        secondaryCharText.textContent = writingAnswers;
         charInput.value = "";
         setTimeout(() => {
             loadWordsWritingQuiz();
             secretMessage.textContent = '';
-        }, 1300);
+        }, 5000);
     } else {
         secretMessage.textContent = 'try again.';
         charInput.value = "";
         setTimeout(() => {
             secretMessage.textContent = '';
-        }, 1000);
+        }, 1500);
     }
 }
 function loadRadicalWritingQuiz() {
