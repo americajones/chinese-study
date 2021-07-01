@@ -149,11 +149,6 @@ function loadZhuyinRadicalFlashcards() {
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
-    let div = document.createElement('div');
-    div.classList.add('center');
-    div.classList.add('listen');
-    div.innerHTML = "<p><a href='https://www.mdnkids.com/BoPoMo/'>(alphabet listen)</a></p>";
-    flashBox.append(div);
     for (var [zhuyin, value] of Object.entries(zhuyinCharacters)) {
         zhuyinCharArray.push(zhuyin);
         zhuyinMeaningsArray.push(value.pinyin);

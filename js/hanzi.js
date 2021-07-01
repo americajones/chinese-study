@@ -1763,6 +1763,34 @@ const A1words = {
     //     "english": ""
     // },
 }
+const idioms = {
+    "井底之蛙": {
+        "zhuyin": "ㄐㄧㄥˇ ㄉㄧˇ ㄓ ㄨㄚ",
+        "pinyin": "jǐng dǐ zhī wā",
+        "literal": "frog at bottom of the well",
+        "meaning": "used to describe a person who has a limited experience of the world, a limited outlook",
+    },
+    "畫蛇添足": {
+        "zhuyin": "ㄏㄨㄚˋ ㄕㄜˊ ㄊㄧㄢ ㄗㄨˊ",
+        "pinyin": "huà shé tiān zú",
+        "literal": "paint a snake with feet",
+        "meaning": "refers to spoiling things by doing something unnecessary",
+    },
+    "亡羊補牢": {
+        "zhuyin": "ㄨㄤˊ ㄧㄤˊ ㄅㄨˇ ㄌㄠˊ",
+        "pinyin": "wáng yáng bǔ láo",
+        "literal": "escaped sheep repair fence",
+        "meaning": "It is not too late to mend the sheep pen after the sheep have been lost. This idiom tells us that we can avoid more mistakes if we are able to correct the ones we have already committed. As long as we seek to remedy what we have done wrong, we’ll be able to avoid similar mistakes in the future.",
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "literal": "",
+    //     "meaning": "",
+    // },
+}
+
+//100% complete
 const zhuyinCharacters = {
     "ㄅ": {
         "pinyin": "b",
@@ -1950,7 +1978,6 @@ const zhuyinCharacters = {
         "isEnding": true
     }
 }
-
 const chineseRadicals = {
     "一": {
         "zhuyin": "一",
