@@ -91,6 +91,52 @@ function getGrammar() {
         nuDiv.classList.add('grammBox');
     }
 }
+function getIdioms() {
+    grammarArray = [];
+    gMeaningsArray = [];
+    gZhuyinArray = [];
+    gExplanationArray = [];
+    gPatternsArray = [];
+    pageHeader.textContent = "";
+    pageHeader.textContent = "成語";
+    quizStudyBox.classList.add('hidden');
+    sentenceBox.classList.remove('hidden');
+    hanziWriteBox.classList.add('hidden');
+    removeAllChildren(flashBox);
+    removeAllChildren(flashBox2);
+    removeAllChildren(flashBox3);
+    removeAllChildren(sentenceBox);
+    for (var [idiom, value] of Object.entries(idioms)) {
+        grammarArray.push(idiom);
+        gZhuyinArray.push(value.zhuyin);
+        gMeaningsArray.push(value.english);
+        gExplanationArray.push(value.explanation);
+        gPatternsArray.push(value.pattern);
+        let nuDiv = document.createElement('div');
+        let nuDivTit = document.createElement('h1');
+        let nuDivTit2 = document.createElement('h3');
+        let nuTxt = document.createElement('p');
+        let nuTxt2 = document.createElement('p');
+        nuDivTit.textContent = idiom;
+        nuDivTit2.textContent = value.literal;
+        nuTxt.textContent = value.zhuyin;
+        nuTxt2.textContent = value.meaning;
+        // nuDivTit.classList.add('light');
+        nuDivTit2.classList.add('small');
+        nuDivTit.classList.add('cursive');
+        // nuDivTit2.classList.add('cursive');
+        nuDivTit2.classList.add('padding');
+        // nuTxt.classList.add('center');
+        nuTxt.classList.add('faded');
+        nuTxt2.classList.add('left');
+        nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt);
+        nuDiv.append(nuDivTit2);
+        nuDiv.append(nuTxt2);
+        flashBox2.append(nuDiv);
+        nuDiv.classList.add('grammBox');
+    }
+}
 function getSentences() {
     sentencesArray = [];
     sMeaningsArray = [];
@@ -104,7 +150,6 @@ function getSentences() {
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
-
     for (var [sentence, value] of Object.entries(A1sentences)) {
         sentencesArray.push(sentence);
         sZhuyinArray.push(value.zhuyin);

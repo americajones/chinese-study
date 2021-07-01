@@ -29,6 +29,7 @@ h1{
     margin:0;
     padding: 5px;
     font-size: 40px;
+    font-weight: 400;
 }
 .cursive {
   font-family: cursive;
@@ -300,14 +301,17 @@ font-weight: 200;
 .radicalFlashcards:nth-child(3n+2) {
   background-color: #111b34;
 }
-.grammBox:nth-child(even) {
-  background-color: #24325f;
-}
 .grammBox {
   background-color: #4b5377;
-  padding: 1em;
+  padding: 2em;
   margin-top: 1.5em;
   width: 100%;
+}
+.grammBox:nth-child(3n + 3) {
+  background-color: #24325f;
+}
+.grammBox:nth-child(3n + 2) {
+  background-color: #111b34;
 }
 #hanziWriteBox {
   width: 200px;
@@ -337,9 +341,6 @@ input {
   flex-direction: row;
   width: 400px;
   margin: auto;
-}
-.grammBox:nth-child(odd) {
-  background-color: #4b5377;
 }
 .show {display:block;}
 .hidden {display:none;}

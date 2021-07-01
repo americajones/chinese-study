@@ -5,6 +5,7 @@ const hanziLevel1 = {
         "pinyin": "wǒ ",
         "tone": 3,
         "english": "I, me",
+        "simplified": "",
         "radicals": ["手", "戈"]
     },
     "的": {
@@ -12,6 +13,7 @@ const hanziLevel1 = {
         "pinyin": "de",
         "tone": 5,
         "english": "'s",
+        "simplified": "",
         "radicals": ["白", "勺"]
     },
     "你": {
@@ -19,6 +21,7 @@ const hanziLevel1 = {
         "pinyin": "nǐ",
         "tone": 3,
         "english": "you",
+        "simplified": "",
         "radicals": ["亻", "尔"]
     },
     "是": {
@@ -26,6 +29,7 @@ const hanziLevel1 = {
         "pinyin": "shì",
         "tone": 4,
         "english": "is, to be",
+        "simplified": "",
         "radicals": ["日", "一", "止"]
     },
     "了": {
@@ -33,6 +37,7 @@ const hanziLevel1 = {
         "pinyin": "le",
         "tone": 5,
         "english": "-ed, (completed action p.)",
+        "simplified": "",
         "radicals": [""]
     },
     "不": {
@@ -40,6 +45,7 @@ const hanziLevel1 = {
         "pinyin": "bù",
         "tone": 4,
         "english": "no, not",
+        "simplified": "",
         "radicals": ["丆", "卜"]
     },
     "們": {
@@ -47,13 +53,15 @@ const hanziLevel1 = {
         "pinyin": "men",
         "tone": 3,
         "english": "(plural p.)",
+        "simplified": "们",
         "radicals": ["亻", "門"]
     },
-    "這 ": {
+    "這": {
         "zhuyin": "ㄓㄜˋ",
         "pinyin": "zhè",
         "tone": 4,
         "english": "this",
+        "simplified": "这",
         "radicals": ["辶", "言"]
     },
     "一": {
@@ -61,6 +69,7 @@ const hanziLevel1 = {
         "pinyin": "yī",
         "tone": 1,
         "english": "one, a",
+        "simplified": "",
         "radicals": ["一"]
     },
     "他": {
@@ -68,6 +77,7 @@ const hanziLevel1 = {
         "pinyin": "tā",
         "tone": 1,
         "english": "he",
+        "simplified": "",
         "radicals": ["亻", "也"]
     },
     "麼": {
@@ -75,6 +85,7 @@ const hanziLevel1 = {
         "pinyin": "me",
         "tone": 5,
         "english": "(interrogative p.)",
+        "simplified": "么",
         "radicals": ["麻", "幺"]
     },
     "在": {
@@ -82,6 +93,7 @@ const hanziLevel1 = {
         "pinyin": "zài",
         "tone": 4,
         "english": "at",
+        "simplified": "",
         "radicals": ["𠂇", "土"]
     },
     "有": {
@@ -89,6 +101,7 @@ const hanziLevel1 = {
         "pinyin": "yǒu",
         "tone": 3,
         "english": "to have, there is",
+        "simplified": "",
         "radicals": ["𠂇", "月"]
     },
     "個": {
@@ -96,6 +109,7 @@ const hanziLevel1 = {
         "pinyin": "gè",
         "tone": 4,
         "english": "individual, (general measure word)",
+        "simplified": "个",
         "radicals": ["亻", "固"]
     },
     "好": {
@@ -103,6 +117,7 @@ const hanziLevel1 = {
         "pinyin": "hǎo",
         "tone": 3,
         "english": "good, well",
+        "simplified": "",
         "radicals": ["女", "子"]
     },
     "來": {
@@ -110,6 +125,7 @@ const hanziLevel1 = {
         "pinyin": "lái",
         "tone": 2,
         "english": "to come",
+        "simplified": "来 ",
         "radicals": ["木", "从"]
     },
     "人": {
@@ -117,6 +133,7 @@ const hanziLevel1 = {
         "pinyin": "rén",
         "tone": 2,
         "english": "person",
+        "simplified": "",
         "radicals": [""]
     },
     "那": {
@@ -124,6 +141,7 @@ const hanziLevel1 = {
         "pinyin": "nà",
         "tone": 4,
         "english": "that, those",
+        "simplified": "",
         "radicals": ["二", "阝"]
     },
     "要": {
@@ -131,6 +149,7 @@ const hanziLevel1 = {
         "pinyin": "yào",
         "tone": 4,
         "english": "to want, important",
+        "simplified": "",
         "radicals": ["覀", "女"]
     },
     "會": {
@@ -138,6 +157,7 @@ const hanziLevel1 = {
         "pinyin": "huì",
         "tone": 4,
         "english": "meet, can, will, to know",
+        "simplified": "会",
         "radicals": ["京", "尤"]
     },
     "就": {
@@ -145,6 +165,7 @@ const hanziLevel1 = {
         "pinyin": "jiù",
         "tone": 4,
         "english": "then, just, at once",
+        "simplified": "",
         "radicals": ["京", "尤"]
     },
     "什": {
@@ -152,6 +173,7 @@ const hanziLevel1 = {
         "pinyin": "shén",
         "tone": 2,
         "english": "what",
+        "simplified": "",
         "radicals": ["亻", "十"]
     },
     "沒": {
@@ -159,6 +181,7 @@ const hanziLevel1 = {
         "pinyin": "méi",
         "tone": 2,
         "english": "have not",
+        "simplified": "没",
         "radicals": ["氵", "又"]
     },
     "到": {
@@ -166,6 +189,7 @@ const hanziLevel1 = {
         "pinyin": "dào",
         "tone": 4,
         "english": "to arrive",
+        "simplified": "",
         "radicals": ["至", "刂"]
     },
     "說": {
@@ -173,6 +197,7 @@ const hanziLevel1 = {
         "pinyin": "shuō",
         "tone": 1,
         "english": "to speak",
+        "simplified": "说",
         "radicals": ["言", "兌"]
     },
     "嗎": {
@@ -180,6 +205,7 @@ const hanziLevel1 = {
         "pinyin": "ma",
         "tone": 5,
         "english": "yes or no ?",
+        "simplified": "吗",
         "radicals": ["口", "馬"]
     },
     "為": {
@@ -187,6 +213,7 @@ const hanziLevel1 = {
         "pinyin": "wèi",
         "tone": 4,
         "english": "because of",
+        "simplified": "为",
         "radicals": ["丶", "灬"]
     },
     "想": {
@@ -194,6 +221,7 @@ const hanziLevel1 = {
         "pinyin": "xiǎng",
         "tone": 3,
         "english": "to think, to want",
+        "simplified": "",
         "radicals": ["相", "心"]
     },
     "能": {
@@ -201,6 +229,7 @@ const hanziLevel1 = {
         "pinyin": "néng",
         "tone": 2,
         "english": "to be able to",
+        "simplified": "",
         "radicals": ["厶", "匕"]
     },
     "上": {
@@ -208,6 +237,7 @@ const hanziLevel1 = {
         "pinyin": "shàng",
         "tone": 4,
         "english": "above",
+        "simplified": "",
         "radicals": ["丨", "一"]
     },
 
@@ -216,6 +246,7 @@ const hanziLevel1 = {
         "pinyin": "qù",
         "tone": 4,
         "english": "to go",
+        "simplified": "",
         "radicals": ["土", "厶"]
     },
     "道": {
@@ -223,6 +254,7 @@ const hanziLevel1 = {
         "pinyin": "dào",
         "tone": 4,
         "english": "way, method",
+        "simplified": "",
         "radicals": ["辶", "首"]
     },
     "她": {
@@ -230,6 +262,7 @@ const hanziLevel1 = {
         "pinyin": "tā",
         "tone": 1,
         "english": "she",
+        "simplified": "",
         "radicals": ["女", "也"]
     },
     "很": {
@@ -237,6 +270,7 @@ const hanziLevel1 = {
         "pinyin": "hěn",
         "tone": 3,
         "english": "very, is (Adj)",
+        "simplified": "",
         "radicals": ["彳", "艮"]
     },
     "看": {
@@ -244,6 +278,7 @@ const hanziLevel1 = {
         "pinyin": "kàn",
         "tone": 2,
         "english": "to see, look at",
+        "simplified": "",
         "radicals": ["龵", "目"]
     },
     "可": {
@@ -251,6 +286,7 @@ const hanziLevel1 = {
         "pinyin": "kě",
         "tone": 3,
         "english": "can able to",
+        "simplified": "",
         "radicals": ["一", "口"]
     },
     "知": {
@@ -258,6 +294,7 @@ const hanziLevel1 = {
         "pinyin": "zhī",
         "tone": 1,
         "english": "to know",
+        "simplified": "",
         "radicals": ["矢", "口"]
     },
     "得": {
@@ -265,6 +302,7 @@ const hanziLevel1 = {
         "pinyin": "de",
         "tone": 5,
         "english": "(V + 得 + Adverb) p. indicates effect, degree, possibility etc",
+        "simplified": "",
         "radicals": ["彳", "寸"]
     },
     "過": {
@@ -272,6 +310,7 @@ const hanziLevel1 = {
         "pinyin": "guo",
         "tone": 5,
         "english": "(experienced action p.)",
+        "simplified": "过",
         "radicals": ["辶", "口"]
     },
     "吧": {
@@ -279,6 +318,7 @@ const hanziLevel1 = {
         "pinyin": "ba",
         "tone": 5,
         "english": "...right?",
+        "simplified": "",
         "radicals": ["口", "匚"]
     },
 
@@ -287,6 +327,7 @@ const hanziLevel1 = {
         "pinyin": "hái",
         "tone": 2,
         "english": "still, yet, to return",
+        "simplified": "还",
         "radicals": ["辶", "口"]
     },
     "對": {
@@ -294,6 +335,7 @@ const hanziLevel1 = {
         "pinyin": "duì",
         "tone": 4,
         "english": "correct, opposite",
+        "simplified": "对",
         "radicals": ["羊", "寸"]
     },
     "里": {
@@ -301,6 +343,7 @@ const hanziLevel1 = {
         "pinyin": "lǐ",
         "tone": 3,
         "english": "inside",
+        "simplified": "",
         "radicals": ["田", "土"]
     },
     "以": {
@@ -308,6 +351,7 @@ const hanziLevel1 = {
         "pinyin": "yǐ",
         "tone": 3,
         "english": "so as to, according to",
+        "simplified": "",
         "radicals": ["丶", "人"]
     },
     "都": {
@@ -315,6 +359,7 @@ const hanziLevel1 = {
         "pinyin": "dōu",
         "tone": 1,
         "english": "all, both",
+        "simplified": "",
         "radicals": ["日", "阝"]
     },
     "事": {
@@ -322,6 +367,7 @@ const hanziLevel1 = {
         "pinyin": "shì",
         "tone": 4,
         "english": "thing, item, matter",
+        "simplified": "",
         "radicals": ["中", "匚"]
     },
     "子": {
@@ -329,6 +375,7 @@ const hanziLevel1 = {
         "pinyin": "zi",
         "tone": 5,
         "english": "child, son",
+        "simplified": "",
         "radicals": ["了", "一"]
     },
     "生": {
@@ -336,6 +383,7 @@ const hanziLevel1 = {
         "pinyin": "shēng",
         "tone": 1,
         "english": "life, raw",
+        "simplified": "",
         "radicals": ["龶", "㇒"]
     },
     "時": {
@@ -343,6 +391,7 @@ const hanziLevel1 = {
         "pinyin": "shí",
         "tone": 2,
         "english": "time",
+        "simplified": "时",
         "radicals": ["日", "寸"]
     },
     "樣": {
@@ -350,6 +399,7 @@ const hanziLevel1 = {
         "pinyin": "yàng",
         "tone": 4,
         "english": "manner, appearance",
+        "simplified": "样",
         "radicals": ["木", "羊"]
     },
     "也": {
@@ -357,6 +407,7 @@ const hanziLevel1 = {
         "pinyin": "yě",
         "tone": 3,
         "english": "also, too",
+        "simplified": "",
         "radicals": ["丨"]
     },
     "和": {
@@ -364,6 +415,7 @@ const hanziLevel1 = {
         "pinyin": "hé",
         "tone": 2,
         "english": "and",
+        "simplified": "",
         "radicals": ["禾", "口"]
     },
     "下": {
@@ -371,6 +423,7 @@ const hanziLevel1 = {
         "pinyin": "xià",
         "tone": 4,
         "english": "below, down",
+        "simplified": "",
         "radicals": ["一", "卜"]
     },
     "真": {
@@ -378,6 +431,7 @@ const hanziLevel1 = {
         "pinyin": "zhēn",
         "tone": 1,
         "english": "really, truly",
+        "simplified": "",
         "radicals": ["十", "目"]
     },
     "現": {
@@ -385,6 +439,7 @@ const hanziLevel1 = {
         "pinyin": "xiàn",
         "tone": 4,
         "english": "appear, present",
+        "simplified": "现",
         "radicals": ["王", "目"]
     },
     "做": {
@@ -392,6 +447,7 @@ const hanziLevel1 = {
         "pinyin": "zuò",
         "tone": 4,
         "english": "make, to do",
+        "simplified": "",
         "radicals": ["亻", "古"]
     },
     "大": {
@@ -399,6 +455,7 @@ const hanziLevel1 = {
         "pinyin": "dà",
         "tone": 4,
         "english": "big",
+        "simplified": "",
         "radicals": ["人", "一"]
     },
     "啊": {
@@ -406,6 +463,7 @@ const hanziLevel1 = {
         "pinyin": "a",
         "tone": 5,
         "english": "ah!",
+        "simplified": "",
         "radicals": ["口", "阝", "可"]
     },
     "怎": {
@@ -413,6 +471,7 @@ const hanziLevel1 = {
         "pinyin": "zěn",
         "tone": 3,
         "english": "how",
+        "simplified": "",
         "radicals": ["丨", "心"]
     },
     "出": {
@@ -420,6 +479,7 @@ const hanziLevel1 = {
         "pinyin": "chū",
         "tone": 1,
         "english": "exit, to go out",
+        "simplified": "",
         "radicals": ["山"]
     },
     "點": {
@@ -427,6 +487,7 @@ const hanziLevel1 = {
         "pinyin": "diǎn",
         "tone": 3,
         "english": "dot",
+        "simplified": "点",
         "radicals": ["黑", "口"]
     },
     "起": {
@@ -434,6 +495,7 @@ const hanziLevel1 = {
         "pinyin": "qǐ",
         "tone": 3,
         "english": "rise",
+        "simplified": "",
         "radicals": ["土", "止", "匚"]
     },
     "天": {
@@ -441,6 +503,7 @@ const hanziLevel1 = {
         "pinyin": "tiān",
         "tone": 1,
         "english": "sky, heavens",
+        "simplified": "",
         "radicals": ["一", "大"]
     },
     "把": {
@@ -448,6 +511,7 @@ const hanziLevel1 = {
         "pinyin": "bǎ",
         "tone": 3,
         "english": "(direct obj p.), to hold",
+        "simplified": "",
         "radicals": ["扌", "巴"]
     },
     "開": {
@@ -455,6 +519,7 @@ const hanziLevel1 = {
         "pinyin": "kāi",
         "tone": 1,
         "english": "to open, to start",
+        "simplified": "开",
         "radicals": ["門", "一"]
     },
     "讓": {
@@ -462,6 +527,7 @@ const hanziLevel1 = {
         "pinyin": "ràng",
         "tone": 4,
         "english": "yield, to allow, permit, by (passive p.)",
+        "simplified": "让",
         "radicals": ["言", "口"]
     },
     "給": {
@@ -469,6 +535,7 @@ const hanziLevel1 = {
         "pinyin": "gěi",
         "tone": 3,
         "english": "give, to, for",
+        "simplified": "给",
         "radicals": ["糹", "口"]
     },
     "但": {
@@ -476,6 +543,7 @@ const hanziLevel1 = {
         "pinyin": "dàn",
         "tone": 4,
         "english": "but",
+        "simplified": "",
         "radicals": ["亻", "日"]
     },
     "謝": {
@@ -483,6 +551,7 @@ const hanziLevel1 = {
         "pinyin": "xiè",
         "tone": 4,
         "english": "thanks",
+        "simplified": "谢",
         "radicals": ["言", "身", "寸"]
     },
     "着": {
@@ -490,6 +559,7 @@ const hanziLevel1 = {
         "pinyin": "zhe",
         "tone": 5,
         "english": "(action in progress p.)",
+        "simplified": "",
         "radicals": ["羊", "目"]
     },
     "只": {
@@ -497,6 +567,7 @@ const hanziLevel1 = {
         "pinyin": "zhǐ",
         "tone": 3,
         "english": "only",
+        "simplified": "",
         "radicals": ["口", "八"]
     },
     "些": {
@@ -504,6 +575,7 @@ const hanziLevel1 = {
         "pinyin": "xiē",
         "tone": 1,
         "english": "some, few",
+        "simplified": "",
         "radicals": ["止", "匕", "二"]
     },
     "如": {
@@ -511,6 +583,7 @@ const hanziLevel1 = {
         "pinyin": "rú",
         "tone": 2,
         "english": "as, as if, such as",
+        "simplified": "",
         "radicals": ["女", "口"]
     },
     "家": {
@@ -518,6 +591,7 @@ const hanziLevel1 = {
         "pinyin": "jiā",
         "tone": 1,
         "english": "home, family",
+        "simplified": "",
         "radicals": ["宀", "一", "𧰨"]
     },
     "后": {
@@ -525,6 +599,7 @@ const hanziLevel1 = {
         "pinyin": "hòu",
         "tone": 4,
         "english": "behind, after",
+        "simplified": "",
         "radicals": ["一", "口"]
     },
     "兒": {
@@ -532,6 +607,7 @@ const hanziLevel1 = {
         "pinyin": "ér",
         "tone": 2,
         "english": "son",
+        "simplified": "儿",
         "radicals": ["彐", "儿"]
     },
     "多": {
@@ -539,6 +615,7 @@ const hanziLevel1 = {
         "pinyin": "duō",
         "tone": 1,
         "english": "many, much",
+        "simplified": "",
         "radicals": ["夕"]
     },
     "意": {
@@ -546,6 +623,7 @@ const hanziLevel1 = {
         "pinyin": "yì",
         "tone": 4,
         "english": "idea, meaning",
+        "simplified": "",
         "radicals": ["音", "心"]
     },
     "别": {
@@ -553,6 +631,7 @@ const hanziLevel1 = {
         "pinyin": "bié",
         "tone": 2,
         "english": "must not, other, don't",
+        "simplified": "",
         "radicals": ["力", "刂"]
     },
     "所": {
@@ -560,6 +639,7 @@ const hanziLevel1 = {
         "pinyin": "suǒ",
         "tone": 3,
         "english": "place, actually",
+        "simplified": "",
         "radicals": ["戶", "斤"]
     },
     "話": {
@@ -567,6 +647,7 @@ const hanziLevel1 = {
         "pinyin": "huà",
         "tone": 4,
         "english": "language, talk",
+        "simplified": "话",
         "radicals": ["言", "舌"]
     },
     "小": {
@@ -574,6 +655,7 @@ const hanziLevel1 = {
         "pinyin": "xiǎo",
         "tone": 3,
         "english": "small",
+        "simplified": "",
         "radicals": ["㇚", "八"]
     },
     "自": {
@@ -581,6 +663,7 @@ const hanziLevel1 = {
         "pinyin": "zì",
         "tone": 4,
         "english": "self",
+        "simplified": "",
         "radicals": ["目", "丶"]
     },
     "回": {
@@ -588,6 +671,7 @@ const hanziLevel1 = {
         "pinyin": "huí",
         "tone": 2,
         "english": "to answer, to return",
+        "simplified": "",
         "radicals": ["囗", "口"]
     },
     "然": {
@@ -595,6 +679,7 @@ const hanziLevel1 = {
         "pinyin": "rán",
         "tone": 2,
         "english": "correct",
+        "simplified": "",
         "radicals": ["⺼", "犬", "灬"]
     },
     "果": {
@@ -602,6 +687,7 @@ const hanziLevel1 = {
         "pinyin": "guǒ",
         "tone": 3,
         "english": "fruit",
+        "simplified": "",
         "radicals": ["田", "木"]
     },
     "發": {
@@ -609,6 +695,7 @@ const hanziLevel1 = {
         "pinyin": "fā",
         "tone": 1,
         "english": "to send, to develop",
+        "simplified": "发",
         "radicals": ["癶", "弓", "殳"]
     },
     "見": {
@@ -616,6 +703,7 @@ const hanziLevel1 = {
         "pinyin": "jiàn",
         "tone": 4,
         "english": "to see, to meet",
+        "simplified": "见",
         "radicals": ["目", "儿"]
     },
     "心": {
@@ -623,6 +711,7 @@ const hanziLevel1 = {
         "pinyin": "xīn",
         "tone": 1,
         "english": "heart",
+        "simplified": "",
         "radicals": ["丶"]
     },
     "走": {
@@ -630,6 +719,7 @@ const hanziLevel1 = {
         "pinyin": "zǒu",
         "tone": 3,
         "english": "to walk, away",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "定": {
@@ -637,6 +727,7 @@ const hanziLevel1 = {
         "pinyin": "dìng",
         "tone": 4,
         "english": "to set, decide",
+        "simplified": "",
         "radicals": ["宀", "一", "止"]
     },
     "聽": {
@@ -644,6 +735,7 @@ const hanziLevel1 = {
         "pinyin": "tīng",
         "tone": 1,
         "english": "to listen",
+        "simplified": "听",
         "radicals": ["耳", "王", "十", "罒", "一", "心"]
     },
     "覺": {
@@ -651,6 +743,7 @@ const hanziLevel1 = {
         "pinyin": "jué",
         "tone": 2,
         "english": "to feel",
+        "simplified": "觉",
         "radicals": ["臼", "爻", "冖", "見"]
     },
     "太": {
@@ -658,6 +751,7 @@ const hanziLevel1 = {
         "pinyin": "tài",
         "tone": 4,
         "english": "too (much)",
+        "simplified": "",
         "radicals": ["大", "丶"]
     },
     "該": {
@@ -665,6 +759,7 @@ const hanziLevel1 = {
         "pinyin": "gāi",
         "tone": 1,
         "english": "should",
+        "simplified": "该",
         "radicals": ["言", "亠"]
     },
     "當": {
@@ -672,6 +767,7 @@ const hanziLevel1 = {
         "pinyin": "dāng",
         "tone": 1,
         "english": "to be, just at",
+        "simplified": "当",
         "radicals": ["冖", "口", "田"]
     },
     "經": {
@@ -679,6 +775,7 @@ const hanziLevel1 = {
         "pinyin": "jīng",
         "tone": 1,
         "english": "pass through",
+        "simplified": "经",
         "radicals": ["糹", "巛", "工"]
     },
     "媽": {
@@ -686,6 +783,7 @@ const hanziLevel1 = {
         "pinyin": "mā",
         "tone": 1,
         "english": "mom",
+        "simplified": "妈",
         "radicals": ["女", "灬"]
     },
     "用": {
@@ -693,6 +791,7 @@ const hanziLevel1 = {
         "pinyin": "yòng",
         "tone": 4,
         "english": "to use",
+        "simplified": "",
         "radicals": ["丨", "二"]
     },
     "打": {
@@ -700,6 +799,7 @@ const hanziLevel1 = {
         "pinyin": "dǎ",
         "tone": 3,
         "english": "to hit",
+        "simplified": "",
         "radicals": ["扌", "一"]
     },
 
@@ -710,6 +810,7 @@ const hanziLevel1 = {
         "pinyin": "de",
         "tone": 5,
         "english": "-ly, structural p.",
+        "simplified": "",
         "radicals": ["土", "也"]
     },
     "再": {
@@ -717,6 +818,7 @@ const hanziLevel1 = {
         "pinyin": "zài",
         "tone": 4,
         "english": "again, then",
+        "simplified": "",
         "radicals": ["一", "土"]
     },
     "因": {
@@ -724,6 +826,7 @@ const hanziLevel1 = {
         "pinyin": "yīn",
         "tone": 1,
         "english": "reason, cause",
+        "simplified": "",
         "radicals": ["囗", "大"]
     },
     "呢": {
@@ -731,6 +834,7 @@ const hanziLevel1 = {
         "pinyin": "ne",
         "tone": 5,
         "english": "how about...? (continuing p.)",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "女": {
@@ -738,6 +842,7 @@ const hanziLevel1 = {
         "pinyin": "nǚ",
         "tone": 3,
         "english": "woman",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "告": {
@@ -745,6 +850,7 @@ const hanziLevel1 = {
         "pinyin": "gào",
         "tone": 4,
         "english": "to tell",
+        "simplified": "",
         "radicals": ["⺧", "口"]
     },
     "最": {
@@ -752,6 +858,7 @@ const hanziLevel1 = {
         "pinyin": "zuì",
         "tone": 4,
         "english": "most, -est",
+        "simplified": "",
         "radicals": ["日", ""]
     },
     "手": {
@@ -759,6 +866,7 @@ const hanziLevel1 = {
         "pinyin": "shǒu",
         "tone": 3,
         "english": "hand",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "前": {
@@ -766,6 +874,7 @@ const hanziLevel1 = {
         "pinyin": "qián",
         "tone": 2,
         "english": "front",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "找": {
@@ -773,6 +882,7 @@ const hanziLevel1 = {
         "pinyin": "zhǎo",
         "tone": 3,
         "english": "find, to look for",
+        "simplified": "",
         "radicals": ["扌", "戈"]
     },
     "行": {
@@ -780,6 +890,7 @@ const hanziLevel1 = {
         "pinyin": "xíng",
         "tone": 2,
         "english": "go, travel, walk, OK!",
+        "simplified": "",
         "radicals": ["彳", "亍"]
     },
     "快": {
@@ -787,6 +898,7 @@ const hanziLevel1 = {
         "pinyin": "kuài",
         "tone": 4,
         "english": "quick, rapid, almost",
+        "simplified": "",
         "radicals": ["忄", "人"]
     },
     "而": {
@@ -794,6 +906,7 @@ const hanziLevel1 = {
         "pinyin": "ér",
         "tone": 2,
         "english": "and, as well as",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "死": {
@@ -801,6 +914,7 @@ const hanziLevel1 = {
         "pinyin": "sǐ",
         "tone": 3,
         "english": "die",
+        "simplified": "",
         "radicals": ["歹", "匕"]
     },
     "先": {
@@ -808,6 +922,7 @@ const hanziLevel1 = {
         "pinyin": "xiān",
         "tone": 1,
         "english": "first, former",
+        "simplified": "",
         "radicals": ["⺧", "儿"]
     },
     "像": {
@@ -815,6 +930,7 @@ const hanziLevel1 = {
         "pinyin": "xiàng",
         "tone": 4,
         "english": "resemble, to be like, image",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "等": {
@@ -822,6 +938,7 @@ const hanziLevel1 = {
         "pinyin": "děng",
         "tone": 3,
         "english": "rank, to wait for",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "被": {
@@ -829,6 +946,7 @@ const hanziLevel1 = {
         "pinyin": "bèi",
         "tone": 4,
         "english": "(passive p.), quilt",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "從": {
@@ -836,6 +954,7 @@ const hanziLevel1 = {
         "pinyin": "cóng",
         "tone": 2,
         "english": "from, via, to follow",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "明": {
@@ -843,6 +962,7 @@ const hanziLevel1 = {
         "pinyin": "míng",
         "tone": 2,
         "english": "bright",
+        "simplified": "",
         "radicals": ["日", "月"]
     },
     "中": {
@@ -850,6 +970,7 @@ const hanziLevel1 = {
         "pinyin": "zhōng",
         "tone": 1,
         "english": "middle, center",
+        "simplified": "",
         "radicals": ["口", "丨"]
     },
     "哦": {
@@ -857,6 +978,7 @@ const hanziLevel1 = {
         "pinyin": "ó",
         "tone": 2,
         "english": "oh",
+        "simplified": "",
         "radicals": ["口", "我"]
     },
     "情": {
@@ -864,6 +986,7 @@ const hanziLevel1 = {
         "pinyin": "qíng",
         "tone": 2,
         "english": "feeling, emotion",
+        "simplified": "",
         "radicals": ["忄", "青"]
     },
     "作": {
@@ -871,6 +994,7 @@ const hanziLevel1 = {
         "pinyin": "zuò",
         "tone": 4,
         "english": "to do, grow, write",
+        "simplified": "",
         "radicals": ["亻", "乍"]
     },
     "跟": {
@@ -878,6 +1002,7 @@ const hanziLevel1 = {
         "pinyin": "gēn",
         "tone": 1,
         "english": "with, to follow",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "面": {
@@ -885,6 +1010,7 @@ const hanziLevel1 = {
         "pinyin": "miàn",
         "tone": 4,
         "english": "face, surface, noodles",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "訴": {
@@ -892,6 +1018,7 @@ const hanziLevel1 = {
         "pinyin": "sù",
         "tone": 4,
         "english": "complain, tell, accuse",
+        "simplified": "诉",
         "radicals": ["", ""]
     },
     "愛": {
@@ -899,6 +1026,7 @@ const hanziLevel1 = {
         "pinyin": "ài",
         "tone": 4,
         "english": "love",
+        "simplified": "爱",
         "radicals": ["", ""]
     },
     "已": {
@@ -906,6 +1034,7 @@ const hanziLevel1 = {
         "pinyin": "yǐ",
         "tone": 3,
         "english": "already",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "之": {
@@ -913,6 +1042,7 @@ const hanziLevel1 = {
         "pinyin": "zhī",
         "tone": 1,
         "english": "of, (possessive p.)",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "問": {
@@ -920,6 +1050,7 @@ const hanziLevel1 = {
         "pinyin": "wèn",
         "tone": 4,
         "english": "ask",
+        "simplified": "问",
         "radicals": ["門", "口"]
     },
     "錯": {
@@ -927,6 +1058,7 @@ const hanziLevel1 = {
         "pinyin": "cuò",
         "tone": 4,
         "english": "mistake",
+        "simplified": "错",
         "radicals": ["", ""]
     },
     "孩": {
@@ -934,6 +1066,7 @@ const hanziLevel1 = {
         "pinyin": "hái",
         "tone": 2,
         "english": "child",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "斯": {
@@ -941,6 +1074,7 @@ const hanziLevel1 = {
         "pinyin": "sī",
         "tone": 1,
         "english": "this, (phonetic s)",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "成": {
@@ -948,6 +1082,7 @@ const hanziLevel1 = {
         "pinyin": "chéng",
         "tone": 2,
         "english": "to succeed, become",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "它": {
@@ -955,6 +1090,7 @@ const hanziLevel1 = {
         "pinyin": "tā",
         "tone": 1,
         "english": "it",
+        "simplified": "",
         "radicals": ["宀", "匕"]
     },
     "感": {
@@ -962,6 +1098,7 @@ const hanziLevel1 = {
         "pinyin": "gǎn",
         "tone": 3,
         "english": "feel, emotiuon",
+        "simplified": "",
         "radicals": ["咸", "心"]
     },
     "幹": {
@@ -969,6 +1106,7 @@ const hanziLevel1 = {
         "pinyin": "gàn",
         "tone": 4,
         "english": "do/work",
+        "simplified": "干",
         "radicals": ["干", ""]
     },
     "法": {
@@ -976,6 +1114,7 @@ const hanziLevel1 = {
         "pinyin": "fǎ",
         "tone": 3,
         "english": "law, method, way",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "電": {
@@ -983,6 +1122,7 @@ const hanziLevel1 = {
         "pinyin": "diàn",
         "tone": 4,
         "english": "electric",
+        "simplified": "电",
         "radicals": ["雨", "电"]
     },
     "間": {
@@ -990,6 +1130,7 @@ const hanziLevel1 = {
         "pinyin": "jiān",
         "tone": 1,
         "english": "between, among, room, space",
+        "simplified": "间",
         "radicals": ["門", "日"]
     },
     "哪": {
@@ -997,6 +1138,7 @@ const hanziLevel1 = {
         "pinyin": "nǎ",
         "tone": 3,
         "english": "which",
+        "simplified": "",
         "radicals": ["口", "那"]
     },
     "西": {
@@ -1004,6 +1146,7 @@ const hanziLevel1 = {
         "pinyin": "xī",
         "tone": 1,
         "english": "west",
+        "simplified": "",
         "radicals": ["兀", "囗"]
     },
     "己": {
@@ -1011,6 +1154,7 @@ const hanziLevel1 = {
         "pinyin": "jǐ",
         "tone": 3,
         "english": "self",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "候": {
@@ -1018,6 +1162,7 @@ const hanziLevel1 = {
         "pinyin": "hòu",
         "tone": 4,
         "english": "to wait, season",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "次": {
@@ -1025,6 +1170,7 @@ const hanziLevel1 = {
         "pinyin": "cì",
         "tone": 4,
         "english": "once, time sequence, order",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "信": {
@@ -1032,6 +1178,7 @@ const hanziLevel1 = {
         "pinyin": "xìn",
         "tone": 4,
         "english": "letter, to trust",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "歡": {
@@ -1039,6 +1186,7 @@ const hanziLevel1 = {
         "pinyin": "huān",
         "tone": 1,
         "english": "joyous, pleased",
+        "simplified": "欢",
         "radicals": ["雚", "欠"]
     },
     "正": {
@@ -1046,6 +1194,7 @@ const hanziLevel1 = {
         "pinyin": "zhèng",
         "tone": 4,
         "english": "correct, just (right)",
+        "simplified": "",
         "radicals": ["一", "止"]
     },
     "實": {
@@ -1053,10 +1202,171 @@ const hanziLevel1 = {
         "pinyin": "shí",
         "tone": 2,
         "english": "real, honest",
+        "simplified": "实",
         "radicals": ["", ""]
     },
     //150/200 done!
 
+    "關": {
+        "zhuyin": "ㄍㄨㄢ",
+        "pinyin": "guān",
+        "tone": 1,
+        "english": "close, shut",
+        "simplified": "关",
+        "radicals": ["門", "幺"],
+    },
+    "進": {
+        "zhuyin": "ㄐㄧㄣˋ",
+        "pinyin": "jìn",
+        "tone": 4,
+        "english": "go forward, advance, enter",
+        "simplified": "进",
+        "radicals": ["", ""]
+    },
+    "車": {
+        "zhuyin": "ㄔㄜ",
+        "pinyin": "chē",
+        "tone": 1,
+        "english": "car, vehicle",
+        "simplified": "车",
+        "radicals": ["二", "日"]
+    },
+    "年": {
+        "zhuyin": "ㄋㄧㄢˊ",
+        "pinyin": "nián",
+        "tone": 2,
+        "english": "year",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "喜": {
+        "zhuyin": "ㄒㄧˇ",
+        "pinyin": "xǐ",
+        "tone": 3,
+        "english": "fond of, to like",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "認": {
+        "zhuyin": "ㄖㄣˋ",
+        "pinyin": "rèn",
+        "tone": 2,
+        "english": "recognize",
+        "simplified": "认",
+        "radicals": ["", ""]
+    },
+    "克": {
+        "zhuyin": "ㄎㄜˋ",
+        "pinyin": "kè",
+        "tone": 4,
+        "english": "gram",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "誰": {
+        "zhuyin": "ㄕㄟˊ",
+        "pinyin": "shéi",
+        "tone": 2,
+        "english": "who",
+        "simplified": "谁",
+        "radicals": ["", ""]
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
