@@ -1737,12 +1737,12 @@ const A1sentences = {
         "pinyin": "zěn me yàng",
         "category": "basics"
     },
-    // "": {
-    //     "english": "",
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "category": ""
-    // },
+    "我不是半途而廢的人": {
+        "english": "I’m not someone who gives up halfway",
+        "zhuyin": "ㄨㄛˇ ㄅㄨˋ ㄕˋ ㄅㄢˋ ㄊㄨˊ ㄦˊ ㄈㄟˋ ㄉㄧˊ ㄖㄣˊ",
+        "pinyin": "wǒ búshì bàntúérfèi de rén",
+        "category": "basics"
+    },
     // "": {
     //     "english": "",
     //     "zhuyin": "",
@@ -1760,316 +1760,385 @@ const A1words = {
     "爸爸": {
         "zhuyin": "ㄅㄚˋ ㄅㄚˋ",
         "pinyin": "bà ba",
+        "level": "A1",
         "english": "(informal) father"
     },
     "杯子": {
         "zhuyin": "ㄅㄟ ㄗˇ",
         "pinyin": "bēi zi",
+        "level": "A1",
         "english": "cup, glass"
     },
     "北京": {
         "zhuyin": "ㄅㄟˇ ㄐㄧㄥ",
         "pinyin": "Běi jīng",
+        "level": "A1",
         "english": "Beijing"
     },
     "電腦": {
         "zhuyin": "ㄉㄧㄢˋ ㄋㄠˇ",
         "pinyin": "diàn nǎo",
+        "level": "A1",
         "english": "computer"
     },
     "電視": {
         "zhuyin": "ㄉㄧㄢˋ ㄕˋ",
         "pinyin": "diàn shì",
+        "level": "A1",
         "english": "tv"
     },
     "電影": {
         "zhuyin": "ㄉㄧㄢˋ ㄧㄥˇ",
         "pinyin": "diàn yǐng",
+        "level": "A1",
         "english": "movie, film"
     },
     "東西": {
         "zhuyin": "ㄉㄨㄥ ㄒㄧ",
         "pinyin": "dōng xi",
+        "level": "A1",
         "english": "thing, stuff"
     },
     "多少": {
         "zhuyin": "ㄉㄨㄛ ㄕㄠˇ",
         "pinyin": "duō shao",
+        "level": "A1",
         "english": "how much, how many"
     },
     "兒子": {
         "zhuyin": "ㄦˊ ㄗˇ",
         "pinyin": "ér zi",
+        "level": "A1",
         "english": "son"
     },
     "飯店": {
         "zhuyin": "ㄈㄢˋ ㄉㄧㄢˋ",
         "pinyin": "fàn diàn",
+        "level": "A1",
         "english": "restaurant, hotel"
     },
     "飯館": {
         "zhuyin": "ㄈㄢˋ ㄍㄨㄢˇ",
         "pinyin": "fàn guǎn",
+        "level": "A1",
         "english": "restaurant"
     },
     "飛機": {
         "zhuyin": "ㄈㄟ ㄐㄧ ",
         "pinyin": "fēi jī",
+        "level": "A1",
         "english": "airplane"
     },
     "分鐘": {
         "zhuyin": "ㄈㄣ ㄓㄨㄥ",
         "pinyin": "fēn zhōng",
+        "level": "A1",
         "english": "minute"
     },
     "高興": {
         "zhuyin": "ㄍㄠ ㄒㄧㄥ",
         "pinyin": "gāo xìng",
+        "level": "A1",
         "english": "happy, glad"
     },
     "工作": {
         "zhuyin": "ㄍㄨㄥ ㄗㄨㄛˋ",
         "pinyin": "gōng zuò",
+        "level": "A1",
         "english": "to work, job, work, task"
     },
     "漢語": {
         "zhuyin": "ㄏㄢˋ ㄩˇ",
         "pinyin": "Hàn yǔ",
+        "level": "A1",
         "english": "Chinese language"
     },
     "後面": {
         "zhuyin": "ㄏㄡˋ ㄇㄧㄢˋ",
         "pinyin": "hòu mian",
+        "level": "A1",
         "english": "rear, back, behind, later, after"
     },
     "今天": {
         "zhuyin": "ㄐㄧㄣ ㄊㄧㄢ",
         "pinyin": "jīn tiān",
+        "level": "A1",
         "english": "today, now"
     },
     "看見": {
         "zhuyin": "ㄎㄢˋ ㄐㄧㄢˋ",
         "pinyin": "kàn jiàn",
+        "level": "A1",
         "english": "to see, to catch sight of"
     },
     "老師": {
         "zhuyin": "ㄌㄠˇ ㄕ",
         "pinyin": "lǎo shī",
+        "level": "A1",
         "english": "teacher"
     },
     "媽媽": {
         "zhuyin": "ㄇㄚ ㄇㄚ",
         "pinyin": "mā ma",
+        "level": "A1",
         "english": "(informal) mother"
     },
     "米飯": {
         "zhuyin": "ㄇㄧˇ ㄈㄢˋ",
         "pinyin": "mǐ fàn",
+        "level": "A1",
         "english": "(cooked) rice"
     },
     "明天": {
         "zhuyin": "ㄇㄧㄥˊ ㄊㄧㄢ",
         "pinyin": "míng tiān",
+        "level": "A1",
         "english": "tomorrow"
     },
     "名字": {
         "zhuyin": "ㄇㄧㄥˊ ㄗˋ",
         "pinyin": "míng zi",
+        "level": "A1",
         "english": "name"
     },
     "哪兒": {
         "zhuyin": "ㄋㄚˇ ㄦˊ",
         "pinyin": "nǎ ér",
+        "level": "A1",
         "english": "where?, wherever, anywhere"
     },
     "女兒": {
         "zhuyin": "ㄋㄩˇ ㄦˊ",
         "pinyin": "nǚ ér",
+        "level": "A1",
         "english": "daughter"
     },
     "朋友": {
         "zhuyin": "ㄆㄥˊ ㄧㄡˇ",
         "pinyin": "péng you",
+        "level": "A1",
         "english": "friend"
     },
     "漂亮": {
         "zhuyin": "ㄆㄧㄠ ㄌㄧㄤˋ",
         "pinyin": "piào liang",
+        "level": "A1",
         "english": "pretty, beautiful"
     },
     "蘋果": {
         "zhuyin": "ㄆㄧㄥˊ ㄍㄨㄛˇ",
         "pinyin": "píng guǒ",
+        "level": "A1",
         "english": "apple"
     },
     "前面": {
         "zhuyin": "ㄑㄧㄢˊ ㄇㄧㄢˋ",
         "pinyin": "qián miàn",
+        "level": "A1",
         "english": "ahead, in front, preceding"
     },
     "認識": {
         "zhuyin": "ㄖㄣˋ ㄕˊ",
         "pinyin": "rèn shi",
+        "level": "A1",
         "english": "to know, to recognize, to be familliar with"
     },
     "商店": {
         "zhuyin": "ㄕㄤ ㄉㄧㄢˋ",
         "pinyin": "shāng diàn",
+        "level": "A1",
         "english": "store, shop"
     },
     "上午": {
         "zhuyin": "ㄕㄤˋ ㄨˇ",
         "pinyin": "shàng wǔ",
+        "level": "A1",
         "english": "morning"
     },
     "什麼": {
         "zhuyin": "ㄕˊ ㄇㄜ˙",
         "pinyin": "shén me",
+        "level": "A1",
         "english": "what, who, something, anything"
     },
     "時候": {
         "zhuyin": "ㄕˊ ㄏㄡˋ",
         "pinyin": "shí hou",
+        "level": "A1",
         "english": "time, length of time, moment, period"
     },
     "水果": {
         "zhuyin": "ㄕㄨㄟˇ ㄍㄨㄛˇ",
         "pinyin": "shuǐ guǒ",
+        "level": "A1",
         "english": "fruit, fruits"
     },
     "睡覺": {
         "zhuyin": "ㄕㄨㄟˋ ㄐㄩㄝˊ",
         "pinyin": "shuì jiào",
+        "level": "A1",
         "english": "to go to bed, to sleep"
     },
     "說話": {
         "zhuyin": "ㄕㄨㄛ ㄏㄨㄚˋ",
         "pinyin": "shuō huà",
+        "level": "A1",
         "english": "to speak, say, talk, tell stories"
     },
     "天氣": {
         "zhuyin": "ㄊㄧㄢ ㄑㄧˋ",
         "pinyin": "tiān qì",
+        "level": "A1",
         "english": "weather"
     },
     "同學": {
         "zhuyin": "ㄊㄨㄥˊ ㄒㄩㄝˊ",
         "pinyin": "tóng xué",
+        "level": "A1",
         "english": "to study at the same school, classmate"
     },
     "我們": {
         "zhuyin": "ㄨㄛˇ ㄇㄣˊ",
         "pinyin": "wǒ men",
+        "level": "A1",
         "english": "we, us, ourselves, our"
     },
     "喜歡": {
         "zhuyin": "ㄒㄧˇ ㄏㄨㄢ",
         "pinyin": "xǐ huan",
+        "level": "A1",
         "english": "to like, be fond of"
     },
     "下午": {
         "zhuyin": "ㄒㄧㄚˋ ㄨˇ",
         "pinyin": "xià wǔ",
+        "level": "A1",
         "english": "afternoon"
     },
     "下雨": {
         "zhuyin": "ㄒㄧㄚˋ ㄩˇ",
         "pinyin": "xià yǔ",
+        "level": "A1",
         "english": "to rain, rainy"
     },
     "先生": {
         "zhuyin": "ㄒㄧㄢ ㄕㄥ",
         "pinyin": "xiān sheng",
+        "level": "A1",
         "english": "Mr. or sir"
     },
     "小姐": {
         "zhuyin": "ㄒㄧㄠˇ ㄐㄧㄝˇ",
         "pinyin": "xiǎo jiě",
+        "level": "A1",
         "english": "Miss"
     },
     "現在": {
         "zhuyin": "ㄒㄧㄢˋ ㄗㄞˋ",
         "pinyin": "xiàn zài",
+        "level": "A1",
         "english": "now, at present, at the moment, nowadays, currently"
     },
     "謝謝": {
         "zhuyin": "ㄒㄧㄝˋ ㄒㄧㄝˋ",
         "pinyin": "xiè xie",
+        "level": "A1",
         "english": "thanks, to thank"
     },
     "星期": {
         "zhuyin": "ㄒㄧㄥ ㄑㄧ ",
         "pinyin": "xīng qī",
+        "level": "A1",
         "english": "week"
     },
     "學生": {
         "zhuyin": "ㄒㄩㄝˊ ㄕㄥ",
         "pinyin": "xué sheng",
+        "level": "A1",
         "english": "student"
     },
     "學習": {
         "zhuyin": "ㄒㄩㄝˊ ㄒㄧˊ",
         "pinyin": "xué xí",
+        "level": "A1",
         "english": "to learn, to study"
     },
     "學校": {
         "zhuyin": "ㄒㄩㄝˊ ㄒㄧㄠˋ",
         "pinyin": "xué xiào",
+        "level": "A1",
         "english": "school"
     },
     "衣服": {
         "zhuyin": "ㄧ ㄈㄨˊ",
         "pinyin": "yī fu",
+        "level": "A1",
         "english": "clothes"
     },
     "醫生": {
         "zhuyin": "ㄧ ㄕㄥ",
         "pinyin": "yī shēng",
+        "level": "A1",
         "english": "doctor"
     },
     "醫院": {
         "zhuyin": "ㄧ ㄩㄢˋ",
         "pinyin": "yī yuàn",
+        "level": "A1",
         "english": "hospital"
     },
     "椅子": {
         "zhuyin": "ㄧˇ ㄗˇ",
         "pinyin": "yǐ zi",
+        "level": "A1",
         "english": "chair"
     },
     "再見": {
         "zhuyin": " ㄗㄞˋ ㄐㄧㄢˋ",
         "pinyin": "zài jiàn",
+        "level": "A1",
         "english": "goodbye, see you later"
     },
     "怎麼": {
         "zhuyin": "ㄗㄣˇ ㄇㄜ˙",
         "pinyin": "zěn me",
+        "level": "A1",
         "english": "how?, what?, why?"
     },
     "中國": {
         "zhuyin": "ㄓㄨㄥ ㄍㄨㄛˊ",
         "pinyin": "Zhōng guó",
+        "level": "A1",
         "english": "China"
     },
     "中午": {
         "zhuyin": "ㄓㄨㄥ ㄨˇ",
         "pinyin": "zhōng wǔ",
+        "level": "A1",
         "english": "noon"
     },
     "桌子": {
         "zhuyin": "ㄓㄨㄛ ㄗˇ ",
         "pinyin": "zhuō zi",
+        "level": "A1",
         "english": "table, desk"
     },
     "昨天": {
         "zhuyin": "ㄗㄨㄛˊ ㄊㄧㄢ",
         "pinyin": "zuó tiān",
+        "level": "A1",
         "english": "yesterday"
+    },
+    "成語": {
+        "zhuyin": "ㄔㄥˊ ㄩˇ",
+        "pinyin": "chéng yǔ",
+        "level": "basics",
+        "english": "4 or 5 character idioms"
     },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
+    //     "level": "basics",  
     //     "english": ""
     // },
 }
@@ -2092,6 +2161,72 @@ const idioms = {
         "literal": "escaped sheep repair fence",
         "meaning": "It is not too late to mend the sheep pen after the sheep have been lost. This idiom tells us that we can avoid more mistakes if we are able to correct the ones we have already committed. As long as we seek to remedy what we have done wrong, we’ll be able to avoid similar mistakes in the future.",
     },
+    "腳踏實地": {
+        "zhuyin": "ㄐㄧㄠˇ ㄊㄚˋ ㄕˊ ㄉㄧˋ",
+        "pinyin": "jiǎo tà shí dì",
+        "literal": "to step on solid ground",
+        "meaning": "An extremely positive chengyu meaning you work hard, focus on the fundamentals, and proceed in a steady and stable fashion. Stay grounded and push ahead.",
+    },
+    "九牛一毛": {
+        "zhuyin": "ㄐㄧㄡˇ ㄋㄧㄡˊ ㄧ ㄇㄠˊ",
+        "pinyin": "jiǔ niú yì máo",
+        "literal": "9 cows and 1 strand of cow hair",
+        "meaning": "It indicates something that’s so small that it’s like one strand of cow hair among 9 cows. Just a drop in the bucket.",
+    },
+    "一無所有": {
+        "zhuyin": "ㄧ ㄨˊ ㄙㄨㄛˇ ㄧㄡˇ",
+        "pinyin": "yì wú suǒ yǒu",
+        "literal": "have nothing at all",
+        "meaning": "Homeless, penniless, not a thing to your name",
+    },
+    "一見鍾情": {
+        "zhuyin": "ㄧ ㄐㄧㄢˋ ㄓㄨㄥ ㄑㄧㄥˊ",
+        "pinyin": "yí jiàn zhōng qíng",
+        "literal": "love at first sight",
+        "meaning": "It's generally used for people, but you can also use it for other physical objects.",
+    },
+    "自由自在": {
+        "zhuyin": "ㄗˋ ㄧㄡˊ ㄗˋ ㄗㄞˋ",
+        "pinyin": "zì yóu zì zài",
+        "literal": "free and easy",
+        "meaning": "This can be used to describe someone’s personality, how someone behaves, or how a place makes people feel.",
+    },
+    "半途而廢 ": {
+        "zhuyin": "ㄅㄢˋ ㄊㄨˊ ㄦˊ ㄈㄟˋ",
+        "pinyin": "bàn tú ér fèi",
+        "literal": "walk half the road and give up",
+        "meaning": "means to start doing something, only to give up halfway.",
+    },
+    "拋磚引玉": {
+        "zhuyin": "ㄆㄠ ㄓㄨㄢ ㄧㄣˇ ㄩˋ",
+        "pinyin": "pāo zhuān yǐn yù",
+        "literal": "to cast a brick to attract jade",
+        "meaning": "You’re basically saying- “this idea I’m tossing out there is garbage, but perhaps it will lead one of you to make a better contribution.” A humble way to contribute to a conversation.",
+    },
+    "豁然開朗": {
+        "zhuyin": "ㄏㄨㄛ ㄖㄢˊ ㄎㄞ ㄌㄤˇ",
+        "pinyin": "huò rán kāi lǎng",
+        "literal": "opening light opening bright",
+        "meaning": "The first meaning is the refreshing and liberating feeling you get when you see a beautiful, open area. Typically, immediately before this moment, the beautiful area is not visible and you might be feeling a little stuffy. Second, it’s also used for the feeling you get when you achieve an “aha” or “eureka!” moment.",
+    },
+    "不可思議": {
+        "zhuyin": "ㄅㄨˋ ㄎㄜˇ ㄙ ㄧˋ",
+        "pinyin": "bù kě sī yì",
+        "literal": "no can think to comment on",
+        "meaning": "means that something is noteworthy or amazing in an unexpected way. Inconceivable, but in a good way. Incredible.",
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "literal": "",
+    //     "meaning": "",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "literal": "",
+    //     "meaning": "",
+    // },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
