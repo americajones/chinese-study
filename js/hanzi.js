@@ -2164,8 +2164,8 @@ const idioms = {
     "腳踏實地": {
         "zhuyin": "ㄐㄧㄠˇ ㄊㄚˋ ㄕˊ ㄉㄧˋ",
         "pinyin": "jiǎo tà shí dì",
-        "literal": "to step on solid ground",
-        "meaning": "An extremely positive chengyu meaning you work hard, focus on the fundamentals, and proceed in a steady and stable fashion. Stay grounded and push ahead.",
+        "literal": "foot tread truly",
+        "meaning": "To step on silid ground. An extremely positive chengyu meaning you work hard, focus on the fundamentals, and proceed in a steady and stable fashion. Stay grounded and push ahead.",
     },
     "九牛一毛": {
         "zhuyin": "ㄐㄧㄡˇ ㄋㄧㄡˊ ㄧ ㄇㄠˊ",
@@ -2177,7 +2177,7 @@ const idioms = {
         "zhuyin": "ㄧ ㄨˊ ㄙㄨㄛˇ ㄧㄡˇ",
         "pinyin": "yì wú suǒ yǒu",
         "literal": "have nothing at all",
-        "meaning": "Homeless, penniless, not a thing to your name",
+        "meaning": "Homeless, penniless, not a thing to your name.",
     },
     "一見鍾情": {
         "zhuyin": "ㄧ ㄐㄧㄢˋ ㄓㄨㄥ ㄑㄧㄥˊ",

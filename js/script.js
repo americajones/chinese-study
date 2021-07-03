@@ -236,8 +236,8 @@ function loadZhuyinRadicalFlashcards() {
         nuDiv.classList.add('radicalFlashcards');
         nuDiv.addEventListener('click', toggleEnglish);
         nuDiv.append(nuNumDiv);
-        nuDiv.append(nuTxt);
         nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt);
         nuDiv.append(nuTxt2);
         flashBox2.append(nuDiv);
         function toggleEnglish() {
@@ -287,8 +287,8 @@ function loadHanziFlashcards() {
         nuDiv.classList.add('radicalFlashcards');
         nuDiv.addEventListener('click', toggleEnglish);
         nuDiv.append(nuNumDiv);
-        nuDiv.append(nuTxt);
         nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt);
         nuDiv.append(nuTxt2);
         flashBox2.append(nuDiv);
         function toggleEnglish() {
@@ -334,8 +334,8 @@ function loadWordFlashcards() {
         nuDiv.classList.add('radicalFlashcards');
         nuDiv.addEventListener('click', toggleEnglish);
         nuDiv.append(nuNumDiv);
-        nuDiv.append(nuTxt);
         nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt);
         nuDiv.append(nuTxt2);
         flashBox2.append(nuDiv);
         function toggleEnglish() {
@@ -1157,7 +1157,7 @@ function handleAnswerClick12() {
         mainCharText.append(" = ", selectedAnswer);
         console.log('. * nice! * .');
         setTimeout(() => {
-            loadWordsMeaningsQuiz();
+            loadWordsMeaningsQuiz2();
             secretMessage.textContent = '';
         }, 1000);
     } else {
