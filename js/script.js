@@ -325,7 +325,7 @@ function loadWordFlashcards() {
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
         nuTxt2.classList.add('small');
-        nuTxt2.classList.add('opacity');
+        // nuTxt2.classList.add('opacity');
         nuTxt2.classList.add('pink');
         nuDivTit.classList.add('cursive');
         nuDivTit.classList.add('xlarge');
@@ -497,7 +497,7 @@ function loadHanziMeaningsQuiz() {
     mainCharText.textContent = thisHanzi;
     mainCharText.classList.add('cursive');
     secondaryCharText.textContent = zhuyinArray[randoNumber];
-    secondaryCharText.classList.add('cursive');
+    // secondaryCharText.classList.add('cursive');
     let answersArray = [];
     trueAnswer = meaningsArray[randoNumber];
     answersArray.push(trueAnswer);
@@ -587,6 +587,7 @@ function loadHanziZhuyinQuiz() {
     removeAllChildren(answersBox);
     swapButt.classList.remove('hidden');
     skipButt.classList.remove('hidden');
+    swapButt.removeEventListener('click', loadHanziMeaningsQuiz);
     swapButt.removeEventListener('click', loadHanziZhuyinQuiz);
     swapButt.addEventListener('click', loadHanziZhuyinQuiz2);
     skipButt.removeEventListener('click', loadHanziZhuyinQuiz2);
@@ -610,7 +611,7 @@ function loadHanziZhuyinQuiz() {
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick3)
         newDiv.classList.add('answer');
-        newDiv.classList.add('cursive');
+        // newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
 }
@@ -644,6 +645,7 @@ function loadHanziZhuyinQuiz2() {
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = zhuyinArray[randoNumber];
     mainCharText.textContent = thisHanzi;
+    mainCharText.classList.remove('cursive');
     secondaryCharText.textContent = "";
     let answersArray = [];
     trueAnswer = hanziArray[randoNumber];
@@ -686,6 +688,7 @@ function loadHanziToneQuiz() {
     removeAllChildren(answersBox);
     swapButt.classList.remove('hidden');
     skipButt.classList.remove('hidden');
+    swapButt.removeEventListener('click', loadHanziMeaningsQuiz);
     swapButt.removeEventListener('click', loadHanziZhuyinQuiz2);
     swapButt.addEventListener('click', loadHanziToneQuiz);
     skipButt.removeEventListener('click', loadHanziZhuyinQuiz);
@@ -856,7 +859,7 @@ function loadRadicalMeaningsQuiz() {
     mainCharText.textContent = thisHanzi;
     mainCharText.classList.add('cursive');
     secondaryCharText.textContent = zhuyinArray[randoNumber];
-    secondaryCharText.classList.add('cursive');
+    // secondaryCharText.classList.add('cursive');
     let answersArray = [];
     trueAnswer = meaningsArray[randoNumber];
     answersArray.push(trueAnswer);
@@ -888,7 +891,7 @@ function loadRadicalMeaningsQuiz2() {
     mainCharText.textContent = thisHanzi;
     mainCharText.classList.remove('cursive');
     secondaryCharText.textContent = zhuyinArray[randoNumber];
-    secondaryCharText.classList.add('cursive');
+    // secondaryCharText.classList.add('cursive');
     let answersArray = [];
     trueAnswer = hanziArray[randoNumber];
     answersArray.push(trueAnswer);
@@ -1195,7 +1198,7 @@ function loadWordsZhuyinQuiz() {
         newDiv.textContent = answer;
         newDiv.addEventListener('click', handleAnswerClick13)
         newDiv.classList.add('answer');
-        newDiv.classList.add('cursive');
+        // newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
 }
@@ -1230,6 +1233,7 @@ function loadWordsZhuyinQuiz2() {
     thisHanzi = zhuyinArray[randoNumber];
     mainCharText.textContent = thisHanzi;
     secondaryCharText.textContent = "";
+    mainCharText.classList.remove('cursive');
     let answersArray = [];
     trueAnswer = hanziArray[randoNumber];
     answersArray.push(trueAnswer);

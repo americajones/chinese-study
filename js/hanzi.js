@@ -1,4 +1,4 @@
-//most commonly found 100 characters
+//most commonly found 1000 characters
 const hanziLevel1 = {
     "我": {
         "zhuyin": "ㄨㄛˇ",
@@ -1743,6 +1743,24 @@ const A1sentences = {
         "pinyin": "wǒ búshì bàntúérfèi de rén",
         "category": "basics"
     },
+    "他給我書": {
+        "zhuyin": "ㄍㄟˇ ㄨㄛˇ ㄕㄨ",
+        "pinyin": "",
+        "category": "basics",
+        "english": "He gives me books"
+    },
+    "給我看": {
+        "zhuyin": "ㄍㄟˇ ㄨㄛˇ ㄎㄢˋ",
+        "pinyin": "",
+        "category": "basics",
+        "english": "let me look"
+    },
+    "請給我買": {
+        "zhuyin": "ㄑㄧㄥˇ ㄍㄟˇ ㄨㄛˇ ㄇㄞˇ",
+        "pinyin": "",
+        "category": "basics",
+        "english": "Please buy for me"
+    },
     // "": {
     //     "english": "",
     //     "zhuyin": "",
@@ -2132,13 +2150,649 @@ const A1words = {
     "成語": {
         "zhuyin": "ㄔㄥˊ ㄩˇ",
         "pinyin": "chéng yǔ",
-        "level": "basics",
+        "level": "A",
         "english": "4 or 5 character idioms"
+    },
+    "女人": {
+        "zhuyin": "ㄋㄩˇ ㄖㄣˊ",
+        "pinyin": "nǚ rén",
+        "level": "A",
+        "english": "woman"
+    },
+    "子女": {
+        "zhuyin": "ㄗˇ ㄋㄩˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "sons and daughters"
+    },
+    "好累": {
+        "zhuyin": "ㄏㄠˇ ㄌㄟˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be very tired"
+    },
+    "小子": {
+        "zhuyin": "ㄒㄧㄠˇ ㄗˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "(colloqial)boy, bloke"
+    },
+    "人口": {
+        "zhuyin": "ㄖㄣˊ ㄎㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "population"
+    },
+    "三口人": {
+        "zhuyin": "ㄙㄢ ㄎㄡˇ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "three(count) people"
+    },
+    "口子": {
+        "zhuyin": "ㄎㄡˇ ㄗˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "hole, opening, cut, rip"
+    },
+    "小手": {
+        "zhuyin": "ㄒㄧㄠˇ ㄕㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "pickpocket"
+    },
+    "門口": {
+        "zhuyin": "ㄇㄣˊ ㄎㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "doorway, area by entrance"
+    },
+    "天天": {
+        "zhuyin": "ㄊㄧㄢ ㄊㄧㄢ",
+        "pinyin": "",
+        "level": "A",
+        "english": "every day"
+    },
+    "好笑": {
+        "zhuyin": "ㄏㄠˇ ㄒㄧㄠˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be easy to laugh at, funny, ridiculous"
+    },
+    "矮子": {
+        "zhuyin": "ㄞˇ ㄗˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "short person, dwarf"
+    },
+    "忙人": {
+        "zhuyin": "ㄇㄤˊ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "busy person"
+    },
+    "小心": {
+        "zhuyin": "ㄒㄧㄠˇ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "Be careful!"
+    },
+    "無心": {
+        "zhuyin": "ㄨˊ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "not feel like, not in the mood for, unintentionally"
+    },
+    "不好": {
+        "zhuyin": "ㄅㄨˋ ㄏㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "no good, it's not good"
+    },
+    "不很": {
+        "zhuyin": "ㄅㄨˋ ㄏㄣˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "not very"
+    },
+    "很不": {
+        "zhuyin": "ㄏㄣˇ ㄅㄨˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "very un-"
+    },
+    "不忙": {
+        "zhuyin": "ㄅㄨˋ ㄇㄤˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "there is no hurry, take your time"
+    },
+    "太太": {
+        "zhuyin": "ㄊㄞˋ ㄊㄞˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "wife"
+    },
+    "太子": {
+        "zhuyin": "ㄊㄞˋ ㄗˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "prince"
+    },
+    "太忙": {
+        "zhuyin": "ㄊㄞˋ ㄇㄤˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be too busy"
+    },
+    "可笑": {
+        "zhuyin": "ㄎㄜˇ ㄒㄧㄠˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be laughable"
+    },
+    "可口": {
+        "zhuyin": "ㄎㄜˇ ㄎㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "suit one's mouth, taste good"
+    },
+    "可心": {
+        "zhuyin": "ㄎㄜˇ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be satisfying, pleasing"
+    },
+    "不可": {
+        "zhuyin": "ㄅㄨˋ ㄎㄜˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "should not"
+    },
+    "又不": {
+        "zhuyin": "ㄧㄡˋ ㄅㄨˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "not at all"
+    },
+    "土人": {
+        "zhuyin": "ㄊㄨˇ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "native person"
+    },
+    "土木": {
+        "zhuyin": "ㄊㄨˇ ㄇㄨˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "building and construction"
+    },
+    "幸好": {
+        "zhuyin": "ㄒㄧㄥˋ ㄏㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "fortunately, luckily"
+    },
+    "不幸": {
+        "zhuyin": "ㄅㄨˋ ㄒㄧㄥˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "bad luck, unlucky, unfortunately"
+    },
+    "筆心": {
+        "zhuyin": "ㄅㄧˇ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "pencil lead, pen refill"
+    },
+    "山口": {
+        "zhuyin": "ㄕㄢ ㄎㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "mountain pass"
+    },
+    "鋼筆": {
+        "zhuyin": "ㄍㄤ ㄅㄧˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "pen"
+    },
+    "王八": {
+        "zhuyin": "ㄨㄤˊ ㄅㄚ",
+        "pinyin": "",
+        "level": "A",
+        "english": "cuck, stupid man"
+    },
+    "王八蛋": {
+        "zhuyin": "ㄨㄤˊ ㄅㄚ ㄉㄢˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "son of a bitch, stupid motherfucker"
+    },
+    "鉛筆": {
+        "zhuyin": "ㄑㄧㄢ ㄅㄧˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "pencil"
+    },
+    "刀子": {
+        "zhuyin": "ㄉㄠ ㄗˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "knife"
+    },
+    "分手": {
+        "zhuyin": "ㄈㄣ ㄕㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to part w/ somebody"
+    },
+    "分心": {
+        "zhuyin": "ㄈㄣ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to distract somebody's attention"
+    },
+    "童女": {
+        "zhuyin": "ㄊㄨㄥˊ ㄋㄩˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "maiden, virgin"
+    },
+    "童心": {
+        "zhuyin": "ㄊㄨㄥˊ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "childish disposition"
+    },
+    "童山": {
+        "zhuyin": "ㄊㄨㄥˊ ㄕㄢ",
+        "pinyin": "",
+        "level": "A",
+        "english": "bare hills, bald mountain"
+    },
+    "十分鐘": {
+        "zhuyin": "ㄕˊ ㄈㄣ ㄓㄨㄥ",
+        "pinyin": "",
+        "level": "A",
+        "english": "ten minutes"
+    },
+    "大衣": {
+        "zhuyin": "ㄉㄚˋ ㄧ",
+        "pinyin": "",
+        "level": "A",
+        "english": "overcoat"
+    },
+    "手錶": {
+        "zhuyin": "ㄕㄡˇ ㄅㄧㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "wristwatch"
+    },
+    "中心": {
+        "zhuyin": "ㄓㄨㄥ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "center, core"
+    },
+    "中立": {
+        "zhuyin": "ㄓㄨㄥ ㄌㄧˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "stand in the midde, neutrality"
+    },
+    "山羊": {
+        "zhuyin": "ㄕㄢ ㄧㄤˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "goat"
+    },
+    "小羊": {
+        "zhuyin": "ㄒㄧㄠˇ ㄧㄤˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "lamb"
+    },
+    "美國": {
+        "zhuyin": "ㄇㄟˇ ㄍㄨㄛˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "America"
+    },
+    "美金": {
+        "zhuyin": "ㄇㄟˇ ㄐㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "American money"
+    },
+    "美好": {
+        "zhuyin": "ㄇㄟˇ ㄏㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be fine, happy, glorious"
+    },
+    "外國": {
+        "zhuyin": "ㄨㄞˋ ㄍㄨㄛˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "foreign"
+    },
+    "外表": {
+        "zhuyin": "ㄨㄞˋ ㄅㄧㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "outward appearence, surface"
+    },
+    "看中": {
+        "zhuyin": "ㄎㄢˋ ㄓㄨㄥ",
+        "pinyin": "",
+        "level": "A",
+        "english": "take a liking to, pick out, choose"
+    },
+    "更好": {
+        "zhuyin": "ㄍㄥ ㄏㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be better, even more"
+    },
+    "小便": {
+        "zhuyin": "ㄒㄧㄠˇ ㄅㄧㄢˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to pee, piss"
+    },
+    "大便": {
+        "zhuyin": "ㄉㄚˋ ㄅㄧㄢˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to poop, shit"
+    },
+    "便依": {
+        "zhuyin": "ㄅㄧㄢˋ ㄧ",
+        "pinyin": "",
+        "level": "A",
+        "english": "street clothes, civvies"
+    },
+    "便宜": {
+        "zhuyin": "ㄅㄧㄢˋ ㄧˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be inexpensive"
+    },
+    "要不": {
+        "zhuyin": "ㄧㄠˋ ㄅㄨˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "otherwise, or else, or"
+    },
+    "要好": {
+        "zhuyin": "ㄧㄠˋ ㄏㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be on good terms, good friends, eager to improve"
+    },
+    "人士": {
+        "zhuyin": "ㄖㄣˊ ㄕˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "notable person"
+    },
+    "士女": {
+        "zhuyin": "ㄕˋ ㄋㄩˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "young men and women, guys and gals"
+    },
+    "女士": {
+        "zhuyin": "ㄋㄩˇ ㄕˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "(polite) professional woman"
+    },
+    "買賣": {
+        "zhuyin": "ㄇㄞˇ ㄇㄞˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "buisness"
+    },
+    "老人": {
+        "zhuyin": "ㄌㄠˇ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "old person, old folks"
+    },
+    "老二": {
+        "zhuyin": "ㄌㄠˇ ㄦˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "second child"
+    },
+    "老者": {
+        "zhuyin": "ㄌㄠˇ ㄓㄜˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "old fellow, old man"
+    },
+    "甘心": {
+        "zhuyin": "ㄍㄢ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "willingly, be happy with"
+    },
+    "入口": {
+        "zhuyin": "ㄖㄨˋ ㄎㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "entrance"
+    },
+    "入門": {
+        "zhuyin": "ㄖㄨˋ ㄇㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "primer, to start well"
+    },
+    "入手": {
+        "zhuyin": "ㄖㄨˋ ㄕㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "put your hand in, get started"
+    },
+    "麻木": {
+        "zhuyin": "ㄇㄚˊ ㄇㄨˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "numb, apathetic"
+    },
+    "大麻": {
+        "zhuyin": "ㄉㄚˋ ㄇㄚˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "hemp, marijuana"
+    },
+    "甚麼": {
+        "zhuyin": "ㄕㄣˋ ㄇㄜ˙",
+        "pinyin": "",
+        "level": "A",
+        "english": "what? (old complex vers.)"
+    },
+    "書桌": {
+        "zhuyin": "ㄕㄨ ㄓㄨㄛ",
+        "pinyin": "",
+        "level": "A",
+        "english": "writing desk"
+    },
+    "好奇": {
+        "zhuyin": "ㄏㄠˇ ㄑㄧˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "curious, interested in odd things or just many things"
+    },
+    "好奇心": {
+        "zhuyin": "ㄏㄠˇ ㄑㄧˊ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "curiosity"
+    },
+    "椅子": {
+        "zhuyin": "ㄧˇ ㄗˇ",
+        "pinyin": "Yǐzi",
+        "level": "A",
+        "english": "chair"
+    },
+    "金錢": {
+        "zhuyin": "ㄐㄧㄣ ㄑㄧㄢˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "money"
+    },
+    "古老": {
+        "zhuyin": "ㄍㄨˇ ㄌㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "ancient"
+    },
+    "古玩": {
+        "zhuyin": "ㄍㄨˇ ㄨㄢˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "antique object, curio"
+    },
+    "個人": {
+        "zhuyin": "ㄍㄜˋ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "each person, everyone"
+    },
+    "這個": {
+        "zhuyin": "ㄓㄜˋ ㄍㄜˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "this one"
+    },
+    "這麼": {
+        "zhuyin": "ㄓㄜˋ ㄇㄜ˙",
+        "pinyin": "",
+        "level": "A",
+        "english": "so, thus, in this case, to this extent"
+    },
+    "那個": {
+        "zhuyin": "ㄋㄚˋ ㄍㄜˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "that one, that"
+    },
+    "那麼": {
+        "zhuyin": "ㄋㄚˋ ㄇㄜ˙",
+        "pinyin": "",
+        "level": "A",
+        "english": "that being so, in that case"
+    },
+    "有錢": {
+        "zhuyin": "ㄧㄡˇ ㄑㄧㄢˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be rich"
+    },
+    "沒買": {
+        "zhuyin": "ㄇㄟˊ ㄇㄞˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "did not buy, has not bought(yet)"
+    },
+    "吉他": {
+        "zhuyin": "ㄐㄧˊ ㄊㄚ",
+        "pinyin": "",
+        "level": "A",
+        "english": "guitar"
+    },
+    "喜人": {
+        "zhuyin": "ㄒㄧˇ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to be satisfying"
+    },
+    "喜好": {
+        "zhuyin": "ㄒㄧˇ ㄏㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to like, love, be fond of"
+    },
+    "喜歡": {
+        "zhuyin": "ㄒㄧˇ ㄏㄨㄢ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to like"
+    },
+    "歡笑": {
+        "zhuyin": "ㄏㄨㄢ ㄒㄧㄠˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to laugh delightedly"
+    },
+    "歡心": {
+        "zhuyin": "ㄏㄨㄢ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "favor(noun), love (noun)"
+    },
+    "十足": {
+        "zhuyin": "ㄕˊ ㄗㄨˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "sheer, total, absolute"
+    },
+    "跟上": {
+        "zhuyin": "ㄍㄣ ㄕㄤˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "keep up with, keep pace with"
+    },
+    "誰請": {
+        "zhuyin": "ㄕㄨㄟˊ ㄑㄧㄥˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "who's paying?"
+    },
+    "請問": {
+        "zhuyin": "ㄑㄧㄥˇ ㄨㄣˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "would you please tell me"
+    },
+    "聞人": {
+        "zhuyin": "ㄨㄣˊ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "famous person"
+    },
+    "耳聞": {
+        "zhuyin": "ㄦˇ ㄨㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to hear about from others"
+    },
+    "中間": {
+        "zhuyin": "ㄓㄨㄥ ㄐㄧㄢ",
+        "pinyin": "",
+        "level": "A",
+        "english": "between, among, the middle, center"
+    },
+    "田間": {
+        "zhuyin": "ㄊㄧㄢˊ ㄐㄧㄢ",
+        "pinyin": "",
+        "level": "A",
+        "english": "farm, field"
+    },
+    "人間": {
+        "zhuyin": "ㄖㄣˊ ㄐㄧㄢ",
+        "pinyin": "",
+        "level": "A",
+        "english": "the human world, world of human affairs"
     },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
-    //     "level": "basics",  
+    //     "level": "A",  
     //     "english": ""
     // },
 }
