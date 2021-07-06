@@ -81,7 +81,7 @@ function getGrammar() {
         // nuDivTit2.classList.add('cursive');
         nuDivTit2.classList.add('padding');
         nuTxt.classList.add('center');
-        nuTxt.classList.add('cursive');
+        // nuTxt.classList.add('cursive');
         nuTxt2.classList.add('left');
         nuDiv.append(nuDivTit);
         nuDiv.append(nuTxt);
@@ -128,6 +128,7 @@ function getIdioms() {
         nuDivTit2.classList.add('padding');
         // nuTxt.classList.add('center');
         nuTxt.classList.add('faded');
+        nuTxt.classList.remove('cursive');
         nuTxt2.classList.add('left');
         nuDiv.append(nuDivTit);
         nuDiv.append(nuTxt);
