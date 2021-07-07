@@ -10,10 +10,11 @@ const flashBox2 = document.querySelector('.flashBox2');
 const flashBox3 = document.querySelector('.flashBox3');
 const sentenceBox = document.querySelector('.sentenceBox');
 const pageHeader = document.querySelector('.title');
-const secretMessage = document.querySelector('.secret-message');
 const hanziWriteBox = document.querySelector('#hanziWriteBox');
 const charInput = document.querySelector('#char');
 const writeBox = document.querySelector('#character-target-div')
+const buttBox = document.querySelector('.bottom-buttons');
+
 let hanziArray = [];
 let zhuyinArray = [];
 let pinyinArray = [];
@@ -21,6 +22,7 @@ let meaningsArray = [];
 let thisHanzi;
 let trueAnswer;
 let selectedAnswer;
+let secretMessage = "";
 let answersArray = [];
 let randoNumber = 69;
 let numberArray = [];
@@ -344,7 +346,26 @@ function loadWordFlashcards() {
         }
     };
 }
-
+function makeButtons(swapEvent, skipEvent) {
+    removeAllChildren(buttBox);
+    let secret = document.createElement('p');
+    secret.classList.add('secret-message')
+    secret.textContent = "";
+    let skipButt = document.createElement('button');
+    skipButt.textContent = "skip";
+    skipButt.classList.add("skip");
+    skipButt.classList.add("butt");
+    let swapButt = document.createElement('button');
+    swapButt.textContent = "swap quiz style";
+    swapButt.classList.add("swap");
+    swapButt.classList.add("butt");
+    skipButt.addEventListener('click', skipEvent);
+    swapButt.addEventListener('click', swapEvent);
+    buttBox.append(swapButt);
+    buttBox.append(secret);
+    buttBox.append(skipButt);
+    secretMessage = document.querySelector('.secret-message');
+}
 function loadZhuyin() {
     pinyinArray = [];
     zhuyinArray = [];
@@ -366,12 +387,7 @@ function loadZhuyin() {
 function loadZhuyinQuiz1() {
     loadZhuyin();
     removeAllChildren(answersBox);
-    skipButt.classList.remove('hidden');
-    swapButt.classList.remove('hidden');
-    swapButt.removeEventListener('click', loadZhuyinQuiz1);
-    swapButt.addEventListener('click', loadZhuyinQuiz2);
-    skipButt.removeEventListener('click', loadZhuyinQuiz2);
-    skipButt.addEventListener('click', loadZhuyinQuiz1);
+    makeButtons(loadZhuyinQuiz2, loadZhuyinQuiz1);
     randoNumber = Math.floor(Math.random() * zhuyinArray.length);
     thisHanzi = zhuyinArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -397,12 +413,7 @@ function loadZhuyinQuiz1() {
 function loadZhuyinQuiz2() {
     loadZhuyin();
     removeAllChildren(answersBox);
-    skipButt.classList.remove('hidden');
-    swapButt.classList.remove('hidden');
-    swapButt.removeEventListener('click', loadZhuyinQuiz2);
-    swapButt.addEventListener('click', loadZhuyinQuiz1);
-    skipButt.addEventListener('click', loadZhuyinQuiz2);
-    skipButt.removeEventListener('click', loadZhuyinQuiz1);
+    makeButtons(loadZhuyinQuiz1, loadZhuyinQuiz2);
     randoNumber = Math.floor(Math.random() * pinyinArray.length);
     thisHanzi = pinyinArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -487,12 +498,7 @@ function getSet1() {
 function loadHanziMeaningsQuiz() {
     getSet1();
     removeAllChildren(answersBox);
-    skipButt.classList.remove('hidden');
-    swapButt.classList.remove('hidden');
-    swapButt.removeEventListener('click', loadHanziMeaningsQuiz);
-    swapButt.addEventListener('click', loadHanziMeaningsQuiz2);
-    skipButt.removeEventListener('click', loadHanziMeaningsQuiz2);
-    skipButt.addEventListener('click', loadHanziMeaningsQuiz);
+    makeButtons(loadHanziMeaningsQuiz2, loadHanziMeaningsQuiz);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -519,13 +525,8 @@ function loadHanziMeaningsQuiz() {
 function loadHanziMeaningsQuiz2() {
     getSet1();
     removeAllChildren(answersBox);
-    skipButt.classList.remove('hidden');
-    swapButt.classList.remove('hidden');
     mainCharText.classList.remove('cursive');
-    swapButt.removeEventListener('click', loadHanziMeaningsQuiz2);
-    swapButt.addEventListener('click', loadHanziMeaningsQuiz);
-    skipButt.removeEventListener('click', loadHanziMeaningsQuiz);
-    skipButt.addEventListener('click', loadHanziMeaningsQuiz2);
+    makeButtons(loadHanziMeaningsQuiz, loadHanziMeaningsQuiz2);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = meaningsArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -586,13 +587,7 @@ function handleAnswerClick1() {
 function loadHanziZhuyinQuiz() {
     getSet1();
     removeAllChildren(answersBox);
-    swapButt.classList.remove('hidden');
-    skipButt.classList.remove('hidden');
-    swapButt.removeEventListener('click', loadHanziMeaningsQuiz);
-    swapButt.removeEventListener('click', loadHanziZhuyinQuiz);
-    swapButt.addEventListener('click', loadHanziZhuyinQuiz2);
-    skipButt.removeEventListener('click', loadHanziZhuyinQuiz2);
-    skipButt.addEventListener('click', loadHanziZhuyinQuiz);
+    makeButtons(loadHanziZhuyinQuiz2, loadHanziZhuyinQuiz);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -637,12 +632,7 @@ function handleAnswerClick3() {
 function loadHanziZhuyinQuiz2() {
     getSet1();
     removeAllChildren(answersBox);
-    swapButt.classList.remove('hidden');
-    skipButt.classList.remove('hidden');
-    swapButt.removeEventListener('click', loadHanziZhuyinQuiz2);
-    swapButt.addEventListener('click', loadHanziZhuyinQuiz);
-    skipButt.removeEventListener('click', loadHanziZhuyinQuiz);
-    skipButt.addEventListener('click', loadHanziZhuyinQuiz2);
+    makeButtons(loadHanziZhuyinQuiz, loadHanziZhuyinQuiz2);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = zhuyinArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -687,13 +677,7 @@ function handleAnswerClick4() {
 function loadHanziToneQuiz() {
     getSet1();
     removeAllChildren(answersBox);
-    swapButt.classList.remove('hidden');
-    skipButt.classList.remove('hidden');
-    swapButt.removeEventListener('click', loadHanziMeaningsQuiz);
-    swapButt.removeEventListener('click', loadHanziZhuyinQuiz2);
-    swapButt.addEventListener('click', loadHanziToneQuiz);
-    skipButt.removeEventListener('click', loadHanziZhuyinQuiz);
-    skipButt.addEventListener('click', loadHanziToneQuiz);
+    makeButtons(loadHanziToneQuiz, loadHanziToneQuiz);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -748,7 +732,7 @@ function handleAnswerClick9() {
 }
 let writingAnswers = "";
 const charTarget = document.querySelector('#character-target-div');
-const buttBox = document.querySelector('.writingButtBox');
+const wbuttBox = document.querySelector('.writingButtBox');
 const subButt = document.querySelector('#subButt')
 const wskipButt = document.querySelector('#skipButt')
 function loadHanziWritingQuiz() {
@@ -760,14 +744,12 @@ function loadHanziWritingQuiz() {
     getSet1();
     sentenceBox.classList.add('hidden');
     answersBox.classList.add('hidden');
-    skipButt.classList.add('hidden');
-    swapButt.classList.add('hidden');
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
     removeAllChildren(answersBox);
     removeAllChildren(charTarget);
-    removeAllChildren(buttBox);
+    removeAllChildren(wbuttBox);
     hanziWriteBox.classList.remove('hidden');
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
@@ -849,12 +831,7 @@ function getRadicals() {
 function loadRadicalMeaningsQuiz() {
     getRadicals();
     removeAllChildren(answersBox);
-    swapButt.classList.remove('hidden');
-    skipButt.classList.remove('hidden');
-    skipButt.addEventListener('click', loadRadicalMeaningsQuiz);
-    skipButt.removeEventListener('click', loadRadicalMeaningsQuiz2);
-    swapButt.addEventListener('click', loadRadicalMeaningsQuiz2);
-    swapButt.removeEventListener('click', loadRadicalMeaningsQuiz);
+    makeButtons(loadRadicalMeaningsQuiz2, loadRadicalMeaningsQuiz);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -881,12 +858,7 @@ function loadRadicalMeaningsQuiz() {
 function loadRadicalMeaningsQuiz2() {
     getRadicals();
     removeAllChildren(answersBox);
-    swapButt.classList.remove('hidden');
-    skipButt.classList.remove('hidden');
-    skipButt.addEventListener('click', loadRadicalMeaningsQuiz2);
-    skipButt.removeEventListener('click', loadRadicalMeaningsQuiz);
-    swapButt.addEventListener('click', loadRadicalMeaningsQuiz);
-    swapButt.removeEventListener('click', loadRadicalMeaningsQuiz2);
+    makeButtons(loadRadicalMeaningsQuiz, loadRadicalMeaningsQuiz2);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = meaningsArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -949,12 +921,7 @@ function handleAnswerClick7() {
 function loadRadicalZhuyinQuiz() {
     getRadicals();
     removeAllChildren(answersBox);
-    swapButt.classList.remove('hidden');
-    skipButt.classList.remove('hidden');
-    skipButt.removeEventListener('click', loadRadicalZhuyinQuiz2);
-    skipButt.addEventListener('click', loadRadicalZhuyinQuiz);
-    swapButt.removeEventListener('click', loadRadicalZhuyinQuiz);
-    swapButt.addEventListener('click', loadRadicalZhuyinQuiz2);
+    makeButtons(loadRadicalZhuyinQuiz2, loadRadicalZhuyinQuiz);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -999,12 +966,7 @@ function handleAnswerClick6() {
 function loadRadicalZhuyinQuiz2() {
     getRadicals();
     removeAllChildren(answersBox);
-    swapButt.classList.remove('hidden');
-    skipButt.classList.remove('hidden');
-    skipButt.removeEventListener('click', loadRadicalZhuyinQuiz);
-    skipButt.addEventListener('click', loadRadicalZhuyinQuiz2);
-    swapButt.removeEventListener('click', loadRadicalZhuyinQuiz2);
-    swapButt.addEventListener('click', loadRadicalZhuyinQuiz);
+    makeButtons(loadRadicalZhuyinQuiz, loadRadicalZhuyinQuiz2);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = zhuyinArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -1073,12 +1035,7 @@ function getWords() {
 function loadWordsMeaningsQuiz() {
     getWords();
     removeAllChildren(answersBox);
-    skipButt.classList.remove('hidden');
-    swapButt.classList.remove('hidden');
-    swapButt.removeEventListener('click', loadWordsMeaningsQuiz);
-    swapButt.addEventListener('click', loadWordsMeaningsQuiz2);
-    skipButt.removeEventListener('click', loadWordsMeaningsQuiz2);
-    skipButt.addEventListener('click', loadWordsMeaningsQuiz);
+    makeButtons(loadWordsMeaningsQuiz2, loadWordsMeaningsQuiz);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -1106,16 +1063,11 @@ function loadWordsMeaningsQuiz() {
 function loadWordsMeaningsQuiz2() {
     getWords();
     removeAllChildren(answersBox);
-    skipButt.classList.remove('hidden');
-    swapButt.classList.remove('hidden');
-    mainCharText.classList.remove('cursive');
-    swapButt.removeEventListener('click', loadWordsMeaningsQuiz2);
-    swapButt.addEventListener('click', loadWordsMeaningsQuiz);
-    skipButt.removeEventListener('click', loadWordsMeaningsQuiz);
-    skipButt.addEventListener('click', loadWordsMeaningsQuiz2);
+    makeButtons(loadWordsMeaningsQuiz, loadWordsMeaningsQuiz2);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = meaningsArray[randoNumber];
     mainCharText.textContent = thisHanzi;
+    mainCharText.classList.remove('cursive');
     secondaryCharText.textContent = zhuyinArray[randoNumber];
     secondaryCharText.classList.add('small')
     let answersArray = [];
@@ -1174,12 +1126,7 @@ function handleAnswerClick12() {
 function loadWordsZhuyinQuiz() {
     getWords();
     removeAllChildren(answersBox);
-    swapButt.classList.remove('hidden');
-    skipButt.classList.remove('hidden');
-    swapButt.removeEventListener('click', loadWordsZhuyinQuiz);
-    swapButt.addEventListener('click', loadWordsZhuyinQuiz2);
-    skipButt.removeEventListener('click', loadWordsZhuyinQuiz2);
-    skipButt.addEventListener('click', loadWordsZhuyinQuiz);
+    makeButtons(loadWordsZhuyinQuiz2, loadWordsZhuyinQuiz);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = hanziArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -1224,12 +1171,7 @@ function handleAnswerClick13() {
 function loadWordsZhuyinQuiz2() {
     getWords();
     removeAllChildren(answersBox);
-    swapButt.classList.remove('hidden');
-    skipButt.classList.remove('hidden');
-    swapButt.removeEventListener('click', loadWordsZhuyinQuiz2);
-    swapButt.addEventListener('click', loadWordsZhuyinQuiz);
-    skipButt.removeEventListener('click', loadWordsZhuyinQuiz);
-    skipButt.addEventListener('click', loadWordsZhuyinQuiz2);
+    makeButtons(loadWordsZhuyinQuiz, loadWordsZhuyinQuiz2);
     randoNumber = Math.floor(Math.random() * hanziArray.length);
     thisHanzi = zhuyinArray[randoNumber];
     mainCharText.textContent = thisHanzi;
@@ -1281,14 +1223,13 @@ function loadWordsWritingQuiz() {
     getWords();
     sentenceBox.classList.add('hidden');
     answersBox.classList.add('hidden');
-    skipButt.classList.add('hidden');
-    swapButt.classList.add('hidden');
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
     removeAllChildren(answersBox);
     removeAllChildren(charTarget);
     removeAllChildren(buttBox);
+    removeAllChildren(wbuttBox);
     hanziWriteBox.classList.remove('hidden');
     writeBox.classList.add('words');
     randoNumber = Math.floor(Math.random() * hanziArray.length);
