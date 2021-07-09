@@ -1758,15 +1758,27 @@ const A1sentences = {
         "category": "basics",
         "english": "I don't know."
     },
+    "因為…所以…": {
+        "zhuyin": "",
+        "pinyin": "yīn wèi… suǒ yǐ…",
+        "category": "HSK2",
+        "english": "because… thus…, on account of… then…"
+    },
+    " 雖然…但是… ": {
+        "zhuyin": "",
+        "pinyin": "suī rán… dàn shì…",
+        "category": "HSK2",
+        "english": "although…still…, even if…nevertheless... "
+    },
     // "": {
-    //     "english": "",
     //     "zhuyin": "",
     //     "pinyin": "",
-    //     "category": ""
+    //     "category": "",
+    //     "english": ""
     // },
 }
 
-//needs zhuyin
+//still needs zhuyin
 const A2words = {
     "幫助": {
         "zhuyin": "",
@@ -1990,30 +2002,210 @@ const A2words = {
         "level": "HSK2",
         "english": "wife"
     },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
+    "起床": {
+        "zhuyin": "",
+        "pinyin": "qǐ chuáng",
+        "level": "HSK2",
+        "english": "to get up"
+    },
+    "鉛筆": {
+        "zhuyin": "",
+        "pinyin": "qiān bǐ",
+        "level": "HSK2",
+        "english": "lead pencil"
+    },
+    "去年": {
+        "zhuyin": "",
+        "pinyin": "qù nián",
+        "level": "HSK2",
+        "english": "last year"
+    },
+    "上班": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "to go to work, be put on duty"
+    },
+    "身體": {
+        "zhuyin": "",
+        "pinyin": "shēn tǐ",
+        "level": "HSK2",
+        "english": "(human) body, heath"
+    },
+    "生病": {
+        "zhuyin": "",
+        "pinyin": "shēng bìng",
+        "level": "HSK2",
+        "english": "to fall ill, sicken"
+    },
+    "生日": {
+        "zhuyin": "",
+        "pinyin": "shēng rì",
+        "level": "HSK2",
+        "english": "birthday"
+    },
+    "時間": {
+        "zhuyin": "",
+        "pinyin": "shí jiān",
+        "level": "HSK2",
+        "english": "time, period"
+    },
+    "事情": {
+        "zhuyin": "",
+        "pinyin": "shì qing",
+        "level": "HSK2",
+        "english": "affair, matter, buisness, thing"
+    },
+    "手錶": {
+        "zhuyin": "",
+        "pinyin": "shǒu biǎo",
+        "level": "HSK2",
+        "english": "wristwatch"
+    },
+    "手機": {
+        "zhuyin": "",
+        "pinyin": "shǒu jī",
+        "level": "HSK2",
+        "english": "cell phone, mobile phone"
+    },
+    "說話": {
+        "zhuyin": "",
+        "pinyin": "shuō huà",
+        "level": "HSK2",
+        "english": "to speak, say, talk, gossip, tell stories"
+    },
+    "跳舞": {
+        "zhuyin": "",
+        "pinyin": "tiào wǔ",
+        "level": "HSK2",
+        "english": "to dance"
+    },
+    "晚上": {
+        "zhuyin": "",
+        "pinyin": "wǎn shang",
+        "level": "HSK2",
+        "english": "in the evening"
+    },
+    "為什麼": {
+        "zhuyin": "",
+        "pinyin": "wèi shén me",
+        "level": "HSK2",
+        "english": "for what reason? why?"
+    },
+    "問題": {
+        "zhuyin": "",
+        "pinyin": "wèn tí",
+        "level": "HSK2",
+        "english": "question, problem, issue, topic"
+    },
+    "希望": {
+        "zhuyin": "",
+        "pinyin": "xī wàng",
+        "level": "HSK2",
+        "english": "to wish for, desire, hope"
+    },
+    "西瓜": {
+        "zhuyin": "",
+        "pinyin": "xī guā",
+        "level": "HSK2",
+        "english": "watermelon"
+    },
+    "小時": {
+        "zhuyin": "",
+        "pinyin": "xiǎo shí",
+        "level": "HSK2",
+        "english": "hour"
+    },
+    "休息 ": {
+        "zhuyin": "",
+        "pinyin": "xiū xi",
+        "level": "HSK2",
+        "english": "to rest"
+    },
+    "顏色": {
+        "zhuyin": "",
+        "pinyin": "yán sè",
+        "level": "HSK2",
+        "english": "color"
+    },
+    "眼睛": {
+        "zhuyin": "",
+        "pinyin": "yǎn jing",
+        "level": "HSK2",
+        "english": "eye"
+    },
+    "一下": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "(used after a verb) give it a go, to try, once in a while"
+    },
+    "已經": {
+        "zhuyin": "",
+        "pinyin": "yǐ jīng",
+        "level": "HSK2",
+        "english": "already"
+    },
+    "一起": {
+        "zhuyin": "",
+        "pinyin": "yī qǐ",
+        "level": "HSK2",
+        "english": "together, in the same place, with"
+    },
+    "意思": {
+        "zhuyin": "",
+        "pinyin": "yì si",
+        "level": "HSK2",
+        "english": "idea, opinion, meaining"
+    },
+    "游泳": {
+        "zhuyin": "",
+        "pinyin": "yóu yǒng",
+        "level": "HSK2",
+        "english": "swim"
+    },
+    "右邊": {
+        "zhuyin": "",
+        "pinyin": "yòu bian",
+        "level": "HSK2",
+        "english": "right side, to the right, right"
+    },
+    "運動": {
+        "zhuyin": "",
+        "pinyin": "yùn dòng",
+        "level": "HSK2",
+        "english": "movement, campaign, sports"
+    },
+    "早上": {
+        "zhuyin": "",
+        "pinyin": "zǎo shang",
+        "level": "HSK2",
+        "english": "early morning, good morning"
+    },
+    "正在": {
+        "zhuyin": "",
+        "pinyin": "zhèng zài",
+        "level": "HSK2",
+        "english": "in the process of (doing something/happening), while (doing)"
+    },
+    "知道": {
+        "zhuyin": "",
+        "pinyin": "zhī dào",
+        "level": "HSK2",
+        "english": "to know, be aware of"
+    },
+    "準備": {
+        "zhuyin": "",
+        "pinyin": "zhǔn bèi",
+        "level": "HSK2",
+        "english": "preparation, prepare"
+    },
+    "左邊": {
+        "zhuyin": "",
+        "pinyin": "zuǒ bian",
+        "level": "HSK2",
+        "english": "the left side, to the left of, left"
+    },
     //  "": {
     //     "zhuyin": "",
     //     "pinyin": "",
