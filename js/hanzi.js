@@ -1777,35 +1777,940 @@ const A1sentences = {
     //     "english": ""
     // },
 }
+const A1words = {
 
-//still needs zhuyin
+    "愛": {
+        "zhuyin": "ㄞˋ",
+        "pinyin": "ài",
+        "level": "A1",
+        "english": "love"
+    },
+    "愛好": {
+        "zhuyin": "ㄞˋ ㄏㄠˇ",
+        "pinyin": "ài hào",
+        "level": "A1",
+        "english": "hobby"
+    },
+    "八": {
+        "zhuyin": "ㄅㄚ",
+        "pinyin": "bā",
+        "level": "A1",
+        "english": "eight"
+    },
+    "爸爸": {
+        "zhuyin": "ㄅㄚˋ ㄅㄚˋ",
+        "pinyin": "bà ba",
+        "level": "A1",
+        "english": "(informal) father"
+    },
+    "吧": {
+        "zhuyin": "ㄅㄚ˙",
+        "pinyin": "ba",
+        "level": "A1",
+        "english": "(interjection p.)"
+    },
+    "白": {
+        "zhuyin": "ㄅㄞˊ",
+        "pinyin": "bái",
+        "level": "A1",
+        "english": "white"
+    },
+    "白天": {
+        "zhuyin": "ㄅㄞˊ ㄊㄧㄢ",
+        "pinyin": "bái tiān",
+        "level": "A1",
+        "english": ""
+    },
+    "百": {
+        "zhuyin": "ㄅㄞˇ ",
+        "pinyin": "bǎi",
+        "level": "A1",
+        "english": "hundred"
+    },
+    "班": {
+        "zhuyin": "ㄅㄢ",
+        "pinyin": "bān",
+        "level": "A1",
+        "english": "class"
+    },
+    "半": {
+        "zhuyin": "ㄅㄢˋ",
+        "pinyin": "bàn",
+        "level": "A1",
+        "english": "half"
+    },
+    "半年": {
+        "zhuyin": "ㄅㄢˋ ㄋㄧㄢˊ",
+        "pinyin": "bàn nián",
+        "level": "A1",
+        "english": "half a year"
+    },
+    "半天": {
+        "zhuyin": "ㄅㄢˋ ㄊㄧㄢ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "half day"
+    },
+    "幫": {
+        "zhuyin": "ㄅㄤ",
+        "pinyin": "bāng",
+        "level": "A1",
+        "english": "help"
+    },
+    "幫忙": {
+        "zhuyin": "ㄅㄤ ㄇㄤˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "help"
+    },
+    "包": {
+        "zhuyin": "ㄅㄠ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "package"
+    },
+    "包子": {
+        "zhuyin": "ㄅㄠ ㄗˇ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "bun"
+    },
+    "杯子": {
+        "zhuyin": "ㄅㄟ ㄗˇ",
+        "pinyin": "bēi zi",
+        "level": "A1",
+        "english": "cup, glass"
+    },
+    "北": {
+        "zhuyin": "ㄅㄟˇ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "north"
+    },
+    "北邊": {
+        "zhuyin": "ㄅㄟˇ ㄅㄧㄢ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "north side"
+    },
+    "北京": {
+        "zhuyin": "ㄅㄟˇ ㄐㄧㄥ",
+        "pinyin": "Běi jīng",
+        "level": "A1",
+        "english": "Beijing"
+    },
+    "本": {
+        "zhuyin": "ㄅㄣˇ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "(measure word for books or volumes)"
+    },
+    "本子": {
+        "zhuyin": "ㄅㄣˇ ㄗˇ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "book"
+    },
+    "比": {
+        "zhuyin": "ㄅㄧˇ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "(comparison p.)"
+    },
+    "别": {
+        "zhuyin": "ㄅㄧㄝˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "don't"
+    },
+    "副": {
+        "zhuyin": "ㄈㄨˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "don't"
+    },
+    "别的": {
+        "zhuyin": "ㄅㄧㄝˊ ㄉㄜ˙",
+        "pinyin": "",
+        "level": "A1",
+        "english": "other"
+    },
+    "别人": {
+        "zhuyin": "ㄅㄧㄝˊ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "other people"
+    },
+    "病": {
+        "zhuyin": "ㄅㄧㄥˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "disease"
+    },
+    "病人": {
+        "zhuyin": " ㄅㄧㄥˋ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "patient"
+    },
+    "不大": {
+        "zhuyin": "ㄅㄨˋ ㄉㄚˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "not big"
+    },
+    "不對": {
+        "zhuyin": "ㄅㄨˋ ㄉㄨㄟˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "wrong, not correct"
+    },
+    "不客氣": {
+        "zhuyin": "ㄅㄨˋ ㄎㄜˋ ㄑㄧˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "you're welcome"
+    },
+    "不用": {
+        "zhuyin": "ㄅㄨˋ ㄩㄥˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "no need to"
+    },
+    "不": {
+        "zhuyin": "ㄅㄨˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "no"
+    },
+    "菜": {
+        "zhuyin": "ㄘㄞˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "veggie, greens, dish(food)"
+    },
+    "茶": {
+        "zhuyin": "ㄔㄚˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "tea"
+    },
+    "差": {
+        "zhuyin": "ㄔㄚˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "differ from, bad, short of"
+    },
+    "常": {
+        "zhuyin": "ㄔㄤˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "often"
+    },
+    "常常": {
+        "zhuyin": "ㄔㄤˊ ㄔㄤˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "often"
+    },
+    "唱": {
+        "zhuyin": "ㄔㄤˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "sing"
+    },
+    "唱歌": {
+        "zhuyin": "ㄔㄤˋ ㄍㄜ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "sing"
+    },
+    "車": {
+        "zhuyin": "ㄔㄜ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "car"
+    },
+    "車票": {
+        "zhuyin": "ㄔㄜ ㄆㄧㄠˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "ticket"
+    },
+    "車上": {
+        "zhuyin": "ㄔㄜ ㄕㄤˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "in the car"
+    },
+    "車站": {
+        "zhuyin": "ㄔㄜ ㄓㄢˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "station"
+    },
+    "吃": {
+        "zhuyin": "ㄔ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "eat"
+    },
+    "吃飯": {
+        "zhuyin": "ㄔ ㄈㄢˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "have a meal"
+    },
+    "出": {
+        "zhuyin": "ㄔㄨ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "out"
+    },
+    "出來": {
+        "zhuyin": "ㄔㄨ ㄌㄞˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "come"
+    },
+    "出去": {
+        "zhuyin": "ㄔㄨ ㄑㄩˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "go out"
+    },
+    "穿": {
+        "zhuyin": "ㄔㄨㄢ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "wear"
+    },
+    "床": {
+        "zhuyin": "ㄔㄨㄤˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "bed"
+    },
+    "次": {
+        "zhuyin": "ㄘˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "(measure word for times, frequency)"
+    },
+    "從": {
+        "zhuyin": "ㄘㄨㄥˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "from"
+    },
+    "錯": {
+        "zhuyin": "ㄘㄨㄛˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "wrong"
+    },
+    "打": {
+        "zhuyin": "ㄉㄚˇ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "hit take"
+    },
+    "打車": {
+        "zhuyin": "ㄉㄚˇ ㄔㄜ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "take a taxi"
+    },
+    "打電話": {
+        "zhuyin": "ㄉㄚˇ ㄉㄧㄢˋ ㄏㄨㄚˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "make a phone call"
+    },
+    "打開": {
+        "zhuyin": "ㄉㄚˇ ㄎㄞ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "turn on"
+    },
+    "打球": {
+        "zhuyin": "ㄉㄚˇ ㄑㄧㄡˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "play ball"
+    },
+    "大": {
+        "zhuyin": "ㄉㄚˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "big"
+    },
+    "大學": {
+        "zhuyin": "ㄉㄚˋ ㄒㄩㄝˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "university"
+    },
+    "大學生": {
+        "zhuyin": "ㄉㄚˋ ㄒㄩㄝˊ ㄕㄥ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "university student"
+    },
+    "到": {
+        "zhuyin": "ㄉㄠˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "reach"
+    },
+    "得到": {
+        "zhuyin": "ㄉㄜˊ ㄉㄠˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "get"
+    },
+    "地": {
+        "zhuyin": "ㄉㄜ˙",
+        "pinyin": "",
+        "level": "A1",
+        "english": "-ly, (linking p.)"
+    },
+    "的": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "A1",
+        "english": "of, 's (possesssive p.)"
+    },
+    "等": {
+        "zhuyin": "ㄉㄥˇ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "wait"
+    },
+    "地": {
+        "zhuyin": "ㄉㄧˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "ground"
+    },
+    "地點": {
+        "zhuyin": "ㄉㄧˋ ㄉㄧㄢˇ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "location"
+    },
+    "地方": {
+        "zhuyin": "ㄉㄧˋ ㄈㄤ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "local"
+    },
+    "地上": {
+        "zhuyin": "ㄉㄧˋ ㄕㄤˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "on the ground"
+    },
+    "地圖": {
+        "zhuyin": "ㄉㄧˋ ㄊㄨˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "map"
+    },
+    "弟弟": {
+        "zhuyin": "ㄉㄧˋ ㄉㄧˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "younger brother"
+    },
+    "第": {
+        "zhuyin": "ㄉㄧˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "added to numbers to make 'first, second, third...'"
+    },
+    "點": {
+        "zhuyin": "ㄉㄧㄢˇ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "spot"
+    },
+    "電": {
+        "zhuyin": "ㄉㄧㄢˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "electricity"
+    },
+    "電話": {
+        "zhuyin": "ㄉㄧㄢˋ ㄏㄨㄚˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "phone"
+    },
+
+    "電腦": {
+        "zhuyin": "ㄉㄧㄢˋ ㄋㄠˇ",
+        "pinyin": "diàn nǎo",
+        "level": "A1",
+        "english": "computer"
+    },
+    "電視": {
+        "zhuyin": "ㄉㄧㄢˋ ㄕˋ",
+        "pinyin": "diàn shì",
+        "level": "A1",
+        "english": "tv"
+    },
+    "電影": {
+        "zhuyin": "ㄉㄧㄢˋ ㄧㄥˇ",
+        "pinyin": "diàn yǐng",
+        "level": "A1",
+        "english": "movie, film"
+    },
+    "電影院": {
+        "zhuyin": "ㄉㄧㄢˋ ㄧㄥˇ ㄩㄢˋ",
+        "pinyin": "diàn yǐng",
+        "level": "A1",
+        "english": "movie theatre, cinema"
+    },
+    "東": {
+        "zhuyin": "ㄉㄨㄥ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "east"
+    },
+    "東邊": {
+        "zhuyin": "ㄉㄨㄥ ㄅㄧㄢ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "east side"
+    },
+    "東西": {
+        "zhuyin": "ㄉㄨㄥ ㄒㄧ",
+        "pinyin": "dōng xi",
+        "level": "A1",
+        "english": "thing, stuff"
+    },
+    "動": {
+        "zhuyin": "ㄉㄨㄥˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "move"
+    },
+    "動作": {
+        "zhuyin": "ㄉㄨㄥˋ ㄗㄨㄛˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "action"
+    },
+    "都": {
+        "zhuyin": "ㄉㄡ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "all"
+    },
+    "讀": {
+        "zhuyin": "ㄉㄨˊ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "read"
+    },
+    "讀書": {
+        "zhuyin": "ㄉㄨˊ ㄕㄨ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "reading, study"
+    },
+    "對": {
+        "zhuyin": "ㄉㄨㄟˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "right"
+    },
+    "對不起": {
+        "zhuyin": "ㄉㄨㄟˋ ㄅㄨˋ ㄑㄧˇ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "I'm sorry"
+    },
+
+    "多少": {
+        "zhuyin": "ㄉㄨㄛ ㄕㄠˇ",
+        "pinyin": "duō shao",
+        "level": "A1",
+        "english": "how much, how many"
+    },
+    "餓": {
+        "zhuyin": "ㄜˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "hungry"
+    },
+    "兒子": {
+        "zhuyin": "ㄦˊ ㄗˇ",
+        "pinyin": "ér zi",
+        "level": "A1",
+        "english": "son"
+    },
+    "飯": {
+        "zhuyin": "ㄈㄢˋ",
+        "pinyin": "",
+        "level": "A1",
+        "english": "rice, meal"
+    },
+    "飯店": {
+        "zhuyin": "ㄈㄢˋ ㄉㄧㄢˋ",
+        "pinyin": "fàn diàn",
+        "level": "A1",
+        "english": "restaurant, hotel"
+    },
+    // 100/500 done
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "A1",
+    //     "english": ""
+    // },
+    "飯館": {
+        "zhuyin": "ㄈㄢˋ ㄍㄨㄢˇ",
+        "pinyin": "fàn guǎn",
+        "level": "A1",
+        "english": "restaurant"
+    },
+    "飛機": {
+        "zhuyin": "ㄈㄟ ㄐㄧ ",
+        "pinyin": "fēi jī",
+        "level": "A1",
+        "english": "airplane"
+    },
+    "分鐘": {
+        "zhuyin": "ㄈㄣ ㄓㄨㄥ",
+        "pinyin": "fēn zhōng",
+        "level": "A1",
+        "english": "minute"
+    },
+    "高興": {
+        "zhuyin": "ㄍㄠ ㄒㄧㄥ",
+        "pinyin": "gāo xìng",
+        "level": "A1",
+        "english": "happy, glad"
+    },
+    "工作": {
+        "zhuyin": "ㄍㄨㄥ ㄗㄨㄛˋ",
+        "pinyin": "gōng zuò",
+        "level": "A1",
+        "english": "to work, job, work, task"
+    },
+    "漢語": {
+        "zhuyin": "ㄏㄢˋ ㄩˇ",
+        "pinyin": "Hàn yǔ",
+        "level": "A1",
+        "english": "Chinese language"
+    },
+    "後面": {
+        "zhuyin": "ㄏㄡˋ ㄇㄧㄢˋ",
+        "pinyin": "hòu mian",
+        "level": "A1",
+        "english": "rear, back, behind, later, after"
+    },
+    "今天": {
+        "zhuyin": "ㄐㄧㄣ ㄊㄧㄢ",
+        "pinyin": "jīn tiān",
+        "level": "A1",
+        "english": "today, now"
+    },
+    "看見": {
+        "zhuyin": "ㄎㄢˋ ㄐㄧㄢˋ",
+        "pinyin": "kàn jiàn",
+        "level": "A1",
+        "english": "to see, to catch sight of"
+    },
+    "老師": {
+        "zhuyin": "ㄌㄠˇ ㄕ",
+        "pinyin": "lǎo shī",
+        "level": "A1",
+        "english": "teacher"
+    },
+    "媽媽": {
+        "zhuyin": "ㄇㄚ ㄇㄚ",
+        "pinyin": "mā ma",
+        "level": "A1",
+        "english": "(informal) mother"
+    },
+    "米飯": {
+        "zhuyin": "ㄇㄧˇ ㄈㄢˋ",
+        "pinyin": "mǐ fàn",
+        "level": "A1",
+        "english": "(cooked) rice"
+    },
+    "明天": {
+        "zhuyin": "ㄇㄧㄥˊ ㄊㄧㄢ",
+        "pinyin": "míng tiān",
+        "level": "A1",
+        "english": "tomorrow"
+    },
+    "名字": {
+        "zhuyin": "ㄇㄧㄥˊ ㄗˋ",
+        "pinyin": "míng zi",
+        "level": "A1",
+        "english": "name"
+    },
+    "哪兒": {
+        "zhuyin": "ㄋㄚˇ ㄦˊ",
+        "pinyin": "nǎ ér",
+        "level": "A1",
+        "english": "where?, wherever, anywhere"
+    },
+    "女兒": {
+        "zhuyin": "ㄋㄩˇ ㄦˊ",
+        "pinyin": "nǚ ér",
+        "level": "A1",
+        "english": "daughter"
+    },
+    "朋友": {
+        "zhuyin": "ㄆㄥˊ ㄧㄡˇ",
+        "pinyin": "péng you",
+        "level": "A1",
+        "english": "friend"
+    },
+    "漂亮": {
+        "zhuyin": "ㄆㄧㄠ ㄌㄧㄤˋ",
+        "pinyin": "piào liang",
+        "level": "A1",
+        "english": "pretty, beautiful"
+    },
+    "蘋果": {
+        "zhuyin": "ㄆㄧㄥˊ ㄍㄨㄛˇ",
+        "pinyin": "píng guǒ",
+        "level": "A1",
+        "english": "apple"
+    },
+    "前面": {
+        "zhuyin": "ㄑㄧㄢˊ ㄇㄧㄢˋ",
+        "pinyin": "qián miàn",
+        "level": "A1",
+        "english": "ahead, in front, preceding"
+    },
+    "認識": {
+        "zhuyin": "ㄖㄣˋ ㄕˊ",
+        "pinyin": "rèn shi",
+        "level": "A1",
+        "english": "to know, to recognize, to be familliar with"
+    },
+    "商店": {
+        "zhuyin": "ㄕㄤ ㄉㄧㄢˋ",
+        "pinyin": "shāng diàn",
+        "level": "A1",
+        "english": "store, shop"
+    },
+    "上午": {
+        "zhuyin": "ㄕㄤˋ ㄨˇ",
+        "pinyin": "shàng wǔ",
+        "level": "A1",
+        "english": "morning"
+    },
+    "什麼": {
+        "zhuyin": "ㄕˊ ㄇㄜ˙",
+        "pinyin": "shén me",
+        "level": "A1",
+        "english": "what, who, something, anything"
+    },
+    "時候": {
+        "zhuyin": "ㄕˊ ㄏㄡˋ",
+        "pinyin": "shí hou",
+        "level": "A1",
+        "english": "time, length of time, moment, period"
+    },
+    "水果": {
+        "zhuyin": "ㄕㄨㄟˇ ㄍㄨㄛˇ",
+        "pinyin": "shuǐ guǒ",
+        "level": "A1",
+        "english": "fruit, fruits"
+    },
+    "睡覺": {
+        "zhuyin": "ㄕㄨㄟˋ ㄐㄩㄝˊ",
+        "pinyin": "shuì jiào",
+        "level": "A1",
+        "english": "to go to bed, to sleep"
+    },
+    "說話": {
+        "zhuyin": "ㄕㄨㄛ ㄏㄨㄚˋ",
+        "pinyin": "shuō huà",
+        "level": "A1",
+        "english": "to speak, say, talk, tell stories"
+    },
+    "天氣": {
+        "zhuyin": "ㄊㄧㄢ ㄑㄧˋ",
+        "pinyin": "tiān qì",
+        "level": "A1",
+        "english": "weather"
+    },
+    "同學": {
+        "zhuyin": "ㄊㄨㄥˊ ㄒㄩㄝˊ",
+        "pinyin": "tóng xué",
+        "level": "A1",
+        "english": "to study at the same school, classmate"
+    },
+    "我們": {
+        "zhuyin": "ㄨㄛˇ ㄇㄣˊ",
+        "pinyin": "wǒ men",
+        "level": "A1",
+        "english": "we, us, ourselves, our"
+    },
+    "喜歡": {
+        "zhuyin": "ㄒㄧˇ ㄏㄨㄢ",
+        "pinyin": "xǐ huan",
+        "level": "A1",
+        "english": "to like, be fond of"
+    },
+    "下午": {
+        "zhuyin": "ㄒㄧㄚˋ ㄨˇ",
+        "pinyin": "xià wǔ",
+        "level": "A1",
+        "english": "afternoon"
+    },
+    "下雨": {
+        "zhuyin": "ㄒㄧㄚˋ ㄩˇ",
+        "pinyin": "xià yǔ",
+        "level": "A1",
+        "english": "to rain, rainy"
+    },
+    "先生": {
+        "zhuyin": "ㄒㄧㄢ ㄕㄥ",
+        "pinyin": "xiān sheng",
+        "level": "A1",
+        "english": "Mr. or sir"
+    },
+    "小姐": {
+        "zhuyin": "ㄒㄧㄠˇ ㄐㄧㄝˇ",
+        "pinyin": "xiǎo jiě",
+        "level": "A1",
+        "english": "Miss"
+    },
+    "現在": {
+        "zhuyin": "ㄒㄧㄢˋ ㄗㄞˋ",
+        "pinyin": "xiàn zài",
+        "level": "A1",
+        "english": "now, at present, at the moment, nowadays, currently"
+    },
+    "謝謝": {
+        "zhuyin": "ㄒㄧㄝˋ ㄒㄧㄝˋ",
+        "pinyin": "xiè xie",
+        "level": "A1",
+        "english": "thanks, to thank"
+    },
+    "星期": {
+        "zhuyin": "ㄒㄧㄥ ㄑㄧ ",
+        "pinyin": "xīng qī",
+        "level": "A1",
+        "english": "week"
+    },
+    "學生": {
+        "zhuyin": "ㄒㄩㄝˊ ㄕㄥ",
+        "pinyin": "xué sheng",
+        "level": "A1",
+        "english": "student"
+    },
+    "學習": {
+        "zhuyin": "ㄒㄩㄝˊ ㄒㄧˊ",
+        "pinyin": "xué xí",
+        "level": "A1",
+        "english": "to learn, to study"
+    },
+    "學校": {
+        "zhuyin": "ㄒㄩㄝˊ ㄒㄧㄠˋ",
+        "pinyin": "xué xiào",
+        "level": "A1",
+        "english": "school"
+    },
+    "衣服": {
+        "zhuyin": "ㄧ ㄈㄨˊ",
+        "pinyin": "yī fu",
+        "level": "A1",
+        "english": "clothes"
+    },
+    "醫生": {
+        "zhuyin": "ㄧ ㄕㄥ",
+        "pinyin": "yī shēng",
+        "level": "A1",
+        "english": "doctor"
+    },
+    "醫院": {
+        "zhuyin": "ㄧ ㄩㄢˋ",
+        "pinyin": "yī yuàn",
+        "level": "A1",
+        "english": "hospital"
+    },
+    "椅子": {
+        "zhuyin": "ㄧˇ ㄗˇ",
+        "pinyin": "yǐ zi",
+        "level": "A1",
+        "english": "chair"
+    },
+    "再見": {
+        "zhuyin": " ㄗㄞˋ ㄐㄧㄢˋ",
+        "pinyin": "zài jiàn",
+        "level": "A1",
+        "english": "goodbye, see you later"
+    },
+    "怎麼": {
+        "zhuyin": "ㄗㄣˇ ㄇㄜ˙",
+        "pinyin": "zěn me",
+        "level": "A1",
+        "english": "how?, what?, why?"
+    },
+    "中國": {
+        "zhuyin": "ㄓㄨㄥ ㄍㄨㄛˊ",
+        "pinyin": "Zhōng guó",
+        "level": "A1",
+        "english": "China"
+    },
+    "中午": {
+        "zhuyin": "ㄓㄨㄥ ㄨˇ",
+        "pinyin": "zhōng wǔ",
+        "level": "A1",
+        "english": "noon"
+    },
+    "桌子": {
+        "zhuyin": "ㄓㄨㄛ ㄗˇ ",
+        "pinyin": "zhuō zi",
+        "level": "A1",
+        "english": "table, desk"
+    },
+    "昨天": {
+        "zhuyin": "ㄗㄨㄛˊ ㄊㄧㄢ",
+        "pinyin": "zuó tiān",
+        "level": "A1",
+        "english": "yesterday"
+    },
+}
+//still needs zhuyin also SHIT ITS THE OLD HSK
 const A2words = {
     "幫助": {
-        "zhuyin": "",
+        "zhuyin": "ㄅㄤ ㄓㄨˋ",
         "pinyin": "bāng zhù",
         "level": "HSK2",
         "english": "to help, assist"
     },
     "報紙": {
-        "zhuyin": "",
+        "zhuyin": "ㄅㄠˋ ㄓˇ",
         "pinyin": "bào zhǐ",
         "level": "HSK2",
         "english": "newspaper"
     },
     "賓館": {
-        "zhuyin": "",
+        "zhuyin": "ㄅㄧㄣ ㄍㄨㄢˇ",
         "pinyin": "bīn guǎn",
         "level": "HSK2",
         "english": "guest house"
     },
     "唱歌": {
-        "zhuyin": "",
+        "zhuyin": "ㄔㄤˋ ㄍㄜ",
         "pinyin": "chàng gē",
         "level": "HSK2",
         "english": "to sing a song"
     },
     "大家": {
-        "zhuyin": "",
+        "zhuyin": "ㄉㄚˋ ㄐㄧㄚ",
         "pinyin": "dà jiā",
         "level": "HSK2",
         "english": "everyone"
@@ -4012,379 +4917,7 @@ const chineseRadicals = {
         "variant": "",
     }
 }
-const A1words = {
-    "爸爸": {
-        "zhuyin": "ㄅㄚˋ ㄅㄚˋ",
-        "pinyin": "bà ba",
-        "level": "A1",
-        "english": "(informal) father"
-    },
-    "杯子": {
-        "zhuyin": "ㄅㄟ ㄗˇ",
-        "pinyin": "bēi zi",
-        "level": "A1",
-        "english": "cup, glass"
-    },
-    "北京": {
-        "zhuyin": "ㄅㄟˇ ㄐㄧㄥ",
-        "pinyin": "Běi jīng",
-        "level": "A1",
-        "english": "Beijing"
-    },
-    "電腦": {
-        "zhuyin": "ㄉㄧㄢˋ ㄋㄠˇ",
-        "pinyin": "diàn nǎo",
-        "level": "A1",
-        "english": "computer"
-    },
-    "電視": {
-        "zhuyin": "ㄉㄧㄢˋ ㄕˋ",
-        "pinyin": "diàn shì",
-        "level": "A1",
-        "english": "tv"
-    },
-    "電影": {
-        "zhuyin": "ㄉㄧㄢˋ ㄧㄥˇ",
-        "pinyin": "diàn yǐng",
-        "level": "A1",
-        "english": "movie, film"
-    },
-    "東西": {
-        "zhuyin": "ㄉㄨㄥ ㄒㄧ",
-        "pinyin": "dōng xi",
-        "level": "A1",
-        "english": "thing, stuff"
-    },
-    "多少": {
-        "zhuyin": "ㄉㄨㄛ ㄕㄠˇ",
-        "pinyin": "duō shao",
-        "level": "A1",
-        "english": "how much, how many"
-    },
-    "兒子": {
-        "zhuyin": "ㄦˊ ㄗˇ",
-        "pinyin": "ér zi",
-        "level": "A1",
-        "english": "son"
-    },
-    "飯店": {
-        "zhuyin": "ㄈㄢˋ ㄉㄧㄢˋ",
-        "pinyin": "fàn diàn",
-        "level": "A1",
-        "english": "restaurant, hotel"
-    },
-    "飯館": {
-        "zhuyin": "ㄈㄢˋ ㄍㄨㄢˇ",
-        "pinyin": "fàn guǎn",
-        "level": "A1",
-        "english": "restaurant"
-    },
-    "飛機": {
-        "zhuyin": "ㄈㄟ ㄐㄧ ",
-        "pinyin": "fēi jī",
-        "level": "A1",
-        "english": "airplane"
-    },
-    "分鐘": {
-        "zhuyin": "ㄈㄣ ㄓㄨㄥ",
-        "pinyin": "fēn zhōng",
-        "level": "A1",
-        "english": "minute"
-    },
-    "高興": {
-        "zhuyin": "ㄍㄠ ㄒㄧㄥ",
-        "pinyin": "gāo xìng",
-        "level": "A1",
-        "english": "happy, glad"
-    },
-    "工作": {
-        "zhuyin": "ㄍㄨㄥ ㄗㄨㄛˋ",
-        "pinyin": "gōng zuò",
-        "level": "A1",
-        "english": "to work, job, work, task"
-    },
-    "漢語": {
-        "zhuyin": "ㄏㄢˋ ㄩˇ",
-        "pinyin": "Hàn yǔ",
-        "level": "A1",
-        "english": "Chinese language"
-    },
-    "後面": {
-        "zhuyin": "ㄏㄡˋ ㄇㄧㄢˋ",
-        "pinyin": "hòu mian",
-        "level": "A1",
-        "english": "rear, back, behind, later, after"
-    },
-    "今天": {
-        "zhuyin": "ㄐㄧㄣ ㄊㄧㄢ",
-        "pinyin": "jīn tiān",
-        "level": "A1",
-        "english": "today, now"
-    },
-    "看見": {
-        "zhuyin": "ㄎㄢˋ ㄐㄧㄢˋ",
-        "pinyin": "kàn jiàn",
-        "level": "A1",
-        "english": "to see, to catch sight of"
-    },
-    "老師": {
-        "zhuyin": "ㄌㄠˇ ㄕ",
-        "pinyin": "lǎo shī",
-        "level": "A1",
-        "english": "teacher"
-    },
-    "媽媽": {
-        "zhuyin": "ㄇㄚ ㄇㄚ",
-        "pinyin": "mā ma",
-        "level": "A1",
-        "english": "(informal) mother"
-    },
-    "米飯": {
-        "zhuyin": "ㄇㄧˇ ㄈㄢˋ",
-        "pinyin": "mǐ fàn",
-        "level": "A1",
-        "english": "(cooked) rice"
-    },
-    "明天": {
-        "zhuyin": "ㄇㄧㄥˊ ㄊㄧㄢ",
-        "pinyin": "míng tiān",
-        "level": "A1",
-        "english": "tomorrow"
-    },
-    "名字": {
-        "zhuyin": "ㄇㄧㄥˊ ㄗˋ",
-        "pinyin": "míng zi",
-        "level": "A1",
-        "english": "name"
-    },
-    "哪兒": {
-        "zhuyin": "ㄋㄚˇ ㄦˊ",
-        "pinyin": "nǎ ér",
-        "level": "A1",
-        "english": "where?, wherever, anywhere"
-    },
-    "女兒": {
-        "zhuyin": "ㄋㄩˇ ㄦˊ",
-        "pinyin": "nǚ ér",
-        "level": "A1",
-        "english": "daughter"
-    },
-    "朋友": {
-        "zhuyin": "ㄆㄥˊ ㄧㄡˇ",
-        "pinyin": "péng you",
-        "level": "A1",
-        "english": "friend"
-    },
-    "漂亮": {
-        "zhuyin": "ㄆㄧㄠ ㄌㄧㄤˋ",
-        "pinyin": "piào liang",
-        "level": "A1",
-        "english": "pretty, beautiful"
-    },
-    "蘋果": {
-        "zhuyin": "ㄆㄧㄥˊ ㄍㄨㄛˇ",
-        "pinyin": "píng guǒ",
-        "level": "A1",
-        "english": "apple"
-    },
-    "前面": {
-        "zhuyin": "ㄑㄧㄢˊ ㄇㄧㄢˋ",
-        "pinyin": "qián miàn",
-        "level": "A1",
-        "english": "ahead, in front, preceding"
-    },
-    "認識": {
-        "zhuyin": "ㄖㄣˋ ㄕˊ",
-        "pinyin": "rèn shi",
-        "level": "A1",
-        "english": "to know, to recognize, to be familliar with"
-    },
-    "商店": {
-        "zhuyin": "ㄕㄤ ㄉㄧㄢˋ",
-        "pinyin": "shāng diàn",
-        "level": "A1",
-        "english": "store, shop"
-    },
-    "上午": {
-        "zhuyin": "ㄕㄤˋ ㄨˇ",
-        "pinyin": "shàng wǔ",
-        "level": "A1",
-        "english": "morning"
-    },
-    "什麼": {
-        "zhuyin": "ㄕˊ ㄇㄜ˙",
-        "pinyin": "shén me",
-        "level": "A1",
-        "english": "what, who, something, anything"
-    },
-    "時候": {
-        "zhuyin": "ㄕˊ ㄏㄡˋ",
-        "pinyin": "shí hou",
-        "level": "A1",
-        "english": "time, length of time, moment, period"
-    },
-    "水果": {
-        "zhuyin": "ㄕㄨㄟˇ ㄍㄨㄛˇ",
-        "pinyin": "shuǐ guǒ",
-        "level": "A1",
-        "english": "fruit, fruits"
-    },
-    "睡覺": {
-        "zhuyin": "ㄕㄨㄟˋ ㄐㄩㄝˊ",
-        "pinyin": "shuì jiào",
-        "level": "A1",
-        "english": "to go to bed, to sleep"
-    },
-    "說話": {
-        "zhuyin": "ㄕㄨㄛ ㄏㄨㄚˋ",
-        "pinyin": "shuō huà",
-        "level": "A1",
-        "english": "to speak, say, talk, tell stories"
-    },
-    "天氣": {
-        "zhuyin": "ㄊㄧㄢ ㄑㄧˋ",
-        "pinyin": "tiān qì",
-        "level": "A1",
-        "english": "weather"
-    },
-    "同學": {
-        "zhuyin": "ㄊㄨㄥˊ ㄒㄩㄝˊ",
-        "pinyin": "tóng xué",
-        "level": "A1",
-        "english": "to study at the same school, classmate"
-    },
-    "我們": {
-        "zhuyin": "ㄨㄛˇ ㄇㄣˊ",
-        "pinyin": "wǒ men",
-        "level": "A1",
-        "english": "we, us, ourselves, our"
-    },
-    "喜歡": {
-        "zhuyin": "ㄒㄧˇ ㄏㄨㄢ",
-        "pinyin": "xǐ huan",
-        "level": "A1",
-        "english": "to like, be fond of"
-    },
-    "下午": {
-        "zhuyin": "ㄒㄧㄚˋ ㄨˇ",
-        "pinyin": "xià wǔ",
-        "level": "A1",
-        "english": "afternoon"
-    },
-    "下雨": {
-        "zhuyin": "ㄒㄧㄚˋ ㄩˇ",
-        "pinyin": "xià yǔ",
-        "level": "A1",
-        "english": "to rain, rainy"
-    },
-    "先生": {
-        "zhuyin": "ㄒㄧㄢ ㄕㄥ",
-        "pinyin": "xiān sheng",
-        "level": "A1",
-        "english": "Mr. or sir"
-    },
-    "小姐": {
-        "zhuyin": "ㄒㄧㄠˇ ㄐㄧㄝˇ",
-        "pinyin": "xiǎo jiě",
-        "level": "A1",
-        "english": "Miss"
-    },
-    "現在": {
-        "zhuyin": "ㄒㄧㄢˋ ㄗㄞˋ",
-        "pinyin": "xiàn zài",
-        "level": "A1",
-        "english": "now, at present, at the moment, nowadays, currently"
-    },
-    "謝謝": {
-        "zhuyin": "ㄒㄧㄝˋ ㄒㄧㄝˋ",
-        "pinyin": "xiè xie",
-        "level": "A1",
-        "english": "thanks, to thank"
-    },
-    "星期": {
-        "zhuyin": "ㄒㄧㄥ ㄑㄧ ",
-        "pinyin": "xīng qī",
-        "level": "A1",
-        "english": "week"
-    },
-    "學生": {
-        "zhuyin": "ㄒㄩㄝˊ ㄕㄥ",
-        "pinyin": "xué sheng",
-        "level": "A1",
-        "english": "student"
-    },
-    "學習": {
-        "zhuyin": "ㄒㄩㄝˊ ㄒㄧˊ",
-        "pinyin": "xué xí",
-        "level": "A1",
-        "english": "to learn, to study"
-    },
-    "學校": {
-        "zhuyin": "ㄒㄩㄝˊ ㄒㄧㄠˋ",
-        "pinyin": "xué xiào",
-        "level": "A1",
-        "english": "school"
-    },
-    "衣服": {
-        "zhuyin": "ㄧ ㄈㄨˊ",
-        "pinyin": "yī fu",
-        "level": "A1",
-        "english": "clothes"
-    },
-    "醫生": {
-        "zhuyin": "ㄧ ㄕㄥ",
-        "pinyin": "yī shēng",
-        "level": "A1",
-        "english": "doctor"
-    },
-    "醫院": {
-        "zhuyin": "ㄧ ㄩㄢˋ",
-        "pinyin": "yī yuàn",
-        "level": "A1",
-        "english": "hospital"
-    },
-    "椅子": {
-        "zhuyin": "ㄧˇ ㄗˇ",
-        "pinyin": "yǐ zi",
-        "level": "A1",
-        "english": "chair"
-    },
-    "再見": {
-        "zhuyin": " ㄗㄞˋ ㄐㄧㄢˋ",
-        "pinyin": "zài jiàn",
-        "level": "A1",
-        "english": "goodbye, see you later"
-    },
-    "怎麼": {
-        "zhuyin": "ㄗㄣˇ ㄇㄜ˙",
-        "pinyin": "zěn me",
-        "level": "A1",
-        "english": "how?, what?, why?"
-    },
-    "中國": {
-        "zhuyin": "ㄓㄨㄥ ㄍㄨㄛˊ",
-        "pinyin": "Zhōng guó",
-        "level": "A1",
-        "english": "China"
-    },
-    "中午": {
-        "zhuyin": "ㄓㄨㄥ ㄨˇ",
-        "pinyin": "zhōng wǔ",
-        "level": "A1",
-        "english": "noon"
-    },
-    "桌子": {
-        "zhuyin": "ㄓㄨㄛ ㄗˇ ",
-        "pinyin": "zhuō zi",
-        "level": "A1",
-        "english": "table, desk"
-    },
-    "昨天": {
-        "zhuyin": "ㄗㄨㄛˊ ㄊㄧㄢ",
-        "pinyin": "zuó tiān",
-        "level": "A1",
-        "english": "yesterday"
-    },
+const bookWords = {
     "成語": {
         "zhuyin": "ㄔㄥˊ ㄩˇ",
         "pinyin": "chéng yǔ",

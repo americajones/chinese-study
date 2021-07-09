@@ -345,6 +345,36 @@ function loadWordFlashcards() {
             nuTxt2.classList.toggle('opacity');
         }
     };
+    for (var [word, value] of Object.entries(bookWords)) {
+        let nuDiv = document.createElement('div');
+        let nuDivTit = document.createElement('h2');
+        let nuTxt = document.createElement('p');
+        let nuTxt2 = document.createElement('p');
+        number++;
+        let nuNumDiv = document.createElement('div');
+        nuNumDiv.classList.add('numLabel');
+        nuNumDiv.textContent = number;
+        nuDivTit.textContent = word;
+        nuTxt.textContent = value.zhuyin;
+        nuTxt2.textContent = value.english;
+        nuTxt2.classList.add('small');
+        // nuTxt2.classList.add('opacity');
+        nuTxt2.classList.add('pink');
+        nuDivTit.classList.add('cursive');
+        nuDivTit.classList.add('xlarge');
+        nuTxt.classList.add('cursive');
+        nuTxt.classList.add('faded');
+        nuDiv.classList.add('radicalFlashcards');
+        nuDiv.addEventListener('click', toggleEnglish);
+        nuDiv.append(nuNumDiv);
+        nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt);
+        nuDiv.append(nuTxt2);
+        flashBox2.append(nuDiv);
+        function toggleEnglish() {
+            nuTxt2.classList.toggle('opacity');
+        }
+    };
 }
 function makeButtons(swapEvent, skipEvent) {
     removeAllChildren(buttBox);
