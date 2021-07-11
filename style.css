@@ -19,17 +19,18 @@
 #main-char{
   color:white;
 }
-h2{
-    text-align: center;
-    margin:0;
-    font-size: 30px;
-}
+
 h1{
     text-align: center;
     margin:0;
     padding: 5px;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 400;
+}
+h2{
+    text-align: center;
+    margin:0;
+    font-size: 20px;
 }
 .cursive {
   font-family: cursive;
@@ -101,6 +102,9 @@ h1{
     margin-left: -40px;
     margin-top: 2em;
     color: #cfb4df;
+}
+.optional-char{
+  font-size: 16px;
 }
   .button.secondary {
     /* divider between buttons and menu links */
@@ -443,6 +447,12 @@ input {
       body {
         max-width: 1200px;
         padding: 1rem;
+      }
+      h1{
+        font-size: 40px;
+      }
+      h2{
+        font-size: 30px;
       }
       #quiz-practice {
           padding:2rem;

@@ -79,6 +79,7 @@ function getGrammar() {
         nuTxt2.textContent = value.explanation;
         nuDivTit.classList.add('light');
         nuDivTit2.classList.add('light');
+        nuDivTit.classList.add('large');
         nuDivTit.classList.add('cursive');
         // nuDivTit2.classList.add('cursive');
         nuDivTit2.classList.add('padding');
@@ -126,6 +127,7 @@ function getIdioms() {
         // nuDivTit.classList.add('light');
         nuDivTit2.classList.add('small');
         nuDivTit.classList.add('cursive');
+        nuDivTit.classList.add('large');
         // nuDivTit2.classList.add('cursive');
         nuDivTit2.classList.add('padding');
         // nuTxt.classList.add('center');
