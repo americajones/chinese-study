@@ -1717,7 +1717,7 @@ const A1sentences = {
         "category": "basics"
     },
     "沒關係": {
-        "english": "it doesn't matter",
+        "english": "it doesn't matter(no problem)",
         "zhuyin": "ㄇㄟˊ ㄍㄨㄢ ㄒㄧˋ",
         "pinyin": "méi guān xi",
         "category": "basics"
@@ -1777,6 +1777,7 @@ const A1sentences = {
     //     "english": ""
     // },
 }
+//50% done
 const A1words = {
     "愛": {
         "zhuyin": "ㄞˋ",
@@ -1818,7 +1819,7 @@ const A1words = {
         "zhuyin": "ㄅㄞˊ ㄊㄧㄢ",
         "pinyin": "bái tiān",
         "level": "HSK1",
-        "english": ""
+        "english": "day, daytime"
     },
     "百": {
         "zhuyin": "ㄅㄞˇ ",
@@ -2976,18 +2977,143 @@ const A1words = {
         "english": "textbook"
     },
     // 200/500 done
-
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK1",
-    //     "english": ""
-    // },
+    "課文": {
+        "zhuyin": "ㄎㄜˋ ㄨㄣˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "course text"
+    },
+    "口": {
+        "zhuyin": "ㄎㄡˇ",
+        "pinyin": "kǒu",
+        "level": "HSK1",
+        "english": "mouth, opening",
+    },
+    "塊": {
+        "zhuyin": "ㄎㄨㄞˋ",
+        "pinyin": "kuài",
+        "level": "HSK1",
+        "english": "block, lump, piece"
+    },
+    "快": {
+        "zhuyin": "ㄎㄨㄞˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "fast"
+    },
+    "來": {
+        "zhuyin": "ㄌㄞˊ",
+        "pinyin": "lái",
+        "level": "HSK1",
+        "english": "come",
+    },
+    "來到": {
+        "zhuyin": "ㄌㄞˊ ㄉㄠˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "come, arrive"
+    },
+    "老": {
+        "zhuyin": "ㄌㄠˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "old (aged)"
+    },
+    "老人": {
+        "zhuyin": "ㄌㄠˇ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "old person, old folks"
+    },
     "老師": {
         "zhuyin": "ㄌㄠˇ ㄕ",
         "pinyin": "lǎo shī",
         "level": "HSK1",
         "english": "teacher"
+    },
+    "了": {
+        "zhuyin": "ㄌㄜ˙",
+        "pinyin": "le",
+        "level": "HSK1",
+        "english": "-ed, (completed action p.)",
+    },
+    "累": {
+        "zhuyin": "ㄌㄟˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "tired"
+    },
+    "冷": {
+        "zhuyin": "ㄌㄥˇ",
+        "pinyin": "lěng",
+        "level": "HSK1",
+        "english": "cold",
+    },
+    "裡": {
+        "zhuyin": "ㄌ一ˇ",
+        "pinyin": "lǐ",
+        "level": "HSK1",
+        "english": "in, inside",
+    },
+    "裡邊": {
+        "zhuyin": "ㄌㄧˇ ㄅㄧㄢ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "inside"
+    },
+    "兩": {
+        "zhuyin": "ㄌㄧㄤˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "two, both"
+    },
+    "零": {
+        "zhuyin": "ㄌㄧㄥˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "zero"
+    },
+    "六": {
+        "zhuyin": "ㄌㄧㄡˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "six"
+    },
+    "樓": {
+        "zhuyin": "ㄌㄡˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "floor"
+    },
+    "樓上": {
+        "zhuyin": "ㄌㄡˊ ㄕㄤˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "upstairs"
+    },
+    "樓下": {
+        "zhuyin": "ㄌㄡˊ ㄒㄧㄚˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "downstairs"
+    },
+    "路": {
+        "zhuyin": "ㄌㄨˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "road"
+    },
+    "路口": {
+        "zhuyin": "ㄌㄨˋ ㄎㄡˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "intersection, crossing"
+    },
+    "路上": {
+        "zhuyin": "ㄌㄨˋ ㄕㄤˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "on the road"
     },
     "媽媽": {
         "zhuyin": "ㄇㄚ ㄇㄚ",
@@ -2995,17 +3121,125 @@ const A1words = {
         "level": "HSK1",
         "english": "(informal) mother"
     },
+    "馬路": {
+        "zhuyin": "ㄇㄚˇ ㄌㄨˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "road"
+    },
+    "馬上": {
+        "zhuyin": "ㄇㄚˇ ㄕㄤˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "at once, right away, right off, immediately"
+    },
+    "嗎": {
+        "zhuyin": "ㄇㄚ˙",
+        "pinyin": "ma",
+        "level": "HSK1",
+        "english": "yes or no ?",
+    },
+    "買": {
+        "zhuyin": "ㄇㄞˇ",
+        "pinyin": "mǎi",
+        "level": "HSK1",
+        "english": "buy"
+    },
+    "慢": {
+        "zhuyin": "ㄇㄢˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "slow"
+    },
+    "忙": {
+        "zhuyin": "ㄇㄤˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "busy"
+    },
+    "毛": {
+        "zhuyin": "ㄇㄠˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "fur, a fractional unit of money in China(10分)"
+    },
+    "沒": {
+        "zhuyin": "ㄇㄟˊ",
+        "pinyin": "méi",
+        "level": "HSK1",
+        "english": "have not, no",
+    },
+    "沒關係": {
+        "zhuyin": "ㄇㄟˊ ㄍㄨㄢ ㄒㄧˋ",
+        "pinyin": "méi guān xi",
+        "level": "HSK1",
+        "english": "it doesn't matter(no problem)",
+    },
+    "沒什麼": {
+        "zhuyin": "ㄇㄟˊ ㄕˊ ㄇㄜ˙",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "It’s nothing"
+    },
+    "沒事兒": {
+        "zhuyin": "ㄇㄟˊ ㄕˋ ㄦˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "it's okay"
+    },
+    "沒有": {
+        "zhuyin": "ㄇㄟˊ ㄧㄡˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "have not; don't have"
+    },
+    "妹妹": {
+        "zhuyin": "ㄇㄟˋ ㄇㄟˋ",
+        "pinyin": "mèi mei",
+        "level": "HSK1",
+        "english": "younger sister"
+    },
+    "門": {
+        "zhuyin": "ㄇㄣˊ",
+        "pinyin": "mén",
+        "level": "HSK1",
+        "english": "gate",
+    },
+    "門口": {
+        "zhuyin": "ㄇㄣˊ ㄎㄡˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "doorway, area by entrance"
+    },
+    "門票": {
+        "zhuyin": "ㄇㄣˊ ㄆㄧㄠˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "tickets, entry pass"
+    },
+    "們": {
+        "zhuyin": "ㄇㄣ˙",
+        "pinyin": "men",
+        "level": "HSK1",
+        "english": "(plural p.)",
+    },
     "米飯": {
         "zhuyin": "ㄇㄧˇ ㄈㄢˋ",
         "pinyin": "mǐ fàn",
         "level": "HSK1",
-        "english": "(cooked) rice"
+        "english": "steamed rice"
     },
-    "明天": {
-        "zhuyin": "ㄇㄧㄥˊ ㄊㄧㄢ",
-        "pinyin": "míng tiān",
+    "麵包": {
+        "zhuyin": "ㄇㄧㄢˋ ㄅㄠ",
+        "pinyin": "",
         "level": "HSK1",
-        "english": "tomorrow"
+        "english": "bread"
+    },
+    "麵條兒": {
+        "zhuyin": "ㄇㄧㄢˋ ㄊㄧㄠˊ ㄦˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "noodles"
     },
     "名字": {
         "zhuyin": "ㄇㄧㄥˊ ㄗˋ",
@@ -3013,12 +3247,93 @@ const A1words = {
         "level": "HSK1",
         "english": "name"
     },
+    "明白": {
+        "zhuyin": "ㄇㄧㄥˊ ㄅㄞˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "clear"
+    },
+    "明年": {
+        "zhuyin": "ㄇㄧㄥˊ ㄋㄧㄢˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "next year"
+    },
+    "明天": {
+        "zhuyin": "ㄇㄧㄥˊ ㄊㄧㄢ",
+        "pinyin": "míng tiān",
+        "level": "HSK1",
+        "english": "tomorrow"
+    },
+    "拿": {
+        "zhuyin": "ㄋㄚˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "take"
+    },
+    "哪": {
+        "zhuyin": "ㄋㄚˇ",
+        "pinyin": "nǎ",
+        "level": "HSK1",
+        "english": "which",
+    },
+    "哪裡": {
+        "zhuyin": "ㄋㄚˇ ㄌㄧˇ",
+        "pinyin": "nǎlǐ",
+        "level": "A",
+        "english": "where, wherever"
+    },
+
     "哪兒": {
         "zhuyin": "ㄋㄚˇ ㄦˊ",
         "pinyin": "nǎ ér",
         "level": "HSK1",
         "english": "where?, wherever, anywhere"
     },
+    "哪些": {
+        "zhuyin": "ㄋㄚˇ ㄒㄧㄝ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "which"
+    },
+    "那": {
+        "zhuyin": "ㄋㄚˋ",
+        "pinyin": "nà",
+        "level": "HSK1",
+        "english": "that",
+    },
+    "那邊": {
+        "zhuyin": "ㄋㄚˋ ㄅㄧㄢ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "that side, there"
+    },
+    "那裡": {
+        "zhuyin": "ㄋㄚˋ ㄌㄧˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "that place, that area, there"
+    },
+    "那兒": {
+        "zhuyin": "ㄋㄚˋㄦ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "there"
+    },
+    "那些": {
+        "zhuyin": "ㄋㄚˋ ㄒㄧㄝ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "those"
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK1",
+    //     "english": ""
+    // },
+
+    // 258/500
     "女兒": {
         "zhuyin": "ㄋㄩˇ ㄦˊ",
         "pinyin": "nǚ ér",
@@ -3030,6 +3345,12 @@ const A1words = {
         "pinyin": "péng you",
         "level": "HSK1",
         "english": "friend"
+    },
+    "朋友們": {
+        "zhuyin": "ㄆㄥˊ ㄧㄡˇ ㄇㄣ˙",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "friends"
     },
     "漂亮": {
         "zhuyin": "ㄆㄧㄠ ㄌㄧㄤˋ",
