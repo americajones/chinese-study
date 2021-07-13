@@ -1373,7 +1373,7 @@ const A1grammar = {
         "zhuyin": "",
         "pinyin": "",
         "english": "",
-        "pattern": "Subj. + Verb + Obj.",
+        "pattern": "Subj. Verb Obj.",
         "explanation": "You can form very simple sentences with just two words, the subject + a verb. ",
         "section": "basics",
         "example": "誰想玩？"
@@ -1382,7 +1382,7 @@ const A1grammar = {
         "zhuyin": "ㄕˋ",
         "pinyin": "shì",
         "english": "to be",
-        "pattern": "Noun1 + 是 + Noun2",
+        "pattern": "Noun 是 Noun",
         "explanation": "是 is only used to link two nouns. It cannot be used to link a noun and an adjective.",
         "section": "basics",
         "example": ""
@@ -1391,7 +1391,7 @@ const A1grammar = {
         "zhuyin": "ㄊㄞˋ",
         "pinyin": "tài",
         "english": "so, very, excessive",
-        "pattern": "太 + Adj. + 了",
+        "pattern": "太 Adj. 了",
         "explanation": "Can express that something really is excessive (as a complaint), or can also colloquially express the meaning of 'so' or 'very'",
         "section": "basics",
         "example": "小貓太可愛了！"
@@ -1400,7 +1400,7 @@ const A1grammar = {
         "zhuyin": "ㄏㄣˇ",
         "pinyin": "hěn",
         "english": "is (very)",
-        "pattern": "Noun + 很 + Adj.",
+        "pattern": "Noun 很 Adj.",
         "explanation": "Links adjectives. Nouns are linked to other nouns with 是(ㄕˋ). Nouns are linked to adjectives with 很(ㄏㄣˇ). ",
         "section": "basics",
         "example": "我很高。"
@@ -1410,7 +1410,7 @@ const A1grammar = {
         "pinyin": "méi",
         "english": "have not",
         "radicals": ["氵", "又"],
-        "pattern": "沒 + 有",
+        "pattern": "沒 (有)",
         "explanation": "Nearly all verbs can be negated with 不(ㄅㄨˋ). The verb 有(一ㄡˇ) is an important exception to this rule, and must be negated with 沒 (ㄇㄟˊ).",
         "section": "adverbs"
     },
@@ -1419,7 +1419,7 @@ const A1grammar = {
         "pinyin": "bù",
         "english": "no, not",
         "radicals": ["丆", "卜"],
-        "pattern": "不 + Verb / Adj.",
+        "pattern": "不 Verb/Adj.",
         "explanation": "不 (ㄅㄨˋ) is generally used to negate a verb in the present or future, or to talk about what you do not do, as a habit. Almost all verbs can be negated with 不 (unless you're talking about the past). The only verb that can never be negated with 不 is 有(一ㄡˇ).",
         "section": "adverbs"
     },
@@ -1427,7 +1427,7 @@ const A1grammar = {
         "zhuyin": "ㄇㄟˊ一ㄡˇ",
         "pinyin": "méiyǒu",
         "english": "did not",
-        "pattern": "Subj. + 沒有 / 沒 + Verb",
+        "pattern": "Subj. 沒有/沒 Verb",
         "explanation": "Usually verbs can be negated with 不(ㄅㄨˋ), but that construction is used for habitual or present actions. If the verb is about an action in the past, though, 沒有 should be used. Remember when using 没有, that 了(ㄌㄜ˙) is not normally used with 没有. 了 marks completed actions, while 没有 is used for actions that didn't happen (so they're not completed).",
         "section": "adverbs",
         "example": "我没有时間。"
@@ -1436,7 +1436,7 @@ const A1grammar = {
         "zhuyin": "ㄉㄡ",
         "pinyin": "dōu",
         "english": "all, (both, neither)",
-        "pattern": "Subj. + 都 + Verb",
+        "pattern": "Subj. 都 Verb",
         "explanation": `都 (dōu) appears after the subject and before the verb. Chinese doesn't normally use a special word for "both" like English does. It just uses 都 (dōu) as if it were any other number greater than one. Chinese also doesn't have a special pattern like "neither / nor" for the negative case. Just use 都 (dōu) and make the sentence negative.`,
         "section": "adverbs",
         "example": "我們都要冰水。"
@@ -1454,7 +1454,7 @@ const A1grammar = {
         "zhuyin": "ㄏㄞˊㄕˋ",
         "pinyin": "háishì",
         "english": "or (in a question)",
-        "pattern": "A + 還是 + B ?",
+        "pattern": "A 還是 B ?",
         "explanation": "Used to offer chioces in a question",
         "section": "conjunctions",
         "example": "冰的還是熱的？ 你要喝茶還是咖啡？"
@@ -1463,19 +1463,73 @@ const A1grammar = {
         "zhuyin": "ㄏㄨㄛˋ ㄓㄜˇ ",
         "pinyin": "huòzhě",
         "english": "or (statement)",
-        "pattern": "A + 或者 + B",
+        "pattern": "A 或者 B",
         "explanation": `used as an "or" statement ("it doesn't matter if we eat chicken or beef")`,
         "section": "conjunctions",
         "example": "我喝咖啡或者茶，都行。"
     },
-    "Y? N?": {
-        "zhuyin": "",
+    "?不?": {
+        "zhuyin": "ㄅㄨˋ",
         "pinyin": "",
         "english": "affirmative-negative question",
-        "pattern": "Verb + 不 + Verb",
+        "pattern": "Verb 不 Verb",
         "explanation": "A common way to form questions in Chinese is to first use a verb in the positive, then repeat the same verb in its negative form, similar to how in English we can say, 'Do you have money or not?' The answer is either 'Verb' or '不 (bù) Verb.' It can also be done with adjectives (adjectives often behave like verbs in Chinese)",
-        "section": "",
+        "section": "question forms",
         "example": "他們來不來？"
+    },
+    "和": {
+        "zhuyin": "ㄏㄜˊ",
+        "pinyin": "",
+        "english": "and",
+        "pattern": "Noun 和 Noun",
+        "explanation": "mainly used to link nouns",
+        "section": "conjunctions",
+        "example": "我和他都不去。"
+    },
+    "歲": {
+        "zhuyin": "ㄙㄨㄟˋ",
+        "pinyin": "",
+        "english": "years old, age",
+        "pattern": "Subj. Num 歲",
+        "explanation": "no verb, no measure words needed, if you want to add 'and a half' do it at the end with 半.",
+        "section": "numbers",
+        "example": "我30歲。"
+    },
+    "個": {
+        "zhuyin": "ㄍㄜˋ",
+        "pinyin": "",
+        "english": "counter for people",
+        "pattern": "Number 個 Noun",
+        "explanation": "the most commonly used measure word, used for people, weeks, and months. It can be used in a pinch for any noun if you can't think of a more precise measure word. (Although you might sound like little baby, you still get your point across). Also, for many nouns, 個 is the only correct measure word. Omit the number 1 to use 個 as 'a'.",
+        "section": "numbers",
+        "example": "一個人。"
+    },
+    "只": {
+        "zhuyin": "ㄓ",
+        "pinyin": "",
+        "english": "counter for animals",
+        "pattern": "",
+        "explanation": "a universal measure word for animals.  It can also refers to items the normally come in a pair (hands, fingers, eyes, foot, shoe, bugs)",
+        "section": "numbers",
+        "example": ""
+    },
+    "年 月 日": {
+        "zhuyin": "",
+        "pinyin": "",
+        "english": "writing dates- year month day",
+        "pattern": "Num 年 Num 月 Num 日",
+        "explanation": "Dates in Chinese follow the order 'year, month, day.' This is in keeping with the 'from big to small' trend which pervades many facets of Chinese culture. Note that 号 (hào) is commonly used in spoken Mandarin instead of 日 (rì).",
+        "section": "numbers",
+        "example": "1868年1月18号"
+    },
+    "星期?": {
+        "zhuyin": "ㄒㄧㄥ ㄑㄧ",
+        "pinyin": "",
+        "english": "days of the week",
+        "pattern": "星期 Num",
+        "explanation": "Note that 星期天 is the only exception. Rather than a number, 天 (tiān) is used. More formally, Sunday is also referred to as 星期日 (Xīngqīrì). One other implication of this system that you may not have noticed: 'day one' is on Monday. In Chinese culture, the first day of the week is Monday, and not Sunday.",
+        "section": "numbers",
+        "example": "你星期天要做什么？"
     },
     // "": {
     //     "zhuyin": "",
@@ -1777,7 +1831,7 @@ const A1sentences = {
     //     "english": ""
     // },
 }
-//50% done
+//69% done
 const A1words = {
     "愛": {
         "zhuyin": "ㄞˋ",
@@ -3326,19 +3380,156 @@ const A1words = {
         "level": "HSK1",
         "english": "those"
     },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK1",
-    //     "english": ""
-    // },
-
     // 258/500
+    "奶": {
+        "zhuyin": "ㄋㄞˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "milk"
+    },
+    "奶奶": {
+        "zhuyin": "ㄋㄞˇ ㄋㄞˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "grandma"
+    },
+    "男": {
+        "zhuyin": "ㄋㄢˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "man"
+    },
+    "男孩兒": {
+        "zhuyin": "ㄋㄢˊ ㄏㄞˊ ㄦ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "boy"
+    },
+    "男朋友": {
+        "zhuyin": "ㄋㄢˊ ㄆㄥˊ ㄧㄡˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "boyfriend"
+    },
+    "男人": {
+        "zhuyin": "ㄋㄢˊ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "man, guy"
+    },
+    "男生": {
+        "zhuyin": "ㄋㄢˊ ㄕㄥ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "boy"
+    },
+    "南": {
+        "zhuyin": "ㄋㄢˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "south"
+    },
+    "南邊": {
+        "zhuyin": "ㄋㄢˊ ㄅㄧㄢ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "south, south side"
+    },
+    "難": {
+        "zhuyin": "ㄋㄢˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "disaster, blame"
+    },
+    "呢": {
+        "zhuyin": "ㄋㄜ˙",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "(? particle)"
+    },
+    "能": {
+        "zhuyin": "ㄋㄥˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "can, be able to"
+    },
+    "你": {
+        "zhuyin": "ㄋㄧˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "you"
+    },
+    "你們": {
+        "zhuyin": "ㄋㄧˇ ㄇㄣˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "yall"
+    },
+    "年": {
+        "zhuyin": "ㄋㄧㄢˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "year"
+    },
+    "您": {
+        "zhuyin": "ㄋㄧㄣˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "you(formal, corteous)"
+    },
+    "牛奶": {
+        "zhuyin": "ㄋㄧㄡˊ ㄋㄞˇ",
+        "pinyin": "niú nǎi",
+        "level": "HSK1",
+        "english": "cow's milk"
+    },
+    "女": {
+        "zhuyin": "ㄋㄩˇ",
+        "pinyin": "nǚ",
+        "level": "HSK1",
+        "english": "woman",
+    },
     "女兒": {
         "zhuyin": "ㄋㄩˇ ㄦˊ",
         "pinyin": "nǚ ér",
         "level": "HSK1",
         "english": "daughter"
+    },
+    "女孩兒": {
+        "zhuyin": "ㄋㄩˇㄏㄞˊㄦ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "girl"
+    },
+    "女朋友": {
+        "zhuyin": "ㄋㄩˇ ㄆㄥˊ ㄧㄡˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "girlfriend"
+    },
+    "女人": {
+        "zhuyin": "ㄋㄩˇ ㄦˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "boy"
+    },
+    "女生": {
+        "zhuyin": "ㄋㄩˇ ㄕㄥ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "boy"
+    },
+    "旁邊": {
+        "zhuyin": "ㄆㄤˊ ㄅㄧㄢ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "Side"
+    },
+    "跑": {
+        "zhuyin": "ㄆㄠˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "run"
     },
     "朋友": {
         "zhuyin": "ㄆㄥˊ ㄧㄡˇ",
@@ -3352,6 +3543,12 @@ const A1words = {
         "level": "HSK1",
         "english": "friends"
     },
+    "票": {
+        "zhuyin": "ㄆㄧㄠˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "ticket"
+    },
     "漂亮": {
         "zhuyin": "ㄆㄧㄠ ㄌㄧㄤˋ",
         "pinyin": "piào liang",
@@ -3364,12 +3561,103 @@ const A1words = {
         "level": "HSK1",
         "english": "apple"
     },
+    "七": {
+        "zhuyin": "ㄑㄧ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "seven"
+    },
+    "起": {
+        "zhuyin": "ㄑㄧˇ",
+        "pinyin": "qǐ",
+        "level": "HSK2",
+        "english": "get up, start, rise"
+    },
+    "起床": {
+        "zhuyin": "ㄑㄧˇㄔㄨㄤˊ",
+        "pinyin": "qǐ chuáng",
+        "level": "HSK1",
+        "english": "to get up"
+    },
+    "汽車": {
+        "zhuyin": "ㄑㄧˋ ㄔㄜ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "car"
+    },
+    "前": {
+        "zhuyin": "ㄑㄧㄢˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "front"
+    },
+    "前邊": {
+        "zhuyin": "ㄑㄧㄢˊ ㄅㄧㄢ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "in front, front face"
+    },
+    "前天": {
+        "zhuyin": "ㄑㄧㄢˊ ㄊㄧㄢ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "the day before yesterday"
+    },
     "前面": {
         "zhuyin": "ㄑㄧㄢˊ ㄇㄧㄢˋ",
         "pinyin": "qián miàn",
         "level": "HSK1",
         "english": "ahead, in front, preceding"
     },
+    "錢": {
+        "zhuyin": "ㄑㄧㄢˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "money"
+    },
+    "錢包": {
+        "zhuyin": "ㄑㄧㄢˊ ㄅㄠ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "wallet"
+    },
+    "請": {
+        "zhuyin": "ㄑㄧㄥˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "please"
+    },
+    "請假": {
+        "zhuyin": "ㄑㄧㄥˇ ㄐㄧㄚˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "ask for leave"
+    },
+    "請進": {
+        "zhuyin": "ㄑㄧㄥˇ ㄐㄧㄣˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "please come in"
+    },
+    "請問": {
+        "zhuyin": "ㄑㄧㄥˇ ㄨㄣˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "excuse me"
+    },
+    "請坐": {
+        "zhuyin": "ㄑㄧㄥˇ ㄗㄨㄛˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "please have a seat"
+    },
+    // 300/500 done
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK1",
+    //     "english": ""
+    // },
     "認識": {
         "zhuyin": "ㄖㄣˋ ㄕˊ",
         "pinyin": "rèn shi",
