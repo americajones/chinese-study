@@ -1514,7 +1514,7 @@ const A1grammar = {
         "example": ""
     },
     "年 月 日": {
-        "zhuyin": "",
+        "zhuyin": "ㄋㄧㄢˊ  ㄩㄝˋ  ㄖˋ",
         "pinyin": "",
         "english": "writing dates- year month day",
         "pattern": "Num 年 Num 月 Num 日",
@@ -1760,7 +1760,7 @@ const A1sentences = {
     },
     "不客氣": {
         "english": "you're welcome, don't mention it",
-        "zhuyin": "",
+        "zhuyin": "ㄅㄨˋ ㄎㄜˋ ㄑㄧˋ",
         "pinyin": "bù kè qi",
         "category": "basics"
     },
@@ -1813,13 +1813,13 @@ const A1sentences = {
         "english": "I don't know."
     },
     "因為…所以…": {
-        "zhuyin": "",
+        "zhuyin": "ㄧㄣ ㄨㄟˊ… ㄙㄨㄛˇ ㄧˇ…",
         "pinyin": "yīn wèi… suǒ yǐ…",
         "category": "HSK2",
         "english": "because… thus…, on account of… then…"
     },
-    " 雖然…但是… ": {
-        "zhuyin": "",
+    "雖然…但是…": {
+        "zhuyin": "ㄙㄨㄟ ㄖㄢˊ… ㄉㄢˋ ㄕˋ…",
         "pinyin": "suī rán… dàn shì…",
         "category": "HSK2",
         "english": "although…still…, even if…nevertheless... "
@@ -2230,7 +2230,7 @@ const A1words = {
         "english": "-ly, (linking p.)"
     },
     "的": {
-        "zhuyin": "",
+        "zhuyin": "ㄉㄜ˙",
         "pinyin": "",
         "level": "HSK1",
         "english": "of, 's (possesssive p.)"
@@ -2424,9 +2424,9 @@ const A1words = {
         "english": "restaurant"
     },
     "房間": {
-        "zhuyin": "",
+        "zhuyin": "ㄈㄤˊ ㄐㄧㄢ",
         "pinyin": "fáng jiān",
-        "level": "HSK2",
+        "level": "HSK1",
         "english": "room"
     },
     "房子": {
@@ -2467,9 +2467,9 @@ const A1words = {
         "english": "airplane"
     },
     "非常": {
-        "zhuyin": "",
+        "zhuyin": "ㄈㄟ ㄔㄤˊ",
         "pinyin": "fēi cháng",
-        "level": "HSK2",
+        "level": "HSK1",
         "english": "extraordinary, unusual, exceptional, very"
     },
     "分": {
@@ -2533,7 +2533,7 @@ const A1words = {
         "english": "tell"
     },
     "哥哥": {
-        "zhuyin": "",
+        "zhuyin": "ㄍㄜ ㄍㄜ",
         "pinyin": "gē ge",
         "level": "HSK1",
         "english": "older brother"
@@ -2659,7 +2659,7 @@ const A1words = {
         "english": "good"
     },
     "好吃": {
-        "zhuyin": "",
+        "zhuyin": "ㄏㄠˇ ㄔ",
         "pinyin": "hǎo chī",
         "level": "HSK1",
         "english": "delicious, yummy"
@@ -2797,9 +2797,9 @@ const A1words = {
         "english": "train"
     },
     "機場": {
-        "zhuyin": "",
+        "zhuyin": "ㄐㄧ ㄔㄤˊ",
         "pinyin": "jī chǎng",
-        "level": "HSK2",
+        "level": "HSK1",
         "english": "airport"
     },
     "機票": {
@@ -2809,9 +2809,9 @@ const A1words = {
         "english": "air ticket, plane ticket"
     },
     "雞蛋": {
-        "zhuyin": "",
+        "zhuyin": "ㄐㄧ ㄉㄢˋ",
         "pinyin": "jīdàn",
-        "level": "HSK2",
+        "level": "HSK1",
         "english": "egg, hen's egg"
     },
     "幾": {
@@ -2893,15 +2893,15 @@ const A1words = {
         "english": "teaching building"
     },
     "姐姐": {
-        "zhuyin": "",
+        "zhuyin": "ㄐㄧㄝˇ ㄐㄧㄝˇ",
         "pinyin": "jiě jie",
         "level": "HSK1",
         "english": "older sister"
     },
     "介紹": {
-        "zhuyin": "",
+        "zhuyin": "ㄐㄧㄝˋ ㄕㄠˋ",
         "pinyin": "jiè shào",
-        "level": "HSK2",
+        "level": "HSK1",
         "english": "to present, introduce, recommend, suggest"
     },
     "今年": {
@@ -2989,7 +2989,7 @@ const A1words = {
         "english": "see a doctor"
     },
     "看到": {
-        "zhuyin": "",
+        "zhuyin": "ㄎㄢˋ ㄉㄠˋ",
         "pinyin": "",
         "level": "HSK1",
         "english": "can see (thing)"
@@ -3007,7 +3007,7 @@ const A1words = {
         "english": "test, examine"
     },
     "考試": {
-        "zhuyin": "",
+        "zhuyin": "ㄎㄠˇ ㄕˋ",
         "pinyin": "kǎo shì",
         "level": "HSK1",
         "english": "exam"
@@ -3570,7 +3570,7 @@ const A1words = {
     "起": {
         "zhuyin": "ㄑㄧˇ",
         "pinyin": "qǐ",
-        "level": "HSK2",
+        "level": "HSK1",
         "english": "get up, start, rise"
     },
     "起床": {
