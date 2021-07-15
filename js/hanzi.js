@@ -4047,57 +4047,67 @@ const A1words = {
         "level": "HSK1",
         "english": "to study at the same school, classmate"
     },
-
-    // 365/500 done
-
     "圖書館": {
         "zhuyin": "ㄊㄨˊ ㄕㄨ ㄍㄨㄢˇ",
         "pinyin": "",
         "level": "HSK1",
         "english": "library"
     },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK1",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK1",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK1",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK1",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK1",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK1",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK1",
-    //     "english": ""
-    // },
+    "外": {
+        "zhuyin": "ㄨㄞˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "abroad, outside"
+    },
+    "外邊": {
+        "zhuyin": "ㄨㄞˋ ㄅㄧㄢ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "outside"
+    },
+    "外國": {
+        "zhuyin": "ㄨㄞˋ ㄍㄨㄛˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "foreign country"
+    },
+    "外語": {
+        "zhuyin": "ㄨㄞˋ ㄩˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "foreign language"
+    },
+    "玩兒": {
+        "zhuyin": "ㄨㄢˊ ㄦˊ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "play"
+    },
+    "晚": {
+        "zhuyin": "ㄨㄢˇ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "late"
+    },
+    "晚飯": {
+        "zhuyin": "ㄨㄢˇ ㄈㄢˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "dinner"
+    },
+    "晚上": {
+        "zhuyin": "ㄨㄢˇ ㄕㄤˋ",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "night"
+    },
+    "網上": {
+        "zhuyin": "網上",
+        "pinyin": "",
+        "level": "HSK1",
+        "english": "ㄨㄤˇ ㄕㄤˋ"
+    },
+    // 375/500 done
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
