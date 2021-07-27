@@ -1831,8 +1831,2916 @@ const A1sentences = {
     //     "english": ""
     // },
 }
-//69% done
-const A1words = {
+
+const idioms = {
+    "井底之蛙": {
+        "zhuyin": "ㄐㄧㄥˇ ㄉㄧˇ ㄓ ㄨㄚ",
+        "pinyin": "jǐng dǐ zhī wā",
+        "literal": "frog at bottom of the well",
+        "meaning": "used to describe a person who has a limited experience of the world, a limited outlook",
+    },
+    "畫蛇添足": {
+        "zhuyin": "ㄏㄨㄚˋ ㄕㄜˊ ㄊㄧㄢ ㄗㄨˊ",
+        "pinyin": "huà shé tiān zú",
+        "literal": "paint a snake with feet",
+        "meaning": "refers to spoiling things by doing something unnecessary",
+    },
+    "亡羊補牢": {
+        "zhuyin": "ㄨㄤˊ ㄧㄤˊ ㄅㄨˇ ㄌㄠˊ",
+        "pinyin": "wáng yáng bǔ láo",
+        "literal": "escaped sheep repair fence",
+        "meaning": "It is not too late to mend the sheep pen after the sheep have been lost. This idiom tells us that we can avoid more mistakes if we are able to correct the ones we have already committed. As long as we seek to remedy what we have done wrong, we’ll be able to avoid similar mistakes in the future.",
+    },
+    "腳踏實地": {
+        "zhuyin": "ㄐㄧㄠˇ ㄊㄚˋ ㄕˊ ㄉㄧˋ",
+        "pinyin": "jiǎo tà shí dì",
+        "literal": "foot tread truly",
+        "meaning": "To step on silid ground. An extremely positive chengyu meaning you work hard, focus on the fundamentals, and proceed in a steady and stable fashion. Stay grounded and push ahead.",
+    },
+    "九牛一毛": {
+        "zhuyin": "ㄐㄧㄡˇ ㄋㄧㄡˊ ㄧ ㄇㄠˊ",
+        "pinyin": "jiǔ niú yì máo",
+        "literal": "9 cows and 1 strand of cow hair",
+        "meaning": "It indicates something that’s so small that it’s like one strand of cow hair among 9 cows. Just a drop in the bucket.",
+    },
+    "一無所有": {
+        "zhuyin": "ㄧ ㄨˊ ㄙㄨㄛˇ ㄧㄡˇ",
+        "pinyin": "yì wú suǒ yǒu",
+        "literal": "have nothing at all",
+        "meaning": "Homeless, penniless, not a thing to your name.",
+    },
+    "一見鍾情": {
+        "zhuyin": "ㄧ ㄐㄧㄢˋ ㄓㄨㄥ ㄑㄧㄥˊ",
+        "pinyin": "yí jiàn zhōng qíng",
+        "literal": "love at first sight",
+        "meaning": "It's generally used for people, but you can also use it for other physical objects.",
+    },
+    "自由自在": {
+        "zhuyin": "ㄗˋ ㄧㄡˊ ㄗˋ ㄗㄞˋ",
+        "pinyin": "zì yóu zì zài",
+        "literal": "free and easy",
+        "meaning": "This can be used to describe someone’s personality, how someone behaves, or how a place makes people feel.",
+    },
+    "半途而廢 ": {
+        "zhuyin": "ㄅㄢˋ ㄊㄨˊ ㄦˊ ㄈㄟˋ",
+        "pinyin": "bàn tú ér fèi",
+        "literal": "walk half the road and give up",
+        "meaning": "means to start doing something, only to give up halfway.",
+    },
+    "拋磚引玉": {
+        "zhuyin": "ㄆㄠ ㄓㄨㄢ ㄧㄣˇ ㄩˋ",
+        "pinyin": "pāo zhuān yǐn yù",
+        "literal": "to cast a brick to attract jade",
+        "meaning": "You’re basically saying- “this idea I’m tossing out there is garbage, but perhaps it will lead one of you to make a better contribution.” A humble way to contribute to a conversation.",
+    },
+    "豁然開朗": {
+        "zhuyin": "ㄏㄨㄛ ㄖㄢˊ ㄎㄞ ㄌㄤˇ",
+        "pinyin": "huò rán kāi lǎng",
+        "literal": "opening light opening bright",
+        "meaning": "The first meaning is the refreshing and liberating feeling you get when you see a beautiful, open area. Typically, immediately before this moment, the beautiful area is not visible and you might be feeling a little stuffy. Second, it’s also used for the feeling you get when you achieve an “aha” or “eureka!” moment.",
+    },
+    "不可思議": {
+        "zhuyin": "ㄅㄨˋ ㄎㄜˇ ㄙ ㄧˋ",
+        "pinyin": "bù kě sī yì",
+        "literal": "no can think to comment on",
+        "meaning": "means that something is noteworthy or amazing in an unexpected way. Inconceivable, but in a good way. Incredible.",
+    },
+    "不可得兼": {
+        "zhuyin": "ㄅㄨˋ ㄎㄜˇ ㄉㄜˊ ㄐㄧㄢ",
+        "pinyin": "bù kě dé jiān",
+        "literal": "can't have both",
+        "meaning": "you can’t have both at the same time",
+    },
+    "心神不寧": {
+        "zhuyin": "ㄒㄧㄣ ㄕㄣˊ ㄅㄨˋ ㄋㄧㄥˊ",
+        "pinyin": "xīn shén bù níng",
+        "literal": "heart inside not peaceful",
+        "meaning": "to feel ill at ease",
+    },
+    "獨一無二": {
+        "zhuyin": "ㄉㄨˊ ㄧ ㄨˊ ㄦˋ",
+        "pinyin": "dú yī wú èr",
+        "literal": "only one not two",
+        "meaning": "unique and unmatched, there is nothing the same or nothing comparable",
+    },
+    "絕無僅有": {
+        "zhuyin": "ㄐㄩㄝˊ ㄨˊ ㄐㄧㄣˇ ㄧㄡˇ",
+        "pinyin": "jué wú jǐn yǒu",
+        "literal": "absolutely lack barly has",
+        "meaning": "one and only; rarely seen; unique of its kind; next to none",
+    },
+    "愛不釋手": {
+        "zhuyin": "ㄞˋ ㄅㄨˋ ㄕˋ ㄕㄡˇ",
+        "pinyin": "ài bù shì shǒu",
+        "literal": "love can't release from hand",
+        "meaning": "To love something so much that you can't part from it",
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "literal": "",
+    //     "meaning": "",
+    // },
+}
+const bookWords = {
+    "成語": {
+        "zhuyin": "ㄔㄥˊ ㄩˇ",
+        "pinyin": "chéng yǔ",
+        "level": "A",
+        "english": "4 or 5 character idioms"
+    },
+    "子女": {
+        "zhuyin": "ㄗˇ ㄋㄩˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "sons and daughters"
+    },
+    "好累": {
+        "zhuyin": "ㄏㄠˇ ㄌㄟˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be very tired"
+    },
+    "小子": {
+        "zhuyin": "ㄒㄧㄠˇ ㄗˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "(colloqial)boy, bloke"
+    },
+    "人口": {
+        "zhuyin": "ㄖㄣˊ ㄎㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "population"
+    },
+    "三口人": {
+        "zhuyin": "ㄙㄢ ㄎㄡˇ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "three(count) people"
+    },
+    "口子": {
+        "zhuyin": "ㄎㄡˇ ㄗˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "hole, opening, cut, rip"
+    },
+    "小手": {
+        "zhuyin": "ㄒㄧㄠˇ ㄕㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "pickpocket"
+    },
+    "門口": {
+        "zhuyin": "ㄇㄣˊ ㄎㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "doorway, area by entrance"
+    },
+    "天天": {
+        "zhuyin": "ㄊㄧㄢ ㄊㄧㄢ",
+        "pinyin": "",
+        "level": "A",
+        "english": "every day"
+    },
+    "好笑": {
+        "zhuyin": "ㄏㄠˇ ㄒㄧㄠˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be easy to laugh at, funny, ridiculous"
+    },
+    "矮子": {
+        "zhuyin": "ㄞˇ ㄗˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "short person, dwarf"
+    },
+    "忙人": {
+        "zhuyin": "ㄇㄤˊ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "busy person"
+    },
+    "小心": {
+        "zhuyin": "ㄒㄧㄠˇ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "Be careful!"
+    },
+    "無心": {
+        "zhuyin": "ㄨˊ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "not feel like, not in the mood for, unintentionally"
+    },
+    "不好": {
+        "zhuyin": "ㄅㄨˋ ㄏㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "no good, it's not good"
+    },
+    "不很": {
+        "zhuyin": "ㄅㄨˋ ㄏㄣˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "not very"
+    },
+    "很不": {
+        "zhuyin": "ㄏㄣˇ ㄅㄨˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "very un-"
+    },
+    "不忙": {
+        "zhuyin": "ㄅㄨˋ ㄇㄤˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "there is no hurry, take your time"
+    },
+    "太太": {
+        "zhuyin": "ㄊㄞˋ ㄊㄞˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "wife"
+    },
+    "太子": {
+        "zhuyin": "ㄊㄞˋ ㄗˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "prince"
+    },
+    "太忙": {
+        "zhuyin": "ㄊㄞˋ ㄇㄤˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be too busy"
+    },
+    "可笑": {
+        "zhuyin": "ㄎㄜˇ ㄒㄧㄠˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be laughable"
+    },
+    "可口": {
+        "zhuyin": "ㄎㄜˇ ㄎㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "suit one's mouth, taste good"
+    },
+    "可心": {
+        "zhuyin": "ㄎㄜˇ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be satisfying, pleasing"
+    },
+    "不可": {
+        "zhuyin": "ㄅㄨˋ ㄎㄜˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "should not"
+    },
+    "又不": {
+        "zhuyin": "ㄧㄡˋ ㄅㄨˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "not at all"
+    },
+    "土人": {
+        "zhuyin": "ㄊㄨˇ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "native person"
+    },
+    "土木": {
+        "zhuyin": "ㄊㄨˇ ㄇㄨˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "building and construction"
+    },
+    "幸好": {
+        "zhuyin": "ㄒㄧㄥˋ ㄏㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "fortunately, luckily"
+    },
+    "不幸": {
+        "zhuyin": "ㄅㄨˋ ㄒㄧㄥˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "bad luck, unlucky, unfortunately"
+    },
+    "筆心": {
+        "zhuyin": "ㄅㄧˇ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "pencil lead, pen refill"
+    },
+    "山口": {
+        "zhuyin": "ㄕㄢ ㄎㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "mountain pass"
+    },
+    "鋼筆": {
+        "zhuyin": "ㄍㄤ ㄅㄧˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "pen"
+    },
+    "王八": {
+        "zhuyin": "ㄨㄤˊ ㄅㄚ",
+        "pinyin": "",
+        "level": "A",
+        "english": "cuck, stupid man"
+    },
+    "王八蛋": {
+        "zhuyin": "ㄨㄤˊ ㄅㄚ ㄉㄢˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "son of a bitch, stupid motherfucker"
+    },
+    "鉛筆": {
+        "zhuyin": "ㄑㄧㄢ ㄅㄧˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "pencil"
+    },
+    "刀子": {
+        "zhuyin": "ㄉㄠ ㄗˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "knife"
+    },
+    "分手": {
+        "zhuyin": "ㄈㄣ ㄕㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to part w/ somebody"
+    },
+    "分心": {
+        "zhuyin": "ㄈㄣ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to distract somebody's attention"
+    },
+    "童女": {
+        "zhuyin": "ㄊㄨㄥˊ ㄋㄩˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "maiden, virgin"
+    },
+    "童心": {
+        "zhuyin": "ㄊㄨㄥˊ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "childish disposition"
+    },
+    "童山": {
+        "zhuyin": "ㄊㄨㄥˊ ㄕㄢ",
+        "pinyin": "",
+        "level": "A",
+        "english": "bare hills, bald mountain"
+    },
+    "十分鐘": {
+        "zhuyin": "ㄕˊ ㄈㄣ ㄓㄨㄥ",
+        "pinyin": "",
+        "level": "A",
+        "english": "ten minutes"
+    },
+    "大衣": {
+        "zhuyin": "ㄉㄚˋ ㄧ",
+        "pinyin": "",
+        "level": "A",
+        "english": "overcoat"
+    },
+    "手錶": {
+        "zhuyin": "ㄕㄡˇ ㄅㄧㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "wristwatch"
+    },
+    "中心": {
+        "zhuyin": "ㄓㄨㄥ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "center, core"
+    },
+    "中立": {
+        "zhuyin": "ㄓㄨㄥ ㄌㄧˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "stand in the midde, neutrality"
+    },
+    "山羊": {
+        "zhuyin": "ㄕㄢ ㄧㄤˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "goat"
+    },
+    "小羊": {
+        "zhuyin": "ㄒㄧㄠˇ ㄧㄤˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "lamb"
+    },
+    "美國": {
+        "zhuyin": "ㄇㄟˇ ㄍㄨㄛˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "America"
+    },
+    "美金": {
+        "zhuyin": "ㄇㄟˇ ㄐㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "American money"
+    },
+    "美好": {
+        "zhuyin": "ㄇㄟˇ ㄏㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be fine, happy, glorious"
+    },
+    "外表": {
+        "zhuyin": "ㄨㄞˋ ㄅㄧㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "outward appearence, surface"
+    },
+    "看中": {
+        "zhuyin": "ㄎㄢˋ ㄓㄨㄥ",
+        "pinyin": "",
+        "level": "A",
+        "english": "take a liking to, pick out, choose"
+    },
+    "更好": {
+        "zhuyin": "ㄍㄥ ㄏㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be better, even more"
+    },
+    "小便": {
+        "zhuyin": "ㄒㄧㄠˇ ㄅㄧㄢˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to pee, piss"
+    },
+    "大便": {
+        "zhuyin": "ㄉㄚˋ ㄅㄧㄢˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to poop, shit"
+    },
+    "便依": {
+        "zhuyin": "ㄅㄧㄢˋ ㄧ",
+        "pinyin": "",
+        "level": "A",
+        "english": "street clothes, civvies"
+    },
+    "便宜": {
+        "zhuyin": "ㄅㄧㄢˋ ㄧˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be inexpensive"
+    },
+    "要不": {
+        "zhuyin": "ㄧㄠˋ ㄅㄨˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "otherwise, or else, or"
+    },
+    "要好": {
+        "zhuyin": "ㄧㄠˋ ㄏㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be on good terms, good friends, eager to improve"
+    },
+    "人士": {
+        "zhuyin": "ㄖㄣˊ ㄕˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "notable person"
+    },
+    "士女": {
+        "zhuyin": "ㄕˋ ㄋㄩˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "young men and women, guys and gals"
+    },
+    "女士": {
+        "zhuyin": "ㄋㄩˇ ㄕˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "(polite) professional woman"
+    },
+    "買賣": {
+        "zhuyin": "ㄇㄞˇ ㄇㄞˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "buisness"
+    },
+    "老二": {
+        "zhuyin": "ㄌㄠˇ ㄦˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "second child"
+    },
+    "老者": {
+        "zhuyin": "ㄌㄠˇ ㄓㄜˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "old fellow, old man"
+    },
+    "甘心": {
+        "zhuyin": "ㄍㄢ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "willingly, be happy with"
+    },
+    "入口": {
+        "zhuyin": "ㄖㄨˋ ㄎㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "entrance"
+    },
+    "入門": {
+        "zhuyin": "ㄖㄨˋ ㄇㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "primer, to start well"
+    },
+    "入手": {
+        "zhuyin": "ㄖㄨˋ ㄕㄡˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "put your hand in, get started"
+    },
+    "麻木": {
+        "zhuyin": "ㄇㄚˊ ㄇㄨˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "numb, apathetic"
+    },
+    "大麻": {
+        "zhuyin": "ㄉㄚˋ ㄇㄚˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "hemp, marijuana"
+    },
+    "甚麼": {
+        "zhuyin": "ㄕㄣˋ ㄇㄜ˙",
+        "pinyin": "",
+        "level": "A",
+        "english": "what? (old complex vers.)"
+    },
+    "書桌": {
+        "zhuyin": "ㄕㄨ ㄓㄨㄛ",
+        "pinyin": "",
+        "level": "A",
+        "english": "writing desk"
+    },
+    "好奇": {
+        "zhuyin": "ㄏㄠˇ ㄑㄧˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "curious, interested in odd things or just many things"
+    },
+    "好奇心": {
+        "zhuyin": "ㄏㄠˇ ㄑㄧˊ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "curiosity"
+    },
+    "金錢": {
+        "zhuyin": "ㄐㄧㄣ ㄑㄧㄢˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "money"
+    },
+    "古老": {
+        "zhuyin": "ㄍㄨˇ ㄌㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "ancient"
+    },
+    "古玩": {
+        "zhuyin": "ㄍㄨˇ ㄨㄢˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "antique object, curio"
+    },
+    "個人": {
+        "zhuyin": "ㄍㄜˋ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "each person, everyone"
+    },
+    "這個": {
+        "zhuyin": "ㄓㄜˋ ㄍㄜˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "this one"
+    },
+    "這麼": {
+        "zhuyin": "ㄓㄜˋ ㄇㄜ˙",
+        "pinyin": "",
+        "level": "A",
+        "english": "so, thus, in this case, to this extent"
+    },
+    "那個": {
+        "zhuyin": "ㄋㄚˋ ㄍㄜˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "that one, that"
+    },
+    "那麼": {
+        "zhuyin": "ㄋㄚˋ ㄇㄜ˙",
+        "pinyin": "",
+        "level": "A",
+        "english": "that being so, in that case"
+    },
+    "有錢": {
+        "zhuyin": "ㄧㄡˇ ㄑㄧㄢˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "be rich"
+    },
+    "沒買": {
+        "zhuyin": "ㄇㄟˊ ㄇㄞˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "did not buy, has not bought(yet)"
+    },
+    "吉他": {
+        "zhuyin": "ㄐㄧˊ ㄊㄚ",
+        "pinyin": "",
+        "level": "A",
+        "english": "guitar"
+    },
+    "喜人": {
+        "zhuyin": "ㄒㄧˇ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to be satisfying"
+    },
+    "喜好": {
+        "zhuyin": "ㄒㄧˇ ㄏㄠˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to like, love, be fond of"
+    },
+    "歡笑": {
+        "zhuyin": "ㄏㄨㄢ ㄒㄧㄠˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to laugh delightedly"
+    },
+    "歡心": {
+        "zhuyin": "ㄏㄨㄢ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "A",
+        "english": "favor(noun), love (noun)"
+    },
+    "十足": {
+        "zhuyin": "ㄕˊ ㄗㄨˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "sheer, total, absolute"
+    },
+    "跟上": {
+        "zhuyin": "ㄍㄣ ㄕㄤˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "keep up with, keep pace with"
+    },
+    "誰請": {
+        "zhuyin": "ㄕㄨㄟˊ ㄑㄧㄥˇ",
+        "pinyin": "",
+        "level": "A",
+        "english": "who's paying?"
+    },
+    "請問": {
+        "zhuyin": "ㄑㄧㄥˇ ㄨㄣˋ",
+        "pinyin": "",
+        "level": "A",
+        "english": "please tell me"
+    },
+    "聞人": {
+        "zhuyin": "ㄨㄣˊ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "famous person"
+    },
+    "耳聞": {
+        "zhuyin": "ㄦˇ ㄨㄣˊ",
+        "pinyin": "",
+        "level": "A",
+        "english": "to hear about from others"
+    },
+    "田間": {
+        "zhuyin": "ㄊㄧㄢˊ ㄐㄧㄢ",
+        "pinyin": "",
+        "level": "A",
+        "english": "farm, field"
+    },
+    "人間": {
+        "zhuyin": "ㄖㄣˊ ㄐㄧㄢ",
+        "pinyin": "",
+        "level": "A",
+        "english": "the human world, world of human affairs"
+    },
+    "哪裡": {
+        "zhuyin": "ㄋㄚˇ ㄌㄧˇ",
+        "pinyin": "nǎlǐ",
+        "level": "A",
+        "english": "where, wherever"
+    },
+    "星期一": {
+        "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄧ",
+        "pinyin": "xīngqīyī",
+        "level": "A",
+        "english": "Monday"
+    },
+    "星期二": {
+        "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄦˋ",
+        "pinyin": "xīngqīèr",
+        "level": "A",
+        "english": "Tuesday"
+    },
+    "星期三": {
+        "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄙㄢ",
+        "pinyin": "xīngqīsān",
+        "level": "A",
+        "english": "Wednesday"
+    },
+    "星期四": {
+        "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄙˋ",
+        "pinyin": "xīngqīsì",
+        "level": "A",
+        "english": "Thursday"
+    },
+    "星期五": {
+        "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄨˇ",
+        "pinyin": "xīngqīwǔ",
+        "level": "A",
+        "english": "Friday"
+    },
+    "星期六": {
+        "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄌㄧㄡˋ",
+        "pinyin": "xīngqīliù",
+        "level": "A",
+        "english": "Saturday"
+    },
+    "認識": {
+        "zhuyin": "ㄖㄣˋ ㄕˊ",
+        "pinyin": "rènshí",
+        "level": "A",
+        "english": "to know, recognize, understand"
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "A",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "A",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "A",  
+    //     "english": ""
+    // },
+}
+//still needs zhuyin also SHIT ITS THE OLD HSK
+const HSK2words = {
+    "幫助": {
+        "zhuyin": "ㄅㄤ ㄓㄨˋ",
+        "pinyin": "bāng zhù",
+        "level": "HSK2",
+        "english": "to help, assist"
+    },
+    "報紙": {
+        "zhuyin": "ㄅㄠˋ ㄓˇ",
+        "pinyin": "bào zhǐ",
+        "level": "HSK2",
+        "english": "newspaper"
+    },
+    "賓館": {
+        "zhuyin": "ㄅㄧㄣ ㄍㄨㄢˇ",
+        "pinyin": "bīn guǎn",
+        "level": "HSK2",
+        "english": "guest house"
+    },
+    "唱歌": {
+        "zhuyin": "ㄔㄤˋ ㄍㄜ",
+        "pinyin": "chàng gē",
+        "level": "HSK2",
+        "english": "to sing a song"
+    },
+    "大家": {
+        "zhuyin": "ㄉㄚˋ ㄐㄧㄚ",
+        "pinyin": "dà jiā",
+        "level": "HSK2",
+        "english": "everyone"
+    },
+    "弟弟": {
+        "zhuyin": "",
+        "pinyin": "dì di",
+        "level": "HSK2",
+        "english": "younger brother"
+    },
+    "第一": {
+        "zhuyin": "",
+        "pinyin": "dì yī",
+        "level": "HSK2",
+        "english": "first, number one"
+    },
+    "房間": {
+        "zhuyin": "",
+        "pinyin": "fáng jiān",
+        "level": "HSK2",
+        "english": "room"
+    },
+    "非常": {
+        "zhuyin": "",
+        "pinyin": "fēi cháng",
+        "level": "HSK2",
+        "english": "extraordinary, unusual, exceptional, very"
+    },
+    "服務員": {
+        "zhuyin": "",
+        "pinyin": "fú wù yuán",
+        "level": "HSK2",
+        "english": "attendant, customer service person, waiter"
+    },
+    "告訴": {
+        "zhuyin": "",
+        "pinyin": "gào su",
+        "level": "HSK2",
+        "english": "to tell, inform, to let know"
+    },
+    "哥哥": {
+        "zhuyin": "",
+        "pinyin": "gē ge",
+        "level": "HSK2",
+        "english": "older brother"
+    },
+    "公共汽車": {
+        "zhuyin": "",
+        "pinyin": "gōng gòng qì chē",
+        "level": "HSK2",
+        "english": "bus"
+    },
+    "公司": {
+        "zhuyin": "",
+        "pinyin": "gōng sī",
+        "level": "HSK2",
+        "english": "buisness, company"
+    },
+    "孩子": {
+        "zhuyin": "",
+        "pinyin": "hái zi",
+        "level": "HSK2",
+        "english": "child"
+    },
+    "好吃": {
+        "zhuyin": "",
+        "pinyin": "hǎo chī",
+        "level": "HSK2",
+        "english": "delicious, yummy"
+    },
+    "火車站": {
+        "zhuyin": "",
+        "pinyin": "huǒ chē zhàn",
+        "level": "HSK2",
+        "english": "train station"
+    },
+    "機場": {
+        "zhuyin": "",
+        "pinyin": "jī chǎng",
+        "level": "HSK2",
+        "english": "airport"
+    },
+    "雞蛋": {
+        "zhuyin": "",
+        "pinyin": "jī dàn",
+        "level": "HSK2",
+        "english": "egg, hen's egg"
+    },
+    "教室": {
+        "zhuyin": "",
+        "pinyin": "jiào shì",
+        "level": "HSK2",
+        "english": "classroom"
+    },
+    "姐姐": {
+        "zhuyin": "",
+        "pinyin": "jiě jie",
+        "level": "HSK2",
+        "english": "older sister"
+    },
+    "介紹": {
+        "zhuyin": "",
+        "pinyin": "jiè shào",
+        "level": "HSK2",
+        "english": "to present, introduce, recommend, suggest"
+    },
+    "覺得": {
+        "zhuyin": "",
+        "pinyin": "jué de",
+        "level": "HSK2",
+        "english": "to think, feel"
+    },
+    "咖啡": {
+        "zhuyin": "",
+        "pinyin": "kā fēi",
+        "level": "HSK2",
+        "english": "coffee"
+    },
+    "開始": {
+        "zhuyin": "",
+        "pinyin": "kāi shǐ",
+        "level": "HSK2",
+        "english": "to begin, start, initial"
+    },
+    "考試": {
+        "zhuyin": "",
+        "pinyin": "kǎo shì",
+        "level": "HSK2",
+        "english": "exam"
+    },
+    "可能": {
+        "zhuyin": "",
+        "pinyin": "kě néng",
+        "level": "HSK2",
+        "english": "might, possible, probable, maybe"
+    },
+    "可以": {
+        "zhuyin": "",
+        "pinyin": "kě yǐ",
+        "level": "HSK2",
+        "english": "can, may, possible, able to"
+    },
+    "快樂": {
+        "zhuyin": "",
+        "pinyin": "kuài lè",
+        "level": "HSK2",
+        "english": "happy, merry"
+    },
+    "旅遊": {
+        "zhuyin": "",
+        "pinyin": "lǚ yóu",
+        "level": "HSK2",
+        "english": "trip, journey, tourism, travel"
+    },
+    "妹妹": {
+        "zhuyin": "",
+        "pinyin": "mèi mei",
+        "level": "HSK2",
+        "english": "younger sister"
+    },
+    "麵條": {
+        "zhuyin": "",
+        "pinyin": "miàn tiáo",
+        "level": "HSK2",
+        "english": "noodles"
+    },
+    "牛奶": {
+        "zhuyin": "",
+        "pinyin": "niú nǎi",
+        "level": "HSK2",
+        "english": "cow's milk"
+    },
+    "旁邊": {
+        "zhuyin": "",
+        "pinyin": "páng biān",
+        "level": "HSK2",
+        "english": "to the side, beside"
+    },
+    "跑步": {
+        "zhuyin": "",
+        "pinyin": "pǎo bù",
+        "level": "HSK2",
+        "english": "to walk quickly, march, run"
+    },
+    "便宜": {
+        "zhuyin": "",
+        "pinyin": "pián yi",
+        "level": "HSK2",
+        "english": "cheap, inexpensive"
+    },
+    "妻子": {
+        "zhuyin": "",
+        "pinyin": "qī zi",
+        "level": "HSK2",
+        "english": "wife"
+    },
+    "起床": {
+        "zhuyin": "",
+        "pinyin": "qǐ chuáng",
+        "level": "HSK2",
+        "english": "to get up"
+    },
+    "鉛筆": {
+        "zhuyin": "",
+        "pinyin": "qiān bǐ",
+        "level": "HSK2",
+        "english": "lead pencil"
+    },
+    "去年": {
+        "zhuyin": "",
+        "pinyin": "qù nián",
+        "level": "HSK2",
+        "english": "last year"
+    },
+    "上班": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "to go to work, be put on duty"
+    },
+    "身體": {
+        "zhuyin": "",
+        "pinyin": "shēn tǐ",
+        "level": "HSK2",
+        "english": "(human) body, heath"
+    },
+    "生病": {
+        "zhuyin": "",
+        "pinyin": "shēng bìng",
+        "level": "HSK2",
+        "english": "to fall ill, sicken"
+    },
+    "生日": {
+        "zhuyin": "",
+        "pinyin": "shēng rì",
+        "level": "HSK2",
+        "english": "birthday"
+    },
+    "時間": {
+        "zhuyin": "",
+        "pinyin": "shí jiān",
+        "level": "HSK2",
+        "english": "time, period"
+    },
+    "事情": {
+        "zhuyin": "",
+        "pinyin": "shì qing",
+        "level": "HSK2",
+        "english": "affair, matter, buisness, thing"
+    },
+    "手錶": {
+        "zhuyin": "",
+        "pinyin": "shǒu biǎo",
+        "level": "HSK2",
+        "english": "wristwatch"
+    },
+    "手機": {
+        "zhuyin": "",
+        "pinyin": "shǒu jī",
+        "level": "HSK2",
+        "english": "cell phone, mobile phone"
+    },
+    "說話": {
+        "zhuyin": "",
+        "pinyin": "shuō huà",
+        "level": "HSK2",
+        "english": "to speak, say, talk, gossip, tell stories"
+    },
+    "跳舞": {
+        "zhuyin": "",
+        "pinyin": "tiào wǔ",
+        "level": "HSK2",
+        "english": "to dance"
+    },
+    "晚上": {
+        "zhuyin": "",
+        "pinyin": "wǎn shang",
+        "level": "HSK2",
+        "english": "in the evening"
+    },
+    "為什麼": {
+        "zhuyin": "",
+        "pinyin": "wèi shén me",
+        "level": "HSK2",
+        "english": "for what reason? why?"
+    },
+    "問題": {
+        "zhuyin": "",
+        "pinyin": "wèn tí",
+        "level": "HSK2",
+        "english": "question, problem, issue, topic"
+    },
+    "希望": {
+        "zhuyin": "",
+        "pinyin": "xī wàng",
+        "level": "HSK2",
+        "english": "to wish for, desire, hope"
+    },
+    "西瓜": {
+        "zhuyin": "",
+        "pinyin": "xī guā",
+        "level": "HSK2",
+        "english": "watermelon"
+    },
+    "小時": {
+        "zhuyin": "",
+        "pinyin": "xiǎo shí",
+        "level": "HSK2",
+        "english": "hour"
+    },
+    "休息 ": {
+        "zhuyin": "",
+        "pinyin": "xiū xi",
+        "level": "HSK2",
+        "english": "to rest"
+    },
+    "顏色": {
+        "zhuyin": "",
+        "pinyin": "yán sè",
+        "level": "HSK2",
+        "english": "color"
+    },
+    "眼睛": {
+        "zhuyin": "",
+        "pinyin": "yǎn jing",
+        "level": "HSK2",
+        "english": "eye"
+    },
+    "一下": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "(used after a verb) give it a go, to try, once in a while"
+    },
+    "已經": {
+        "zhuyin": "",
+        "pinyin": "yǐ jīng",
+        "level": "HSK2",
+        "english": "already"
+    },
+    "一起": {
+        "zhuyin": "",
+        "pinyin": "yī qǐ",
+        "level": "HSK2",
+        "english": "together, in the same place, with"
+    },
+    "意思": {
+        "zhuyin": "",
+        "pinyin": "yì si",
+        "level": "HSK2",
+        "english": "idea, opinion, meaining"
+    },
+    "游泳": {
+        "zhuyin": "",
+        "pinyin": "yóu yǒng",
+        "level": "HSK2",
+        "english": "swim"
+    },
+    "右邊": {
+        "zhuyin": "",
+        "pinyin": "yòu bian",
+        "level": "HSK2",
+        "english": "right side, to the right, right"
+    },
+    "運動": {
+        "zhuyin": "",
+        "pinyin": "yùn dòng",
+        "level": "HSK2",
+        "english": "movement, campaign, sports"
+    },
+    "早上": {
+        "zhuyin": "",
+        "pinyin": "zǎo shang",
+        "level": "HSK2",
+        "english": "early morning, good morning"
+    },
+    "正在": {
+        "zhuyin": "",
+        "pinyin": "zhèng zài",
+        "level": "HSK2",
+        "english": "in the process of (doing something/happening), while (doing)"
+    },
+    "知道": {
+        "zhuyin": "",
+        "pinyin": "zhī dào",
+        "level": "HSK2",
+        "english": "to know, be aware of"
+    },
+    "準備": {
+        "zhuyin": "",
+        "pinyin": "zhǔn bèi",
+        "level": "HSK2",
+        "english": "preparation, prepare"
+    },
+    "左邊": {
+        "zhuyin": "",
+        "pinyin": "zuǒ bian",
+        "level": "HSK2",
+        "english": "the left side, to the left of, left"
+    },
+    //  "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",  
+    //     "english": ""
+    // },
+}
+
+//100% complete
+const zhuyinCharacters = {
+    "ㄅ": {
+        "pinyin": "b",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄆ": {
+        "pinyin": "p",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄇ": {
+        "pinyin": "m",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄈ": {
+        "pinyin": "f",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄉ": {
+        "pinyin": "d",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄊ": {
+        "pinyin": "t",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄋ": {
+        "pinyin": "n",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄌ": {
+        "pinyin": "l",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄍ": {
+        "pinyin": "g",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄎ": {
+        "pinyin": "k",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄏ": {
+        "pinyin": "h",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄐ": {
+        "pinyin": "j",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄑ": {
+        "pinyin": "q",
+        "pronounced": "ch",
+        "isEnding": false
+    },
+    "ㄒ": {
+        "pinyin": "x",
+        "pronounced": "sh",
+        "isEnding": false
+    },
+    "ㄓ": {
+        "pinyin": "zh",
+        "pronounced": "J",
+        "isEnding": false
+    },
+    "ㄔ": {
+        "pinyin": "ch",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄕ": {
+        "pinyin": "sh",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄖ": {
+        "pinyin": "r",
+        "pronounced": "french j",
+        "isEnding": false
+    },
+    "ㄗ": {
+        "pinyin": "z",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "ㄘ": {
+        "pinyin": "c",
+        "pronounced": "ts",
+        "isEnding": false
+    },
+    "ㄙ": {
+        "pinyin": "s",
+        "pronounced": "",
+        "isEnding": false
+    },
+    "一": {
+        "pinyin": "i, y",
+        "pronounced": "eee",
+        "isEnding": true
+    },
+    "ㄨ": {
+        "pinyin": "u, w",
+        "pronounced": "ooo",
+        "isEnding": true
+    },
+    "ㄩ": {
+        "pinyin": "ü, yu",
+        "pronounced": "yeuu",
+        "isEnding": true
+    },
+    "ㄚ": {
+        "pinyin": "a",
+        "pronounced": "ah",
+        "isEnding": true
+    },
+    "ㄛ": {
+        "pinyin": "o",
+        "pronounced": "ooh",
+        "isEnding": true
+    },
+    "ㄜ": {
+        "pinyin": "e",
+        "pronounced": "uh",
+        "isEnding": true
+    },
+    "ㄝ": {
+        "pinyin": "e",
+        "pronounced": "eh",
+        "isEnding": true
+    },
+    "ㄞ": {
+        "pinyin": "ai",
+        "pronounced": "",
+        "isEnding": true
+    },
+    "ㄟ": {
+        "pinyin": "ei",
+        "pronounced": "eyy",
+        "isEnding": true
+    },
+    "ㄠ": {
+        "pinyin": "ao",
+        "pronounced": "",
+        "isEnding": true
+    },
+    "ㄡ": {
+        "pinyin": "ou",
+        "pronounced": "oh",
+        "isEnding": true
+    },
+    "ㄢ": {
+        "pinyin": "an",
+        "pronounced": "",
+        "isEnding": true
+    },
+    "ㄣ": {
+        "pinyin": "en",
+        "pronounced": "uen",
+        "isEnding": true
+    },
+    "ㄤ": {
+        "pinyin": "ang",
+        "pronounced": "",
+        "isEnding": true
+    },
+    "ㄥ": {
+        "pinyin": "eng",
+        "pronounced": "ung",
+        "isEnding": true
+    },
+    "ㄦ": {
+        "pinyin": "er",
+        "pronounced": "",
+        "isEnding": true
+    }
+}
+const chineseRadicals = {
+    "一": {
+        "zhuyin": "一",
+        "pinyin": "yī",
+        "tone": 1,
+        "english": "one",
+        "variant": ""
+    },
+    "丨": {
+        "zhuyin": "ㄍㄨㄣˇ",
+        "pinyin": "gǔn ",
+        "tone": 3,
+        "english": "line, down",
+        "variant": ""
+    },
+    "丶": {
+        "zhuyin": "ㄉ一ㄢˇ",
+        "pinyin": "diǎn",
+        "tone": 3,
+        "english": "dot",
+        "variant": ""
+    },
+    "丿": {
+        "zhuyin": "ㄆ一ㄝˇ",
+        "pinyin": "piě",
+        "tone": 3,
+        "english": "slash, left",
+        "variant": "乀, 乁"
+    },
+    "乙": {
+        "zhuyin": "一",
+        "pinyin": "yǐ",
+        "tone": 3,
+        "english": "second, twist",
+        "variant": "乚, 乛"
+    },
+    "亅": {
+        "zhuyin": "ㄍㄡ",
+        "pinyin": "gōu",
+        "tone": 1,
+        "english": "hook",
+        "variant": ""
+    },
+    "二": {
+        "zhuyin": "ㄦˋ",
+        "pinyin": "èr",
+        "tone": 4,
+        "english": "two",
+        "variant": ""
+    },
+    "亠": {
+        "zhuyin": "ㄊㄡˊ",
+        "pinyin": "tóu",
+        "tone": 2,
+        "english": "lid",
+        "variant": ""
+    },
+    "人": {
+        "zhuyin": "ㄖㄣˊ",
+        "pinyin": "rén",
+        "tone": 2,
+        "english": "person",
+        "variant": "亻"
+    },
+    "儿": {
+        "zhuyin": "ㄦˊ",
+        "pinyin": "ér",
+        "tone": 2,
+        "english": "legs",
+        "variant": ""
+    },
+    "入": {
+        "zhuyin": "ㄖㄨˋ",
+        "pinyin": "rù",
+        "tone": 4,
+        "english": "enter",
+        "variant": ""
+    },
+    "八": {
+        "zhuyin": "ㄅㄚ",
+        "pinyin": "bā",
+        "tone": 1,
+        "english": "eight",
+        "variant": "丷"
+    },
+    "冂": {
+        "zhuyin": "ㄐㄩㄥˇ",
+        "pinyin": "jiǒng",
+        "tone": 3,
+        "english": "down box, borders",
+        "variant": ""
+    },
+    "冖": {
+        "zhuyin": "ㄇ一ˋ",
+        "pinyin": "mì",
+        "tone": 4,
+        "english": "cover, crown",
+        "variant": ""
+    },
+    "冫": {
+        "zhuyin": "ㄅ一ㄥ",
+        "pinyin": "bīng",
+        "tone": 1,
+        "english": "ice",
+        "variant": ""
+    },
+    "几": {
+        "zhuyin": "ㄐ一",
+        "pinyin": "jī, jǐ",
+        "tone": 1,
+        "english": "table",
+        "variant": ""
+    },
+    "凵": {
+        "zhuyin": "ㄑㄩˇ",
+        "pinyin": "qǔ",
+        "tone": 3,
+        "english": "open box, bowl",
+        "variant": ""
+    },
+    "刀": {
+        "zhuyin": "ㄉㄠ",
+        "pinyin": "dāo",
+        "tone": 1,
+        "english": "knife",
+        "variant": "刂"
+    },
+    "力": {
+        "zhuyin": "ㄌ一ˋ",
+        "pinyin": "lì",
+        "tone": 4,
+        "english": "power, strength",
+        "variant": ""
+    },
+    "勹": {
+        "zhuyin": "ㄅㄠ",
+        "pinyin": "bāo",
+        "tone": 1,
+        "english": "wrap",
+        "variant": ""
+    },
+    "匕": {
+        "zhuyin": "ㄅ一ˇ",
+        "pinyin": "bǐ",
+        "tone": 3,
+        "english": "ladle",
+        "variant": ""
+    },
+    "匚": {
+        "zhuyin": "ㄈㄤ",
+        "pinyin": "fāng",
+        "tone": 1,
+        "english": "right open box",
+        "variant": ""
+    },
+    "匸": {
+        "zhuyin": "ㄒ一ˇ",
+        "pinyin": "xǐ",
+        "tone": 3,
+        "english": "hiding enclosure",
+        "variant": ""
+    },
+    "十": {
+        "zhuyin": "ㄕˊ",
+        "pinyin": "shí",
+        "tone": 2,
+        "english": "ten",
+        "variant": ""
+    },
+    "卜": {
+        "zhuyin": "ㄅㄨˇ",
+        "pinyin": "bǔ",
+        "tone": 3,
+        "english": "divination, divine",
+        "variant": ""
+    },
+    "卩": {
+        "zhuyin": "ㄐ一ㄝˊ",
+        "pinyin": "jié",
+        "tone": 2,
+        "english": "seal",
+        "variant": ""
+    },
+    "厂": {
+        "zhuyin": "ㄏㄢˋ",
+        "pinyin": "hàn",
+        "tone": 4,
+        "english": "cliff, slope",
+        "variant": ""
+    },
+    "厶": {
+        "zhuyin": "ㄙ",
+        "pinyin": "sī",
+        "tone": 1,
+        "english": "private, cocoon",
+        "variant": ""
+    },
+    "又": {
+        "zhuyin": "一ㄡˋ",
+        "pinyin": "yòu",
+        "tone": 4,
+        "english": "again, right hand",
+        "variant": ""
+    },
+    "口": {
+        "zhuyin": "ㄎㄡˇ",
+        "pinyin": "kǒu",
+        "tone": 3,
+        "english": "mouth, opening",
+        "variant": ""
+    },
+    "囗": {
+        "zhuyin": "ㄨㄟˊ",
+        "pinyin": "wéi",
+        "tone": 2,
+        "english": "enclosure, surround",
+        "variant": ""
+    },
+    "土": {
+        "zhuyin": "ㄊㄨˇ",
+        "pinyin": "tǔ",
+        "tone": 3,
+        "english": "earth",
+        "variant": ""
+    },
+    "士": {
+        "zhuyin": "ㄕˋ",
+        "pinyin": "shì",
+        "tone": 4,
+        "english": "scholar, knight",
+        "variant": ""
+    },
+    "夂": {
+        "zhuyin": "ㄓ",
+        "pinyin": "zhī",
+        "tone": 1,
+        "english": "go, follow",
+        "variant": ""
+    },
+    "夊": {
+        "zhuyin": "ㄙㄨㄟ",
+        "pinyin": "suī",
+        "tone": 1,
+        "english": "go slowly",
+        "variant": ""
+    },
+    "夕": {
+        "zhuyin": "ㄒ一",
+        "pinyin": "xī",
+        "tone": 1,
+        "english": "night",
+        "variant": ""
+    },
+    "大": {
+        "zhuyin": "ㄉㄚˋ",
+        "pinyin": "dà",
+        "tone": 4,
+        "english": "big",
+        "variant": ""
+    },
+    "女": {
+        "zhuyin": "ㄋㄩˇ",
+        "pinyin": "nǚ",
+        "tone": 3,
+        "english": "woman",
+        "variant": ""
+    },
+    "子": {
+        "zhuyin": "ㄗˇ",
+        "pinyin": "zǐ",
+        "tone": 3,
+        "english": "child",
+        "variant": ""
+    },
+    "宀": {
+        "zhuyin": "ㄍㄞˋ",
+        "pinyin": "gài",
+        "tone": 4,
+        "english": "roof",
+        "variant": ""
+    },
+    "寸": {
+        "zhuyin": "ㄘㄨㄣˋ",
+        "pinyin": "cùn",
+        "tone": 4,
+        "english": "inch, thumb",
+        "variant": ""
+    },
+    "小": {
+        "zhuyin": "ㄒ一ㄠˇ",
+        "pinyin": "xiǎo",
+        "tone": 3,
+        "english": "small",
+        "variant": ""
+    },
+    "尢": {
+        "zhuyin": "一ㄡˊ",
+        "pinyin": "yóu",
+        "tone": 2,
+        "english": "lame",
+        "variant": "尣"
+    },
+    "尸": {
+        "zhuyin": "ㄕ",
+        "pinyin": "shī",
+        "tone": 1,
+        "english": "corpse",
+        "variant": ""
+    },
+    "屮": {
+        "zhuyin": "ㄔㄜˋ",
+        "pinyin": "chè",
+        "tone": 4,
+        "english": "sprout",
+        "variant": ""
+    },
+    "山": {
+        "zhuyin": "ㄕㄢ",
+        "pinyin": "shān",
+        "tone": 1,
+        "english": "mountain",
+        "variant": ""
+    },
+    "川": {
+        "zhuyin": "ㄔㄨㄢ",
+        "pinyin": "chuān",
+        "tone": 1,
+        "english": "river",
+        "variant": "巛, 巜"
+    },
+    "工": {
+        "zhuyin": "ㄍㄨㄥ",
+        "pinyin": "gōng",
+        "tone": 1,
+        "english": "work",
+        "variant": ""
+    },
+    "己": {
+        "zhuyin": "ㄐ一ˇ",
+        "pinyin": "jǐ",
+        "tone": 3,
+        "english": "oneself",
+        "variant": ""
+    },
+    "巾": {
+        "zhuyin": "ㄐ一ㄣ",
+        "pinyin": "jīn",
+        "tone": 1,
+        "english": "towel, cloth",
+        "variant": ""
+    },
+    "干": {
+        "zhuyin": "ㄍㄢ",
+        "pinyin": "gān",
+        "tone": 1,
+        "english": "dry, shield",
+        "variant": ""
+    },
+    "幺": {
+        "zhuyin": "一ㄠ",
+        "pinyin": "yāo",
+        "tone": 1,
+        "english": "thread, coil",
+        "variant": ""
+    },
+    "广": {
+        "zhuyin": "ㄍㄨㄤˇ",
+        "pinyin": "guǎng",
+        "tone": 3,
+        "english": "shelter, house on cliff, lean to",
+        "variant": ""
+    },
+    "廴": {
+        "zhuyin": "一ㄣ",
+        "pinyin": "yǐn",
+        "tone": 3,
+        "english": "stride, march",
+        "variant": ""
+    },
+    "廾": {
+        "zhuyin": "ㄍㄨㄥˇ",
+        "pinyin": "gǒng",
+        "tone": 3,
+        "english": "clasp, hands joined",
+        "variant": ""
+    },
+    "弋": {
+        "zhuyin": "一ˋ",
+        "pinyin": "yì",
+        "tone": 4,
+        "english": "dart, shoot with a bow",
+        "variant": ""
+    },
+    "弓": {
+        "zhuyin": "ㄍㄨㄥ",
+        "pinyin": "gōng",
+        "tone": 1,
+        "english": "bow",
+        "variant": ""
+    },
+    "彐": {
+        "zhuyin": "ㄐ一ˋ",
+        "pinyin": "jì",
+        "tone": 4,
+        "english": "snout",
+        "variant": "彑"
+    },
+    "彡": {
+        "zhuyin": "ㄕㄢ",
+        "pinyin": "shān",
+        "tone": 1,
+        "english": "hair, streaks",
+        "variant": ""
+    },
+    "彳": {
+        "zhuyin": "ㄔˋ",
+        "pinyin": "chì",
+        "tone": 4,
+        "english": "step",
+        "variant": ""
+    },
+    "心": {
+        "zhuyin": "ㄒ一ㄣ",
+        "pinyin": "xīn",
+        "tone": 1,
+        "english": "heart",
+        "variant": "忄, ⺗"
+    },
+    "戈": {
+        "zhuyin": "ㄍㄜ",
+        "pinyin": "gē",
+        "tone": 1,
+        "english": "dagger, spear, lance",
+        "variant": ""
+    },
+    "户": {
+        "zhuyin": "ㄏㄨˋ",
+        "pinyin": "hù",
+        "tone": 4,
+        "english": "door",
+        "variant": ""
+    },
+    "手": {
+        "zhuyin": "ㄕㄡˇ",
+        "pinyin": "shǒu",
+        "tone": 3,
+        "english": "hand",
+        "variant": "扌"
+    },
+    "支": {
+        "zhuyin": "ㄓ",
+        "pinyin": "zhī",
+        "tone": 1,
+        "english": "branch",
+        "variant": ""
+    },
+    "攴": {
+        "zhuyin": "ㄆㄨ",
+        "pinyin": "pū",
+        "tone": 1,
+        "english": "rap, knock",
+        "variant": "攵"
+    },
+    "文": {
+        "zhuyin": "ㄨㄣˊ",
+        "pinyin": "wén",
+        "tone": 2,
+        "english": "script, pattern",
+        "variant": ""
+    },
+    "斗": {
+        "zhuyin": "ㄉㄡˇ",
+        "pinyin": "dǒu",
+        "tone": 3,
+        "english": "dipper, peck",
+        "variant": ""
+    },
+    "斤": {
+        "zhuyin": "ㄐ一ㄣ",
+        "pinyin": "jīn",
+        "tone": 1,
+        "english": "axe",
+        "variant": ""
+    },
+    "方": {
+        "zhuyin": "ㄈㄤ",
+        "pinyin": "fāng",
+        "tone": 1,
+        "english": "square",
+        "variant": ""
+    },
+    "无": {
+        "zhuyin": "ㄨˊ",
+        "pinyin": "wú",
+        "tone": 2,
+        "english": "not, lack",
+        "variant": ""
+    },
+    "日": {
+        "zhuyin": "ㄖˋ",
+        "pinyin": "rì",
+        "tone": 4,
+        "english": "sun",
+        "variant": ""
+    },
+    "曰": {
+        "zhuyin": "ㄩㄝ",
+        "pinyin": "yuē",
+        "tone": 1,
+        "english": "say",
+        "variant": ""
+    },
+    "月": {
+        "zhuyin": "ㄩㄝˋ",
+        "pinyin": "yuè",
+        "tone": 4,
+        "english": "moon",
+        "variant": ""
+    },
+    "木": {
+        "zhuyin": "ㄇㄨˋ",
+        "pinyin": "mù",
+        "tone": 4,
+        "english": "tree",
+        "variant": ""
+    },
+    "欠": {
+        "zhuyin": "ㄑ一ㄢˋ",
+        "pinyin": "qiàn",
+        "tone": 4,
+        "english": "yawn, lack",
+        "variant": ""
+    },
+    "止": {
+        "zhuyin": "ㄓˇ",
+        "pinyin": "zhǐ",
+        "tone": 1,
+        "english": "stop",
+        "variant": ""
+    },
+    "歹": {
+        "zhuyin": "ㄉㄞˇ",
+        "pinyin": "dǎi",
+        "tone": 3,
+        "english": "death, wicked, evil",
+        "variant": ""
+    },
+    "殳": {
+        "zhuyin": "ㄕㄨ",
+        "pinyin": "shū",
+        "tone": 1,
+        "english": "weapon, club",
+        "variant": ""
+    },
+    "毋": {
+        "zhuyin": "ㄇㄨˇ",
+        "pinyin": "mǔ",
+        "tone": 3,
+        "english": "don't, not",
+        "variant": "母"
+    },
+    "比": {
+        "zhuyin": "ㄅ一ˇ",
+        "pinyin": "bǐ",
+        "tone": 3,
+        "english": "compare",
+        "variant": ""
+    },
+    "毛": {
+        "zhuyin": "ㄇㄠˋ",
+        "pinyin": "máo",
+        "tone": 4,
+        "english": "fur",
+        "variant": ""
+    },
+    "氏": {
+        "zhuyin": "ㄕˋ",
+        "pinyin": "shì",
+        "tone": 4,
+        "english": "clan",
+        "variant": ""
+    },
+    "气": {
+        "zhuyin": "ㄑ一ˋ",
+        "pinyin": "qì",
+        "tone": 4,
+        "english": "steam, breath",
+        "variant": ""
+    },
+    "水": {
+        "zhuyin": "ㄕㄨㄟˇ",
+        "pinyin": "shuǐ",
+        "tone": 3,
+        "english": "water",
+        "variant": "氵"
+    },
+    "火": {
+        "zhuyin": "ㄏㄨㄛˇ",
+        "pinyin": "huǒ",
+        "tone": 3,
+        "english": "fire",
+        "variant": "灬"
+    },
+    "爪": {
+        "zhuyin": "ㄓㄠˇ",
+        "pinyin": "zhǎo",
+        "tone": 3,
+        "english": "claw",
+        "variant": "爫"
+    },
+    "父": {
+        "zhuyin": "ㄈㄨˋ",
+        "pinyin": "fù",
+        "tone": 4,
+        "english": "father",
+        "variant": ""
+    },
+    "爻": {
+        "zhuyin": "一ㄠˊ",
+        "pinyin": "yáo",
+        "tone": 2,
+        "english": "lines on a trigram, diagrams for divination",
+        "variant": ""
+    },
+    "爿": {
+        "zhuyin": "ㄑ一ㄤˊ",
+        "pinyin": "qiáng",
+        "tone": 2,
+        "english": "half of a tree trunk, bed",
+        "variant": ""
+    },
+    "片": {
+        "zhuyin": "ㄆ一ㄢˋ",
+        "pinyin": "piàn",
+        "tone": 4,
+        "english": "slice",
+        "variant": ""
+    },
+    "牙": {
+        "zhuyin": "一ㄚˊ",
+        "pinyin": "yá",
+        "tone": 2,
+        "english": "fang, tooth",
+        "variant": ""
+    },
+    "牛": {
+        "zhuyin": "ㄋ一ㄡˊ",
+        "pinyin": "niú",
+        "tone": 2,
+        "english": "cow",
+        "variant": "牜"
+    },
+    "犬": {
+        "zhuyin": "ㄑㄩㄢˇ",
+        "pinyin": "quǎn",
+        "tone": 3,
+        "english": "dog",
+        "variant": "犭"
+    },
+    "玄": {
+        "zhuyin": "ㄒㄩㄢˊ",
+        "pinyin": "xuán",
+        "tone": 2,
+        "english": "profound, dark",
+        "variant": ""
+    },
+    "玉": {
+        "zhuyin": "ㄩˋ",
+        "pinyin": "yù",
+        "tone": 4,
+        "english": "jade",
+        "variant": "王"
+    },
+    "瓜": {
+        "zhuyin": "ㄍㄨㄚ",
+        "pinyin": "guā",
+        "tone": 1,
+        "english": "melon",
+        "variant": ""
+    },
+    "瓦": {
+        "zhuyin": "ㄨㄚˇ",
+        "pinyin": "wǎ",
+        "tone": 3,
+        "english": "tile",
+        "variant": ""
+    },
+    "甘": {
+        "zhuyin": "ㄍㄢ",
+        "pinyin": "gān",
+        "tone": 1,
+        "english": "sweet",
+        "variant": ""
+    },
+    "生": {
+        "zhuyin": "ㄕㄥ",
+        "pinyin": "shēng",
+        "tone": 1,
+        "english": "life, birth",
+        "variant": ""
+    },
+    "用": {
+        "zhuyin": "一ㄤˋ",
+        "pinyin": "yòng",
+        "tone": 4,
+        "english": "use",
+        "variant": ""
+    },
+    "田": {
+        "zhuyin": "ㄊ一ㄢˊ",
+        "pinyin": "tián",
+        "tone": 2,
+        "english": "field, rice paddy",
+        "variant": ""
+    },
+    "疋": {
+        "zhuyin": "ㄆ一ˇ",
+        "pinyin": "pǐ",
+        "tone": 3,
+        "english": "bolt of cloth",
+        "variant": ""
+    },
+    "疒": {
+        "zhuyin": "ㄅ一ㄥˋ",
+        "pinyin": "bìng",
+        "tone": 4,
+        "english": "illness",
+        "variant": ""
+    },
+    "癶": {
+        "zhuyin": "ㄅㄛ",
+        "pinyin": "bō",
+        "tone": 1,
+        "english": "foot steps, back",
+        "variant": ""
+    },
+    "白": {
+        "zhuyin": "ㄅㄞˊ",
+        "pinyin": "bái",
+        "tone": 2,
+        "english": "white",
+        "variant": ""
+    },
+    "皮": {
+        "zhuyin": "ㄆ一ˊ",
+        "pinyin": "pí",
+        "tone": 2,
+        "english": "skin",
+        "variant": ""
+    },
+    "皿": {
+        "zhuyin": "ㄇ一ㄣˇ",
+        "pinyin": "mǐn",
+        "tone": 3,
+        "english": "dish",
+        "variant": ""
+    },
+    "目": {
+        "zhuyin": "ㄇㄨˋ",
+        "pinyin": "mù",
+        "tone": 4,
+        "english": "eye",
+        "variant": ""
+    },
+    "矛": {
+        "zhuyin": "ㄇㄠˊ",
+        "pinyin": "máo",
+        "tone": 2,
+        "english": "spear",
+        "variant": ""
+    },
+    "矢": {
+        "zhuyin": "ㄕˇ",
+        "pinyin": "shǐ",
+        "tone": 3,
+        "english": "arrow",
+        "variant": ""
+    },
+    "石": {
+        "zhuyin": "ㄕˊ",
+        "pinyin": "shí",
+        "tone": 2,
+        "english": "stone, rock",
+        "variant": ""
+    },
+    "示": {
+        "zhuyin": "ㄕˋ",
+        "pinyin": "shì",
+        "tone": 4,
+        "english": "spirit, sign",
+        "variant": "礻"
+    },
+    "禸": {
+        "zhuyin": "ㄖㄡˊ",
+        "pinyin": "róu",
+        "tone": 2,
+        "english": "track",
+        "variant": ""
+    },
+    "禾": {
+        "zhuyin": "ㄏㄜˊ",
+        "pinyin": "hé",
+        "tone": 2,
+        "english": "grain",
+        "variant": ""
+    },
+    "穴": {
+        "zhuyin": "ㄒㄩㄝˋ",
+        "pinyin": "xuè",
+        "tone": 4,
+        "english": "cave",
+        "variant": ""
+    },
+    "立": {
+        "zhuyin": "ㄌ一ˋ",
+        "pinyin": "lì",
+        "tone": 4,
+        "english": "stand",
+        "variant": ""
+    },
+    "竹": {
+        "zhuyin": "ㄓㄨˊ",
+        "pinyin": "zhú",
+        "tone": 2,
+        "english": "bamboo",
+        "variant": ""
+    },
+    "米": {
+        "zhuyin": "ㄇ一ˇ",
+        "pinyin": "mǐ",
+        "tone": 3,
+        "english": "rice",
+        "variant": ""
+    },
+    "糸": {
+        "zhuyin": "ㄙ",
+        "pinyin": "sī",
+        "tone": 1,
+        "english": "silk",
+        "variant": "纟"
+    },
+    "缶": {
+        "zhuyin": "ㄈㄡˇ",
+        "pinyin": "fǒu",
+        "tone": 3,
+        "english": "jar, crock",
+        "variant": ""
+    },
+    "网": {
+        "zhuyin": "ㄨㄤˇ",
+        "pinyin": "wǎng",
+        "tone": 3,
+        "english": "net",
+        "variant": "罒"
+    },
+    "羊": {
+        "zhuyin": "一ㄤˊ",
+        "pinyin": "yáng",
+        "tone": 2,
+        "english": "sheep",
+        "variant": ""
+    },
+    "羽": {
+        "zhuyin": "ㄩˇ",
+        "pinyin": "yǔ",
+        "tone": 3,
+        "english": "feathers, wings",
+        "variant": ""
+    },
+    "老": {
+        "zhuyin": "ㄌㄠˇ",
+        "pinyin": "lǎo",
+        "tone": 3,
+        "english": "old",
+        "variant": ""
+    },
+    "而": {
+        "zhuyin": "ㄦˊ",
+        "pinyin": "ér",
+        "tone": 2,
+        "english": "and, beard",
+        "variant": ""
+    },
+    "耒": {
+        "zhuyin": "ㄌㄟˇ",
+        "pinyin": "lěi",
+        "tone": 3,
+        "english": "plow",
+        "variant": ""
+    },
+    "耳": {
+        "zhuyin": "ㄦˇ",
+        "pinyin": "ěr",
+        "tone": 3,
+        "english": "ear",
+        "variant": ""
+    },
+    "聿": {
+        "zhuyin": "ㄩˋ",
+        "pinyin": "yù",
+        "tone": 4,
+        "english": "brush",
+        "variant": ""
+    },
+    "肉": {
+        "zhuyin": "ㄖㄡˋ",
+        "pinyin": "ròu",
+        "tone": 4,
+        "english": "meat",
+        "variant": ""
+    },
+    "臣": {
+        "zhuyin": "ㄔㄣˊ",
+        "pinyin": "chén",
+        "tone": 2,
+        "english": "minister, bureaucrat",
+        "variant": ""
+    },
+    "自": {
+        "zhuyin": "ㄗˋ",
+        "pinyin": "zì",
+        "tone": 4,
+        "english": "oneself, small nose",
+        "variant": ""
+    },
+    "至": {
+        "zhuyin": "ㄓˋ",
+        "pinyin": "zhì",
+        "tone": 4,
+        "english": "arrive, reach",
+        "variant": ""
+    },
+    "臼": {
+        "zhuyin": "ㄐ一ㄡˋ",
+        "pinyin": "jiù",
+        "tone": 4,
+        "english": "mortar",
+        "variant": ""
+    },
+    "舌": {
+        "zhuyin": "ㄕㄜˊ",
+        "pinyin": "shé",
+        "tone": 2,
+        "english": "tongue",
+        "variant": ""
+    },
+    "舛": {
+        "zhuyin": "ㄔㄨㄢˇ",
+        "pinyin": "chuǎn",
+        "tone": 3,
+        "english": "contrary, oppose, discord",
+        "variant": ""
+    },
+    "舟": {
+        "zhuyin": "ㄓㄡ",
+        "pinyin": "zhōu",
+        "tone": 1,
+        "english": "boat",
+        "variant": ""
+    },
+    "艮": {
+        "zhuyin": "ㄍㄣˋ",
+        "pinyin": "gèn",
+        "tone": 4,
+        "english": "stubborn, tough, trigram mountain, stopping",
+        "variant": ""
+    },
+    "色": {
+        "zhuyin": "ㄙㄜˋ",
+        "pinyin": "sè",
+        "tone": 4,
+        "english": "color",
+        "variant": ""
+    },
+    "艸": {
+        "zhuyin": "ㄘㄠˇ",
+        "pinyin": "cǎo",
+        "tone": 3,
+        "english": "grass",
+        "variant": "艹"
+    },
+    "虍": {
+        "zhuyin": "ㄏㄨˇ",
+        "pinyin": "hǔ",
+        "tone": 3,
+        "english": "tiger",
+        "variant": ""
+    },
+    "虫": {
+        "zhuyin": "ㄔㄨㄥˊ",
+        "pinyin": "chóng",
+        "tone": 2,
+        "english": "insect",
+        "variant": ""
+    },
+    "血": {
+        "zhuyin": "ㄒㄩㄝˇ",
+        "pinyin": "xuě",
+        "tone": 3,
+        "english": "blood",
+        "variant": ""
+    },
+    "行": {
+        "zhuyin": "ㄒ一ㄥˊ",
+        "pinyin": "xíng",
+        "tone": 2,
+        "english": "walk, go",
+        "variant": ""
+    },
+    "衣": {
+        "zhuyin": "一",
+        "pinyin": "yī",
+        "tone": 1,
+        "english": "clothes, gown",
+        "variant": "衤"
+    },
+    "西": {
+        "zhuyin": "ㄒ一",
+        "pinyin": "xī",
+        "tone": 1,
+        "english": "west",
+        "variant": "覀"
+    },
+    "見": {
+        "zhuyin": "ㄐ一ㄢˋ",
+        "pinyin": "jiàn",
+        "tone": 4,
+        "english": "see",
+        "variant": "见"
+    },
+    "角": {
+        "zhuyin": "ㄐ一ㄠˇ",
+        "pinyin": "jiǎo",
+        "tone": 3,
+        "english": "horn",
+        "variant": ""
+    },
+    "言": {
+        "zhuyin": "一ㄢˊ",
+        "pinyin": "yán",
+        "tone": 2,
+        "english": "speech, words",
+        "variant": ""
+    },
+    "谷": {
+        "zhuyin": "ㄍㄨˇ",
+        "pinyin": "gǔ",
+        "tone": 3,
+        "english": "valley",
+        "variant": ""
+    },
+    "豆": {
+        "zhuyin": "ㄉㄡˋ",
+        "pinyin": "dòu",
+        "tone": 4,
+        "english": "bean, flask",
+        "variant": ""
+    },
+    "豕": {
+        "zhuyin": "ㄕˇ",
+        "pinyin": "shǐ",
+        "tone": 3,
+        "english": "pig",
+        "variant": ""
+    },
+    "豸": {
+        "zhuyin": "ㄓˋ",
+        "pinyin": "zhì",
+        "tone": 4,
+        "english": "badger, snake",
+        "variant": ""
+    },
+    "貝": {
+        "zhuyin": "ㄅㄟˋ",
+        "pinyin": "bèi",
+        "tone": 4,
+        "english": "shell",
+        "variant": ""
+    },
+    "赤": {
+        "zhuyin": "ㄔˋ",
+        "pinyin": "chì",
+        "tone": 4,
+        "english": "red",
+        "variant": ""
+    },
+    "走": {
+        "zhuyin": "ㄗㄡˇ",
+        "pinyin": "zǒu",
+        "tone": 3,
+        "english": "walk, run",
+        "variant": ""
+    },
+    "足": {
+        "zhuyin": "ㄗㄨˊ",
+        "pinyin": "zú",
+        "tone": 2,
+        "english": "foot",
+        "variant": ""
+    },
+    "身	": {
+        "zhuyin": "ㄕㄣ",
+        "pinyin": "shēn",
+        "tone": 1,
+        "english": "torso, body",
+        "variant": ""
+    },
+    "車": {
+        "zhuyin": "ㄔㄜ",
+        "pinyin": "chē",
+        "tone": 1,
+        "english": "cart, car",
+        "variant": "车"
+    },
+    "辛": {
+        "zhuyin": "ㄒ一ㄣ",
+        "pinyin": "xīn",
+        "tone": 1,
+        "english": "bitter",
+        "variant": ""
+    },
+    "辰": {
+        "zhuyin": "ㄔㄣˊ",
+        "pinyin": "chén",
+        "tone": 2,
+        "english": "morning",
+        "variant": ""
+    },
+    "辶": {
+        "zhuyin": "ㄔㄨㄛˋ",
+        "pinyin": "chuò",
+        "tone": 4,
+        "english": "walk",
+        "variant": ""
+    },
+    "邑": {
+        "zhuyin": "一ˋ",
+        "pinyin": "yì",
+        "tone": 4,
+        "english": "city",
+        "variant": "阝"
+    },
+    "酉": {
+        "zhuyin": "一ㄡˇ",
+        "pinyin": "yǒu",
+        "tone": 3,
+        "english": "wine",
+        "variant": ""
+    },
+    "釆": {
+        "zhuyin": "ㄅ一ㄢˋ",
+        "pinyin": "biàn",
+        "tone": 4,
+        "english": "sift, distinguish",
+        "variant": ""
+    },
+    "里": {
+        "zhuyin": "ㄌ一ˇ",
+        "pinyin": "lǐ",
+        "tone": 3,
+        "english": "village",
+        "variant": ""
+    },
+    "金": {
+        "zhuyin": "ㄐ一ㄣ",
+        "pinyin": "jīn",
+        "tone": 1,
+        "english": "metal, gold",
+        "variant": "钅"
+    },
+    "長": {
+        "zhuyin": "ㄔㄤˊ",
+        "pinyin": "cháng",
+        "tone": 2,
+        "english": "long",
+        "variant": "长"
+    },
+    "門": {
+        "zhuyin": "ㄇㄣˊ",
+        "pinyin": "mén",
+        "tone": 2,
+        "english": "gate",
+        "variant": "门"
+    },
+    "阜": {
+        "zhuyin": "ㄈㄨˋ",
+        "pinyin": "fù",
+        "tone": 4,
+        "english": "mound",
+        "variant": "阝"
+    },
+    "隶": {
+        "zhuyin": "ㄌ一ˋ",
+        "pinyin": "lì",
+        "tone": 4,
+        "english": "slave, grab",
+        "variant": ""
+    },
+    "隹": {
+        "zhuyin": "ㄓㄨㄟ",
+        "pinyin": "zhuī",
+        "tone": 1,
+        "english": "dove, short-tailed bird",
+        "variant": ""
+    },
+    "雨": {
+        "zhuyin": "ㄩˇ",
+        "pinyin": "yǔ",
+        "tone": 3,
+        "english": "rain",
+        "variant": ""
+    },
+    "青": {
+        "zhuyin": "ㄑ一ㄥ",
+        "pinyin": "qīng",
+        "tone": 1,
+        "english": "blue, green",
+        "variant": ""
+    },
+    "非": {
+        "zhuyin": "ㄈㄟ",
+        "pinyin": "fēi",
+        "tone": 1,
+        "english": "wrong",
+        "variant": ""
+    },
+    "面": {
+        "zhuyin": "ㄇ一ㄢˋ",
+        "pinyin": "miàn",
+        "tone": 4,
+        "english": "face",
+        "variant": ""
+    },
+    "革": {
+        "zhuyin": "ㄍㄜˊ",
+        "pinyin": "gé",
+        "tone": 2,
+        "english": "leather, hide",
+        "variant": ""
+    },
+    "韋": {
+        "zhuyin": "ㄨㄟˇ",
+        "pinyin": "wěi",
+        "tone": 3,
+        "english": "soft leather, tanned leather, walk off",
+        "variant": "韦"
+    },
+    "韭	": {
+        "zhuyin": "ㄐ一ㄡˇ",
+        "pinyin": "jiǔ",
+        "tone": 3,
+        "english": "leek",
+        "variant": ""
+    },
+    "音": {
+        "zhuyin": "一ㄣ",
+        "pinyin": "yīn",
+        "tone": 1,
+        "english": "sound, tone",
+        "variant": ""
+    },
+    "頁": {
+        "zhuyin": "一ㄝˋ",
+        "pinyin": "yè",
+        "tone": 4,
+        "english": "page, leaf",
+        "variant": "页"
+    },
+    "風": {
+        "zhuyin": "ㄈㄥ",
+        "pinyin": "fēng",
+        "tone": 1,
+        "english": "wind",
+        "variant": "风"
+    },
+    "飛": {
+        "zhuyin": "ㄈㄟ",
+        "pinyin": "fēi",
+        "tone": 1,
+        "english": "fly",
+        "variant": "飞"
+    },
+    "食": {
+        "zhuyin": "ㄕˊ",
+        "pinyin": "shí",
+        "tone": 2,
+        "english": "eat, food",
+        "variant": "飠, 饣"
+    },
+    "首": {
+        "zhuyin": "ㄕㄡˇ",
+        "pinyin": "shǒu",
+        "tone": 3,
+        "english": "head",
+        "variant": ""
+    },
+    "香": {
+        "zhuyin": "ㄒ一ㄤ",
+        "pinyin": "xiāng",
+        "tone": 1,
+        "english": "fragrant",
+        "variant": ""
+    },
+    "馬": {
+        "zhuyin": "ㄇㄚˇ",
+        "pinyin": "mǎ",
+        "tone": 3,
+        "english": "horse",
+        "variant": "马"
+    },
+    "骨": {
+        "zhuyin": "ㄍㄨˇ",
+        "pinyin": "gǔ",
+        "tone": 3,
+        "english": "bone",
+        "variant": ""
+    },
+    "高	": {
+        "zhuyin": "ㄍㄠ",
+        "pinyin": "gāo",
+        "tone": 1,
+        "english": "high, tall",
+        "variant": ""
+    },
+    "髟	": {
+        "zhuyin": "ㄅ一ㄠ",
+        "pinyin": "biāo",
+        "tone": 1,
+        "english": "long hair",
+        "variant": ""
+    },
+    "鬥": {
+        "zhuyin": "ㄉㄡˋ",
+        "pinyin": "dòu",
+        "tone": 4,
+        "english": "fight",
+        "variant": "斗"
+    },
+    "鬯": {
+        "zhuyin": "ㄔㄤˋ",
+        "pinyin": "chàng",
+        "tone": 4,
+        "english": "sacrificial wine, mixed wine",
+        "variant": ""
+    },
+    "鬲": {
+        "zhuyin": "ㄌ一ˋ",
+        "pinyin": "lì",
+        "tone": 4,
+        "english": "cauldron",
+        "variant": ""
+    },
+    "鬼": {
+        "zhuyin": "ㄍㄨㄟ",
+        "pinyin": "guǐ",
+        "tone": 1,
+        "english": "ghost",
+        "variant": ""
+    },
+    "魚": {
+        "zhuyin": "ㄩˊ",
+        "pinyin": "yú",
+        "tone": 2,
+        "english": "fish",
+        "variant": "鱼"
+    },
+    "鳥": {
+        "zhuyin": "ㄋ一ㄠˇ",
+        "pinyin": "niǎo",
+        "tone": 3,
+        "english": "bird",
+        "variant": "鸟"
+    },
+    "鹵": {
+        "zhuyin": "ㄌㄨˇ",
+        "pinyin": "lǔ",
+        "tone": 3,
+        "english": "salty",
+        "variant": "卤"
+    },
+    "鹿": {
+        "zhuyin": "ㄌㄨˋ",
+        "pinyin": "lù",
+        "tone": 4,
+        "english": "deer",
+        "variant": ""
+    },
+    "麥": {
+        "zhuyin": "ㄇㄞˋ",
+        "pinyin": "mài",
+        "tone": 4,
+        "english": "wheat",
+        "variant": "麦"
+    },
+    "麻": {
+        "zhuyin": "ㄇㄚˊ",
+        "pinyin": "má",
+        "tone": 2,
+        "english": "hemp",
+        "variant": ""
+    },
+    "黄": {
+        "zhuyin": "ㄏㄨㄤˊ",
+        "pinyin": "huáng",
+        "tone": 2,
+        "english": "yellow",
+        "variant": ""
+    },
+    "黍": {
+        "zhuyin": "ㄕㄨˇ",
+        "pinyin": "shǔ",
+        "tone": 3,
+        "english": "millet (an ancient seed cooked like a grain)",
+        "variant": ""
+    },
+    "黑": {
+        "zhuyin": "ㄏㄟ",
+        "pinyin": "hēi",
+        "tone": 1,
+        "english": "black",
+        "variant": ""
+    },
+    "黹": {
+        "zhuyin": "ㄓˇ",
+        "pinyin": "zhǐ",
+        "tone": 3,
+        "english": "embroidery",
+        "variant": ""
+    },
+    "黽": {
+        "zhuyin": "ㄇ一ㄣˇ",
+        "pinyin": "mǐn",
+        "tone": 3,
+        "english": "frog, toad",
+        "variant": "黾"
+    },
+    "鼎": {
+        "zhuyin": "ㄉ一ㄥˇ",
+        "pinyin": "dǐng",
+        "tone": 3,
+        "english": "tripod",
+        "variant": ""
+    },
+    "鼓": {
+        "zhuyin": "ㄍㄨˇ",
+        "pinyin": "gǔ",
+        "tone": 3,
+        "english": "drum",
+        "variant": ""
+    },
+    "鼠	": {
+        "zhuyin": "ㄕㄨˇ",
+        "pinyin": "shǔ",
+        "tone": 3,
+        "english": "rat, mouse",
+        "variant": ""
+    },
+    "鼻": {
+        "zhuyin": "ㄅ一ˊ",
+        "pinyin": "bí",
+        "tone": 2,
+        "english": "big nose",
+        "variant": ""
+    },
+    "齊": {
+        "zhuyin": "ㄑ一ˊ",
+        "pinyin": "qí",
+        "tone": 2,
+        "english": "even, line up",
+        "variant": "齐"
+    },
+    "齒": {
+        "zhuyin": "ㄔ",
+        "pinyin": "chǐ",
+        "tone": 1,
+        "english": "tooth, teeth",
+        "variant": "齿"
+    },
+    "龍": {
+        "zhuyin": "ㄌㄨㄥˊ",
+        "pinyin": "lóng",
+        "tone": 2,
+        "english": "dragon",
+        "variant": "龙"
+    },
+    "龜": {
+        "zhuyin": "ㄍㄨㄟ",
+        "pinyin": "guī",
+        "tone": 1,
+        "english": "turtle, tortoise",
+        "variant": "龟"
+    },
+    "龠": {
+        "zhuyin": "ㄩㄝˋ",
+        "pinyin": "yuè",
+        "tone": 4,
+        "english": "flute",
+        "variant": "",
+    }
+}
+const HSK1words = {
     "愛": {
         "zhuyin": "ㄞˋ",
         "pinyin": "ài",
@@ -4867,2912 +7775,4 @@ const A1words = {
         "level": "HSK1",
         "english": "do, make"
     }
-}
-//still needs zhuyin also SHIT ITS THE OLD HSK
-const A2words = {
-    "幫助": {
-        "zhuyin": "ㄅㄤ ㄓㄨˋ",
-        "pinyin": "bāng zhù",
-        "level": "HSK2",
-        "english": "to help, assist"
-    },
-    "報紙": {
-        "zhuyin": "ㄅㄠˋ ㄓˇ",
-        "pinyin": "bào zhǐ",
-        "level": "HSK2",
-        "english": "newspaper"
-    },
-    "賓館": {
-        "zhuyin": "ㄅㄧㄣ ㄍㄨㄢˇ",
-        "pinyin": "bīn guǎn",
-        "level": "HSK2",
-        "english": "guest house"
-    },
-    "唱歌": {
-        "zhuyin": "ㄔㄤˋ ㄍㄜ",
-        "pinyin": "chàng gē",
-        "level": "HSK2",
-        "english": "to sing a song"
-    },
-    "大家": {
-        "zhuyin": "ㄉㄚˋ ㄐㄧㄚ",
-        "pinyin": "dà jiā",
-        "level": "HSK2",
-        "english": "everyone"
-    },
-    "弟弟": {
-        "zhuyin": "",
-        "pinyin": "dì di",
-        "level": "HSK2",
-        "english": "younger brother"
-    },
-    "第一": {
-        "zhuyin": "",
-        "pinyin": "dì yī",
-        "level": "HSK2",
-        "english": "first, number one"
-    },
-    "房間": {
-        "zhuyin": "",
-        "pinyin": "fáng jiān",
-        "level": "HSK2",
-        "english": "room"
-    },
-    "非常": {
-        "zhuyin": "",
-        "pinyin": "fēi cháng",
-        "level": "HSK2",
-        "english": "extraordinary, unusual, exceptional, very"
-    },
-    "服務員": {
-        "zhuyin": "",
-        "pinyin": "fú wù yuán",
-        "level": "HSK2",
-        "english": "attendant, customer service person, waiter"
-    },
-    "告訴": {
-        "zhuyin": "",
-        "pinyin": "gào su",
-        "level": "HSK2",
-        "english": "to tell, inform, to let know"
-    },
-    "哥哥": {
-        "zhuyin": "",
-        "pinyin": "gē ge",
-        "level": "HSK2",
-        "english": "older brother"
-    },
-    "公共汽車": {
-        "zhuyin": "",
-        "pinyin": "gōng gòng qì chē",
-        "level": "HSK2",
-        "english": "bus"
-    },
-    "公司": {
-        "zhuyin": "",
-        "pinyin": "gōng sī",
-        "level": "HSK2",
-        "english": "buisness, company"
-    },
-    "孩子": {
-        "zhuyin": "",
-        "pinyin": "hái zi",
-        "level": "HSK2",
-        "english": "child"
-    },
-    "好吃": {
-        "zhuyin": "",
-        "pinyin": "hǎo chī",
-        "level": "HSK2",
-        "english": "delicious, yummy"
-    },
-    "火車站": {
-        "zhuyin": "",
-        "pinyin": "huǒ chē zhàn",
-        "level": "HSK2",
-        "english": "train station"
-    },
-    "機場": {
-        "zhuyin": "",
-        "pinyin": "jī chǎng",
-        "level": "HSK2",
-        "english": "airport"
-    },
-    "雞蛋": {
-        "zhuyin": "",
-        "pinyin": "jī dàn",
-        "level": "HSK2",
-        "english": "egg, hen's egg"
-    },
-    "教室": {
-        "zhuyin": "",
-        "pinyin": "jiào shì",
-        "level": "HSK2",
-        "english": "classroom"
-    },
-    "姐姐": {
-        "zhuyin": "",
-        "pinyin": "jiě jie",
-        "level": "HSK2",
-        "english": "older sister"
-    },
-    "介紹": {
-        "zhuyin": "",
-        "pinyin": "jiè shào",
-        "level": "HSK2",
-        "english": "to present, introduce, recommend, suggest"
-    },
-    "覺得": {
-        "zhuyin": "",
-        "pinyin": "jué de",
-        "level": "HSK2",
-        "english": "to think, feel"
-    },
-    "咖啡": {
-        "zhuyin": "",
-        "pinyin": "kā fēi",
-        "level": "HSK2",
-        "english": "coffee"
-    },
-    "開始": {
-        "zhuyin": "",
-        "pinyin": "kāi shǐ",
-        "level": "HSK2",
-        "english": "to begin, start, initial"
-    },
-    "考試": {
-        "zhuyin": "",
-        "pinyin": "kǎo shì",
-        "level": "HSK2",
-        "english": "exam"
-    },
-    "可能": {
-        "zhuyin": "",
-        "pinyin": "kě néng",
-        "level": "HSK2",
-        "english": "might, possible, probable, maybe"
-    },
-    "可以": {
-        "zhuyin": "",
-        "pinyin": "kě yǐ",
-        "level": "HSK2",
-        "english": "can, may, possible, able to"
-    },
-    "快樂": {
-        "zhuyin": "",
-        "pinyin": "kuài lè",
-        "level": "HSK2",
-        "english": "happy, merry"
-    },
-    "旅遊": {
-        "zhuyin": "",
-        "pinyin": "lǚ yóu",
-        "level": "HSK2",
-        "english": "trip, journey, tourism, travel"
-    },
-    "妹妹": {
-        "zhuyin": "",
-        "pinyin": "mèi mei",
-        "level": "HSK2",
-        "english": "younger sister"
-    },
-    "麵條": {
-        "zhuyin": "",
-        "pinyin": "miàn tiáo",
-        "level": "HSK2",
-        "english": "noodles"
-    },
-    "牛奶": {
-        "zhuyin": "",
-        "pinyin": "niú nǎi",
-        "level": "HSK2",
-        "english": "cow's milk"
-    },
-    "旁邊": {
-        "zhuyin": "",
-        "pinyin": "páng biān",
-        "level": "HSK2",
-        "english": "to the side, beside"
-    },
-    "跑步": {
-        "zhuyin": "",
-        "pinyin": "pǎo bù",
-        "level": "HSK2",
-        "english": "to walk quickly, march, run"
-    },
-    "便宜": {
-        "zhuyin": "",
-        "pinyin": "pián yi",
-        "level": "HSK2",
-        "english": "cheap, inexpensive"
-    },
-    "妻子": {
-        "zhuyin": "",
-        "pinyin": "qī zi",
-        "level": "HSK2",
-        "english": "wife"
-    },
-    "起床": {
-        "zhuyin": "",
-        "pinyin": "qǐ chuáng",
-        "level": "HSK2",
-        "english": "to get up"
-    },
-    "鉛筆": {
-        "zhuyin": "",
-        "pinyin": "qiān bǐ",
-        "level": "HSK2",
-        "english": "lead pencil"
-    },
-    "去年": {
-        "zhuyin": "",
-        "pinyin": "qù nián",
-        "level": "HSK2",
-        "english": "last year"
-    },
-    "上班": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": "to go to work, be put on duty"
-    },
-    "身體": {
-        "zhuyin": "",
-        "pinyin": "shēn tǐ",
-        "level": "HSK2",
-        "english": "(human) body, heath"
-    },
-    "生病": {
-        "zhuyin": "",
-        "pinyin": "shēng bìng",
-        "level": "HSK2",
-        "english": "to fall ill, sicken"
-    },
-    "生日": {
-        "zhuyin": "",
-        "pinyin": "shēng rì",
-        "level": "HSK2",
-        "english": "birthday"
-    },
-    "時間": {
-        "zhuyin": "",
-        "pinyin": "shí jiān",
-        "level": "HSK2",
-        "english": "time, period"
-    },
-    "事情": {
-        "zhuyin": "",
-        "pinyin": "shì qing",
-        "level": "HSK2",
-        "english": "affair, matter, buisness, thing"
-    },
-    "手錶": {
-        "zhuyin": "",
-        "pinyin": "shǒu biǎo",
-        "level": "HSK2",
-        "english": "wristwatch"
-    },
-    "手機": {
-        "zhuyin": "",
-        "pinyin": "shǒu jī",
-        "level": "HSK2",
-        "english": "cell phone, mobile phone"
-    },
-    "說話": {
-        "zhuyin": "",
-        "pinyin": "shuō huà",
-        "level": "HSK2",
-        "english": "to speak, say, talk, gossip, tell stories"
-    },
-    "跳舞": {
-        "zhuyin": "",
-        "pinyin": "tiào wǔ",
-        "level": "HSK2",
-        "english": "to dance"
-    },
-    "晚上": {
-        "zhuyin": "",
-        "pinyin": "wǎn shang",
-        "level": "HSK2",
-        "english": "in the evening"
-    },
-    "為什麼": {
-        "zhuyin": "",
-        "pinyin": "wèi shén me",
-        "level": "HSK2",
-        "english": "for what reason? why?"
-    },
-    "問題": {
-        "zhuyin": "",
-        "pinyin": "wèn tí",
-        "level": "HSK2",
-        "english": "question, problem, issue, topic"
-    },
-    "希望": {
-        "zhuyin": "",
-        "pinyin": "xī wàng",
-        "level": "HSK2",
-        "english": "to wish for, desire, hope"
-    },
-    "西瓜": {
-        "zhuyin": "",
-        "pinyin": "xī guā",
-        "level": "HSK2",
-        "english": "watermelon"
-    },
-    "小時": {
-        "zhuyin": "",
-        "pinyin": "xiǎo shí",
-        "level": "HSK2",
-        "english": "hour"
-    },
-    "休息 ": {
-        "zhuyin": "",
-        "pinyin": "xiū xi",
-        "level": "HSK2",
-        "english": "to rest"
-    },
-    "顏色": {
-        "zhuyin": "",
-        "pinyin": "yán sè",
-        "level": "HSK2",
-        "english": "color"
-    },
-    "眼睛": {
-        "zhuyin": "",
-        "pinyin": "yǎn jing",
-        "level": "HSK2",
-        "english": "eye"
-    },
-    "一下": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": "(used after a verb) give it a go, to try, once in a while"
-    },
-    "已經": {
-        "zhuyin": "",
-        "pinyin": "yǐ jīng",
-        "level": "HSK2",
-        "english": "already"
-    },
-    "一起": {
-        "zhuyin": "",
-        "pinyin": "yī qǐ",
-        "level": "HSK2",
-        "english": "together, in the same place, with"
-    },
-    "意思": {
-        "zhuyin": "",
-        "pinyin": "yì si",
-        "level": "HSK2",
-        "english": "idea, opinion, meaining"
-    },
-    "游泳": {
-        "zhuyin": "",
-        "pinyin": "yóu yǒng",
-        "level": "HSK2",
-        "english": "swim"
-    },
-    "右邊": {
-        "zhuyin": "",
-        "pinyin": "yòu bian",
-        "level": "HSK2",
-        "english": "right side, to the right, right"
-    },
-    "運動": {
-        "zhuyin": "",
-        "pinyin": "yùn dòng",
-        "level": "HSK2",
-        "english": "movement, campaign, sports"
-    },
-    "早上": {
-        "zhuyin": "",
-        "pinyin": "zǎo shang",
-        "level": "HSK2",
-        "english": "early morning, good morning"
-    },
-    "正在": {
-        "zhuyin": "",
-        "pinyin": "zhèng zài",
-        "level": "HSK2",
-        "english": "in the process of (doing something/happening), while (doing)"
-    },
-    "知道": {
-        "zhuyin": "",
-        "pinyin": "zhī dào",
-        "level": "HSK2",
-        "english": "to know, be aware of"
-    },
-    "準備": {
-        "zhuyin": "",
-        "pinyin": "zhǔn bèi",
-        "level": "HSK2",
-        "english": "preparation, prepare"
-    },
-    "左邊": {
-        "zhuyin": "",
-        "pinyin": "zuǒ bian",
-        "level": "HSK2",
-        "english": "the left side, to the left of, left"
-    },
-    //  "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",  
-    //     "english": ""
-    // },
-}
-const idioms = {
-    "井底之蛙": {
-        "zhuyin": "ㄐㄧㄥˇ ㄉㄧˇ ㄓ ㄨㄚ",
-        "pinyin": "jǐng dǐ zhī wā",
-        "literal": "frog at bottom of the well",
-        "meaning": "used to describe a person who has a limited experience of the world, a limited outlook",
-    },
-    "畫蛇添足": {
-        "zhuyin": "ㄏㄨㄚˋ ㄕㄜˊ ㄊㄧㄢ ㄗㄨˊ",
-        "pinyin": "huà shé tiān zú",
-        "literal": "paint a snake with feet",
-        "meaning": "refers to spoiling things by doing something unnecessary",
-    },
-    "亡羊補牢": {
-        "zhuyin": "ㄨㄤˊ ㄧㄤˊ ㄅㄨˇ ㄌㄠˊ",
-        "pinyin": "wáng yáng bǔ láo",
-        "literal": "escaped sheep repair fence",
-        "meaning": "It is not too late to mend the sheep pen after the sheep have been lost. This idiom tells us that we can avoid more mistakes if we are able to correct the ones we have already committed. As long as we seek to remedy what we have done wrong, we’ll be able to avoid similar mistakes in the future.",
-    },
-    "腳踏實地": {
-        "zhuyin": "ㄐㄧㄠˇ ㄊㄚˋ ㄕˊ ㄉㄧˋ",
-        "pinyin": "jiǎo tà shí dì",
-        "literal": "foot tread truly",
-        "meaning": "To step on silid ground. An extremely positive chengyu meaning you work hard, focus on the fundamentals, and proceed in a steady and stable fashion. Stay grounded and push ahead.",
-    },
-    "九牛一毛": {
-        "zhuyin": "ㄐㄧㄡˇ ㄋㄧㄡˊ ㄧ ㄇㄠˊ",
-        "pinyin": "jiǔ niú yì máo",
-        "literal": "9 cows and 1 strand of cow hair",
-        "meaning": "It indicates something that’s so small that it’s like one strand of cow hair among 9 cows. Just a drop in the bucket.",
-    },
-    "一無所有": {
-        "zhuyin": "ㄧ ㄨˊ ㄙㄨㄛˇ ㄧㄡˇ",
-        "pinyin": "yì wú suǒ yǒu",
-        "literal": "have nothing at all",
-        "meaning": "Homeless, penniless, not a thing to your name.",
-    },
-    "一見鍾情": {
-        "zhuyin": "ㄧ ㄐㄧㄢˋ ㄓㄨㄥ ㄑㄧㄥˊ",
-        "pinyin": "yí jiàn zhōng qíng",
-        "literal": "love at first sight",
-        "meaning": "It's generally used for people, but you can also use it for other physical objects.",
-    },
-    "自由自在": {
-        "zhuyin": "ㄗˋ ㄧㄡˊ ㄗˋ ㄗㄞˋ",
-        "pinyin": "zì yóu zì zài",
-        "literal": "free and easy",
-        "meaning": "This can be used to describe someone’s personality, how someone behaves, or how a place makes people feel.",
-    },
-    "半途而廢 ": {
-        "zhuyin": "ㄅㄢˋ ㄊㄨˊ ㄦˊ ㄈㄟˋ",
-        "pinyin": "bàn tú ér fèi",
-        "literal": "walk half the road and give up",
-        "meaning": "means to start doing something, only to give up halfway.",
-    },
-    "拋磚引玉": {
-        "zhuyin": "ㄆㄠ ㄓㄨㄢ ㄧㄣˇ ㄩˋ",
-        "pinyin": "pāo zhuān yǐn yù",
-        "literal": "to cast a brick to attract jade",
-        "meaning": "You’re basically saying- “this idea I’m tossing out there is garbage, but perhaps it will lead one of you to make a better contribution.” A humble way to contribute to a conversation.",
-    },
-    "豁然開朗": {
-        "zhuyin": "ㄏㄨㄛ ㄖㄢˊ ㄎㄞ ㄌㄤˇ",
-        "pinyin": "huò rán kāi lǎng",
-        "literal": "opening light opening bright",
-        "meaning": "The first meaning is the refreshing and liberating feeling you get when you see a beautiful, open area. Typically, immediately before this moment, the beautiful area is not visible and you might be feeling a little stuffy. Second, it’s also used for the feeling you get when you achieve an “aha” or “eureka!” moment.",
-    },
-    "不可思議": {
-        "zhuyin": "ㄅㄨˋ ㄎㄜˇ ㄙ ㄧˋ",
-        "pinyin": "bù kě sī yì",
-        "literal": "no can think to comment on",
-        "meaning": "means that something is noteworthy or amazing in an unexpected way. Inconceivable, but in a good way. Incredible.",
-    },
-    "不可得兼": {
-        "zhuyin": "ㄅㄨˋ ㄎㄜˇ ㄉㄜˊ ㄐㄧㄢ",
-        "pinyin": "bù kě dé jiān",
-        "literal": "can't have both",
-        "meaning": "you can’t have both at the same time",
-    },
-    "心神不寧": {
-        "zhuyin": "ㄒㄧㄣ ㄕㄣˊ ㄅㄨˋ ㄋㄧㄥˊ",
-        "pinyin": "xīn shén bù níng",
-        "literal": "heart inside not peaceful",
-        "meaning": "to feel ill at ease",
-    },
-    "獨一無二": {
-        "zhuyin": "ㄉㄨˊ ㄧ ㄨˊ ㄦˋ",
-        "pinyin": "dú yī wú èr",
-        "literal": "only one not two",
-        "meaning": "unique and unmatched, there is nothing the same or nothing comparable",
-    },
-    "絕無僅有": {
-        "zhuyin": "ㄐㄩㄝˊ ㄨˊ ㄐㄧㄣˇ ㄧㄡˇ",
-        "pinyin": "jué wú jǐn yǒu",
-        "literal": "absolutely lack barly has",
-        "meaning": "one and only; rarely seen; unique of its kind; next to none",
-    },
-    "愛不釋手": {
-        "zhuyin": "ㄞˋ ㄅㄨˋ ㄕˋ ㄕㄡˇ",
-        "pinyin": "ài bù shì shǒu",
-        "literal": "love can't release from hand",
-        "meaning": "To love something so much that you can't part from it",
-    },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "literal": "",
-    //     "meaning": "",
-    // },
-}
-
-//100% complete
-const zhuyinCharacters = {
-    "ㄅ": {
-        "pinyin": "b",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄆ": {
-        "pinyin": "p",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄇ": {
-        "pinyin": "m",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄈ": {
-        "pinyin": "f",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄉ": {
-        "pinyin": "d",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄊ": {
-        "pinyin": "t",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄋ": {
-        "pinyin": "n",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄌ": {
-        "pinyin": "l",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄍ": {
-        "pinyin": "g",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄎ": {
-        "pinyin": "k",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄏ": {
-        "pinyin": "h",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄐ": {
-        "pinyin": "j",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄑ": {
-        "pinyin": "q",
-        "pronounced": "ch",
-        "isEnding": false
-    },
-    "ㄒ": {
-        "pinyin": "x",
-        "pronounced": "sh",
-        "isEnding": false
-    },
-    "ㄓ": {
-        "pinyin": "zh",
-        "pronounced": "J",
-        "isEnding": false
-    },
-    "ㄔ": {
-        "pinyin": "ch",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄕ": {
-        "pinyin": "sh",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄖ": {
-        "pinyin": "r",
-        "pronounced": "french j",
-        "isEnding": false
-    },
-    "ㄗ": {
-        "pinyin": "z",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "ㄘ": {
-        "pinyin": "c",
-        "pronounced": "ts",
-        "isEnding": false
-    },
-    "ㄙ": {
-        "pinyin": "s",
-        "pronounced": "",
-        "isEnding": false
-    },
-    "一": {
-        "pinyin": "i, y",
-        "pronounced": "eee",
-        "isEnding": true
-    },
-    "ㄨ": {
-        "pinyin": "u, w",
-        "pronounced": "ooo",
-        "isEnding": true
-    },
-    "ㄩ": {
-        "pinyin": "ü, yu",
-        "pronounced": "yeuu",
-        "isEnding": true
-    },
-    "ㄚ": {
-        "pinyin": "a",
-        "pronounced": "ah",
-        "isEnding": true
-    },
-    "ㄛ": {
-        "pinyin": "o",
-        "pronounced": "ooh",
-        "isEnding": true
-    },
-    "ㄜ": {
-        "pinyin": "e",
-        "pronounced": "uh",
-        "isEnding": true
-    },
-    "ㄝ": {
-        "pinyin": "e",
-        "pronounced": "eh",
-        "isEnding": true
-    },
-    "ㄞ": {
-        "pinyin": "ai",
-        "pronounced": "",
-        "isEnding": true
-    },
-    "ㄟ": {
-        "pinyin": "ei",
-        "pronounced": "eyy",
-        "isEnding": true
-    },
-    "ㄠ": {
-        "pinyin": "ao",
-        "pronounced": "",
-        "isEnding": true
-    },
-    "ㄡ": {
-        "pinyin": "ou",
-        "pronounced": "oh",
-        "isEnding": true
-    },
-    "ㄢ": {
-        "pinyin": "an",
-        "pronounced": "",
-        "isEnding": true
-    },
-    "ㄣ": {
-        "pinyin": "en",
-        "pronounced": "uen",
-        "isEnding": true
-    },
-    "ㄤ": {
-        "pinyin": "ang",
-        "pronounced": "",
-        "isEnding": true
-    },
-    "ㄥ": {
-        "pinyin": "eng",
-        "pronounced": "ung",
-        "isEnding": true
-    },
-    "ㄦ": {
-        "pinyin": "er",
-        "pronounced": "",
-        "isEnding": true
-    }
-}
-const chineseRadicals = {
-    "一": {
-        "zhuyin": "一",
-        "pinyin": "yī",
-        "tone": 1,
-        "english": "one",
-        "variant": ""
-    },
-    "丨": {
-        "zhuyin": "ㄍㄨㄣˇ",
-        "pinyin": "gǔn ",
-        "tone": 3,
-        "english": "line, down",
-        "variant": ""
-    },
-    "丶": {
-        "zhuyin": "ㄉ一ㄢˇ",
-        "pinyin": "diǎn",
-        "tone": 3,
-        "english": "dot",
-        "variant": ""
-    },
-    "丿": {
-        "zhuyin": "ㄆ一ㄝˇ",
-        "pinyin": "piě",
-        "tone": 3,
-        "english": "slash, left",
-        "variant": "乀, 乁"
-    },
-    "乙": {
-        "zhuyin": "一",
-        "pinyin": "yǐ",
-        "tone": 3,
-        "english": "second, twist",
-        "variant": "乚, 乛"
-    },
-    "亅": {
-        "zhuyin": "ㄍㄡ",
-        "pinyin": "gōu",
-        "tone": 1,
-        "english": "hook",
-        "variant": ""
-    },
-    "二": {
-        "zhuyin": "ㄦˋ",
-        "pinyin": "èr",
-        "tone": 4,
-        "english": "two",
-        "variant": ""
-    },
-    "亠": {
-        "zhuyin": "ㄊㄡˊ",
-        "pinyin": "tóu",
-        "tone": 2,
-        "english": "lid",
-        "variant": ""
-    },
-    "人": {
-        "zhuyin": "ㄖㄣˊ",
-        "pinyin": "rén",
-        "tone": 2,
-        "english": "person",
-        "variant": "亻"
-    },
-    "儿": {
-        "zhuyin": "ㄦˊ",
-        "pinyin": "ér",
-        "tone": 2,
-        "english": "legs",
-        "variant": ""
-    },
-    "入": {
-        "zhuyin": "ㄖㄨˋ",
-        "pinyin": "rù",
-        "tone": 4,
-        "english": "enter",
-        "variant": ""
-    },
-    "八": {
-        "zhuyin": "ㄅㄚ",
-        "pinyin": "bā",
-        "tone": 1,
-        "english": "eight",
-        "variant": "丷"
-    },
-    "冂": {
-        "zhuyin": "ㄐㄩㄥˇ",
-        "pinyin": "jiǒng",
-        "tone": 3,
-        "english": "down box, borders",
-        "variant": ""
-    },
-    "冖": {
-        "zhuyin": "ㄇ一ˋ",
-        "pinyin": "mì",
-        "tone": 4,
-        "english": "cover, crown",
-        "variant": ""
-    },
-    "冫": {
-        "zhuyin": "ㄅ一ㄥ",
-        "pinyin": "bīng",
-        "tone": 1,
-        "english": "ice",
-        "variant": ""
-    },
-    "几": {
-        "zhuyin": "ㄐ一",
-        "pinyin": "jī, jǐ",
-        "tone": 1,
-        "english": "table",
-        "variant": ""
-    },
-    "凵": {
-        "zhuyin": "ㄑㄩˇ",
-        "pinyin": "qǔ",
-        "tone": 3,
-        "english": "open box, bowl",
-        "variant": ""
-    },
-    "刀": {
-        "zhuyin": "ㄉㄠ",
-        "pinyin": "dāo",
-        "tone": 1,
-        "english": "knife",
-        "variant": "刂"
-    },
-    "力": {
-        "zhuyin": "ㄌ一ˋ",
-        "pinyin": "lì",
-        "tone": 4,
-        "english": "power, strength",
-        "variant": ""
-    },
-    "勹": {
-        "zhuyin": "ㄅㄠ",
-        "pinyin": "bāo",
-        "tone": 1,
-        "english": "wrap",
-        "variant": ""
-    },
-    "匕": {
-        "zhuyin": "ㄅ一ˇ",
-        "pinyin": "bǐ",
-        "tone": 3,
-        "english": "ladle",
-        "variant": ""
-    },
-    "匚": {
-        "zhuyin": "ㄈㄤ",
-        "pinyin": "fāng",
-        "tone": 1,
-        "english": "right open box",
-        "variant": ""
-    },
-    "匸": {
-        "zhuyin": "ㄒ一ˇ",
-        "pinyin": "xǐ",
-        "tone": 3,
-        "english": "hiding enclosure",
-        "variant": ""
-    },
-    "十": {
-        "zhuyin": "ㄕˊ",
-        "pinyin": "shí",
-        "tone": 2,
-        "english": "ten",
-        "variant": ""
-    },
-    "卜": {
-        "zhuyin": "ㄅㄨˇ",
-        "pinyin": "bǔ",
-        "tone": 3,
-        "english": "divination, divine",
-        "variant": ""
-    },
-    "卩": {
-        "zhuyin": "ㄐ一ㄝˊ",
-        "pinyin": "jié",
-        "tone": 2,
-        "english": "seal",
-        "variant": ""
-    },
-    "厂": {
-        "zhuyin": "ㄏㄢˋ",
-        "pinyin": "hàn",
-        "tone": 4,
-        "english": "cliff, slope",
-        "variant": ""
-    },
-    "厶": {
-        "zhuyin": "ㄙ",
-        "pinyin": "sī",
-        "tone": 1,
-        "english": "private, cocoon",
-        "variant": ""
-    },
-    "又": {
-        "zhuyin": "一ㄡˋ",
-        "pinyin": "yòu",
-        "tone": 4,
-        "english": "again, right hand",
-        "variant": ""
-    },
-    "口": {
-        "zhuyin": "ㄎㄡˇ",
-        "pinyin": "kǒu",
-        "tone": 3,
-        "english": "mouth, opening",
-        "variant": ""
-    },
-    "囗": {
-        "zhuyin": "ㄨㄟˊ",
-        "pinyin": "wéi",
-        "tone": 2,
-        "english": "enclosure, surround",
-        "variant": ""
-    },
-    "土": {
-        "zhuyin": "ㄊㄨˇ",
-        "pinyin": "tǔ",
-        "tone": 3,
-        "english": "earth",
-        "variant": ""
-    },
-    "士": {
-        "zhuyin": "ㄕˋ",
-        "pinyin": "shì",
-        "tone": 4,
-        "english": "scholar, knight",
-        "variant": ""
-    },
-    "夂": {
-        "zhuyin": "ㄓ",
-        "pinyin": "zhī",
-        "tone": 1,
-        "english": "go, follow",
-        "variant": ""
-    },
-    "夊": {
-        "zhuyin": "ㄙㄨㄟ",
-        "pinyin": "suī",
-        "tone": 1,
-        "english": "go slowly",
-        "variant": ""
-    },
-    "夕": {
-        "zhuyin": "ㄒ一",
-        "pinyin": "xī",
-        "tone": 1,
-        "english": "night",
-        "variant": ""
-    },
-    "大": {
-        "zhuyin": "ㄉㄚˋ",
-        "pinyin": "dà",
-        "tone": 4,
-        "english": "big",
-        "variant": ""
-    },
-    "女": {
-        "zhuyin": "ㄋㄩˇ",
-        "pinyin": "nǚ",
-        "tone": 3,
-        "english": "woman",
-        "variant": ""
-    },
-    "子": {
-        "zhuyin": "ㄗˇ",
-        "pinyin": "zǐ",
-        "tone": 3,
-        "english": "child",
-        "variant": ""
-    },
-    "宀": {
-        "zhuyin": "ㄍㄞˋ",
-        "pinyin": "gài",
-        "tone": 4,
-        "english": "roof",
-        "variant": ""
-    },
-    "寸": {
-        "zhuyin": "ㄘㄨㄣˋ",
-        "pinyin": "cùn",
-        "tone": 4,
-        "english": "inch, thumb",
-        "variant": ""
-    },
-    "小": {
-        "zhuyin": "ㄒ一ㄠˇ",
-        "pinyin": "xiǎo",
-        "tone": 3,
-        "english": "small",
-        "variant": ""
-    },
-    "尢": {
-        "zhuyin": "一ㄡˊ",
-        "pinyin": "yóu",
-        "tone": 2,
-        "english": "lame",
-        "variant": "尣"
-    },
-    "尸": {
-        "zhuyin": "ㄕ",
-        "pinyin": "shī",
-        "tone": 1,
-        "english": "corpse",
-        "variant": ""
-    },
-    "屮": {
-        "zhuyin": "ㄔㄜˋ",
-        "pinyin": "chè",
-        "tone": 4,
-        "english": "sprout",
-        "variant": ""
-    },
-    "山": {
-        "zhuyin": "ㄕㄢ",
-        "pinyin": "shān",
-        "tone": 1,
-        "english": "mountain",
-        "variant": ""
-    },
-    "川": {
-        "zhuyin": "ㄔㄨㄢ",
-        "pinyin": "chuān",
-        "tone": 1,
-        "english": "river",
-        "variant": "巛, 巜"
-    },
-    "工": {
-        "zhuyin": "ㄍㄨㄥ",
-        "pinyin": "gōng",
-        "tone": 1,
-        "english": "work",
-        "variant": ""
-    },
-    "己": {
-        "zhuyin": "ㄐ一ˇ",
-        "pinyin": "jǐ",
-        "tone": 3,
-        "english": "oneself",
-        "variant": ""
-    },
-    "巾": {
-        "zhuyin": "ㄐ一ㄣ",
-        "pinyin": "jīn",
-        "tone": 1,
-        "english": "towel, cloth",
-        "variant": ""
-    },
-    "干": {
-        "zhuyin": "ㄍㄢ",
-        "pinyin": "gān",
-        "tone": 1,
-        "english": "dry, shield",
-        "variant": ""
-    },
-    "幺": {
-        "zhuyin": "一ㄠ",
-        "pinyin": "yāo",
-        "tone": 1,
-        "english": "thread, coil",
-        "variant": ""
-    },
-    "广": {
-        "zhuyin": "ㄍㄨㄤˇ",
-        "pinyin": "guǎng",
-        "tone": 3,
-        "english": "shelter, house on cliff, lean to",
-        "variant": ""
-    },
-    "廴": {
-        "zhuyin": "一ㄣ",
-        "pinyin": "yǐn",
-        "tone": 3,
-        "english": "stride, march",
-        "variant": ""
-    },
-    "廾": {
-        "zhuyin": "ㄍㄨㄥˇ",
-        "pinyin": "gǒng",
-        "tone": 3,
-        "english": "clasp, hands joined",
-        "variant": ""
-    },
-    "弋": {
-        "zhuyin": "一ˋ",
-        "pinyin": "yì",
-        "tone": 4,
-        "english": "dart, shoot with a bow",
-        "variant": ""
-    },
-    "弓": {
-        "zhuyin": "ㄍㄨㄥ",
-        "pinyin": "gōng",
-        "tone": 1,
-        "english": "bow",
-        "variant": ""
-    },
-    "彐": {
-        "zhuyin": "ㄐ一ˋ",
-        "pinyin": "jì",
-        "tone": 4,
-        "english": "snout",
-        "variant": "彑"
-    },
-    "彡": {
-        "zhuyin": "ㄕㄢ",
-        "pinyin": "shān",
-        "tone": 1,
-        "english": "hair, streaks",
-        "variant": ""
-    },
-    "彳": {
-        "zhuyin": "ㄔˋ",
-        "pinyin": "chì",
-        "tone": 4,
-        "english": "step",
-        "variant": ""
-    },
-    "心": {
-        "zhuyin": "ㄒ一ㄣ",
-        "pinyin": "xīn",
-        "tone": 1,
-        "english": "heart",
-        "variant": "忄, ⺗"
-    },
-    "戈": {
-        "zhuyin": "ㄍㄜ",
-        "pinyin": "gē",
-        "tone": 1,
-        "english": "dagger, spear, lance",
-        "variant": ""
-    },
-    "户": {
-        "zhuyin": "ㄏㄨˋ",
-        "pinyin": "hù",
-        "tone": 4,
-        "english": "door",
-        "variant": ""
-    },
-    "手": {
-        "zhuyin": "ㄕㄡˇ",
-        "pinyin": "shǒu",
-        "tone": 3,
-        "english": "hand",
-        "variant": "扌"
-    },
-    "支": {
-        "zhuyin": "ㄓ",
-        "pinyin": "zhī",
-        "tone": 1,
-        "english": "branch",
-        "variant": ""
-    },
-    "攴": {
-        "zhuyin": "ㄆㄨ",
-        "pinyin": "pū",
-        "tone": 1,
-        "english": "rap, knock",
-        "variant": "攵"
-    },
-    "文": {
-        "zhuyin": "ㄨㄣˊ",
-        "pinyin": "wén",
-        "tone": 2,
-        "english": "script, pattern",
-        "variant": ""
-    },
-    "斗": {
-        "zhuyin": "ㄉㄡˇ",
-        "pinyin": "dǒu",
-        "tone": 3,
-        "english": "dipper, peck",
-        "variant": ""
-    },
-    "斤": {
-        "zhuyin": "ㄐ一ㄣ",
-        "pinyin": "jīn",
-        "tone": 1,
-        "english": "axe",
-        "variant": ""
-    },
-    "方": {
-        "zhuyin": "ㄈㄤ",
-        "pinyin": "fāng",
-        "tone": 1,
-        "english": "square",
-        "variant": ""
-    },
-    "无": {
-        "zhuyin": "ㄨˊ",
-        "pinyin": "wú",
-        "tone": 2,
-        "english": "not, lack",
-        "variant": ""
-    },
-    "日": {
-        "zhuyin": "ㄖˋ",
-        "pinyin": "rì",
-        "tone": 4,
-        "english": "sun",
-        "variant": ""
-    },
-    "曰": {
-        "zhuyin": "ㄩㄝ",
-        "pinyin": "yuē",
-        "tone": 1,
-        "english": "say",
-        "variant": ""
-    },
-    "月": {
-        "zhuyin": "ㄩㄝˋ",
-        "pinyin": "yuè",
-        "tone": 4,
-        "english": "moon",
-        "variant": ""
-    },
-    "木": {
-        "zhuyin": "ㄇㄨˋ",
-        "pinyin": "mù",
-        "tone": 4,
-        "english": "tree",
-        "variant": ""
-    },
-    "欠": {
-        "zhuyin": "ㄑ一ㄢˋ",
-        "pinyin": "qiàn",
-        "tone": 4,
-        "english": "yawn, lack",
-        "variant": ""
-    },
-    "止": {
-        "zhuyin": "ㄓˇ",
-        "pinyin": "zhǐ",
-        "tone": 1,
-        "english": "stop",
-        "variant": ""
-    },
-    "歹": {
-        "zhuyin": "ㄉㄞˇ",
-        "pinyin": "dǎi",
-        "tone": 3,
-        "english": "death, wicked, evil",
-        "variant": ""
-    },
-    "殳": {
-        "zhuyin": "ㄕㄨ",
-        "pinyin": "shū",
-        "tone": 1,
-        "english": "weapon, club",
-        "variant": ""
-    },
-    "毋": {
-        "zhuyin": "ㄇㄨˇ",
-        "pinyin": "mǔ",
-        "tone": 3,
-        "english": "don't, not",
-        "variant": "母"
-    },
-    "比": {
-        "zhuyin": "ㄅ一ˇ",
-        "pinyin": "bǐ",
-        "tone": 3,
-        "english": "compare",
-        "variant": ""
-    },
-    "毛": {
-        "zhuyin": "ㄇㄠˋ",
-        "pinyin": "máo",
-        "tone": 4,
-        "english": "fur",
-        "variant": ""
-    },
-    "氏": {
-        "zhuyin": "ㄕˋ",
-        "pinyin": "shì",
-        "tone": 4,
-        "english": "clan",
-        "variant": ""
-    },
-    "气": {
-        "zhuyin": "ㄑ一ˋ",
-        "pinyin": "qì",
-        "tone": 4,
-        "english": "steam, breath",
-        "variant": ""
-    },
-    "水": {
-        "zhuyin": "ㄕㄨㄟˇ",
-        "pinyin": "shuǐ",
-        "tone": 3,
-        "english": "water",
-        "variant": "氵"
-    },
-    "火": {
-        "zhuyin": "ㄏㄨㄛˇ",
-        "pinyin": "huǒ",
-        "tone": 3,
-        "english": "fire",
-        "variant": "灬"
-    },
-    "爪": {
-        "zhuyin": "ㄓㄠˇ",
-        "pinyin": "zhǎo",
-        "tone": 3,
-        "english": "claw",
-        "variant": "爫"
-    },
-    "父": {
-        "zhuyin": "ㄈㄨˋ",
-        "pinyin": "fù",
-        "tone": 4,
-        "english": "father",
-        "variant": ""
-    },
-    "爻": {
-        "zhuyin": "一ㄠˊ",
-        "pinyin": "yáo",
-        "tone": 2,
-        "english": "lines on a trigram, diagrams for divination",
-        "variant": ""
-    },
-    "爿": {
-        "zhuyin": "ㄑ一ㄤˊ",
-        "pinyin": "qiáng",
-        "tone": 2,
-        "english": "half of a tree trunk, bed",
-        "variant": ""
-    },
-    "片": {
-        "zhuyin": "ㄆ一ㄢˋ",
-        "pinyin": "piàn",
-        "tone": 4,
-        "english": "slice",
-        "variant": ""
-    },
-    "牙": {
-        "zhuyin": "一ㄚˊ",
-        "pinyin": "yá",
-        "tone": 2,
-        "english": "fang, tooth",
-        "variant": ""
-    },
-    "牛": {
-        "zhuyin": "ㄋ一ㄡˊ",
-        "pinyin": "niú",
-        "tone": 2,
-        "english": "cow",
-        "variant": "牜"
-    },
-    "犬": {
-        "zhuyin": "ㄑㄩㄢˇ",
-        "pinyin": "quǎn",
-        "tone": 3,
-        "english": "dog",
-        "variant": "犭"
-    },
-    "玄": {
-        "zhuyin": "ㄒㄩㄢˊ",
-        "pinyin": "xuán",
-        "tone": 2,
-        "english": "profound, dark",
-        "variant": ""
-    },
-    "玉": {
-        "zhuyin": "ㄩˋ",
-        "pinyin": "yù",
-        "tone": 4,
-        "english": "jade",
-        "variant": "王"
-    },
-    "瓜": {
-        "zhuyin": "ㄍㄨㄚ",
-        "pinyin": "guā",
-        "tone": 1,
-        "english": "melon",
-        "variant": ""
-    },
-    "瓦": {
-        "zhuyin": "ㄨㄚˇ",
-        "pinyin": "wǎ",
-        "tone": 3,
-        "english": "tile",
-        "variant": ""
-    },
-    "甘": {
-        "zhuyin": "ㄍㄢ",
-        "pinyin": "gān",
-        "tone": 1,
-        "english": "sweet",
-        "variant": ""
-    },
-    "生": {
-        "zhuyin": "ㄕㄥ",
-        "pinyin": "shēng",
-        "tone": 1,
-        "english": "life, birth",
-        "variant": ""
-    },
-    "用": {
-        "zhuyin": "一ㄤˋ",
-        "pinyin": "yòng",
-        "tone": 4,
-        "english": "use",
-        "variant": ""
-    },
-    "田": {
-        "zhuyin": "ㄊ一ㄢˊ",
-        "pinyin": "tián",
-        "tone": 2,
-        "english": "field, rice paddy",
-        "variant": ""
-    },
-    "疋": {
-        "zhuyin": "ㄆ一ˇ",
-        "pinyin": "pǐ",
-        "tone": 3,
-        "english": "bolt of cloth",
-        "variant": ""
-    },
-    "疒": {
-        "zhuyin": "ㄅ一ㄥˋ",
-        "pinyin": "bìng",
-        "tone": 4,
-        "english": "illness",
-        "variant": ""
-    },
-    "癶": {
-        "zhuyin": "ㄅㄛ",
-        "pinyin": "bō",
-        "tone": 1,
-        "english": "foot steps, back",
-        "variant": ""
-    },
-    "白": {
-        "zhuyin": "ㄅㄞˊ",
-        "pinyin": "bái",
-        "tone": 2,
-        "english": "white",
-        "variant": ""
-    },
-    "皮": {
-        "zhuyin": "ㄆ一ˊ",
-        "pinyin": "pí",
-        "tone": 2,
-        "english": "skin",
-        "variant": ""
-    },
-    "皿": {
-        "zhuyin": "ㄇ一ㄣˇ",
-        "pinyin": "mǐn",
-        "tone": 3,
-        "english": "dish",
-        "variant": ""
-    },
-    "目": {
-        "zhuyin": "ㄇㄨˋ",
-        "pinyin": "mù",
-        "tone": 4,
-        "english": "eye",
-        "variant": ""
-    },
-    "矛": {
-        "zhuyin": "ㄇㄠˊ",
-        "pinyin": "máo",
-        "tone": 2,
-        "english": "spear",
-        "variant": ""
-    },
-    "矢": {
-        "zhuyin": "ㄕˇ",
-        "pinyin": "shǐ",
-        "tone": 3,
-        "english": "arrow",
-        "variant": ""
-    },
-    "石": {
-        "zhuyin": "ㄕˊ",
-        "pinyin": "shí",
-        "tone": 2,
-        "english": "stone, rock",
-        "variant": ""
-    },
-    "示": {
-        "zhuyin": "ㄕˋ",
-        "pinyin": "shì",
-        "tone": 4,
-        "english": "spirit, sign",
-        "variant": "礻"
-    },
-    "禸": {
-        "zhuyin": "ㄖㄡˊ",
-        "pinyin": "róu",
-        "tone": 2,
-        "english": "track",
-        "variant": ""
-    },
-    "禾": {
-        "zhuyin": "ㄏㄜˊ",
-        "pinyin": "hé",
-        "tone": 2,
-        "english": "grain",
-        "variant": ""
-    },
-    "穴": {
-        "zhuyin": "ㄒㄩㄝˋ",
-        "pinyin": "xuè",
-        "tone": 4,
-        "english": "cave",
-        "variant": ""
-    },
-    "立": {
-        "zhuyin": "ㄌ一ˋ",
-        "pinyin": "lì",
-        "tone": 4,
-        "english": "stand",
-        "variant": ""
-    },
-    "竹": {
-        "zhuyin": "ㄓㄨˊ",
-        "pinyin": "zhú",
-        "tone": 2,
-        "english": "bamboo",
-        "variant": ""
-    },
-    "米": {
-        "zhuyin": "ㄇ一ˇ",
-        "pinyin": "mǐ",
-        "tone": 3,
-        "english": "rice",
-        "variant": ""
-    },
-    "糸": {
-        "zhuyin": "ㄙ",
-        "pinyin": "sī",
-        "tone": 1,
-        "english": "silk",
-        "variant": "纟"
-    },
-    "缶": {
-        "zhuyin": "ㄈㄡˇ",
-        "pinyin": "fǒu",
-        "tone": 3,
-        "english": "jar, crock",
-        "variant": ""
-    },
-    "网": {
-        "zhuyin": "ㄨㄤˇ",
-        "pinyin": "wǎng",
-        "tone": 3,
-        "english": "net",
-        "variant": "罒"
-    },
-    "羊": {
-        "zhuyin": "一ㄤˊ",
-        "pinyin": "yáng",
-        "tone": 2,
-        "english": "sheep",
-        "variant": ""
-    },
-    "羽": {
-        "zhuyin": "ㄩˇ",
-        "pinyin": "yǔ",
-        "tone": 3,
-        "english": "feathers, wings",
-        "variant": ""
-    },
-    "老": {
-        "zhuyin": "ㄌㄠˇ",
-        "pinyin": "lǎo",
-        "tone": 3,
-        "english": "old",
-        "variant": ""
-    },
-    "而": {
-        "zhuyin": "ㄦˊ",
-        "pinyin": "ér",
-        "tone": 2,
-        "english": "and, beard",
-        "variant": ""
-    },
-    "耒": {
-        "zhuyin": "ㄌㄟˇ",
-        "pinyin": "lěi",
-        "tone": 3,
-        "english": "plow",
-        "variant": ""
-    },
-    "耳": {
-        "zhuyin": "ㄦˇ",
-        "pinyin": "ěr",
-        "tone": 3,
-        "english": "ear",
-        "variant": ""
-    },
-    "聿": {
-        "zhuyin": "ㄩˋ",
-        "pinyin": "yù",
-        "tone": 4,
-        "english": "brush",
-        "variant": ""
-    },
-    "肉": {
-        "zhuyin": "ㄖㄡˋ",
-        "pinyin": "ròu",
-        "tone": 4,
-        "english": "meat",
-        "variant": ""
-    },
-    "臣": {
-        "zhuyin": "ㄔㄣˊ",
-        "pinyin": "chén",
-        "tone": 2,
-        "english": "minister, bureaucrat",
-        "variant": ""
-    },
-    "自": {
-        "zhuyin": "ㄗˋ",
-        "pinyin": "zì",
-        "tone": 4,
-        "english": "oneself, small nose",
-        "variant": ""
-    },
-    "至": {
-        "zhuyin": "ㄓˋ",
-        "pinyin": "zhì",
-        "tone": 4,
-        "english": "arrive, reach",
-        "variant": ""
-    },
-    "臼": {
-        "zhuyin": "ㄐ一ㄡˋ",
-        "pinyin": "jiù",
-        "tone": 4,
-        "english": "mortar",
-        "variant": ""
-    },
-    "舌": {
-        "zhuyin": "ㄕㄜˊ",
-        "pinyin": "shé",
-        "tone": 2,
-        "english": "tongue",
-        "variant": ""
-    },
-    "舛": {
-        "zhuyin": "ㄔㄨㄢˇ",
-        "pinyin": "chuǎn",
-        "tone": 3,
-        "english": "contrary, oppose, discord",
-        "variant": ""
-    },
-    "舟": {
-        "zhuyin": "ㄓㄡ",
-        "pinyin": "zhōu",
-        "tone": 1,
-        "english": "boat",
-        "variant": ""
-    },
-    "艮": {
-        "zhuyin": "ㄍㄣˋ",
-        "pinyin": "gèn",
-        "tone": 4,
-        "english": "stubborn, tough, trigram mountain, stopping",
-        "variant": ""
-    },
-    "色": {
-        "zhuyin": "ㄙㄜˋ",
-        "pinyin": "sè",
-        "tone": 4,
-        "english": "color",
-        "variant": ""
-    },
-    "艸": {
-        "zhuyin": "ㄘㄠˇ",
-        "pinyin": "cǎo",
-        "tone": 3,
-        "english": "grass",
-        "variant": "艹"
-    },
-    "虍": {
-        "zhuyin": "ㄏㄨˇ",
-        "pinyin": "hǔ",
-        "tone": 3,
-        "english": "tiger",
-        "variant": ""
-    },
-    "虫": {
-        "zhuyin": "ㄔㄨㄥˊ",
-        "pinyin": "chóng",
-        "tone": 2,
-        "english": "insect",
-        "variant": ""
-    },
-    "血": {
-        "zhuyin": "ㄒㄩㄝˇ",
-        "pinyin": "xuě",
-        "tone": 3,
-        "english": "blood",
-        "variant": ""
-    },
-    "行": {
-        "zhuyin": "ㄒ一ㄥˊ",
-        "pinyin": "xíng",
-        "tone": 2,
-        "english": "walk, go",
-        "variant": ""
-    },
-    "衣": {
-        "zhuyin": "一",
-        "pinyin": "yī",
-        "tone": 1,
-        "english": "clothes, gown",
-        "variant": "衤"
-    },
-    "西": {
-        "zhuyin": "ㄒ一",
-        "pinyin": "xī",
-        "tone": 1,
-        "english": "west",
-        "variant": "覀"
-    },
-    "見": {
-        "zhuyin": "ㄐ一ㄢˋ",
-        "pinyin": "jiàn",
-        "tone": 4,
-        "english": "see",
-        "variant": "见"
-    },
-    "角": {
-        "zhuyin": "ㄐ一ㄠˇ",
-        "pinyin": "jiǎo",
-        "tone": 3,
-        "english": "horn",
-        "variant": ""
-    },
-    "言": {
-        "zhuyin": "一ㄢˊ",
-        "pinyin": "yán",
-        "tone": 2,
-        "english": "speech, words",
-        "variant": ""
-    },
-    "谷": {
-        "zhuyin": "ㄍㄨˇ",
-        "pinyin": "gǔ",
-        "tone": 3,
-        "english": "valley",
-        "variant": ""
-    },
-    "豆": {
-        "zhuyin": "ㄉㄡˋ",
-        "pinyin": "dòu",
-        "tone": 4,
-        "english": "bean, flask",
-        "variant": ""
-    },
-    "豕": {
-        "zhuyin": "ㄕˇ",
-        "pinyin": "shǐ",
-        "tone": 3,
-        "english": "pig",
-        "variant": ""
-    },
-    "豸": {
-        "zhuyin": "ㄓˋ",
-        "pinyin": "zhì",
-        "tone": 4,
-        "english": "badger, snake",
-        "variant": ""
-    },
-    "貝": {
-        "zhuyin": "ㄅㄟˋ",
-        "pinyin": "bèi",
-        "tone": 4,
-        "english": "shell",
-        "variant": ""
-    },
-    "赤": {
-        "zhuyin": "ㄔˋ",
-        "pinyin": "chì",
-        "tone": 4,
-        "english": "red",
-        "variant": ""
-    },
-    "走": {
-        "zhuyin": "ㄗㄡˇ",
-        "pinyin": "zǒu",
-        "tone": 3,
-        "english": "walk, run",
-        "variant": ""
-    },
-    "足": {
-        "zhuyin": "ㄗㄨˊ",
-        "pinyin": "zú",
-        "tone": 2,
-        "english": "foot",
-        "variant": ""
-    },
-    "身	": {
-        "zhuyin": "ㄕㄣ",
-        "pinyin": "shēn",
-        "tone": 1,
-        "english": "torso, body",
-        "variant": ""
-    },
-    "車": {
-        "zhuyin": "ㄔㄜ",
-        "pinyin": "chē",
-        "tone": 1,
-        "english": "cart, car",
-        "variant": "车"
-    },
-    "辛": {
-        "zhuyin": "ㄒ一ㄣ",
-        "pinyin": "xīn",
-        "tone": 1,
-        "english": "bitter",
-        "variant": ""
-    },
-    "辰": {
-        "zhuyin": "ㄔㄣˊ",
-        "pinyin": "chén",
-        "tone": 2,
-        "english": "morning",
-        "variant": ""
-    },
-    "辶": {
-        "zhuyin": "ㄔㄨㄛˋ",
-        "pinyin": "chuò",
-        "tone": 4,
-        "english": "walk",
-        "variant": ""
-    },
-    "邑": {
-        "zhuyin": "一ˋ",
-        "pinyin": "yì",
-        "tone": 4,
-        "english": "city",
-        "variant": "阝"
-    },
-    "酉": {
-        "zhuyin": "一ㄡˇ",
-        "pinyin": "yǒu",
-        "tone": 3,
-        "english": "wine",
-        "variant": ""
-    },
-    "釆": {
-        "zhuyin": "ㄅ一ㄢˋ",
-        "pinyin": "biàn",
-        "tone": 4,
-        "english": "sift, distinguish",
-        "variant": ""
-    },
-    "里": {
-        "zhuyin": "ㄌ一ˇ",
-        "pinyin": "lǐ",
-        "tone": 3,
-        "english": "village",
-        "variant": ""
-    },
-    "金": {
-        "zhuyin": "ㄐ一ㄣ",
-        "pinyin": "jīn",
-        "tone": 1,
-        "english": "metal, gold",
-        "variant": "钅"
-    },
-    "長": {
-        "zhuyin": "ㄔㄤˊ",
-        "pinyin": "cháng",
-        "tone": 2,
-        "english": "long",
-        "variant": "长"
-    },
-    "門": {
-        "zhuyin": "ㄇㄣˊ",
-        "pinyin": "mén",
-        "tone": 2,
-        "english": "gate",
-        "variant": "门"
-    },
-    "阜": {
-        "zhuyin": "ㄈㄨˋ",
-        "pinyin": "fù",
-        "tone": 4,
-        "english": "mound",
-        "variant": "阝"
-    },
-    "隶": {
-        "zhuyin": "ㄌ一ˋ",
-        "pinyin": "lì",
-        "tone": 4,
-        "english": "slave, grab",
-        "variant": ""
-    },
-    "隹": {
-        "zhuyin": "ㄓㄨㄟ",
-        "pinyin": "zhuī",
-        "tone": 1,
-        "english": "dove, short-tailed bird",
-        "variant": ""
-    },
-    "雨": {
-        "zhuyin": "ㄩˇ",
-        "pinyin": "yǔ",
-        "tone": 3,
-        "english": "rain",
-        "variant": ""
-    },
-    "青": {
-        "zhuyin": "ㄑ一ㄥ",
-        "pinyin": "qīng",
-        "tone": 1,
-        "english": "blue, green",
-        "variant": ""
-    },
-    "非": {
-        "zhuyin": "ㄈㄟ",
-        "pinyin": "fēi",
-        "tone": 1,
-        "english": "wrong",
-        "variant": ""
-    },
-    "面": {
-        "zhuyin": "ㄇ一ㄢˋ",
-        "pinyin": "miàn",
-        "tone": 4,
-        "english": "face",
-        "variant": ""
-    },
-    "革": {
-        "zhuyin": "ㄍㄜˊ",
-        "pinyin": "gé",
-        "tone": 2,
-        "english": "leather, hide",
-        "variant": ""
-    },
-    "韋": {
-        "zhuyin": "ㄨㄟˇ",
-        "pinyin": "wěi",
-        "tone": 3,
-        "english": "soft leather, tanned leather, walk off",
-        "variant": "韦"
-    },
-    "韭	": {
-        "zhuyin": "ㄐ一ㄡˇ",
-        "pinyin": "jiǔ",
-        "tone": 3,
-        "english": "leek",
-        "variant": ""
-    },
-    "音": {
-        "zhuyin": "一ㄣ",
-        "pinyin": "yīn",
-        "tone": 1,
-        "english": "sound, tone",
-        "variant": ""
-    },
-    "頁": {
-        "zhuyin": "一ㄝˋ",
-        "pinyin": "yè",
-        "tone": 4,
-        "english": "page, leaf",
-        "variant": "页"
-    },
-    "風": {
-        "zhuyin": "ㄈㄥ",
-        "pinyin": "fēng",
-        "tone": 1,
-        "english": "wind",
-        "variant": "风"
-    },
-    "飛": {
-        "zhuyin": "ㄈㄟ",
-        "pinyin": "fēi",
-        "tone": 1,
-        "english": "fly",
-        "variant": "飞"
-    },
-    "食": {
-        "zhuyin": "ㄕˊ",
-        "pinyin": "shí",
-        "tone": 2,
-        "english": "eat, food",
-        "variant": "飠, 饣"
-    },
-    "首": {
-        "zhuyin": "ㄕㄡˇ",
-        "pinyin": "shǒu",
-        "tone": 3,
-        "english": "head",
-        "variant": ""
-    },
-    "香": {
-        "zhuyin": "ㄒ一ㄤ",
-        "pinyin": "xiāng",
-        "tone": 1,
-        "english": "fragrant",
-        "variant": ""
-    },
-    "馬": {
-        "zhuyin": "ㄇㄚˇ",
-        "pinyin": "mǎ",
-        "tone": 3,
-        "english": "horse",
-        "variant": "马"
-    },
-    "骨": {
-        "zhuyin": "ㄍㄨˇ",
-        "pinyin": "gǔ",
-        "tone": 3,
-        "english": "bone",
-        "variant": ""
-    },
-    "高	": {
-        "zhuyin": "ㄍㄠ",
-        "pinyin": "gāo",
-        "tone": 1,
-        "english": "high, tall",
-        "variant": ""
-    },
-    "髟	": {
-        "zhuyin": "ㄅ一ㄠ",
-        "pinyin": "biāo",
-        "tone": 1,
-        "english": "long hair",
-        "variant": ""
-    },
-    "鬥": {
-        "zhuyin": "ㄉㄡˋ",
-        "pinyin": "dòu",
-        "tone": 4,
-        "english": "fight",
-        "variant": "斗"
-    },
-    "鬯": {
-        "zhuyin": "ㄔㄤˋ",
-        "pinyin": "chàng",
-        "tone": 4,
-        "english": "sacrificial wine, mixed wine",
-        "variant": ""
-    },
-    "鬲": {
-        "zhuyin": "ㄌ一ˋ",
-        "pinyin": "lì",
-        "tone": 4,
-        "english": "cauldron",
-        "variant": ""
-    },
-    "鬼": {
-        "zhuyin": "ㄍㄨㄟ",
-        "pinyin": "guǐ",
-        "tone": 1,
-        "english": "ghost",
-        "variant": ""
-    },
-    "魚": {
-        "zhuyin": "ㄩˊ",
-        "pinyin": "yú",
-        "tone": 2,
-        "english": "fish",
-        "variant": "鱼"
-    },
-    "鳥": {
-        "zhuyin": "ㄋ一ㄠˇ",
-        "pinyin": "niǎo",
-        "tone": 3,
-        "english": "bird",
-        "variant": "鸟"
-    },
-    "鹵": {
-        "zhuyin": "ㄌㄨˇ",
-        "pinyin": "lǔ",
-        "tone": 3,
-        "english": "salty",
-        "variant": "卤"
-    },
-    "鹿": {
-        "zhuyin": "ㄌㄨˋ",
-        "pinyin": "lù",
-        "tone": 4,
-        "english": "deer",
-        "variant": ""
-    },
-    "麥": {
-        "zhuyin": "ㄇㄞˋ",
-        "pinyin": "mài",
-        "tone": 4,
-        "english": "wheat",
-        "variant": "麦"
-    },
-    "麻": {
-        "zhuyin": "ㄇㄚˊ",
-        "pinyin": "má",
-        "tone": 2,
-        "english": "hemp",
-        "variant": ""
-    },
-    "黄": {
-        "zhuyin": "ㄏㄨㄤˊ",
-        "pinyin": "huáng",
-        "tone": 2,
-        "english": "yellow",
-        "variant": ""
-    },
-    "黍": {
-        "zhuyin": "ㄕㄨˇ",
-        "pinyin": "shǔ",
-        "tone": 3,
-        "english": "millet (an ancient seed cooked like a grain)",
-        "variant": ""
-    },
-    "黑": {
-        "zhuyin": "ㄏㄟ",
-        "pinyin": "hēi",
-        "tone": 1,
-        "english": "black",
-        "variant": ""
-    },
-    "黹": {
-        "zhuyin": "ㄓˇ",
-        "pinyin": "zhǐ",
-        "tone": 3,
-        "english": "embroidery",
-        "variant": ""
-    },
-    "黽": {
-        "zhuyin": "ㄇ一ㄣˇ",
-        "pinyin": "mǐn",
-        "tone": 3,
-        "english": "frog, toad",
-        "variant": "黾"
-    },
-    "鼎": {
-        "zhuyin": "ㄉ一ㄥˇ",
-        "pinyin": "dǐng",
-        "tone": 3,
-        "english": "tripod",
-        "variant": ""
-    },
-    "鼓": {
-        "zhuyin": "ㄍㄨˇ",
-        "pinyin": "gǔ",
-        "tone": 3,
-        "english": "drum",
-        "variant": ""
-    },
-    "鼠	": {
-        "zhuyin": "ㄕㄨˇ",
-        "pinyin": "shǔ",
-        "tone": 3,
-        "english": "rat, mouse",
-        "variant": ""
-    },
-    "鼻": {
-        "zhuyin": "ㄅ一ˊ",
-        "pinyin": "bí",
-        "tone": 2,
-        "english": "big nose",
-        "variant": ""
-    },
-    "齊": {
-        "zhuyin": "ㄑ一ˊ",
-        "pinyin": "qí",
-        "tone": 2,
-        "english": "even, line up",
-        "variant": "齐"
-    },
-    "齒": {
-        "zhuyin": "ㄔ",
-        "pinyin": "chǐ",
-        "tone": 1,
-        "english": "tooth, teeth",
-        "variant": "齿"
-    },
-    "龍": {
-        "zhuyin": "ㄌㄨㄥˊ",
-        "pinyin": "lóng",
-        "tone": 2,
-        "english": "dragon",
-        "variant": "龙"
-    },
-    "龜": {
-        "zhuyin": "ㄍㄨㄟ",
-        "pinyin": "guī",
-        "tone": 1,
-        "english": "turtle, tortoise",
-        "variant": "龟"
-    },
-    "龠": {
-        "zhuyin": "ㄩㄝˋ",
-        "pinyin": "yuè",
-        "tone": 4,
-        "english": "flute",
-        "variant": "",
-    }
-}
-const bookWords = {
-    "成語": {
-        "zhuyin": "ㄔㄥˊ ㄩˇ",
-        "pinyin": "chéng yǔ",
-        "level": "A",
-        "english": "4 or 5 character idioms"
-    },
-    "子女": {
-        "zhuyin": "ㄗˇ ㄋㄩˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "sons and daughters"
-    },
-    "好累": {
-        "zhuyin": "ㄏㄠˇ ㄌㄟˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "be very tired"
-    },
-    "小子": {
-        "zhuyin": "ㄒㄧㄠˇ ㄗˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "(colloqial)boy, bloke"
-    },
-    "人口": {
-        "zhuyin": "ㄖㄣˊ ㄎㄡˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "population"
-    },
-    "三口人": {
-        "zhuyin": "ㄙㄢ ㄎㄡˇ ㄖㄣˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "three(count) people"
-    },
-    "口子": {
-        "zhuyin": "ㄎㄡˇ ㄗˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "hole, opening, cut, rip"
-    },
-    "小手": {
-        "zhuyin": "ㄒㄧㄠˇ ㄕㄡˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "pickpocket"
-    },
-    "門口": {
-        "zhuyin": "ㄇㄣˊ ㄎㄡˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "doorway, area by entrance"
-    },
-    "天天": {
-        "zhuyin": "ㄊㄧㄢ ㄊㄧㄢ",
-        "pinyin": "",
-        "level": "A",
-        "english": "every day"
-    },
-    "好笑": {
-        "zhuyin": "ㄏㄠˇ ㄒㄧㄠˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "be easy to laugh at, funny, ridiculous"
-    },
-    "矮子": {
-        "zhuyin": "ㄞˇ ㄗˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "short person, dwarf"
-    },
-    "忙人": {
-        "zhuyin": "ㄇㄤˊ ㄖㄣˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "busy person"
-    },
-    "小心": {
-        "zhuyin": "ㄒㄧㄠˇ ㄒㄧㄣ",
-        "pinyin": "",
-        "level": "A",
-        "english": "Be careful!"
-    },
-    "無心": {
-        "zhuyin": "ㄨˊ ㄒㄧㄣ",
-        "pinyin": "",
-        "level": "A",
-        "english": "not feel like, not in the mood for, unintentionally"
-    },
-    "不好": {
-        "zhuyin": "ㄅㄨˋ ㄏㄠˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "no good, it's not good"
-    },
-    "不很": {
-        "zhuyin": "ㄅㄨˋ ㄏㄣˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "not very"
-    },
-    "很不": {
-        "zhuyin": "ㄏㄣˇ ㄅㄨˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "very un-"
-    },
-    "不忙": {
-        "zhuyin": "ㄅㄨˋ ㄇㄤˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "there is no hurry, take your time"
-    },
-    "太太": {
-        "zhuyin": "ㄊㄞˋ ㄊㄞˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "wife"
-    },
-    "太子": {
-        "zhuyin": "ㄊㄞˋ ㄗˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "prince"
-    },
-    "太忙": {
-        "zhuyin": "ㄊㄞˋ ㄇㄤˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "be too busy"
-    },
-    "可笑": {
-        "zhuyin": "ㄎㄜˇ ㄒㄧㄠˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "be laughable"
-    },
-    "可口": {
-        "zhuyin": "ㄎㄜˇ ㄎㄡˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "suit one's mouth, taste good"
-    },
-    "可心": {
-        "zhuyin": "ㄎㄜˇ ㄒㄧㄣ",
-        "pinyin": "",
-        "level": "A",
-        "english": "be satisfying, pleasing"
-    },
-    "不可": {
-        "zhuyin": "ㄅㄨˋ ㄎㄜˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "should not"
-    },
-    "又不": {
-        "zhuyin": "ㄧㄡˋ ㄅㄨˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "not at all"
-    },
-    "土人": {
-        "zhuyin": "ㄊㄨˇ ㄖㄣˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "native person"
-    },
-    "土木": {
-        "zhuyin": "ㄊㄨˇ ㄇㄨˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "building and construction"
-    },
-    "幸好": {
-        "zhuyin": "ㄒㄧㄥˋ ㄏㄠˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "fortunately, luckily"
-    },
-    "不幸": {
-        "zhuyin": "ㄅㄨˋ ㄒㄧㄥˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "bad luck, unlucky, unfortunately"
-    },
-    "筆心": {
-        "zhuyin": "ㄅㄧˇ ㄒㄧㄣ",
-        "pinyin": "",
-        "level": "A",
-        "english": "pencil lead, pen refill"
-    },
-    "山口": {
-        "zhuyin": "ㄕㄢ ㄎㄡˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "mountain pass"
-    },
-    "鋼筆": {
-        "zhuyin": "ㄍㄤ ㄅㄧˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "pen"
-    },
-    "王八": {
-        "zhuyin": "ㄨㄤˊ ㄅㄚ",
-        "pinyin": "",
-        "level": "A",
-        "english": "cuck, stupid man"
-    },
-    "王八蛋": {
-        "zhuyin": "ㄨㄤˊ ㄅㄚ ㄉㄢˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "son of a bitch, stupid motherfucker"
-    },
-    "鉛筆": {
-        "zhuyin": "ㄑㄧㄢ ㄅㄧˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "pencil"
-    },
-    "刀子": {
-        "zhuyin": "ㄉㄠ ㄗˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "knife"
-    },
-    "分手": {
-        "zhuyin": "ㄈㄣ ㄕㄡˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "to part w/ somebody"
-    },
-    "分心": {
-        "zhuyin": "ㄈㄣ ㄒㄧㄣ",
-        "pinyin": "",
-        "level": "A",
-        "english": "to distract somebody's attention"
-    },
-    "童女": {
-        "zhuyin": "ㄊㄨㄥˊ ㄋㄩˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "maiden, virgin"
-    },
-    "童心": {
-        "zhuyin": "ㄊㄨㄥˊ ㄒㄧㄣ",
-        "pinyin": "",
-        "level": "A",
-        "english": "childish disposition"
-    },
-    "童山": {
-        "zhuyin": "ㄊㄨㄥˊ ㄕㄢ",
-        "pinyin": "",
-        "level": "A",
-        "english": "bare hills, bald mountain"
-    },
-    "十分鐘": {
-        "zhuyin": "ㄕˊ ㄈㄣ ㄓㄨㄥ",
-        "pinyin": "",
-        "level": "A",
-        "english": "ten minutes"
-    },
-    "大衣": {
-        "zhuyin": "ㄉㄚˋ ㄧ",
-        "pinyin": "",
-        "level": "A",
-        "english": "overcoat"
-    },
-    "手錶": {
-        "zhuyin": "ㄕㄡˇ ㄅㄧㄠˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "wristwatch"
-    },
-    "中心": {
-        "zhuyin": "ㄓㄨㄥ ㄒㄧㄣ",
-        "pinyin": "",
-        "level": "A",
-        "english": "center, core"
-    },
-    "中立": {
-        "zhuyin": "ㄓㄨㄥ ㄌㄧˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "stand in the midde, neutrality"
-    },
-    "山羊": {
-        "zhuyin": "ㄕㄢ ㄧㄤˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "goat"
-    },
-    "小羊": {
-        "zhuyin": "ㄒㄧㄠˇ ㄧㄤˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "lamb"
-    },
-    "美國": {
-        "zhuyin": "ㄇㄟˇ ㄍㄨㄛˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "America"
-    },
-    "美金": {
-        "zhuyin": "ㄇㄟˇ ㄐㄧㄣ",
-        "pinyin": "",
-        "level": "A",
-        "english": "American money"
-    },
-    "美好": {
-        "zhuyin": "ㄇㄟˇ ㄏㄠˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "be fine, happy, glorious"
-    },
-    "外表": {
-        "zhuyin": "ㄨㄞˋ ㄅㄧㄠˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "outward appearence, surface"
-    },
-    "看中": {
-        "zhuyin": "ㄎㄢˋ ㄓㄨㄥ",
-        "pinyin": "",
-        "level": "A",
-        "english": "take a liking to, pick out, choose"
-    },
-    "更好": {
-        "zhuyin": "ㄍㄥ ㄏㄠˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "be better, even more"
-    },
-    "小便": {
-        "zhuyin": "ㄒㄧㄠˇ ㄅㄧㄢˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "to pee, piss"
-    },
-    "大便": {
-        "zhuyin": "ㄉㄚˋ ㄅㄧㄢˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "to poop, shit"
-    },
-    "便依": {
-        "zhuyin": "ㄅㄧㄢˋ ㄧ",
-        "pinyin": "",
-        "level": "A",
-        "english": "street clothes, civvies"
-    },
-    "便宜": {
-        "zhuyin": "ㄅㄧㄢˋ ㄧˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "be inexpensive"
-    },
-    "要不": {
-        "zhuyin": "ㄧㄠˋ ㄅㄨˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "otherwise, or else, or"
-    },
-    "要好": {
-        "zhuyin": "ㄧㄠˋ ㄏㄠˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "be on good terms, good friends, eager to improve"
-    },
-    "人士": {
-        "zhuyin": "ㄖㄣˊ ㄕˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "notable person"
-    },
-    "士女": {
-        "zhuyin": "ㄕˋ ㄋㄩˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "young men and women, guys and gals"
-    },
-    "女士": {
-        "zhuyin": "ㄋㄩˇ ㄕˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "(polite) professional woman"
-    },
-    "買賣": {
-        "zhuyin": "ㄇㄞˇ ㄇㄞˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "buisness"
-    },
-    "老二": {
-        "zhuyin": "ㄌㄠˇ ㄦˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "second child"
-    },
-    "老者": {
-        "zhuyin": "ㄌㄠˇ ㄓㄜˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "old fellow, old man"
-    },
-    "甘心": {
-        "zhuyin": "ㄍㄢ ㄒㄧㄣ",
-        "pinyin": "",
-        "level": "A",
-        "english": "willingly, be happy with"
-    },
-    "入口": {
-        "zhuyin": "ㄖㄨˋ ㄎㄡˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "entrance"
-    },
-    "入門": {
-        "zhuyin": "ㄖㄨˋ ㄇㄣˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "primer, to start well"
-    },
-    "入手": {
-        "zhuyin": "ㄖㄨˋ ㄕㄡˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "put your hand in, get started"
-    },
-    "麻木": {
-        "zhuyin": "ㄇㄚˊ ㄇㄨˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "numb, apathetic"
-    },
-    "大麻": {
-        "zhuyin": "ㄉㄚˋ ㄇㄚˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "hemp, marijuana"
-    },
-    "甚麼": {
-        "zhuyin": "ㄕㄣˋ ㄇㄜ˙",
-        "pinyin": "",
-        "level": "A",
-        "english": "what? (old complex vers.)"
-    },
-    "書桌": {
-        "zhuyin": "ㄕㄨ ㄓㄨㄛ",
-        "pinyin": "",
-        "level": "A",
-        "english": "writing desk"
-    },
-    "好奇": {
-        "zhuyin": "ㄏㄠˇ ㄑㄧˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "curious, interested in odd things or just many things"
-    },
-    "好奇心": {
-        "zhuyin": "ㄏㄠˇ ㄑㄧˊ ㄒㄧㄣ",
-        "pinyin": "",
-        "level": "A",
-        "english": "curiosity"
-    },
-    "金錢": {
-        "zhuyin": "ㄐㄧㄣ ㄑㄧㄢˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "money"
-    },
-    "古老": {
-        "zhuyin": "ㄍㄨˇ ㄌㄠˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "ancient"
-    },
-    "古玩": {
-        "zhuyin": "ㄍㄨˇ ㄨㄢˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "antique object, curio"
-    },
-    "個人": {
-        "zhuyin": "ㄍㄜˋ ㄖㄣˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "each person, everyone"
-    },
-    "這個": {
-        "zhuyin": "ㄓㄜˋ ㄍㄜˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "this one"
-    },
-    "這麼": {
-        "zhuyin": "ㄓㄜˋ ㄇㄜ˙",
-        "pinyin": "",
-        "level": "A",
-        "english": "so, thus, in this case, to this extent"
-    },
-    "那個": {
-        "zhuyin": "ㄋㄚˋ ㄍㄜˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "that one, that"
-    },
-    "那麼": {
-        "zhuyin": "ㄋㄚˋ ㄇㄜ˙",
-        "pinyin": "",
-        "level": "A",
-        "english": "that being so, in that case"
-    },
-    "有錢": {
-        "zhuyin": "ㄧㄡˇ ㄑㄧㄢˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "be rich"
-    },
-    "沒買": {
-        "zhuyin": "ㄇㄟˊ ㄇㄞˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "did not buy, has not bought(yet)"
-    },
-    "吉他": {
-        "zhuyin": "ㄐㄧˊ ㄊㄚ",
-        "pinyin": "",
-        "level": "A",
-        "english": "guitar"
-    },
-    "喜人": {
-        "zhuyin": "ㄒㄧˇ ㄖㄣˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "to be satisfying"
-    },
-    "喜好": {
-        "zhuyin": "ㄒㄧˇ ㄏㄠˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "to like, love, be fond of"
-    },
-    "歡笑": {
-        "zhuyin": "ㄏㄨㄢ ㄒㄧㄠˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "to laugh delightedly"
-    },
-    "歡心": {
-        "zhuyin": "ㄏㄨㄢ ㄒㄧㄣ",
-        "pinyin": "",
-        "level": "A",
-        "english": "favor(noun), love (noun)"
-    },
-    "十足": {
-        "zhuyin": "ㄕˊ ㄗㄨˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "sheer, total, absolute"
-    },
-    "跟上": {
-        "zhuyin": "ㄍㄣ ㄕㄤˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "keep up with, keep pace with"
-    },
-    "誰請": {
-        "zhuyin": "ㄕㄨㄟˊ ㄑㄧㄥˇ",
-        "pinyin": "",
-        "level": "A",
-        "english": "who's paying?"
-    },
-    "請問": {
-        "zhuyin": "ㄑㄧㄥˇ ㄨㄣˋ",
-        "pinyin": "",
-        "level": "A",
-        "english": "please tell me"
-    },
-    "聞人": {
-        "zhuyin": "ㄨㄣˊ ㄖㄣˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "famous person"
-    },
-    "耳聞": {
-        "zhuyin": "ㄦˇ ㄨㄣˊ",
-        "pinyin": "",
-        "level": "A",
-        "english": "to hear about from others"
-    },
-    "田間": {
-        "zhuyin": "ㄊㄧㄢˊ ㄐㄧㄢ",
-        "pinyin": "",
-        "level": "A",
-        "english": "farm, field"
-    },
-    "人間": {
-        "zhuyin": "ㄖㄣˊ ㄐㄧㄢ",
-        "pinyin": "",
-        "level": "A",
-        "english": "the human world, world of human affairs"
-    },
-    "哪裡": {
-        "zhuyin": "ㄋㄚˇ ㄌㄧˇ",
-        "pinyin": "nǎlǐ",
-        "level": "A",
-        "english": "where, wherever"
-    },
-    "星期一": {
-        "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄧ",
-        "pinyin": "xīngqīyī",
-        "level": "A",
-        "english": "Monday"
-    },
-    "星期二": {
-        "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄦˋ",
-        "pinyin": "xīngqīèr",
-        "level": "A",
-        "english": "Tuesday"
-    },
-    "星期三": {
-        "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄙㄢ",
-        "pinyin": "xīngqīsān",
-        "level": "A",
-        "english": "Wednesday"
-    },
-    "星期四": {
-        "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄙˋ",
-        "pinyin": "xīngqīsì",
-        "level": "A",
-        "english": "Thursday"
-    },
-    "星期五": {
-        "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄨˇ",
-        "pinyin": "xīngqīwǔ",
-        "level": "A",
-        "english": "Friday"
-    },
-    "星期六": {
-        "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄌㄧㄡˋ",
-        "pinyin": "xīngqīliù",
-        "level": "A",
-        "english": "Saturday"
-    },
-    "認識": {
-        "zhuyin": "ㄖㄣˋ ㄕˊ",
-        "pinyin": "rènshí",
-        "level": "A",
-        "english": "to know, recognize, understand"
-    },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "A",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "A",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "A",  
-    //     "english": ""
-    // },
 }

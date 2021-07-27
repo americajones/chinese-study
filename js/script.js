@@ -314,7 +314,7 @@ function loadWordFlashcards() {
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
-    for (var [word, value] of Object.entries(A1words)) {
+    for (var [word, value] of Object.entries(HSK1words)) {
         hanziCharArray.push(word);
         hanziZhuyinArray.push(value.zhuyin);
         hanziMeaningsArray.push(value.english);
@@ -1057,7 +1057,7 @@ function getWords() {
     pageHeader.textContent = "";
     pageHeader.textContent = "話";
     quizStudyBox.classList.remove('hidden');
-    for (var [word, value] of Object.entries(A1words)) {
+    for (var [word, value] of Object.entries(HSK1words)) {
         // console.log(value.zhuyin);
         hanziArray.push(word);
         zhuyinArray.push(value.zhuyin);
@@ -1076,7 +1076,9 @@ function loadWordsFamiliQuiz() {
     secondaryCharText.classList.add('small')
     let answersArray = [];
     trueAnswer = meaningsArray[initNumber];
-    initNumber++;
+    if (initNumber === 499) {
+        initNumber = 0;
+    } else initNumber++;
     answersArray.push(trueAnswer);
     for (let i = 0; i < 8; i++) {
         let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
@@ -1105,7 +1107,9 @@ function loadWordsFamiliQuiz2() {
     let answersArray = [];
     trueAnswer = zhuyinArray[initNumber];
     answersArray.push(trueAnswer);
-    initNumber++;
+    if (initNumber === 499) {
+        initNumber = 0;
+    } else initNumber++;
     for (let i = 0; i < 8; i++) {
         let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
         let randoAnswer = zhuyinArray[nuRandoNum];
