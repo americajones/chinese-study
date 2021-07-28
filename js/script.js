@@ -267,7 +267,7 @@ function loadHanziFlashcards() {
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
-    for (var [hanzi, value] of Object.entries(hanziLevel1)) {
+    for (var [hanzi, value] of Object.entries(hanziAll)) {
         hanziCharArray.push(hanzi);
         hanziZhuyinArray.push(value.zhuyin);
         hanziMeaningsArray.push(value.english);
@@ -275,6 +275,7 @@ function loadHanziFlashcards() {
         let nuDivTit = document.createElement('h2');
         let nuTxt = document.createElement('p');
         let nuTxt2 = document.createElement('p');
+        let nuTxt3 = document.createElement('p');
         numberrr++;
         let nuNumDiv = document.createElement('div');
         nuNumDiv.classList.add('numLabel');
@@ -282,6 +283,9 @@ function loadHanziFlashcards() {
         nuDivTit.textContent = hanzi;
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
+        nuTxt3.textContent = value.simplified;
+        nuTxt3.classList.add('semifaded');
+        nuTxt3.classList.add('simplified');
         nuTxt2.classList.add('small');
         nuTxt2.classList.add('opacity');
         nuTxt2.classList.add('pink');
@@ -295,6 +299,7 @@ function loadHanziFlashcards() {
         nuDiv.append(nuDivTit);
         nuDiv.append(nuTxt);
         nuDiv.append(nuTxt2);
+        nuDiv.append(nuTxt3);
         flashBox2.append(nuDiv);
         function toggleEnglish() {
             nuTxt2.classList.toggle('opacity');
@@ -347,6 +352,20 @@ function loadWordFlashcards() {
             nuTxt2.classList.toggle('opacity');
         }
     };
+}
+function loadBookWordFlashcards() {
+    let number = 0;
+    pageHeader.textContent = "";
+    pageHeader.textContent = "方字";
+    quizStudyBox.classList.add('hidden');
+    hanziWriteBox.classList.add('hidden');
+    sentenceBox.classList.add('hidden');
+    let hanziCharArray = [];
+    let hanziZhuyinArray = [];
+    let hanziMeaningsArray = [];
+    removeAllChildren(flashBox);
+    removeAllChildren(flashBox2);
+    removeAllChildren(flashBox3);
     for (var [word, value] of Object.entries(bookWords)) {
         let nuDiv = document.createElement('div');
         let nuDivTit = document.createElement('h2');
@@ -519,7 +538,7 @@ function getSet1() {
     pageHeader.textContent = "";
     pageHeader.textContent = "漢字";
     quizStudyBox.classList.remove('hidden');
-    for (var [hanzi, value] of Object.entries(hanziLevel1)) {
+    for (var [hanzi, value] of Object.entries(hanziAll)) {
         // console.log(value.zhuyin);
         hanziArray.push(hanzi);
         zhuyinArray.push(value.zhuyin);
