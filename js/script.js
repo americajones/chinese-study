@@ -430,10 +430,29 @@ function loadZhuyin() {
     pageHeader.textContent = "ㄅㄆㄇㄈ";
     quizStudyBox.classList.remove('hidden');
     for (var [zhuyin, value] of Object.entries(zhuyinCharacters)) {
-        console.log(zhuyin, value.pinyin);
+        // console.log(zhuyin, value.pinyin);
         zhuyinArray.push(zhuyin);
         pinyinArray.push(value.pinyin);
     };
+};
+function handleAnswerClick(timeoutFunction, event, time) {
+    console.log(event.target);
+    selectedAnswer = event.target.textContent;
+    // console.log("you chose:", selectedAnswer, " correct answer is: ", trueAnswer)
+    if (selectedAnswer === trueAnswer) {
+        secretMessage.textContent = '. * nice! * .';
+        mainCharText.append(" = ", selectedAnswer);
+        console.log('. * nice! * .');
+        setTimeout(() => {
+            timeoutFunction();
+            secretMessage.textContent = '';
+        }, time);
+    } else {
+        secretMessage.textContent = 'try again.';
+        setTimeout(() => {
+            secretMessage.textContent = '';
+        }, 1000);
+    }
 };
 function loadZhuyinQuiz1() {
     loadZhuyin();
@@ -456,7 +475,9 @@ function loadZhuyinQuiz1() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadZhuyinQuiz1, e, 1000)
+        })
         newDiv.classList.add('answer');
         answersBox.append(newDiv);
     });
@@ -482,47 +503,16 @@ function loadZhuyinQuiz2() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick2)
+        newDiv.addEventListener('click', function (e) {
+            handleAnswerClick(loadZhuyinQuiz2, e, 1000)
+        })
         newDiv.classList.add('answer');
         newDiv.classList.add('med');
         newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
 }
-function handleAnswerClick() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadZhuyinQuiz1();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
-}
-function handleAnswerClick2() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadZhuyinQuiz2();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
-}
+
 function getSet1() {
     hanziArray = [];
     pinyinArray = [];
@@ -568,7 +558,9 @@ function loadHanziMeaningsQuiz() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick0)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadHanziMeaningsQuiz, e, 1000)
+        })
         newDiv.classList.add('answer');
         answersBox.append(newDiv);
     });
@@ -594,46 +586,14 @@ function loadHanziMeaningsQuiz2() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick1)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadHanziMeaningsQuiz2, e, 1000)
+        })
         newDiv.classList.add('answer');
         newDiv.classList.add('cursive');
         newDiv.classList.add('large');
         answersBox.append(newDiv);
     });
-}
-function handleAnswerClick0() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadHanziMeaningsQuiz();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
-}
-function handleAnswerClick1() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadHanziMeaningsQuiz2();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
 }
 function loadHanziZhuyinQuiz() {
     getSet1();
@@ -656,29 +616,13 @@ function loadHanziZhuyinQuiz() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick3)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadHanziZhuyinQuiz, e, 1000)
+        })
         newDiv.classList.add('answer');
         // newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
-}
-
-function handleAnswerClick3() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadHanziZhuyinQuiz();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
 }
 function loadHanziZhuyinQuiz2() {
     getSet1();
@@ -701,29 +645,14 @@ function loadHanziZhuyinQuiz2() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick4)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadHanziZhuyinQuiz2, e, 1000)
+        })
         newDiv.classList.add('answer');
         newDiv.classList.add('cursive');
         newDiv.classList.add('large');
         answersBox.append(newDiv);
     });
-}
-function handleAnswerClick4() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadHanziZhuyinQuiz2();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
 }
 function loadHanziToneQuiz() {
     getSet1();
@@ -755,7 +684,7 @@ function loadHanziToneQuiz() {
         } else if (answer === 5) {
             newDiv.textContent = `.`;
         }
-        newDiv.addEventListener('click', handleAnswerClick9)
+        newDiv.addEventListener('click', handleAnswerClick4)
         newDiv.classList.add('answer');
         newDiv.classList.add('cursive');
         newDiv.classList.add('large');
@@ -763,7 +692,7 @@ function loadHanziToneQuiz() {
         answersBox.append(newDiv);
     });
 }
-function handleAnswerClick9() {
+function handleAnswerClick4() {
     selectedAnswer = this.id;
     console.log(selectedAnswer);
     if (selectedAnswer == trueAnswer) {
@@ -813,15 +742,15 @@ function loadHanziWritingQuiz() {
     answersArray.push(trueAnswer);
     makeCharacter(thisHanzi);
     // charInput.focus();
-    subButt.removeEventListener('click', handleAnswerClick15);
-    subButt.addEventListener('click', handleAnswerClick10);
+    subButt.removeEventListener('click', handleAnswerClick3);
+    subButt.addEventListener('click', handleAnswerClick2);
     subButt.classList.add('butt')
     wskipButt.classList.add('butt')
     wskipButt.addEventListener('click', loadHanziWritingQuiz);
     wskipButt.removeEventListener('click', loadWordsWritingQuiz);
 
 }
-function handleAnswerClick10() {
+function handleAnswerClick2() {
     selectedAnswer = charInput.value;
     console.log("ANSWER IS: ", selectedAnswer);
     if (selectedAnswer == trueAnswer) {
@@ -901,7 +830,9 @@ function loadRadicalMeaningsQuiz() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick5)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadRadicalMeaningsQuiz, e, 1000)
+        })
         newDiv.classList.add('answer');
         answersBox.append(newDiv);
     });
@@ -928,46 +859,14 @@ function loadRadicalMeaningsQuiz2() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick7)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadRadicalMeaningsQuiz2, e, 1000)
+        })
         newDiv.classList.add('answer');
         newDiv.classList.add('cursive');
         newDiv.classList.add('large');
         answersBox.append(newDiv);
     });
-}
-function handleAnswerClick5() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadRadicalMeaningsQuiz();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
-}
-function handleAnswerClick7() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadRadicalMeaningsQuiz2();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
 }
 function loadRadicalZhuyinQuiz() {
     getRadicals();
@@ -991,28 +890,13 @@ function loadRadicalZhuyinQuiz() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick6)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadRadicalZhuyinQuiz, e, 1000)
+        })
         newDiv.classList.add('answer');
         newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
-}
-function handleAnswerClick6() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadRadicalZhuyinQuiz();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
 }
 function loadRadicalZhuyinQuiz2() {
     getRadicals();
@@ -1036,31 +920,15 @@ function loadRadicalZhuyinQuiz2() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick8)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadRadicalZhuyinQuiz2, e, 1000)
+        })
         newDiv.classList.add('answer');
         newDiv.classList.add('large');
         newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
 }
-function handleAnswerClick8() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadRadicalZhuyinQuiz2();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
-}
-
 function getWords() {
     hanziArray = [];
     pinyinArray = [];
@@ -1108,7 +976,9 @@ function loadWordsFamiliQuiz() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick16)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadWordsFamiliQuiz, e, 1000)
+        })
         newDiv.classList.add('answer');
         answersBox.append(newDiv);
     });
@@ -1138,44 +1008,12 @@ function loadWordsFamiliQuiz2() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick17)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadWordsFamiliQuiz2, e, 1000)
+        })
         newDiv.classList.add('answer');
         answersBox.append(newDiv);
     });
-}
-function handleAnswerClick16() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadWordsFamiliQuiz();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
-}
-function handleAnswerClick17() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadWordsFamiliQuiz2();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
 }
 function loadWordsMeaningsQuiz() {
     getWords();
@@ -1200,7 +1038,9 @@ function loadWordsMeaningsQuiz() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick11)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadWordsMeaningsQuiz, e, 1000)
+        })
         newDiv.classList.add('answer');
         answersBox.append(newDiv);
     });
@@ -1227,47 +1067,16 @@ function loadWordsMeaningsQuiz2() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick12)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadWordsMeaningsQuiz, e, 1000)
+        })
         newDiv.classList.add('answer');
         newDiv.classList.add('cursive');
         newDiv.classList.add('large');
         answersBox.append(newDiv);
     });
 }
-function handleAnswerClick11() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadWordsMeaningsQuiz();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
-}
-function handleAnswerClick12() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadWordsMeaningsQuiz2();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
-}
+
 function loadWordsZhuyinQuiz() {
     getWords();
     removeAllChildren(answersBox);
@@ -1289,29 +1098,13 @@ function loadWordsZhuyinQuiz() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick13)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadWordsZhuyinQuiz, e, 1000)
+        })
         newDiv.classList.add('answer');
         // newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
-}
-
-function handleAnswerClick13() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadWordsZhuyinQuiz();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
 }
 function loadWordsZhuyinQuiz2() {
     getWords();
@@ -1334,29 +1127,14 @@ function loadWordsZhuyinQuiz2() {
     answersArray.forEach(answer => {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
-        newDiv.addEventListener('click', handleAnswerClick14)
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadWordsZhuyinQuiz2, e, 1000)
+        })
         newDiv.classList.add('answer');
         newDiv.classList.add('cursive');
         newDiv.classList.add('large');
         answersBox.append(newDiv);
     });
-}
-function handleAnswerClick14() {
-    selectedAnswer = this.textContent;
-    if (selectedAnswer === trueAnswer) {
-        secretMessage.textContent = '. * nice! * .';
-        mainCharText.append(" = ", selectedAnswer);
-        console.log('. * nice! * .');
-        setTimeout(() => {
-            loadWordsZhuyinQuiz2();
-            secretMessage.textContent = '';
-        }, 1000);
-    } else {
-        secretMessage.textContent = 'try again.';
-        setTimeout(() => {
-            secretMessage.textContent = '';
-        }, 1000);
-    }
 }
 function loadWordsWritingQuiz() {
     hanziArray = [];
@@ -1390,8 +1168,8 @@ function loadWordsWritingQuiz() {
     makeWord(char1);
     makeWord(char2);
     // charInput.focus();
-    subButt.removeEventListener('click', handleAnswerClick10);
-    subButt.addEventListener('click', handleAnswerClick15);
+    subButt.removeEventListener('click', handleAnswerClick2);
+    subButt.addEventListener('click', handleAnswerClick3);
     subButt.classList.add('butt')
     wskipButt.classList.add('butt')
     wskipButt.removeEventListener('click', loadHanziWritingQuiz);
@@ -1413,7 +1191,7 @@ function makeWord(char) {
         writer.animateCharacter();
     });
 }
-function handleAnswerClick15() {
+function handleAnswerClick3() {
     selectedAnswer = charInput.value;
     if (selectedAnswer == trueAnswer) {
         secretMessage.textContent = '. * nice! * .';
