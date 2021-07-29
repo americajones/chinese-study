@@ -1423,7 +1423,7 @@ function handleAnswerClick15() {
         setTimeout(() => {
             loadWordsWritingQuiz();
             secretMessage.textContent = '';
-        }, 5000);
+        }, 4000);
     } else {
         secretMessage.textContent = 'try again.';
         charInput.value = "";
