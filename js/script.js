@@ -1210,6 +1210,41 @@ function handleAnswerClick3() {
         }, 1500);
     }
 }
+let lesearchButt;
+function loadSearchPage() {
+    hanziArray = [];
+    pinyinArray = [];
+    zhuyinArray = [];
+    meaningsArray = [];
+    charInput.value = "";
+    writingAnswers = "";
+    getWords();
+    sentenceBox.classList.add('hidden');
+    answersBox.classList.add('hidden');
+    removeAllChildren(flashBox);
+    removeAllChildren(flashBox2);
+    removeAllChildren(flashBox3);
+    removeAllChildren(answersBox);
+    removeAllChildren(charTarget);
+    removeAllChildren(buttBox);
+    removeAllChildren(wbuttBox);
+    let input = document.createElement('input');
+    let button = document.createElement('button');
+    let searchResults = document.createElement('div');
+    input.classList.add('searchBox');
+    searchResults.classList.add('searchRes');
+    button.classList.add('searchButt');
+    button.textContent = "search";
+    flashBox.append(input, button, searchResults);
+    lesearchButt = document.querySelector('searchButt');
+    lesearchButt.addEventListener('click', search());
+}
+function search() {
+    let searchBox = document.querySelector('searchBox');
+    let searchTerm = searchBox.value;
+    console.log(searchTerm);
+}
+
 function loadRadicalWritingQuiz() {
     hanziArray = [];
     pinyinArray = [];
