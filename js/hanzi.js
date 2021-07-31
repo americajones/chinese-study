@@ -1801,8 +1801,8 @@ const hanziAll = {
         "zhuyin": "ㄨㄤˋ",
         "pinyin": "wàng",
         "tone": 4,
-        "english": "",
-        "simplified": "to gaze, hope",
+        "english": "to gaze, hope",
+        "simplified": "",
         "radicals": ["", ""]
     },
     "解": {
@@ -2113,7 +2113,7 @@ const hanziAll = {
         "zhuyin": "ㄓㄥˋ",
         "pinyin": "zhèng",
         "tone": 4,
-        "english": "",
+        "english": "proof",
         "simplified": "证",
         "radicals": ["", ""]
     },
@@ -2121,7 +2121,7 @@ const hanziAll = {
         "zhuyin": "ㄨˋ",
         "pinyin": "wù",
         "tone": 4,
-        "english": "",
+        "english": "thing, object",
         "simplified": "",
         "radicals": ["", ""]
     },
@@ -2129,7 +2129,7 @@ const hanziAll = {
         "zhuyin": "ㄩㄢˊ",
         "pinyin": "yuán",
         "tone": 2,
-        "english": "",
+        "english": "employee, member",
         "simplified": "员",
         "radicals": ["", ""]
     },
@@ -2137,7 +2137,7 @@ const hanziAll = {
         "zhuyin": "ㄗㄨㄥˇ",
         "pinyin": "zǒng",
         "tone": 3,
-        "english": "",
+        "english": "always",
         "simplified": "总",
         "radicals": ["", ""]
     },
@@ -2145,7 +2145,7 @@ const hanziAll = {
         "zhuyin": "ㄛ",
         "pinyin": "ō",
         "tone": 1,
-        "english": "",
+        "english": "moan sound",
         "simplified": "",
         "radicals": ["", ""]
     },
@@ -2153,7 +2153,7 @@ const hanziAll = {
         "zhuyin": "ㄒㄧˋ",
         "pinyin": "xì",
         "tone": 4,
-        "english": "",
+        "english": "system, to connect",
         "simplified": "",
         "radicals": ["", ""]
     },
