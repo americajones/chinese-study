@@ -425,8 +425,8 @@ input {
       text-decoration: none;
     }
       .answers{
-          width: 600px;
-          height: 600px;
+          width: 60vh;
+          height: 60vh;
           border: none;
           border-left: 1px solid #58537b;
       }
@@ -463,7 +463,7 @@ input {
         font-size: 30px;
       }
       #quiz-practice {
-          padding:2rem;
+          padding:1rem;
       }
       .menu {
         align-items: flex-start;
