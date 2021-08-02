@@ -3214,262 +3214,262 @@ const hanziAll = {
         "radicals": ["", ""]
     },
     // 400/2500 done
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "tone": ,
-        "english": "",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
 
 }
 const A1grammar = {
