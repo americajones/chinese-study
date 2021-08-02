@@ -3621,7 +3621,7 @@ const A1grammar = {
         "zhuyin": "ㄋㄧㄢˊ  ㄩㄝˋ  ㄖˋ",
         "pinyin": "",
         "english": "writing dates- year month day",
-        "pattern": "Num 年 Num 月 Num 日",
+        "pattern": "# 年 # 月 # 日",
         "explanation": "Dates in Chinese follow the order 'year, month, day.' This is in keeping with the 'from big to small' trend which pervades many facets of Chinese culture. Note that 号 (hào) is commonly used in spoken Mandarin instead of 日 (rì).",
         "section": "numbers",
         "example": "1868年1月18号"
@@ -3630,10 +3630,64 @@ const A1grammar = {
         "zhuyin": "ㄒㄧㄥ ㄑㄧ",
         "pinyin": "",
         "english": "days of the week",
-        "pattern": "星期 Num",
+        "pattern": "星期 #",
         "explanation": "Note that 星期天 is the only exception. Rather than a number, 天 (tiān) is used. More formally, Sunday is also referred to as 星期日 (Xīngqīrì). One other implication of this system that you may not have noticed: 'day one' is on Monday. In Chinese culture, the first day of the week is Monday, and not Sunday.",
         "section": "numbers",
-        "example": "你星期天要做什么？"
+        "example": "你星期天要做什麼？"
+    },
+    // "?點(鍾)?": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    //     "pattern": "# + 點(鍾) + # + 分",
+    //     "explanation": "",
+    //     "section": "",
+    //     "example": ""
+    // },
+    "...了": {
+        "zhuyin": "ㄌㄜ˙",
+        "pinyin": "",
+        "english": "",
+        "pattern": "Subj. + Verb + 了 + Obj.",
+        "explanation": "Express the completion of an action.",
+        "section": "",
+        "example": "我吃了兩個蘋果"
+    },
+    "...不...了": {
+        "zhuyin": "",
+        "pinyin": "",
+        "english": "",
+        "pattern": "",
+        "explanation": "In a negative sentence, the sentence-final 了 (le) can take on the meaning of '(not) anymore' or 'no longer.'",
+        "section": "",
+        "example": "我不想吃了。"
+    },
+    "...了": {
+        "zhuyin": "ㄌㄜ˙",
+        "pinyin": "",
+        "english": "",
+        "pattern": "(new situation)...了",
+        "explanation": "現在 isn't the only way to express 'now.' In many common expressions, 了 is used in place of the word for 'now'.",
+        "section": "",
+        "example": "我去睡觉了。"
+    },
+    "-沒有": {
+        "zhuyin": "",
+        "pinyin": "",
+        "english": "",
+        "pattern": "",
+        "explanation": "Use 没有 to negate past actions (to say that someone didn't do something, or something didn't happen). Usually verbs can be negated with 不 (bù), but that construction is used for habitual or present actions. If the verb is about an action in the past, use 沒有. Remember that 了 is not normally used with 没有. 了 marks completed actions, while 没有 is used for actions that didn't happen (so they're not completed).",
+        "section": "",
+        "example": "我沒有吃早飯"
+    },
+    "...了嗎?": {
+        "zhuyin": "",
+        "pinyin": "",
+        "english": "",
+        "pattern": "Subj. + Verb + Obj. + 了嗎?",
+        "explanation": "Asking questions about completed actions will involve using both 了 and 嗎. These are simply added to the end of a sentence or statement. Just make sure that 了 comes first, followed by 嗎. ",
+        "section": "",
+        "example": "你吃飯了嗎？"
     },
     // "": {
     //     "zhuyin": "",

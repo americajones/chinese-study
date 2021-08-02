@@ -85,7 +85,7 @@ function getGrammar() {
         // nuDivTit2.classList.add('cursive');
         nuDivTit2.classList.add('padding');
         nuTxt.classList.add('center');
-        // nuTxt.classList.add('cursive');
+        nuTxt.classList.add('faded');
         nuTxt2.classList.add('left');
         nuDiv.append(nuDivTit);
         nuDiv.append(nuTxt);
@@ -234,7 +234,7 @@ function loadZhuyinRadicalFlashcards() {
         nuTxt2.textContent = value.english;
         nuDivTit.classList.add('cursive');
         nuDivTit.classList.add('xlarge');
-        nuTxt.classList.add('cursive');
+        // nuTxt.classList.add('cursive');
         nuTxt.classList.add('faded');
         nuTxt2.classList.add('small');
         nuTxt2.classList.add('pink');
@@ -292,7 +292,7 @@ function loadHanziFlashcards() {
         nuTxt2.classList.add('pink');
         nuDivTit.classList.add('cursive');
         nuDivTit.classList.add('xlarge');
-        nuTxt.classList.add('cursive');
+        // nuTxt.classList.add('cursive');
         nuTxt.classList.add('faded');
         nuDiv.classList.add('radicalFlashcards');
         nuDiv.addEventListener('click', toggleEnglish);
@@ -336,11 +336,11 @@ function loadWordFlashcards() {
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
         nuTxt2.classList.add('small');
-        // nuTxt2.classList.add('opacity');
+        nuTxt2.classList.add('opacity');
         nuTxt2.classList.add('pink');
         nuDivTit.classList.add('cursive');
         nuDivTit.classList.add('xlarge');
-        nuTxt.classList.add('cursive');
+        // nuTxt.classList.add('cursive');
         nuTxt.classList.add('faded');
         nuDiv.classList.add('radicalFlashcards');
         nuDiv.addEventListener('click', toggleEnglish);
@@ -380,11 +380,11 @@ function loadBookWordFlashcards() {
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
         nuTxt2.classList.add('small');
-        // nuTxt2.classList.add('opacity');
+        nuTxt2.classList.add('opacity');
         nuTxt2.classList.add('pink');
         nuDivTit.classList.add('cursive');
         nuDivTit.classList.add('xlarge');
-        nuTxt.classList.add('cursive');
+        // nuTxt.classList.add('cursive');
         nuTxt.classList.add('faded');
         nuDiv.classList.add('radicalFlashcards');
         nuDiv.addEventListener('click', toggleEnglish);
@@ -1087,7 +1087,7 @@ function loadWordsMeaningsQuiz() {
     mainCharText.textContent = thisHanzi;
     mainCharText.classList.add('cursive');
     secondaryCharText.textContent = zhuyinArray[randoNumber];
-    secondaryCharText.classList.add('cursive');
+    secondaryCharText.classList.remove('cursive');
     secondaryCharText.classList.add('small')
     let answersArray = [];
     trueAnswer = meaningsArray[randoNumber];
