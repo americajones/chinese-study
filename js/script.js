@@ -569,7 +569,7 @@ function loadHanziFamiliQuiz() {
     });
 }
 function loadHanziFamiliQuiz2() {
-    getWords();
+    getSet1();
     removeAllChildren(answersBox);
     makeButtons(loadHanziFamiliQuiz, loadHanziFamiliQuiz2);
     thisHanzi = hanziArray[initNumber];
