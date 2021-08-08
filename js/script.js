@@ -12,7 +12,7 @@ const sentenceBox = document.querySelector('.sentenceBox');
 const pageHeader = document.querySelector('.title');
 const hanziWriteBox = document.querySelector('#hanziWriteBox');
 const charInput = document.querySelector('#char');
-const writeBox = document.querySelector('#character-target-div')
+const writeBox = document.querySelector('#character-target-div');
 const buttBox = document.querySelector('.bottom-buttons');
 
 let hanziArray = [];
@@ -36,7 +36,7 @@ let darkblucolor = "#1f2b53";
 let darkestblucolor = "#111b34";
 
 pageHeader.addEventListener('click', function () {
-    location.reload()
+    location.reload();
 });
 let sentencesArray = [];
 let toneArray = [];
@@ -94,7 +94,7 @@ function getGrammar() {
         flashBox2.append(nuDiv);
         nuDiv.classList.add('grammBox');
     }
-}
+};
 function getIdioms() {
     grammarArray = [];
     gMeaningsArray = [];
@@ -142,7 +142,7 @@ function getIdioms() {
         flashBox2.append(nuDiv);
         nuDiv.classList.add('grammBox');
     }
-}
+};
 function getSentences() {
     sentencesArray = [];
     sMeaningsArray = [];
@@ -250,11 +250,11 @@ function loadZhuyinRadicalFlashcards() {
             nuTxt2.classList.toggle('opacity');
         }
     };
-}
+};
 function returnNumberArray(num) {
     let numberArr = new Array(num);
     return numberArr;
-}
+};
 function loadHanziFlashcards() {
     let numberrr = 0;
     pageHeader.textContent = "";
@@ -306,7 +306,7 @@ function loadHanziFlashcards() {
             nuTxt2.classList.toggle('opacity');
         }
     };
-}
+};
 function loadWordFlashcards() {
     let number = 0;
     pageHeader.textContent = "";
@@ -353,7 +353,7 @@ function loadWordFlashcards() {
             nuTxt2.classList.toggle('opacity');
         }
     };
-}
+};
 function loadBookWordFlashcards() {
     let number = 0;
     pageHeader.textContent = "";
@@ -397,7 +397,7 @@ function loadBookWordFlashcards() {
             nuTxt2.classList.toggle('opacity');
         }
     };
-}
+};
 function makeButtons(swapEvent, skipEvent) {
     removeAllChildren(buttBox);
     let secret = document.createElement('p');
@@ -417,7 +417,7 @@ function makeButtons(swapEvent, skipEvent) {
     buttBox.append(secret);
     buttBox.append(skipButt);
     secretMessage = document.querySelector('.secret-message');
-}
+};
 function loadZhuyin() {
     pinyinArray = [];
     zhuyinArray = [];
@@ -512,7 +512,7 @@ function loadZhuyinQuiz2() {
         newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
-}
+};
 
 function getSet1() {
     hanziArray = [];
@@ -567,7 +567,7 @@ function loadHanziFamiliQuiz() {
         newDiv.classList.add('answer');
         answersBox.append(newDiv);
     });
-}
+};
 function loadHanziFamiliQuiz2() {
     getSet1();
     removeAllChildren(answersBox);
@@ -599,7 +599,7 @@ function loadHanziFamiliQuiz2() {
         newDiv.classList.add('answer');
         answersBox.append(newDiv);
     });
-}
+};
 function loadHanziMeaningsQuiz() {
     getSet1();
     removeAllChildren(answersBox);
@@ -628,7 +628,7 @@ function loadHanziMeaningsQuiz() {
         newDiv.classList.add('answer');
         answersBox.append(newDiv);
     });
-}
+};
 function loadHanziMeaningsQuiz2() {
     getSet1();
     removeAllChildren(answersBox);
@@ -658,7 +658,7 @@ function loadHanziMeaningsQuiz2() {
         newDiv.classList.add('large');
         answersBox.append(newDiv);
     });
-}
+};
 function loadHanziZhuyinQuiz() {
     getSet1();
     removeAllChildren(answersBox);
@@ -687,7 +687,7 @@ function loadHanziZhuyinQuiz() {
         // newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
-}
+};
 function loadHanziZhuyinQuiz2() {
     getSet1();
     removeAllChildren(answersBox);
@@ -717,7 +717,7 @@ function loadHanziZhuyinQuiz2() {
         newDiv.classList.add('large');
         answersBox.append(newDiv);
     });
-}
+};
 function loadHanziToneQuiz() {
     getSet1();
     removeAllChildren(answersBox);
@@ -755,7 +755,7 @@ function loadHanziToneQuiz() {
         newDiv.id = answer;
         answersBox.append(newDiv);
     });
-}
+};
 function handleAnswerClick4() {
     selectedAnswer = this.id;
     console.log(selectedAnswer);
@@ -773,7 +773,7 @@ function handleAnswerClick4() {
             secretMessage.textContent = '';
         }, 1000);
     }
-}
+};
 let writingAnswers = "";
 const charTarget = document.querySelector('#character-target-div');
 const wbuttBox = document.querySelector('.writingButtBox');
@@ -812,8 +812,7 @@ function loadHanziWritingQuiz() {
     wskipButt.classList.add('butt')
     wskipButt.addEventListener('click', loadHanziWritingQuiz);
     wskipButt.removeEventListener('click', loadWordsWritingQuiz);
-
-}
+};
 function handleAnswerClick2() {
     selectedAnswer = charInput.value;
     console.log("ANSWER IS: ", selectedAnswer);
@@ -834,7 +833,7 @@ function handleAnswerClick2() {
             secretMessage.textContent = '';
         }, 1500);
     }
-}
+};
 function makeCharacter(char) {
     var writer = HanziWriter.create('character-target-div', char, {
         width: 200,
@@ -850,7 +849,7 @@ function makeCharacter(char) {
     document.getElementById('animate-button').addEventListener('click', function () {
         writer.animateCharacter();
     });
-}
+};
 function getRadicals() {
     hanziArray = [];
     pinyinArray = [];
@@ -900,7 +899,7 @@ function loadRadicalMeaningsQuiz() {
         newDiv.classList.add('answer');
         answersBox.append(newDiv);
     });
-}
+};
 function loadRadicalMeaningsQuiz2() {
     getRadicals();
     removeAllChildren(answersBox);
@@ -931,7 +930,7 @@ function loadRadicalMeaningsQuiz2() {
         newDiv.classList.add('large');
         answersBox.append(newDiv);
     });
-}
+};
 function loadRadicalZhuyinQuiz() {
     getRadicals();
     removeAllChildren(answersBox);
@@ -961,7 +960,7 @@ function loadRadicalZhuyinQuiz() {
         newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
-}
+};
 function loadRadicalZhuyinQuiz2() {
     getRadicals();
     removeAllChildren(answersBox);
@@ -992,7 +991,7 @@ function loadRadicalZhuyinQuiz2() {
         newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
-}
+};
 function getWords() {
     hanziArray = [];
     pinyinArray = [];
@@ -1045,7 +1044,7 @@ function loadWordsFamiliQuiz() {
         newDiv.classList.add('answer');
         answersBox.append(newDiv);
     });
-}
+};
 function loadWordsFamiliQuiz2() {
     getWords();
     removeAllChildren(answersBox);
@@ -1077,7 +1076,7 @@ function loadWordsFamiliQuiz2() {
         newDiv.classList.add('answer');
         answersBox.append(newDiv);
     });
-}
+};
 function loadWordsMeaningsQuiz() {
     getWords();
     removeAllChildren(answersBox);
@@ -1107,7 +1106,7 @@ function loadWordsMeaningsQuiz() {
         newDiv.classList.add('answer');
         answersBox.append(newDiv);
     });
-}
+};
 function loadWordsMeaningsQuiz2() {
     getWords();
     removeAllChildren(answersBox);
@@ -1138,7 +1137,7 @@ function loadWordsMeaningsQuiz2() {
         newDiv.classList.add('large');
         answersBox.append(newDiv);
     });
-}
+};
 
 function loadWordsZhuyinQuiz() {
     getWords();
@@ -1168,7 +1167,7 @@ function loadWordsZhuyinQuiz() {
         // newDiv.classList.add('cursive');
         answersBox.append(newDiv);
     });
-}
+};
 function loadWordsZhuyinQuiz2() {
     getWords();
     removeAllChildren(answersBox);
@@ -1198,7 +1197,7 @@ function loadWordsZhuyinQuiz2() {
         newDiv.classList.add('large');
         answersBox.append(newDiv);
     });
-}
+};
 function loadWordsWritingQuiz() {
     hanziArray = [];
     pinyinArray = [];
@@ -1253,7 +1252,7 @@ function makeWord(char) {
     document.getElementById('animate-button').addEventListener('click', function () {
         writer.animateCharacter();
     });
-}
+};
 function handleAnswerClick3() {
     selectedAnswer = charInput.value;
     if (selectedAnswer == trueAnswer) {
@@ -1272,7 +1271,7 @@ function handleAnswerClick3() {
             secretMessage.textContent = '';
         }, 1500);
     }
-}
+};
 let lesearchButt;
 function loadSearchPage() {
     hanziArray = [];
@@ -1301,12 +1300,12 @@ function loadSearchPage() {
     flashBox.append(input, button, searchResults);
     lesearchButt = document.querySelector('searchButt');
     lesearchButt.addEventListener('click', search());
-}
+};
 function search() {
     let searchBox = document.querySelector('searchBox');
     let searchTerm = searchBox.value;
     console.log(searchTerm);
-}
+};
 
 function loadRadicalWritingQuiz() {
     hanziArray = [];
@@ -1319,7 +1318,7 @@ function loadRadicalWritingQuiz() {
     removeAllChildren(flashBox3);
     removeAllChildren(answersBox);
     answersBox.append("Currently Under Construction");
-}
+};
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -1348,7 +1347,7 @@ function toggleMenu() {
         menu.classList.add("active");
         toggle.querySelector("a").innerHTML = "✖";
     }
-}
+};
 
 /* Activate Submenu */
 function toggleItem() {
@@ -1360,7 +1359,7 @@ function toggleItem() {
     } else {
         this.classList.add("submenu-active");
     }
-}
+};
 
 /* Close Submenu From Anywhere */
 function closeSubmenu(e) {
@@ -1369,7 +1368,7 @@ function closeSubmenu(e) {
     if (!isClickInside && menu.querySelector(".submenu-active")) {
         menu.querySelector(".submenu-active").classList.remove("submenu-active");
     }
-}
+};
 /* Event Listeners */
 toggle.addEventListener("click", toggleMenu, false);
 for (let item of items) {
@@ -1377,8 +1376,8 @@ for (let item of items) {
         item.addEventListener("click", toggleItem, false);
     }
     item.addEventListener("keypress", toggleItem, false);
-}
+};
 for (let item of finals) {
     item.addEventListener('click', toggleMenu, false)
-}
+};
 document.addEventListener("click", closeSubmenu, false);

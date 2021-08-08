@@ -4005,12 +4005,12 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    "台": {
+    "臺": {
         "zhuyin": "ㄊㄞˊ",
         "pinyin": "tái",
         "tone": 2,
         "english": "platform",
-        "simplified": "",
+        "simplified": "台",
         "radicals": ["", ""]
     },
     "另": {
@@ -4550,6 +4550,18 @@ const A1sentences = {
         "category": "HSK2",
         "english": "although…still…, even if…nevertheless... "
     },
+    "好久不見了！ 你最近怎麼樣？": {
+        "zhuyin": "ㄏㄠˇ ㄐㄧㄡˇ ㄅㄨˋ ㄐㄧㄢˋ ㄌㄧㄠˇ ！ ㄋㄧˇ ㄗㄨㄟˋ ㄐㄧㄣˋ ㄗㄣˇ ㄇㄜ˙ ㄧㄤˋ ？",
+        "pinyin": "",
+        "category": "",
+        "english": "long time no see! how have you been recently?"
+    },
+    "還不錯，最近不太忙，我都在家休息，你呢？": {
+        "zhuyin": "ㄏㄨㄢˊ ㄅㄨˋ ㄘㄨㄛˋ ， ㄗㄨㄟˋ ㄐㄧㄣˋ ㄅㄨˋ ㄊㄞˋ ㄇㄤˊ ， ㄨㄛˇ ㄉㄨ ㄗㄞˋ ㄐㄧㄚ ㄒㄧㄡ ㄒㄧ ， ㄋㄧˇ ㄋㄜ˙ ？",
+        "pinyin": "",
+        "category": "",
+        "english": "not bad, not too busy there days, so i just relax at home, how about you?"
+    },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
@@ -4668,6 +4680,273 @@ const idioms = {
     // },
 }
 const bookWords = {
+
+    "一直": {
+        "zhuyin": "ㄧ ㄓˊ",
+        "pinyin": "",
+        "english": "all along, continuously",
+        "book": "盲人國(GR lv.1)",
+    },
+    "生活": {
+        "zhuyin": "ㄕㄥ ㄏㄨㄛˊ",
+        "pinyin": "",
+        "english": "to live, life",
+        "book": "盲人國(GR lv.1)",
+    },
+    "聽說": {
+        "zhuyin": "ㄊㄧㄥ ㄕㄨㄛ",
+        "pinyin": "",
+        "english": "to hear talk of, heard of",
+        "book": "盲人國(GR lv.1)",
+    },
+    "條": {
+        "zhuyin": "ㄊㄧㄠˊ",
+        "pinyin": "",
+        "english": "(mw. for rivers, roads, long thin things)",
+        "book": "盲人國(GR lv.1)",
+    },
+    "需要": {
+        "zhuyin": "ㄒㄩ ㄧㄠˋ",
+        "pinyin": "",
+        "english": "to need",
+        "book": "盲人國(GR lv.1)",
+    },
+    "帶": {
+        "zhuyin": "ㄉㄞˋ",
+        "pinyin": "",
+        "english": "to carry, take(somebody somewhere)",
+        "book": "盲人國(GR lv.1)",
+    },
+    "後來": {
+        "zhuyin": "ㄏㄡˋ ㄌㄞˊ",
+        "pinyin": "",
+        "english": "afterward",
+        "book": "盲人國(GR lv.1)",
+    },
+    "變成": {
+        "zhuyin": "ㄅㄧㄢˋ ㄔㄥˊ",
+        "pinyin": "",
+        "english": "to turn into, become",
+        "book": "盲人國(GR lv.1)",
+    },
+    "河": {
+        "zhuyin": "ㄏㄜˊ",
+        "pinyin": "",
+        "english": "river",
+        "book": "盲人國(GR lv.1)",
+    },
+    "從那以後": {
+        "zhuyin": "ㄘㄨㄥˊ ㄋㄚˋ ㄧˇ ㄏㄡˋ",
+        "pinyin": "",
+        "english": "from then on, from that point forward",
+        "book": "盲人國(GR lv.1)",
+    },
+    "再也沒有": {
+        "zhuyin": "ㄗㄞˋ ㄧㄝˇ ㄇㄟˊ ㄧㄡˇ",
+        "pinyin": "",
+        "english": "never again(do smith), (there was) never again",
+        "book": "盲人國(GR lv.1)",
+    },
+    "世界": {
+        "zhuyin": "ㄕˋ ㄐㄧㄝˋ",
+        "pinyin": "",
+        "english": "world",
+        "book": "盲人國(GR lv.1)",
+    },
+    "故事": {
+        "zhuyin": "ㄍㄨˋ ㄕˋ",
+        "pinyin": "",
+        "english": "story",
+        "book": "盲人國(GR lv.1)",
+    },
+    "眼睛": {
+        "zhuyin": "ㄧㄢˇ ㄐㄧㄥ",
+        "pinyin": "",
+        "english": "eyes",
+        "book": "盲人國(GR lv.1)",
+    },
+    "出現": {
+        "zhuyin": "ㄔㄨ ㄒㄧㄢˋ",
+        "pinyin": "",
+        "english": "to appear, emerge",
+        "book": "盲人國(GR lv.1)",
+    },
+    "希望": {
+        "zhuyin": "ㄒㄧ ㄨㄤˋ",
+        "pinyin": "",
+        "english": "to hope",
+        "book": "盲人國(GR lv.1)",
+    },
+    "想到": {
+        "zhuyin": "ㄒㄧㄤˇ ㄉㄠˋ",
+        "pinyin": "",
+        "english": "to think of, imagine",
+        "book": "盲人國(GR lv.1)",
+    },
+    "忘記": {
+        "zhuyin": "ㄨㄤˋ ㄐㄧˋ",
+        "pinyin": "",
+        "english": "to forget",
+        "book": "盲人國(GR lv.1)",
+    },
+    "老婆": {
+        "zhuyin": "ㄌㄠˇ ㄆㄛˊ",
+        "pinyin": "",
+        "english": "wife(informal)",
+        "book": "盲人國(GR lv.1)",
+    },
+    "難過": {
+        "zhuyin": "ㄋㄢˊ ㄍㄨㄛˋ",
+        "pinyin": "",
+        "english": "sad, upset",
+        "book": "盲人國(GR lv.1)",
+    },
+    "記住": {
+        "zhuyin": "ㄐㄧˋ ㄓㄨˋ",
+        "pinyin": "",
+        "english": "to memorize, remember in the future",
+        "book": "盲人國(GR lv.1)",
+    },
+    "告訴": {
+        "zhuyin": "ㄍㄠˋ ㄙㄨˋ",
+        "pinyin": "",
+        "english": "to tell",
+        "book": "盲人國(GR lv.1)",
+    },
+    "樹": {
+        "zhuyin": "ㄕㄨˋ",
+        "pinyin": "",
+        "english": "tree",
+        "book": "盲人國(GR lv.1)",
+    },
+    "雪": {
+        "zhuyin": "ㄒㄩㄝˇ",
+        "pinyin": "",
+        "english": "snow",
+        "book": "盲人國(GR lv.1)",
+    },
+    "種": {
+        "zhuyin": "ㄓㄨㄥˇ",
+        "pinyin": "",
+        "english": "to plant(a tree)",
+        "book": "盲人國(GR lv.1)",
+    },
+    "越來越": {
+        "zhuyin": "ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ",
+        "pinyin": "",
+        "english": "more and more",
+        "book": "盲人國(GR lv.1)",
+    },
+    "差": {
+        "zhuyin": "ㄔㄚˋ",
+        "pinyin": "",
+        "english": "pf poor quality",
+        "book": "盲人國(GR lv.1)",
+    },
+    "草地": {
+        "zhuyin": "ㄘㄠˇ ㄉㄧˋ",
+        "pinyin": "",
+        "english": "grassland, grassy field",
+        "book": "盲人國(GR lv.1)",
+    },
+    "可怕": {
+        "zhuyin": "ㄎㄜˇ ㄆㄚˋ",
+        "pinyin": "",
+        "english": "frightening",
+        "book": "盲人國(GR lv.1)",
+    },
+    "過去": {
+        "zhuyin": "ㄍㄨㄛˋ ㄑㄩˋ",
+        "pinyin": "",
+        "english": "to pass, pass through",
+        "book": "盲人國(GR lv.1)",
+    },
+    "發生": {
+        "zhuyin": " ㄈㄚ ㄕㄥ",
+        "pinyin": "",
+        "english": "to happen, occour",
+        "book": "盲人國(GR lv.1)",
+    },
+    "有意思": {
+        "zhuyin": "ㄧㄡˇ ㄧˋ ㄙ",
+        "pinyin": "",
+        "english": "interesting",
+        "book": "盲人國(GR lv.1)",
+    },
+    "想法": {
+        "zhuyin": "ㄒㄧㄤˇ ㄈㄚˇ",
+        "pinyin": "",
+        "english": "way of thinking",
+        "book": "盲人國(GR lv.1)",
+    },
+    "決定": {
+        "zhuyin": "ㄐㄩㄝˊ ㄉㄧㄥˋ",
+        "pinyin": "",
+        "english": "to decide, decision",
+        "book": "盲人國(GR lv.1)",
+    },
+    "為了": {
+        "zhuyin": "ㄨㄟˊ ㄌㄧㄠˇ",
+        "pinyin": "",
+        "english": "in order to, for the purpose of",
+        "book": "盲人國(GR lv.1)",
+    },
+    "要不": {
+        "zhuyin": "ㄧㄠˋ ㄅㄨˋ",
+        "pinyin": "",
+        "english": "how about... (suggestion)",
+        "book": "盲人國(GR lv.1)",
+    },
+    "另外": {
+        "zhuyin": "ㄌㄧㄥˋ ㄨㄞˋ",
+        "pinyin": "",
+        "english": "another, other",
+        "book": "盲人國(GR lv.1)",
+    },
+    "一定": {
+        "zhuyin": "ㄧ ㄉㄧㄥˋ",
+        "pinyin": "",
+        "english": "surely, certainly",
+        "book": "盲人國(GR lv.1)",
+    },
+    "石頭": {
+        "zhuyin": "ㄕˊ ㄊㄡˊ",
+        "pinyin": "",
+        "english": "stone, rock",
+        "book": "盲人國(GR lv.1)",
+    },
+    "大聲": {
+        "zhuyin": "ㄉㄚˋ ㄕㄥ",
+        "pinyin": "",
+        "english": "loudly, in a loud voice",
+        "book": "盲人國(GR lv.1)",
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    //     "book": "盲人國(GR lv.1)",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    //     "book": "盲人國(GR lv.1)",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    //     "book": "盲人國(GR lv.1)",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    //     "book": "盲人國(GR lv.1)",
+    // },
+}
+const bookWordsRWC = {
     "成語": {
         "zhuyin": "ㄔㄥˊ ㄩˇ",
         "pinyin": "chéng yǔ",
@@ -7610,12 +7889,12 @@ const HSK1words = {
         "level": "HSK1",
         "english": "don't"
     },
-    "副": {
-        "zhuyin": "ㄈㄨˋ",
-        "pinyin": "",
-        "level": "HSK1",
-        "english": "don't"
-    },
+    // "副": {
+    //     "zhuyin": "ㄈㄨˋ",
+    //     "pinyin": "",
+    //     "level": "HSK1",
+    //     "english": "don't"
+    // },
     "别的": {
         "zhuyin": "ㄅㄧㄝˊ ㄉㄜ˙",
         "pinyin": "",
