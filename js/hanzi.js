@@ -4013,6 +4013,7 @@ const hanziAll = {
         "simplified": "台",
         "radicals": ["", ""]
     },
+    //first 500 done
     "另": {
         "zhuyin": "ㄌㄧㄥˋ",
         "pinyin": "lìng",
@@ -4613,127 +4614,207 @@ const hanziAll = {
         "simplified": "弹",
         "radicals": ["", ""]
     },
-    //575/2633 done
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
+    "靜": {
+        "zhuyin": "ㄐㄧㄥˋ",
+        "pinyin": "jìng",
+        "tone": 4,
+        "english": "still, calm",
+        "simplified": "静",
+        "radicals": ["", ""]
+    },
+    "故": {
+        "zhuyin": "ㄍㄨˋ",
+        "pinyin": "gù",
+        "tone": 4,
+        "english": "old, happening",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "吸": {
+        "zhuyin": "ㄒㄧ",
+        "pinyin": "xī",
+        "tone": 1,
+        "english": "breathe, inhale",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "喂": {
+        "zhuyin": "ㄨㄟˋ",
+        "pinyin": "wèi",
+        "tone": 4,
+        "english": "call attention",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "集": {
+        "zhuyin": "ㄐㄧˊ",
+        "pinyin": "jí",
+        "tone": 2,
+        "english": "to gather, collect",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "極": {
+        "zhuyin": "ㄐㄧˊ",
+        "pinyin": "jí",
+        "tone": 2,
+        "english": "extremely",
+        "simplified": "极",
+        "radicals": ["", ""]
+    },
+    "講": {
+        "zhuyin": "ㄐㄧㄤˇ",
+        "pinyin": "jiǎng",
+        "tone": 3,
+        "english": "to speak, lecture",
+        "simplified": "讲",
+        "radicals": ["", ""]
+    },
+    "塊": {
+        "zhuyin": "ㄎㄨㄞˋ",
+        "pinyin": "kuài",
+        "tone": 4,
+        "english": "money, lump",
+        "simplified": "块",
+        "radicals": ["", ""]
+    },
+    "趣": {
+        "zhuyin": "ㄑㄩˋ",
+        "pinyin": "qù",
+        "tone": 4,
+        "english": "interesting",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "類": {
+        "zhuyin": "ㄌㄟˋ",
+        "pinyin": "lèi",
+        "tone": 4,
+        "english": "kind, category",
+        "simplified": "类",
+        "radicals": ["", ""]
+    },
+    "呀": {
+        "zhuyin": "ㄧㄚ",
+        "pinyin": "yā",
+        "tone": 1,
+        "english": "(surprise p.)",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "戲": {
+        "zhuyin": "ㄒㄧˋ",
+        "pinyin": "xì",
+        "tone": 4,
+        "english": "drama, trick",
+        "simplified": "戏",
+        "radicals": ["", ""]
+    },
+    "曾": {
+        "zhuyin": "ㄘㄥˊ",
+        "pinyin": "céng",
+        "tone": 2,
+        "english": "once, already, former, previously",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "容": {
+        "zhuyin": "ㄖㄨㄥˊ",
+        "pinyin": "róng",
+        "tone": 2,
+        "english": "to contain, appearance",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "步": {
+        "zhuyin": "ㄅㄨˋ",
+        "pinyin": "bù",
+        "tone": 4,
+        "english": "a step",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "投": {
+        "zhuyin": "ㄊㄡˊ",
+        "pinyin": "tóu",
+        "tone": 2,
+        "english": "to cast",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "化": {
+        "zhuyin": "ㄏㄨㄚˋ",
+        "pinyin": "huà",
+        "tone": 4,
+        "english": "to change into",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "未": {
+        "zhuyin": "ㄨㄟˋ",
+        "pinyin": "wèi",
+        "tone": 4,
+        "english": "not, have not",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "束": {
+        "zhuyin": "ㄕㄨˋ",
+        "pinyin": "shù",
+        "tone": 4,
+        "english": "to bind, bundle",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "醒": {
+        "zhuyin": "ㄒㄧㄥˇ",
+        "pinyin": "xǐng",
+        "tone": 1,
+        "english": "to wake up",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "威": {
+        "zhuyin": "ㄨㄟ",
+        "pinyin": "wēi",
+        "tone": 1,
+        "english": "power",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "班": {
+        "zhuyin": "ㄅㄢ",
+        "pinyin": "bān",
+        "tone": 1,
+        "english": "team, class",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "終": {
+        "zhuyin": "ㄓㄨㄥ",
+        "pinyin": "zhōng",
+        "tone": 1,
+        "english": "end, finish",
+        "simplified": "终",
+        "radicals": ["", ""]
+    },
+    "差": {
+        "zhuyin": "ㄔㄚˋ",
+        "pinyin": "chà",
+        "tone": 4,
+        "english": "inferior, bad",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "夢": {
+        "zhuyin": "ㄇㄥˋ",
+        "pinyin": "mèng",
+        "tone": 4,
+        "english": "dream",
+        "simplified": "梦",
+        "radicals": ["", ""]
+    },
+    //600/2633 done
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
@@ -5297,6 +5378,84 @@ const A1sentences = {
         "pinyin": "",
         "category": "",
         "english": "not bad, not too busy there days, so i just relax at home, how about you?"
+    },
+    "這個蘋果是紅色的。": {
+        "zhuyin": "ㄓㄜˋ ㄍㄜˋ ㄆㄧㄥˊ ㄍㄨㄛˇ ㄕˋ ㄏㄨㄥˊ ㄙㄜˋ ㄉㄜ˙。",
+        "pinyin": "Zhège píngguǒ shì hóngsè de.",
+        "category": "12 sentences for grammar",
+        "english": "The apple is red."
+    },
+    "這是John的蘋果。": {
+        "zhuyin": "ㄓㄜˋ ㄕˋ John ㄉㄜ˙ ㄆㄧㄥˊ ㄍㄨㄛˇ。",
+        "pinyin": "Zhè shì John de píngguǒ.",
+        "category": "12 sentences for grammar",
+        "english": "It is John’s apple."
+    },
+    "我把這個蘋果給John。": {
+        "zhuyin": "ㄨㄛˇ ㄅㄚˇ ㄓㄜˋ ㄍㄜˋ ㄆㄧㄥˊ ㄍㄨㄛˇ ㄍㄟˇ John。",
+        "pinyin": "Wǒ bǎ zhège píngguǒ gěi John.",
+        "category": "12 sentences for grammar",
+        "english": "I give John the apple."
+    },
+    "我們把這個蘋果給他。": {
+        "zhuyin": "ㄨㄛˇ ㄇㄣˊ ㄅㄚˇ ㄓㄜˋ ㄍㄜˋ ㄆㄧㄥˊ ㄍㄨㄛˇ ㄍㄟˇ ㄊㄚ 。",
+        "pinyin": "Wǒmen bǎ zhège píngguǒ gěi tā.",
+        "category": "12 sentences for grammar",
+        "english": "We give him the apple."
+    },
+    "他把這個給John。": {
+        "zhuyin": "ㄊㄚ ㄅㄚˇ ㄓㄜˋ ㄍㄜˋ ㄍㄟˇ John。",
+        "pinyin": "Tā bǎ zhège gěile John.",
+        "category": "12 sentences for grammar",
+        "english": "He gives it to John."
+    },
+    "她把這個給他。": {
+        "zhuyin": "ㄊㄚ ㄅㄚˇ ㄓㄜˋ ㄍㄜˋ ㄍㄟˇ ㄊㄚ 。 ",
+        "pinyin": "Tā bǎ zhège gěi tā.",
+        "category": "12 sentences for grammar",
+        "english": " She gives it to him. "
+    },
+    "這個蘋果是紅色的嗎？": {
+        "zhuyin": "ㄓㄜˋ ㄍㄜˋ ㄆㄧㄥˊ ㄍㄨㄛˇ ㄕˋ ㄏㄨㄥˊ ㄙㄜˋ ㄉㄜ˙ ㄇㄚˊ ？ ",
+        "pinyin": "Zhège píngguǒ shì hóngsè de ma?",
+        "category": "12 sentences for grammar",
+        "english": "Is the apple red?"
+    },
+    "這些蘋果是紅色的。": {
+        "zhuyin": "ㄓㄜˋ ㄒㄧㄝ ㄆㄧㄥˊ ㄍㄨㄛˇ ㄕˋ ㄏㄨㄥˊ ㄙㄜˋ ㄉㄜ˙ 。",
+        "pinyin": "Zhèxiē píngguǒ shì hóngsè de.",
+        "category": "12 sentences for grammar",
+        "english": "The apples are red."
+    },
+    "我必須把這個給他。": {
+        "zhuyin": "ㄨㄛˇ ㄅㄧˋ ㄒㄩ ㄅㄚˇ ㄓㄜˋ ㄍㄜˋ ㄍㄟˇ ㄊㄚ 。",
+        "pinyin": "Wǒ bìxū bǎ zhège gěi tā.",
+        "category": "12 sentences for grammar",
+        "english": "I must give it to him."
+    },
+    "我想把這個給她。": {
+        "zhuyin": "ㄨㄛˇ ㄒㄧㄤˇ ㄅㄚˇ ㄓㄜˋ ㄍㄜˋ ㄍㄟˇ ㄊㄚ 。",
+        "pinyin": "Wǒ xiǎng bǎ zhège gěi tā.",
+        "category": "12 sentences for grammar",
+        "english": "I want to give it to her."
+    },
+    "我明天就知道了。": {
+        "zhuyin": "ㄨㄛˇ ㄇㄧㄥˊ ㄊㄧㄢ ㄐㄧㄡˋ ㄓ ㄉㄠˋ ㄌㄧㄠˇ 。",
+        "pinyin": "Wǒ míngtiān jiù zhīdàole.",
+        "category": "12 sentences for grammar",
+        "english": "I'm going to know tomorrow."
+    },
+    "我不能吃這個蘋果。": {
+        "zhuyin": "ㄨㄛˇ ㄅㄨˋ ㄋㄥˊ ㄔ ㄓㄜˋ ㄍㄜˋ ㄆㄧㄥˊ ㄍㄨㄛˇ 。 ",
+        "pinyin": "Wǒ bùnéng chī zhège píngguǒ.",
+        "category": "12 sentences for grammar",
+        "english": "I can't eat the apple."
+    },
+    "我吃了這個蘋果。": {
+        "zhuyin": "ㄨㄛˇ ㄔ ㄌㄧㄠˇ ㄓㄜˋ ㄍㄜˋ ㄆㄧㄥˊ ㄍㄨㄛˇ 。",
+        "pinyin": "Wǒ chīle zhège píngguǒ.",
+        "category": "12 sentences for grammar",
+        "english": "I have eaten the apple."
     },
     // "": {
     //     "zhuyin": "",
