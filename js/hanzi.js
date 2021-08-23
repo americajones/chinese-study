@@ -1,4 +1,4 @@
-//most commonly found 2633 characters means 98% comprehension
+//most commonly found 2633 characters apparently means 98% daily life comprehension
 const hanziAll = {
     "我": {
         "zhuyin": "ㄨㄛˇ",
@@ -4814,39 +4814,271 @@ const hanziAll = {
         "simplified": "梦",
         "radicals": ["", ""]
     },
-    //600/2633 done
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
+    "贏": {
+        "zhuyin": "ㄧㄥˊ",
+        "pinyin": "yíng",
+        "tone": 2,
+        "english": "to win",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "葯": {
+        "zhuyin": "ㄧㄠˋ",
+        "pinyin": "yào",
+        "tone": 4,
+        "english": "medicine",
+        "simplified": "药",
+        "radicals": ["", ""]
+    },
+    "迪": {
+        "zhuyin": "ㄉㄧˊ",
+        "pinyin": "dí",
+        "tone": 2,
+        "english": "to enlighten",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "店": {
+        "zhuyin": "ㄉㄧㄢˋ",
+        "pinyin": "diàn",
+        "tone": 4,
+        "english": "shop, inn",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "麗": {
+        "zhuyin": "ㄌㄧˋ",
+        "pinyin": "lì",
+        "tone": 4,
+        "english": "beautiful",
+        "simplified": "丽",
+        "radicals": ["", ""]
+    },
+    "賣": {
+        "zhuyin": "ㄇㄞˋ",
+        "pinyin": "mài",
+        "tone": 4,
+        "english": "to sell",
+        "simplified": "卖",
+        "radicals": ["", ""]
+    },
+    "顯": {
+        "zhuyin": "ㄒㄧㄢˇ",
+        "pinyin": "xiǎn",
+        "tone": 3,
+        "english": "prominent, to show",
+        "simplified": "显",
+        "radicals": ["", ""]
+    },
+    "監": {
+        "zhuyin": "ㄐㄧㄢ",
+        "pinyin": "jiān",
+        "tone": 1,
+        "english": "to supervise",
+        "simplified": "监",
+        "radicals": ["", ""]
+    },
+    "圖": {
+        "zhuyin": "ㄊㄨˊ",
+        "pinyin": "tú",
+        "tone": 2,
+        "english": "diagram, map",
+        "simplified": "图",
+        "radicals": ["", ""]
+    },
+    "半": {
+        "zhuyin": "ㄅㄢˋ",
+        "pinyin": "bàn",
+        "tone": 4,
+        "english": "half",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "語": {
+        "zhuyin": "ㄩˇ",
+        "pinyin": "yǔ",
+        "tone": 3,
+        "english": "language, speech",
+        "simplified": "语",
+        "radicals": ["", ""]
+    },
+    "付": {
+        "zhuyin": "ㄈㄨˋ",
+        "pinyin": "fù",
+        "tone": 4,
+        "english": "to pay, hand over",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "熱": {
+        "zhuyin": "ㄖㄜˋ",
+        "pinyin": "rè",
+        "tone": 4,
+        "english": "hot",
+        "simplified": "热",
+        "radicals": ["", ""]
+    },
+    "排": {
+        "zhuyin": "ㄆㄞˊ",
+        "pinyin": "pái",
+        "tone": 2,
+        "english": "a row, to arrange",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "楚": {
+        "zhuyin": "ㄔㄨˇ",
+        "pinyin": "chǔ",
+        "tone": 3,
+        "english": "distinct, clear",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "偷": {
+        "zhuyin": "ㄊㄡ",
+        "pinyin": "tōu",
+        "tone": 1,
+        "english": "to steal",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "敢": {
+        "zhuyin": "ㄍㄢˇ",
+        "pinyin": "gǎn",
+        "tone": 3,
+        "english": "to dare",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "油": {
+        "zhuyin": "ㄧㄡˊ",
+        "pinyin": "yóu",
+        "tone": 2,
+        "english": "oil",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "餐": {
+        "zhuyin": "ㄘㄢ",
+        "pinyin": "cān",
+        "tone": 1,
+        "english": "meal",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "破": {
+        "zhuyin": "ㄆㄛˋ",
+        "pinyin": "pò",
+        "tone": 4,
+        "english": "broken, to destroy",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "杯": {
+        "zhuyin": "ㄅㄟ",
+        "pinyin": "bēi",
+        "tone": 1,
+        "english": "cup",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "市": {
+        "zhuyin": "ㄕˋ",
+        "pinyin": "shì",
+        "tone": 4,
+        "english": "market, city",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "城": {
+        "zhuyin": "ㄔㄥˊ",
+        "pinyin": "chéng",
+        "tone": 2,
+        "english": "city, town",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "哇": {
+        "zhuyin": "ㄨㄚ",
+        "pinyin": "wā",
+        "tone": 1,
+        "english": "child cry sound",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "權": {
+        "zhuyin": "ㄑㄩㄢˊ",
+        "pinyin": "quán",
+        "tone": 2,
+        "english": "authority, power",
+        "simplified": "权",
+        "radicals": ["", ""]
+    },
+    "某": {
+        "zhuyin": "ㄇㄡˇ",
+        "pinyin": "mǒu",
+        "tone": 3,
+        "english": "some, a certain",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "激": {
+        "zhuyin": "ㄐㄧ",
+        "pinyin": "jī",
+        "tone": 1,
+        "english": "to excite, fierce",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "立": {
+        "zhuyin": "ㄌㄧˋ",
+        "pinyin": "lì",
+        "tone": 4,
+        "english": "to stand",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "程": {
+        "zhuyin": "ㄔㄥˊ",
+        "pinyin": "chéng",
+        "tone": 2,
+        "english": "rule, order",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "伊": {
+        "zhuyin": "ㄧ",
+        "pinyin": "yī",
+        "tone": 1,
+        "english": "(i or yi, phoenetic)",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "討": {
+        "zhuyin": "ㄊㄠˇ",
+        "pinyin": "tǎo",
+        "tone": 3,
+        "english": "to invite, discuss",
+        "simplified": "讨",
+        "radicals": ["", ""]
+    },
+    "責": {
+        "zhuyin": "ㄗㄜˊ",
+        "pinyin": "zé",
+        "tone": 2,
+        "english": "duty",
+        "simplified": "责",
+        "radicals": ["", ""]
+    },
+    "昨": {
+        "zhuyin": "ㄗㄨㄛˊ",
+        "pinyin": "zuó",
+        "tone": 2,
+        "english": "yesterday",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    //633/2633 done
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
@@ -4857,6 +5089,7 @@ const hanziAll = {
     // },
 
 }
+
 const A1grammar = {
     ".": {
         "zhuyin": "",
