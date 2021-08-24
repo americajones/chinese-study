@@ -9910,11 +9910,11 @@ const HSK1words = {
     },
     "漢語": {
         "zhuyin": "ㄏㄢˋ ㄩˇ",
-        "pinyin": "Hàn yǔ",
+        "pinyin": "hàn yǔ",
         "level": "HSK1",
         "english": "Chinese language"
     },
-    "漢子": {
+    "漢字": {
         "zhuyin": "ㄏㄢˋ ㄗˇ",
         "pinyin": "",
         "level": "HSK1",
