@@ -12151,7 +12151,7 @@ const HSK1words = {
         "english": "do, make"
     }
 };
-const bookWords = {
+const bookWords0 = {
 
     "一直": {
         "zhuyin": "ㄧ ㄓˊ",

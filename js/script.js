@@ -367,7 +367,7 @@ function loadBookWordFlashcards() {
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
-    for (var [word, value] of Object.entries(bookWords)) {
+    for (var [word, value] of Object.entries(bookWords0)) {
         let nuDiv = document.createElement('div');
         let nuDivTit = document.createElement('h2');
         let nuTxt = document.createElement('p');
@@ -443,6 +443,25 @@ function handleAnswerClick(timeoutFunction, event, time) {
     if (selectedAnswer === trueAnswer) {
         secretMessage.textContent = '. * nice! * .';
         mainCharText.append(" = ", selectedAnswer);
+        console.log('. * nice! * .');
+        setTimeout(() => {
+            timeoutFunction();
+            secretMessage.textContent = '';
+        }, time);
+    } else {
+        secretMessage.textContent = 'try again.';
+        setTimeout(() => {
+            secretMessage.textContent = '';
+        }, 1000);
+    }
+};
+function handleAnswerClickEng(timeoutFunction, event, time) {
+    console.log(event.target);
+    selectedAnswer = event.target.textContent;
+    // console.log("you chose:", selectedAnswer, " correct answer is: ", trueAnswer)
+    if (selectedAnswer === trueAnswer) {
+        secretMessage.textContent = '. * nice! * .';
+        mainCharText.append(" = ", meaningsArray[randoNumber]);
         console.log('. * nice! * .');
         setTimeout(() => {
             timeoutFunction();
@@ -681,7 +700,7 @@ function loadHanziZhuyinQuiz() {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', (e) => {
-            handleAnswerClick(loadHanziZhuyinQuiz, e, 1000)
+            handleAnswerClickEng(loadHanziZhuyinQuiz, e, 1000)
         })
         newDiv.classList.add('answer');
         // newDiv.classList.add('cursive');
@@ -710,7 +729,7 @@ function loadHanziZhuyinQuiz2() {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', (e) => {
-            handleAnswerClick(loadHanziZhuyinQuiz2, e, 1000)
+            handleAnswerClickEng(loadHanziZhuyinQuiz2, e, 1000)
         })
         newDiv.classList.add('answer');
         newDiv.classList.add('cursive');
@@ -954,7 +973,7 @@ function loadRadicalZhuyinQuiz() {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', (e) => {
-            handleAnswerClick(loadRadicalZhuyinQuiz, e, 1000)
+            handleAnswerClickEng(loadRadicalZhuyinQuiz, e, 1000)
         })
         newDiv.classList.add('answer');
         newDiv.classList.add('cursive');
@@ -984,7 +1003,7 @@ function loadRadicalZhuyinQuiz2() {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', (e) => {
-            handleAnswerClick(loadRadicalZhuyinQuiz2, e, 1000)
+            handleAnswerClickEng(loadRadicalZhuyinQuiz2, e, 1000)
         })
         newDiv.classList.add('answer');
         newDiv.classList.add('large');
@@ -1161,7 +1180,7 @@ function loadWordsZhuyinQuiz() {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', (e) => {
-            handleAnswerClick(loadWordsZhuyinQuiz, e, 1000)
+            handleAnswerClickEng(loadWordsZhuyinQuiz, e, 1000)
         })
         newDiv.classList.add('answer');
         // newDiv.classList.add('cursive');
@@ -1190,7 +1209,213 @@ function loadWordsZhuyinQuiz2() {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', (e) => {
-            handleAnswerClick(loadWordsZhuyinQuiz2, e, 1000)
+            handleAnswerClickEng(loadWordsZhuyinQuiz2, e, 1000)
+        })
+        newDiv.classList.add('answer');
+        newDiv.classList.add('cursive');
+        newDiv.classList.add('large');
+        answersBox.append(newDiv);
+    });
+};
+function getBookWords() {
+    hanziArray = [];
+    pinyinArray = [];
+    zhuyinArray = [];
+    meaningsArray = [];
+    toneArray = [];
+    sentenceBox.classList.add('hidden');
+    hanziWriteBox.classList.add('hidden');
+    answersBox.classList.remove('hidden');
+    removeAllChildren(flashBox);
+    removeAllChildren(flashBox2);
+    removeAllChildren(flashBox3);
+    pageHeader.textContent = "";
+    pageHeader.textContent = "書話";
+    quizStudyBox.classList.remove('hidden');
+    for (var [word, value] of Object.entries(bookWords0)) {
+        // console.log(value.zhuyin);
+        hanziArray.push(word);
+        zhuyinArray.push(value.zhuyin);
+        meaningsArray.push(value.english);
+    };
+};
+function loadBookWordsFamiliQuiz() {
+    getBookWords();
+    removeAllChildren(answersBox);
+    makeButtons(loadBookWordsFamiliQuiz2, loadBookWordsFamiliQuiz);
+    thisHanzi = hanziArray[initNumber];
+    mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
+    secondaryCharText.textContent = zhuyinArray[initNumber];
+    secondaryCharText.classList.add('small')
+    let answersArray = [];
+    trueAnswer = meaningsArray[initNumber];
+    if (initNumber === hanziArray.length - 1) {
+        initNumber = 0;
+    } else initNumber++;
+    answersArray.push(trueAnswer);
+    for (let i = 0; i < 8; i++) {
+        let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
+        let randoAnswer = meaningsArray[nuRandoNum];
+        answersArray.push(randoAnswer);
+    }
+    shuffleArray(answersArray);
+    answersArray.forEach(answer => {
+        let newDiv = document.createElement('div');
+        newDiv.textContent = answer;
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadBookWordsFamiliQuiz, e, 1000)
+        })
+        newDiv.classList.add('answer');
+        answersBox.append(newDiv);
+    });
+};
+function loadBookWordsFamiliQuiz2() {
+    getBookWords();
+    removeAllChildren(answersBox);
+    makeButtons(loadBookWordsFamiliQuiz, loadBookWordsFamiliQuiz2);
+    thisHanzi = hanziArray[initNumber];
+    mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
+    secondaryCharText.textContent = meaningsArray[initNumber];
+    secondaryCharText.classList.remove('cursive');
+    secondaryCharText.classList.add('small')
+    let answersArray = [];
+    trueAnswer = zhuyinArray[initNumber];
+    answersArray.push(trueAnswer);
+    if (initNumber === hanziArray.length - 1) {
+        initNumber = 0;
+    } else initNumber++;
+    for (let i = 0; i < 8; i++) {
+        let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
+        let randoAnswer = zhuyinArray[nuRandoNum];
+        answersArray.push(randoAnswer);
+    }
+    shuffleArray(answersArray);
+    answersArray.forEach(answer => {
+        let newDiv = document.createElement('div');
+        newDiv.textContent = answer;
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadBookWordsFamiliQuiz2, e, 1000)
+        })
+        newDiv.classList.add('answer');
+        answersBox.append(newDiv);
+    });
+};
+function loadBookWordsMeaningsQuiz() {
+    getBookWords();
+    removeAllChildren(answersBox);
+    makeButtons(loadBookWordsMeaningsQuiz2, loadBookWordsMeaningsQuiz);
+    randoNumber = Math.floor(Math.random() * hanziArray.length);
+    thisHanzi = hanziArray[randoNumber];
+    mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
+    secondaryCharText.textContent = zhuyinArray[randoNumber];
+    secondaryCharText.classList.remove('cursive');
+    secondaryCharText.classList.add('small')
+    let answersArray = [];
+    trueAnswer = meaningsArray[randoNumber];
+    answersArray.push(trueAnswer);
+    for (let i = 0; i < 8; i++) {
+        let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
+        let randoAnswer = meaningsArray[nuRandoNum];
+        answersArray.push(randoAnswer);
+    }
+    shuffleArray(answersArray);
+    answersArray.forEach(answer => {
+        let newDiv = document.createElement('div');
+        newDiv.textContent = answer;
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadBookWordsMeaningsQuiz, e, 1000)
+        })
+        newDiv.classList.add('answer');
+        answersBox.append(newDiv);
+    });
+};
+function loadBookWordsMeaningsQuiz2() {
+    getBookWords();
+    removeAllChildren(answersBox);
+    makeButtons(loadBookWordsMeaningsQuiz, loadBookWordsMeaningsQuiz2);
+    randoNumber = Math.floor(Math.random() * hanziArray.length);
+    thisHanzi = meaningsArray[randoNumber];
+    mainCharText.textContent = thisHanzi;
+    mainCharText.classList.remove('cursive');
+    secondaryCharText.textContent = zhuyinArray[randoNumber];
+    secondaryCharText.classList.add('small')
+    let answersArray = [];
+    trueAnswer = hanziArray[randoNumber];
+    answersArray.push(trueAnswer);
+    for (let i = 0; i < 8; i++) {
+        let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
+        let randoAnswer = hanziArray[nuRandoNum];
+        answersArray.push(randoAnswer);
+    }
+    shuffleArray(answersArray);
+    answersArray.forEach(answer => {
+        let newDiv = document.createElement('div');
+        newDiv.textContent = answer;
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadBookWordsMeaningsQuiz, e, 1000)
+        })
+        newDiv.classList.add('answer');
+        newDiv.classList.add('cursive');
+        newDiv.classList.add('large');
+        answersBox.append(newDiv);
+    });
+};
+
+function loadBookWordsZhuyinQuiz() {
+    getBookWords();
+    removeAllChildren(answersBox);
+    makeButtons(loadBookWordsZhuyinQuiz2, loadBookWordsZhuyinQuiz);
+    randoNumber = Math.floor(Math.random() * hanziArray.length);
+    thisHanzi = hanziArray[randoNumber];
+    mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
+    secondaryCharText.textContent = "";
+    let answersArray = [];
+    trueAnswer = zhuyinArray[randoNumber];
+    answersArray.push(trueAnswer);
+    for (let i = 0; i < 8; i++) {
+        let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
+        let randoAnswer = zhuyinArray[nuRandoNum];
+        answersArray.push(randoAnswer);
+    }
+    shuffleArray(answersArray);
+    answersArray.forEach(answer => {
+        let newDiv = document.createElement('div');
+        newDiv.textContent = answer;
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClickEng(loadBookWordsZhuyinQuiz, e, 1000)
+        })
+        newDiv.classList.add('answer');
+        // newDiv.classList.add('cursive');
+        answersBox.append(newDiv);
+    });
+};
+function loadBookWordsZhuyinQuiz2() {
+    getBookWords();
+    removeAllChildren(answersBox);
+    makeButtons(loadBookWordsZhuyinQuiz, loadBookWordsZhuyinQuiz2);
+    randoNumber = Math.floor(Math.random() * hanziArray.length);
+    thisHanzi = zhuyinArray[randoNumber];
+    mainCharText.textContent = thisHanzi;
+    secondaryCharText.textContent = "";
+    mainCharText.classList.remove('cursive');
+    let answersArray = [];
+    trueAnswer = hanziArray[randoNumber];
+    answersArray.push(trueAnswer);
+    for (let i = 0; i < 8; i++) {
+        let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
+        let randoAnswer = hanziArray[nuRandoNum];
+        answersArray.push(randoAnswer);
+    }
+    shuffleArray(answersArray);
+    answersArray.forEach(answer => {
+        let newDiv = document.createElement('div');
+        newDiv.textContent = answer;
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClickEng(loadBookWordsZhuyinQuiz2, e, 1000)
         })
         newDiv.classList.add('answer');
         newDiv.classList.add('cursive');
@@ -1280,7 +1505,6 @@ function loadSearchPage() {
     meaningsArray = [];
     charInput.value = "";
     writingAnswers = "";
-    getWords();
     sentenceBox.classList.add('hidden');
     answersBox.classList.add('hidden');
     removeAllChildren(flashBox);
@@ -1296,15 +1520,53 @@ function loadSearchPage() {
     input.classList.add('searchBox');
     searchResults.classList.add('searchRes');
     button.classList.add('searchButt');
+    button.classList.add('butt');
     button.textContent = "search";
+    button.addEventListener('click', leSearch);
     flashBox.append(input, button, searchResults);
-    lesearchButt = document.querySelector('searchButt');
-    lesearchButt.addEventListener('click', search());
 };
-function search() {
-    let searchBox = document.querySelector('searchBox');
+
+let searchResS = [];
+let searchRes = [];
+function leSearch() {
+    searchRes = [];
+    searchResS = [];
+    removeAllChildren(flashBox2);
+    removeAllChildren(flashBox3);
+    let searchBox = document.querySelector('.searchBox');
     let searchTerm = searchBox.value;
     console.log(searchTerm);
+    for (let [key, value] of Object.entries(hanziAll)) {
+        if (key.search(searchTerm) !== -1) {
+            searchRes.push(key)
+        }
+        if (value.english.search(searchTerm) !== -1) {
+            searchRes.push(key)
+        }
+    }
+    for (let [key, value] of Object.entries(HSK1words)) {
+        if (key.search(searchTerm) !== -1) {
+            searchRes.push(key)
+        }
+        if (value.english.search(searchTerm) !== -1) {
+            searchRes.push(key)
+        }
+    }
+    for (let [key, value] of Object.entries(bookWords0)) {
+        if (key.search(searchTerm) !== -1) {
+            searchRes.push(key)
+        }
+        if (value.english.search(searchTerm) !== -1) {
+            searchRes.push(key)
+        }
+    }
+    for (let [key, value] of Object.entries(A1sentences)) {
+        if (key.search(searchTerm) !== -1) {
+            searchResS.push(key)
+        }
+    }
+    flashBox2.append("Hanzi including '" + searchTerm + "' : " + searchRes);
+    flashBox3.append("Sentences including '" + searchTerm + "' : " + searchResS);
 };
 
 function loadRadicalWritingQuiz() {
