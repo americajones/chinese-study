@@ -5078,7 +5078,207 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    //633/2633 done
+    "閉": {
+        "zhuyin": "ㄅㄧˋ",
+        "pinyin": "bì",
+        "tone": 4,
+        "english": "to close, shut",
+        "simplified": "闭",
+        "radicals": ["", ""]
+    },
+    "庭": {
+        "zhuyin": "ㄊㄧㄥˊ",
+        "pinyin": "tíng",
+        "tone": 2,
+        "english": "main hall, courtyard",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "落": {
+        "zhuyin": "ㄌㄨㄛˋ",
+        "pinyin": "luò",
+        "tone": 4,
+        "english": "to set, decline",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "飯": {
+        "zhuyin": "ㄈㄢˋ",
+        "pinyin": "fàn",
+        "tone": 4,
+        "english": "food, meal",
+        "simplified": "饭",
+        "radicals": ["", ""]
+    },
+    "林": {
+        "zhuyin": "ㄌㄧㄣˊ",
+        "pinyin": "lín",
+        "tone": 2,
+        "english": "forest",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "換": {
+        "zhuyin": "ㄏㄨㄢˋ",
+        "pinyin": "huàn",
+        "tone": 4,
+        "english": "to change",
+        "simplified": "换",
+        "radicals": ["", ""]
+    },
+    "及": {
+        "zhuyin": "ㄐㄧˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "to reach, up to",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "船": {
+        "zhuyin": "ㄔㄨㄢˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "boat",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "爭": {
+        "zhuyin": "ㄓㄥ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "to strive for",
+        "simplified": "争",
+        "radicals": ["", ""]
+    },
+    "猜": {
+        "zhuyin": "ㄘㄞ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "to guess",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "級": {
+        "zhuyin": "ㄐㄧˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "level, rank",
+        "simplified": "级",
+        "radicals": ["", ""]
+    },
+    "姆": {
+        "zhuyin": "ㄇㄨˇ",
+        "pinyin": "",
+        "tone": 3,
+        "english": "matron",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "雷": {
+        "zhuyin": "ㄌㄟˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "thunder",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "刻": {
+        "zhuyin": "ㄎㄜˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "quarter(hour), to cut",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "建": {
+        "zhuyin": "ㄐㄧㄢˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "to establish",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "團": {
+        "zhuyin": "ㄊㄨㄢˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "round",
+        "simplified": "团",
+        "radicals": ["", ""]
+    },
+    "王": {
+        "zhuyin": "ㄨㄤˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "king",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "驚": {
+        "zhuyin": "ㄐㄧㄥ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "frightened",
+        "simplified": "惊",
+        "radicals": ["", ""]
+    },
+    "迎": {
+        "zhuyin": "ㄧㄥˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "to welcome",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "段": {
+        "zhuyin": "ㄉㄨㄢˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "section",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "標": {
+        "zhuyin": "ㄅㄧㄠ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "sign, prize",
+        "simplified": "标",
+        "radicals": ["", ""]
+    },
+    "檢": {
+        "zhuyin": "ㄐㄧㄢˇ",
+        "pinyin": "",
+        "tone": 3,
+        "english": "to check",
+        "simplified": "检",
+        "radicals": ["", ""]
+    },
+    "各": {
+        "zhuyin": "ㄍㄜˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "each, every",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "義": {
+        "zhuyin": "ㄧˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "justice",
+        "simplified": "义",
+        "radicals": ["", ""]
+    },
+    //657/2633 done
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
@@ -6480,13 +6680,91 @@ const bookWordsRWC = {
     //     "english": ""
     // },
 };
-//still needs zhuyin also SHIT ITS THE OLD HSK
+//still needs zhuyin also SHIT ITS THE OLD HSK its way unfinished
 const HSK2words = {
+    "啊": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "ah"
+    },
+    "愛情": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "Love"
+    },
+    "愛人": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "lover"
+    },
+    "安靜": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "be quiet"
+    },
+    "安全": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "security"
+    },
+    "白色": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "white"
+    },
+    "班長": {
+        "zhuyin": "ㄅㄢ ㄔㄤˊ",
+        "pinyin": "bān zhǎng",
+        "level": "HSK2",
+        "english": "monitor, squad leader"
+    },
+    "辦": {
+        "zhuyin": "ㄅㄢˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "do"
+    },
+    "辦法": {
+        "zhuyin": "ㄅㄢˋ ㄈㄚˇ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "way, method"
+    },
+    "辦公室": {
+        "zhuyin": "ㄅㄢˋ ㄍㄨㄥ ㄕˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "office"
+    },
+    "半夜": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "midnight"
+    },
     "幫助": {
         "zhuyin": "ㄅㄤ ㄓㄨˋ",
         "pinyin": "bāng zhù",
         "level": "HSK2",
         "english": "to help, assist"
+    },
+    "飽": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "full"
+    },
+    "報名": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "sign up"
     },
     "報紙": {
         "zhuyin": "ㄅㄠˋ ㄓˇ",
@@ -6494,11 +6772,245 @@ const HSK2words = {
         "level": "HSK2",
         "english": "newspaper"
     },
+    "北方": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "north"
+    },
+    "背": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "carry on the back, shoulder"
+    },
+    "比如": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "such as"
+    },
+    "比如說": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "for example"
+    },
+    "筆": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "pen"
+    },
+    "筆記": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "note, notes"
+    },
+    "筆記本": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "notebook"
+    },
+    "必須": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "must"
+    },
+    "邊": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "side"
+    },
+    "變": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "change"
+    },
+    "變成": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "become, change into"
+    },
+    "遍": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "times"
+    },
+    "錶": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "watch"
+    },
+    "表": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "exterior surface, a modal, to show one's opinion"
+    },
+    "表示": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "express, represent, indicate"
+    },
+    "不錯": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "not bad, pretty good"
+    },
+    "不但": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "not only"
+    },
+    "不夠": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "not enough"
+    },
+    "不過": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "however"
+    },
+    "不太": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "not too-, not very much"
+    },
+    "不要": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "don't"
+    },
+    "不好意思": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "sorry, feel embarrassed"
+    },
+    "不久": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "soon"
+    },
+    "不滿": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "dissatisfied"
+    },
+    "不如": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "not as good as"
+    },
+    "不少": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "not a few, a lot"
+    },
+    "不同": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "different"
+    },
+    "不行": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "no way, out of the question"
+    },
+    "不一定": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "not necessarily, uncertain"
+    },
+    "不一會兒": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "in a moment, in a little while, soon"
+    },
+    "部分": {
+        "zhuyin": "ㄅㄨˋ ㄈㄣ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "part"
+    },
     "賓館": {
         "zhuyin": "ㄅㄧㄣ ㄍㄨㄢˇ",
         "pinyin": "bīn guǎn",
         "level": "HSK2",
         "english": "guest house"
+    },
+    "": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": ""
+    },
+    "": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": ""
+    },
+    "": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": ""
+    },
+    "": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": ""
+    },
+    "": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": ""
+    },
+    "": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": ""
+    },
+    "": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": ""
+    },
+    "": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": ""
     },
     "唱歌": {
         "zhuyin": "ㄔㄤˋ ㄍㄜ",
