@@ -8,6 +8,7 @@
     font-weight: 700;
     color: #cfb4df;
     flex:none;
+    cursor: pointer;
   }
   body{
     background-color: #080b14;
@@ -219,6 +220,7 @@ background-color: #0d1425;
 .center {
   text-align: center;
 }
+
 #quiz-practice {
   background-color: #4b5377;
   height: 100vh;
@@ -238,7 +240,12 @@ background-color: #0d1425;
   text-align: center;
   justify-content: center;
 }
-
+.searchRes {
+  padding: 1rem;
+}
+.searchRes2 {
+  padding: 1rem;
+}
 .toggle {
   padding: .5em;
 }
@@ -261,7 +268,16 @@ background-color: #0d1425;
 .zhuyinFlashcards:nth-child(22) p{
   margin: 0;
 }
-
+.group{
+  display: flex;
+  flex-direction: row;
+}
+.zhuyin {
+  margin-top: 6em;
+  writing-mode: vertical-lr;
+  font-size: 13px;
+  opacity: 60%;
+}
 .opacity {
   opacity: 0;
 }
@@ -270,10 +286,14 @@ background-color: #0d1425;
 }
 .sentence {
   font-weight: 300;
-  font-size: 35px;
+  font-size: 33px;
   padding: 3em;
   padding-bottom: 1em;
   writing-mode: vertical-rl;
+  cursor: pointer;
+}
+.sentenceSingle {
+  margin: 1rem;
 }
 .sentenceBox {
   display: flex;
@@ -321,6 +341,12 @@ font-weight: 200;
 #hanziWriteBox {
   width: 200px;
   margin: auto;
+}
+.searchBundle {
+  padding: 2rem;
+  background-color: #4b5377;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .center {
   display: flex;

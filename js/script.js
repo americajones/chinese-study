@@ -161,22 +161,26 @@ function getSentences() {
         sZhuyinArray.push(value.zhuyin);
         sMeaningsArray.push(value.english);
         let nuDiv = document.createElement('div');
+        let nuNuDiv = document.createElement('div');
         let nuDivTit = document.createElement('h2');
         let nuTxt = document.createElement('p');
         let nuTxt2 = document.createElement('p');
         nuDivTit.textContent = sentence;
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
+        nuNuDiv.classList.add('group');
+        nuDiv.classList.add('sentenceSingle');
         nuDivTit.classList.add('sentence');
         nuDivTit.classList.add('cursive');
         nuDivTit.classList.add('center');
         nuTxt.classList.add('opacity');
+        nuTxt.classList.add('zhuyin');
         nuTxt2.classList.add('opacity');
-        nuTxt.classList.add('center');
+        // nuTxt.classList.add('center');
         nuTxt2.classList.add('center');
-        nuDiv.append(nuDivTit);
-        nuDiv.append(nuTxt);
-        nuDiv.append(nuTxt2);
+        nuNuDiv.append(nuDivTit);
+        nuNuDiv.append(nuTxt);
+        nuDiv.append(nuNuDiv, nuTxt2);
         sentenceBox.append(nuDiv);
         nuDivTit.addEventListener('click', function () {
             nuTxt.classList.toggle('opacity');
@@ -1507,6 +1511,7 @@ function loadSearchPage() {
     writingAnswers = "";
     sentenceBox.classList.add('hidden');
     answersBox.classList.add('hidden');
+    quizStudyBox.classList.add('hidden');
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
@@ -1514,16 +1519,21 @@ function loadSearchPage() {
     removeAllChildren(charTarget);
     removeAllChildren(buttBox);
     removeAllChildren(wbuttBox);
+    let nuDiv = document.createElement('div');
     let input = document.createElement('input');
     let button = document.createElement('button');
     let searchResults = document.createElement('div');
+    let searchResults2 = document.createElement('div');
+    nuDiv.classList.add('searchBundle');
     input.classList.add('searchBox');
     searchResults.classList.add('searchRes');
+    searchResults2.classList.add('searchRes2');
     button.classList.add('searchButt');
     button.classList.add('butt');
     button.textContent = "search";
     button.addEventListener('click', leSearch);
-    flashBox.append(input, button, searchResults);
+    nuDiv.append(input, button, searchResults, searchResults2);
+    flashBox.append(nuDiv);
 };
 
 let searchResS = [];
@@ -1531,42 +1541,44 @@ let searchRes = [];
 function leSearch() {
     searchRes = [];
     searchResS = [];
-    removeAllChildren(flashBox2);
-    removeAllChildren(flashBox3);
     let searchBox = document.querySelector('.searchBox');
+    let searchResBox = document.querySelector('.searchRes');
+    let searchResBox2 = document.querySelector('.searchRes2');
+    removeAllChildren(searchResBox);
+    removeAllChildren(searchResBox2);
     let searchTerm = searchBox.value;
     console.log(searchTerm);
     for (let [key, value] of Object.entries(hanziAll)) {
         if (key.search(searchTerm) !== -1) {
-            searchRes.push(key)
+            searchRes.push(" " + key)
         }
         if (value.english.search(searchTerm) !== -1) {
-            searchRes.push(key)
+            searchRes.push(" " + key)
         }
     }
     for (let [key, value] of Object.entries(HSK1words)) {
         if (key.search(searchTerm) !== -1) {
-            searchRes.push(key)
+            searchRes.push(" " + key)
         }
         if (value.english.search(searchTerm) !== -1) {
-            searchRes.push(key)
+            searchRes.push(" " + key)
         }
     }
     for (let [key, value] of Object.entries(bookWords0)) {
         if (key.search(searchTerm) !== -1) {
-            searchRes.push(key)
+            searchRes.push(" " + key)
         }
         if (value.english.search(searchTerm) !== -1) {
-            searchRes.push(key)
+            searchRes.push(" " + key)
         }
     }
     for (let [key, value] of Object.entries(A1sentences)) {
         if (key.search(searchTerm) !== -1) {
-            searchResS.push(key)
+            searchResS.push(" " + key)
         }
     }
-    flashBox2.append("Hanzi including '" + searchTerm + "' : " + searchRes);
-    flashBox3.append("Sentences including '" + searchTerm + "' : " + searchResS);
+    searchResBox.append("Hanzi including '" + searchTerm + "' : " + searchRes);
+    searchResBox2.append("Sentences including '" + searchTerm + "' : " + searchResS);
 };
 
 function loadRadicalWritingQuiz() {

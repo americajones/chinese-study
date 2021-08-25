@@ -2521,7 +2521,7 @@ const hanziAll = {
         "zhuyin": "ㄌㄨˋ",
         "pinyin": "lù",
         "tone": 4,
-        "english": "raod",
+        "english": "road",
         "simplified": "",
         "radicals": ["", ""]
     },
@@ -3289,7 +3289,7 @@ const hanziAll = {
         "zhuyin": "ㄒㄧㄤˋ",
         "pinyin": "xiàng",
         "tone": 4,
-        "english": "alephant, form",
+        "english": "elephant, form",
         "simplified": "",
         "radicals": ["", ""]
     },
@@ -5817,17 +5817,17 @@ const A1sentences = {
         "category": "12 sentences for grammar",
         "english": "The apple is red."
     },
-    "這是John的蘋果。": {
-        "zhuyin": "ㄓㄜˋ ㄕˋ John ㄉㄜ˙ ㄆㄧㄥˊ ㄍㄨㄛˇ。",
-        "pinyin": "Zhè shì John de píngguǒ.",
+    "這是JJ的蘋果。": {
+        "zhuyin": "ㄓㄜˋ ㄕˋ JJ ㄉㄜ˙ ㄆㄧㄥˊ ㄍㄨㄛˇ。",
+        "pinyin": "Zhè shì JJ de píngguǒ.",
         "category": "12 sentences for grammar",
-        "english": "It is John’s apple."
+        "english": "It is JJ’s apple."
     },
-    "我把這個蘋果給John。": {
-        "zhuyin": "ㄨㄛˇ ㄅㄚˇ ㄓㄜˋ ㄍㄜˋ ㄆㄧㄥˊ ㄍㄨㄛˇ ㄍㄟˇ John。",
-        "pinyin": "Wǒ bǎ zhège píngguǒ gěi John.",
+    "我把這個蘋果給JJ。": {
+        "zhuyin": "ㄨㄛˇ ㄅㄚˇ ㄓㄜˋ ㄍㄜˋ ㄆㄧㄥˊ ㄍㄨㄛˇ ㄍㄟˇ JJ。",
+        "pinyin": "Wǒ bǎ zhège píngguǒ gěi JJ.",
         "category": "12 sentences for grammar",
-        "english": "I give John the apple."
+        "english": "I give JJ the apple."
     },
     "我們把這個蘋果給他。": {
         "zhuyin": "ㄨㄛˇ ㄇㄣˊ ㄅㄚˇ ㄓㄜˋ ㄍㄜˋ ㄆㄧㄥˊ ㄍㄨㄛˇ ㄍㄟˇ ㄊㄚ 。",
@@ -5835,11 +5835,11 @@ const A1sentences = {
         "category": "12 sentences for grammar",
         "english": "We give him the apple."
     },
-    "他把這個給John。": {
-        "zhuyin": "ㄊㄚ ㄅㄚˇ ㄓㄜˋ ㄍㄜˋ ㄍㄟˇ John。",
-        "pinyin": "Tā bǎ zhège gěile John.",
+    "他把這個給JJ。": {
+        "zhuyin": "ㄊㄚ ㄅㄚˇ ㄓㄜˋ ㄍㄜˋ ㄍㄟˇ JJ。",
+        "pinyin": "Tā bǎ zhège gěile JJ.",
         "category": "12 sentences for grammar",
-        "english": "He gives it to John."
+        "english": "He gives it to JJ."
     },
     "她把這個給他。": {
         "zhuyin": "ㄊㄚ ㄅㄚˇ ㄓㄜˋ ㄍㄜˋ ㄍㄟˇ ㄊㄚ 。 ",
