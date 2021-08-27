@@ -5322,7 +5322,7 @@ const A1grammar = {
         "pinyin": "hěn",
         "english": "is (very)",
         "pattern": "Noun 很 Adj.",
-        "explanation": "Links adjectives. Nouns are linked to other nouns with 是(ㄕˋ). Nouns are linked to adjectives with 很(ㄏㄣˇ). ",
+        "explanation": "Links adjectives. Nouns are linked to other nouns with 是. Nouns are linked to adjectives with 很. ",
         "section": "basics",
         "example": "我很高。"
     },
@@ -5332,7 +5332,7 @@ const A1grammar = {
         "english": "have not",
         "radicals": ["氵", "又"],
         "pattern": "沒 (有)",
-        "explanation": "Nearly all verbs can be negated with 不(ㄅㄨˋ). The verb 有(一ㄡˇ) is an important exception to this rule, and must be negated with 沒 (ㄇㄟˊ).",
+        "explanation": "Nearly all verbs can be negated with 不. The verb 有 is an important exception to this rule, and must be negated with 沒.",
         "section": "adverbs"
     },
     "不": {
@@ -5341,7 +5341,7 @@ const A1grammar = {
         "english": "no, not",
         "radicals": ["丆", "卜"],
         "pattern": "不 Verb/Adj.",
-        "explanation": "不 (ㄅㄨˋ) is generally used to negate a verb in the present or future, or to talk about what you do not do, as a habit. Almost all verbs can be negated with 不 (unless you're talking about the past). The only verb that can never be negated with 不 is 有(一ㄡˇ).",
+        "explanation": "不 is generally used to negate a verb in the present or future, or to talk about what you do not do, as a habit. Almost all verbs can be negated with 不 (unless you're talking about the past). The only verb that can never be negated with 不 is 有.",
         "section": "adverbs"
     },
     "沒有": {
@@ -5349,7 +5349,7 @@ const A1grammar = {
         "pinyin": "méiyǒu",
         "english": "did not",
         "pattern": "Subj. 沒有/沒 Verb",
-        "explanation": "Usually verbs can be negated with 不(ㄅㄨˋ), but that construction is used for habitual or present actions. If the verb is about an action in the past, though, 沒有 should be used. Remember when using 没有, that 了(ㄌㄜ˙) is not normally used with 没有. 了 marks completed actions, while 没有 is used for actions that didn't happen (so they're not completed).",
+        "explanation": "Usually verbs can be negated with 不, but that construction is used for habitual or present actions. If the verb is about an action in the past, though, 沒有 should be used. Remember when using 没有, that 了 is not normally used with 没有. 了 marks completed actions, while 没有 is used for actions that didn't happen (so they're not completed).",
         "section": "adverbs",
         "example": "我没有时間。"
     },
@@ -5358,7 +5358,7 @@ const A1grammar = {
         "pinyin": "dōu",
         "english": "all, (both, neither)",
         "pattern": "Subj. 都 Verb",
-        "explanation": `都 (dōu) appears after the subject and before the verb. Chinese doesn't normally use a special word for "both" like English does. It just uses 都 (dōu) as if it were any other number greater than one. Chinese also doesn't have a special pattern like "neither / nor" for the negative case. Just use 都 (dōu) and make the sentence negative.`,
+        "explanation": `都 appears after the subject and before the verb. Chinese doesn't normally use a special word for "both" like English does. It just uses 都 as if it were any other number greater than one. Chinese also doesn't have a special pattern like "neither / nor" for the negative case. Just use 都 and make the sentence negative.`,
         "section": "adverbs",
         "example": "我們都要冰水。"
     },
@@ -5367,7 +5367,7 @@ const A1grammar = {
         "pinyin": "yě",
         "english": "also, too",
         "pattern": "也 + Verb / Adj.",
-        "explanation": "Always needs to come before the verb (or adjective). 也 is inserted after the subject, before the verb or verb phrase or before the 很(ㄏㄣˇ) before the adjective. ",
+        "explanation": "Always needs to come before the verb (or adjective). 也 is inserted after the subject, before the verb or verb phrase or before the 很 before the adjective. ",
         "section": "adverbs",
         "example": "我也喜欢。你也很高。"
     },
@@ -5394,7 +5394,7 @@ const A1grammar = {
         "pinyin": "",
         "english": "affirmative-negative question",
         "pattern": "Verb 不 Verb",
-        "explanation": "A common way to form questions in Chinese is to first use a verb in the positive, then repeat the same verb in its negative form, similar to how in English we can say, 'Do you have money or not?' The answer is either 'Verb' or '不 (bù) Verb.' It can also be done with adjectives (adjectives often behave like verbs in Chinese)",
+        "explanation": "A common way to form questions in Chinese is to first use a verb in the positive, then repeat the same verb in its negative form, similar to how in English we can say, 'Do you have money or not?' The answer is either 'Verb' or '不 Verb.' It can also be done with adjectives (adjectives often behave like verbs in Chinese)",
         "section": "question forms",
         "example": "他們來不來？"
     },
@@ -5434,12 +5434,12 @@ const A1grammar = {
         "section": "numbers",
         "example": ""
     },
-    "年 月 日": {
+    "年 月 日(or 號)": {
         "zhuyin": "ㄋㄧㄢˊ  ㄩㄝˋ  ㄖˋ",
         "pinyin": "",
         "english": "writing dates- year month day",
         "pattern": "# 年 # 月 # 日",
-        "explanation": "Dates in Chinese follow the order 'year, month, day.' This is in keeping with the 'from big to small' trend which pervades many facets of Chinese culture. Note that 号 (hào) is commonly used in spoken Mandarin instead of 日 (rì).",
+        "explanation": "Dates in Chinese follow the order 'year, month, day.' This is in keeping with the 'from big to small' trend which pervades many facets of Chinese culture. Note that 號 is commonly used in spoken Mandarin instead of 日.",
         "section": "numbers",
         "example": "1868年1月18号"
     },
@@ -5448,7 +5448,7 @@ const A1grammar = {
         "pinyin": "",
         "english": "days of the week",
         "pattern": "星期 #",
-        "explanation": "Note that 星期天 is the only exception. Rather than a number, 天 (tiān) is used. More formally, Sunday is also referred to as 星期日 (Xīngqīrì). One other implication of this system that you may not have noticed: 'day one' is on Monday. In Chinese culture, the first day of the week is Monday, and not Sunday.",
+        "explanation": "Note that 星期天 is the only exception. Rather than a number, 天 is used. More formally, Sunday is also referred to as 星期日. One other implication of this system that you may not have noticed: 'day one' is on Monday. In Chinese culture, the first day of the week is Monday, and not Sunday.",
         "section": "numbers",
         "example": "你星期天要做什麼？"
     },
@@ -5475,7 +5475,7 @@ const A1grammar = {
         "pinyin": "",
         "english": "",
         "pattern": "",
-        "explanation": "In a negative sentence, the sentence-final 了 (le) can take on the meaning of '(not) anymore' or 'no longer.'",
+        "explanation": "In a negative sentence, the sentence-final 了 can take on the meaning of '(not) anymore' or 'no longer.'",
         "section": "",
         "example": "我不想吃了。"
     },
@@ -5493,7 +5493,7 @@ const A1grammar = {
         "pinyin": "",
         "english": "",
         "pattern": "",
-        "explanation": "Use 没有 to negate past actions (to say that someone didn't do something, or something didn't happen). Usually verbs can be negated with 不 (bù), but that construction is used for habitual or present actions. If the verb is about an action in the past, use 沒有. Remember that 了 is not normally used with 没有. 了 marks completed actions, while 没有 is used for actions that didn't happen (so they're not completed).",
+        "explanation": "Use 没有 to negate past actions (to say that someone didn't do something, or something didn't happen). Usually verbs can be negated with 不, but that construction is used for habitual or present actions. If the verb is about an action in the past, use 沒有. Remember that 了 is not normally used with 没有. 了 marks completed actions, while 没有 is used for actions that didn't happen (so they're not completed).",
         "section": "",
         "example": "我沒有吃早飯"
     },
@@ -5502,9 +5502,45 @@ const A1grammar = {
         "pinyin": "",
         "english": "",
         "pattern": "Subj. + Verb + Obj. + 了嗎?",
-        "explanation": "Asking questions about completed actions will involve using both 了 and 嗎. These are simply added to the end of a sentence or statement. Just make sure that 了 comes first, followed by 嗎. ",
+        "explanation": "Asking questions about completed actions will involve using both 了 and 嗎. These are simply added to the end of a sentence or statement. Just make sure that 了 comes first, followed by 嗎.",
         "section": "",
         "example": "你吃飯了嗎？"
+    },
+    "還": {
+        "zhuyin": "ㄏㄨㄢˊ",
+        "pinyin": "",
+        "english": "return, back to",
+        "pattern": "",
+        "explanation": "huán can mean 'to return' or pay back",
+        "section": "",
+        "example": "我書還給他了"
+    },
+    "還": {
+        "zhuyin": "ㄏㄞˊ",
+        "pinyin": "",
+        "english": "still",
+        "pattern": "",
+        "explanation": "hái can mean still, or yet, or still in progress- like in 'I still haven’t eaten breakfast yet.'",
+        "section": "",
+        "example": "我還沒吃早飯"
+    },
+    "不要": {
+        "zhuyin": "ㄅㄨˋ ㄧㄠˋ",
+        "pinyin": "bùyào",
+        "english": "don't",
+        "pattern": "不要 + Verb",
+        "explanation": "You can use 不要 (bùyào) to command someone: 'don't' (do something).",
+        "section": "",
+        "example": "不要打我！"
+    },
+    "怎麼": {
+        "zhuyin": "",
+        "pinyin": "",
+        "english": "how",
+        "pattern": "",
+        "explanation": "Subj. + 怎么 + Verb + Obj. like in 你們怎麼學中文？ OR Topic + 怎么 + Verb like in 中国菜怎么做？",
+        "section": "",
+        "example": "你們怎麼學中文？"
     },
     // "": {
     //     "zhuyin": "",
@@ -5733,55 +5769,55 @@ const A1sentences = {
         "pinyin": "Nǐ yě xiǎng lái wǒ jiā ma?",
         "category": "也"
     },
-    "不客氣": {
+    "不客氣。": {
         "english": "you're welcome, don't mention it",
         "zhuyin": "ㄅㄨˋ ㄎㄜˋ ㄑㄧˋ",
         "pinyin": "bù kè qi",
         "category": "basics"
     },
-    "對不起": {
+    "對不起。": {
         "english": "I'm sorry, unworthy, to let down, excuse me",
         "zhuyin": "ㄉㄨㄟˋ ㄅㄨˋ ㄑㄧˇ",
         "pinyin": "duì bu qǐ",
         "category": "basics"
     },
-    "沒關係": {
+    "沒關係。": {
         "english": "it doesn't matter(no problem)",
         "zhuyin": "ㄇㄟˊ ㄍㄨㄢ ㄒㄧˋ",
         "pinyin": "méi guān xi",
         "category": "basics"
     },
-    "怎麼樣": {
+    "怎麼樣?": {
         "english": "how was it? how are things? how about?",
         "zhuyin": "ㄗㄣˇ ㄇㄜ˙ ㄧㄤˋ",
         "pinyin": "zěn me yàng",
         "category": "basics"
     },
-    "我不是半途而廢的人": {
+    "我不是半途而廢的人。": {
         "english": "I’m not someone who gives up halfway",
         "zhuyin": "ㄨㄛˇ ㄅㄨˋ ㄕˋ ㄅㄢˋ ㄊㄨˊ ㄦˊ ㄈㄟˋ ㄉㄧˊ ㄖㄣˊ",
         "pinyin": "wǒ búshì bàntúérfèi de rén",
         "category": "basics"
     },
-    "他給我書": {
+    "他給我書。": {
         "zhuyin": "ㄍㄟˇ ㄨㄛˇ ㄕㄨ",
         "pinyin": "",
         "category": "basics",
         "english": "He gives me books"
     },
-    "給我看": {
+    "給我看。": {
         "zhuyin": "ㄍㄟˇ ㄨㄛˇ ㄎㄢˋ",
         "pinyin": "",
         "category": "basics",
         "english": "let me look"
     },
-    "請給我買": {
+    "請給我買。": {
         "zhuyin": "ㄑㄧㄥˇ ㄍㄟˇ ㄨㄛˇ ㄇㄞˇ",
         "pinyin": "",
         "category": "basics",
         "english": "Please buy for me"
     },
-    "我不知道": {
+    "我不知道。": {
         "zhuyin": "ㄨㄛˇ ㄅㄨˋ ㄓ ㄉㄠˋ",
         "pinyin": "Wǒ bù zhīdào",
         "category": "basics",
@@ -5888,6 +5924,12 @@ const A1sentences = {
         "pinyin": "Wǒ chīle zhège píngguǒ.",
         "category": "12 sentences for grammar",
         "english": "I have eaten the apple."
+    },
+    "我不知道怎麼跟女孩子說話。": {
+        "zhuyin": "ㄨㄛˇ ㄅㄨˋ ㄓ ㄉㄠˋ ㄗㄣˇ ㄇㄜ˙ ㄍㄣ ㄋㄩˇ ㄏㄞˊ ㄗˇ ㄕㄨㄛ ㄏㄨㄚˋ 。",
+        "pinyin": "",
+        "category": "",
+        "english": "I don't know how to talk to girls."
     },
     // "": {
     //     "zhuyin": "",

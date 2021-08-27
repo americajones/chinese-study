@@ -1538,9 +1538,13 @@ function loadSearchPage() {
 
 let searchResS = [];
 let searchRes = [];
+let searchResMeanings = [];
+let searchResZhuyin = [];
 function leSearch() {
     searchRes = [];
     searchResS = [];
+    searchResMeanings = [];
+    searchResZhuyin = [];
     let searchBox = document.querySelector('.searchBox');
     let searchResBox = document.querySelector('.searchRes');
     let searchResBox2 = document.querySelector('.searchRes2');
@@ -1550,26 +1554,38 @@ function leSearch() {
     console.log(searchTerm);
     for (let [key, value] of Object.entries(hanziAll)) {
         if (key.search(searchTerm) !== -1) {
-            searchRes.push(" " + key)
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
         }
         if (value.english.search(searchTerm) !== -1) {
-            searchRes.push(" " + key)
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
         }
     }
     for (let [key, value] of Object.entries(HSK1words)) {
         if (key.search(searchTerm) !== -1) {
-            searchRes.push(" " + key)
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
         }
         if (value.english.search(searchTerm) !== -1) {
-            searchRes.push(" " + key)
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
         }
     }
     for (let [key, value] of Object.entries(bookWords0)) {
         if (key.search(searchTerm) !== -1) {
-            searchRes.push(" " + key)
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
         }
         if (value.english.search(searchTerm) !== -1) {
-            searchRes.push(" " + key)
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
         }
     }
     for (let [key, value] of Object.entries(A1sentences)) {
@@ -1577,7 +1593,31 @@ function leSearch() {
             searchResS.push(" " + key)
         }
     }
-    searchResBox.append("Hanzi including '" + searchTerm + "' : " + searchRes);
+    searchRes.forEach((hanzi, index) => {
+        let nuDiv = document.createElement('div');
+        let nuDivTit = document.createElement('h2');
+        let nuTxt = document.createElement('p');
+        let nuTxt2 = document.createElement('p');
+        nuDivTit.textContent = hanzi;
+        nuTxt.textContent = searchResZhuyin[index];
+        nuTxt2.textContent = searchResMeanings[index];
+        nuTxt2.classList.add('small');
+        nuTxt.classList.add('opacity');
+        nuTxt2.classList.add('opacity');
+        nuTxt2.classList.add('pink');
+        nuDivTit.classList.add('cursive');
+        // nuTxt.classList.add('faded');
+        nuDiv.classList.add('searchResBox');
+        nuDiv.addEventListener('click', toggleEnglish);
+        nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt);
+        nuDiv.append(nuTxt2);
+        function toggleEnglish() {
+            nuTxt2.classList.toggle('opacity');
+            nuTxt.classList.toggle('opacity');
+        }
+        searchResBox.append(nuDiv);
+    })
     searchResBox2.append("Sentences including '" + searchTerm + "' : " + searchResS);
 };
 
