@@ -5270,7 +5270,231 @@ const hanziAll = {
         "simplified": "义",
         "radicals": ["", ""]
     },
-    //657/2633 done
+    "百": {
+        "zhuyin": "ㄅㄞˇ",
+        "pinyin": "bǎi",
+        "tone": 3,
+        "english": "hundred",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "民": {
+        "zhuyin": "ㄇㄧㄣˊ",
+        "pinyin": "mín",
+        "tone": 2,
+        "english": "the people",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "功": {
+        "zhuyin": "ㄍㄨㄥ",
+        "pinyin": "gōng",
+        "tone": 1,
+        "english": "result, achievement",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "唯": {
+        "zhuyin": "ㄨㄟˊ",
+        "pinyin": "wěi",
+        "tone": 3,
+        "english": "yes",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "夜": {
+        "zhuyin": "ㄧㄝˋ",
+        "pinyin": "yè",
+        "tone": 4,
+        "english": "night",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "示": {
+        "zhuyin": "ㄕˋ",
+        "pinyin": "shì",
+        "tone": 4,
+        "english": "to show",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "靠": {
+        "zhuyin": "ㄎㄠˋ",
+        "pinyin": "kào",
+        "tone": 4,
+        "english": "to lean on",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "釋": {
+        "zhuyin": "ㄕˋ",
+        "pinyin": "shì",
+        "tone": 4,
+        "english": "to explain",
+        "simplified": "释",
+        "radicals": ["", ""]
+    },
+    "臉": {
+        "zhuyin": "ㄌㄧㄢˇ",
+        "pinyin": "liǎn",
+        "tone": 3,
+        "english": "face",
+        "simplified": "脸",
+        "radicals": ["", ""]
+    },
+    "引": {
+        "zhuyin": "ㄧㄣˇ",
+        "pinyin": "yǐn",
+        "tone": 3,
+        "english": "to pull, guide",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "擇": {
+        "zhuyin": "ㄗㄜˊ",
+        "pinyin": "zé",
+        "tone": 2,
+        "english": "to select",
+        "simplified": "择",
+        "radicals": ["", ""]
+    },
+    "疑": {
+        "zhuyin": "ㄧˊ",
+        "pinyin": "yí",
+        "tone": 2,
+        "english": "to doubt",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "趕": {
+        "zhuyin": "ㄍㄢˇ",
+        "pinyin": "gǎn",
+        "tone": 3,
+        "english": "to hurry",
+        "simplified": "赶",
+        "radicals": ["", ""]
+    },
+    // "倆": {
+    //     "zhuyin": "ㄌㄧㄤˇ",
+    //     "pinyin": "liǎ",
+    //     "tone": 3,
+    //     "english": "two",
+    //     "simplified": "俩",
+    //     "radicals": ["", ""]
+    // },
+    "獨": {
+        "zhuyin": "ㄉㄨˊ",
+        "pinyin": "dú",
+        "tone": 2,
+        "english": "alone",
+        "simplified": "独",
+        "radicals": ["", ""]
+    },
+    "冷": {
+        "zhuyin": "ㄌㄥˇ",
+        "pinyin": "lěng",
+        "tone": 3,
+        "english": "cold",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "妹": {
+        "zhuyin": "ㄇㄟˋ",
+        "pinyin": "mèi",
+        "tone": 4,
+        "english": "younger sister",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "樓": {
+        "zhuyin": "ㄌㄡˊ",
+        "pinyin": "lóu",
+        "tone": 2,
+        "english": "building, floor",
+        "simplified": "楼",
+        "radicals": ["", ""]
+    },
+    //675/2633 done
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
