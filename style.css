@@ -304,6 +304,11 @@ background-color: #0d1425;
   flex-direction: row-reverse;
   flex-wrap: wrap;
 }
+.label {
+  font-size: 25px;
+  padding: 10px;
+  color: pink;
+}
 .numLabel {
   position: absolute;
   left: 5px;
@@ -333,9 +338,9 @@ font-weight: 300;
   text-align: center;
   position: relative;
   background-color: #4b5377;
-  padding: 2em 1em;
-  margin-top: .5em;
-  margin-right: .5em;
+  padding: 2rem 1rem;
+  margin-top: .5rem;
+  margin-right: .5rem;
   width: 175px;
   border-radius: 4px;
 }

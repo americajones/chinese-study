@@ -6041,6 +6041,138 @@ const idioms = {
         "literal": "love can't release from hand",
         "meaning": "To love something so much that you can't part from it",
     },
+    "離經叛道": {
+        "zhuyin": "ㄌㄧˊ ㄐㄧㄥ ㄆㄢˋ ㄉㄠˋ",
+        "pinyin": "lí jīng pàn dào",
+        "literal": "to depart from established practices",
+        "meaning": "to rebel against orthodoxy",
+    },
+    "照貓畫虎": {
+        "zhuyin": "ㄓㄠˋ ㄇㄠ ㄏㄨㄚˋ ㄏㄨˇ",
+        "pinyin": "",
+        "literal": "drawing a tiger using a cat as a model",
+        "meaning": "uninspired imitation; to follow a model and get things more or less right but without capturing the spirit of the subject",
+    },
+    "有目共睹": {
+        "zhuyin": "ㄧㄡˇ ㄇㄨˋ ㄍㄨㄥˋ ㄉㄨˇ",
+        "pinyin": "yǒu mù gòng dǔ",
+        "literal": "anyone with eyes can see it",
+        "meaning": "be obvious to all, something that speaks for itself",
+    },
+    "興高采烈": {
+        "zhuyin": "ㄒㄧㄥ ㄍㄠ ㄘㄞˇ ㄌㄧㄝˋ ",
+        "pinyin": "xīng gāo cǎi liè",
+        "literal": "happy and excited",
+        "meaning": "to be in great form; in high spirits",
+    },
+    "推陳出新": {
+        "zhuyin": "",
+        "pinyin": "",
+        "literal": "get rid of the stale and bring forth the fresh",
+        "meaning": "to pushout the old and bring in the new; to innovate",
+    },
+    "滔滔不絕": {
+        "zhuyin": "ㄊㄠ ㄊㄠ ㄅㄨˋ ㄐㄩㄝˊ",
+        "pinyin": "tāo tāo bù jué",
+        "literal": "non stop torrent",
+        "meaning": "gushing; non stop talking usually",
+    },
+    "隨遇而安": {
+        "zhuyin": "ㄙㄨㄟˊ ㄩˋ ㄦˊ ㄢ",
+        "pinyin": "suí yù ér ān",
+        "literal": "at home wherever one is",
+        "meaning": "make the best of things; take things as they come; flexible; ready to adapt; accept circumstances with good will",
+    },
+    "熟能生巧": {
+        "zhuyin": "ㄕㄨˊ ㄋㄥˊ ㄕㄥ ㄑㄧㄠˇ",
+        "pinyin": "shóu néng shēng qiǎo",
+        "literal": "with familiarity you learn the trick",
+        "meaning": "practice makes perfect",
+    },
+    "守望相助": {
+        "zhuyin": "ㄕㄡˇ ㄨㄤˋ ㄒㄧㄤ ㄓㄨˋ",
+        "pinyin": "shǒu wàng xiāng zhù",
+        "literal": "to keep watch and defend one another",
+        "meaning": "to join forces, help each other; mutual help and protection",
+    },
+    "守口如瓶": {
+        "zhuyin": "ㄕㄡˇ ㄎㄡˇ ㄖㄨˊ ㄆㄧㄥˊ",
+        "pinyin": "shǒu kǒu rú píng",
+        "literal": "guard one's mouth like a closed bottle",
+        "meaning": "keep one's mouth shut; not breathing a word",
+    },
+    "雞犬不寧": {
+        "zhuyin": "ㄐㄧ ㄑㄩㄢˇ ㄅㄨˋ ㄋㄧㄥˊ",
+        "pinyin": "jī quǎn bù zhù",
+        "literal": "not even the chickens and dogs are left undisturbed",
+        "meaning": "great commotion; pandemonium; chaos; utter confusion",
+    },
+    "揮金如土": {
+        "zhuyin": "ㄏㄨㄟ ㄐㄧㄣ ㄖㄨˊ ㄊㄨˇ",
+        "pinyin": "huī jīn rú tǔ",
+        "literal": "to squander money like dirt",
+        "meaning": "spend money like water",
+    },
+    "孤掌難鳴": {
+        "zhuyin": "ㄍㄨ ㄓㄤˇ ㄋㄢˊ ㄇㄧㄥˊ",
+        "pinyin": "gū zhǎng nán míng",
+        "literal": "hard to clap with only one hand",
+        "meaning": "it's difficult to achieve anything without support",
+    },
+    "從容不迫": {
+        "zhuyin": "ㄘㄨㄥˊ ㄖㄨㄥˊ ㄅㄨˋ ㄆㄛˋ",
+        "pinyin": "cóng róng bù pò",
+        "literal": "to easy, calm, unruffled",
+        "meaning": "take one's time; go easy",
+    },
+    "百折不撓": {
+        "zhuyin": "ㄅㄞˇ ㄓㄜ ㄅㄨˋ ㄋㄠˊ ",
+        "pinyin": "bǎi zhé bù náo",
+        "literal": "keep fighting in spite of all setbacks",
+        "meaning": "to be undaunted by repeated setbacks",
+    },
+    "海市蜃樓": {
+        "zhuyin": "ㄏㄞˇ ㄕˋ ㄕㄣˋ ㄌㄡˊ",
+        "pinyin": "",
+        "literal": "mirage clam breath house",
+        "meaning": "to build castles in the air; mirage. A 蜃 is a mythological clam monster that breathes out a vapor that looks like buildings",
+    },
+    "笑裡藏刀": {
+        "zhuyin": "ㄒㄧㄠˋ ㄌㄧˇ ㄘㄤˊ ㄉㄠ",
+        "pinyin": "xiào lǐ cáng dāo",
+        "literal": "a dagger hidden behind a smile",
+        "meaning": "friendly manners belying hypocritical intentions; when the fox preaches, look to the geese",
+    },
+    "心如止水": {
+        "zhuyin": "ㄒㄧㄣ ㄖㄨˊ ㄓˇ ㄕㄨㄟˇ",
+        "pinyin": "xīn rú zhǐ shuǐ",
+        "literal": "heart like still waters",
+        "meaning": "a peaceful heart; a heart as calm as still water; to be at peace with oneself",
+    },
+    "虛懷若谷": {
+        "zhuyin": "ㄒㄩ ㄏㄨㄞˊ ㄖㄨㄛˋ ㄍㄨˇ",
+        "pinyin": "xū huái ruò gǔ",
+        "literal": "receptive as an echoing canyon",
+        "meaning": "to be extremely open-minded; modest and open minded",
+    },
+    "開卷有益": {
+        "zhuyin": "ㄎㄞ ㄐㄩㄢˋ ㄧㄡˇ ㄧˋ",
+        "pinyin": "kāi juàn yǒu yì",
+        "literal": "reading a book is profitable",
+        "meaning": "reading always brings benefits",
+    },
+    "愚公移山": {
+        "zhuyin": "ㄩˊ ㄍㄨㄥ ㄧˊ ㄕㄢ",
+        "pinyin": "yú gōng yí shān",
+        "literal": "the old fool moves mountains",
+        "meaning": "with persistence and determination, any difficulties, even big ones can be solved; to want to is to be able to; where there's a will, there's a way",
+    },
+    "興緻勃勃": {
+        "zhuyin": "ㄒㄧㄥ ㄓˋ ㄅㄛˊ ㄅㄛˊ",
+        "pinyin": "",
+        "literal": "spirits thriving",
+        "meaning": "in high spirits; full of enthusiasm, zest",
+    },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
@@ -6052,676 +6184,997 @@ const bookWordsRWC = {
     "成語": {
         "zhuyin": "ㄔㄥˊ ㄩˇ",
         "pinyin": "chéng yǔ",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "4 or 5 character idioms"
     },
     "子女": {
         "zhuyin": "ㄗˇ ㄋㄩˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "sons and daughters"
     },
     "好累": {
         "zhuyin": "ㄏㄠˇ ㄌㄟˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "be very tired"
     },
     "小子": {
         "zhuyin": "ㄒㄧㄠˇ ㄗˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "(colloqial)boy, bloke"
     },
     "人口": {
         "zhuyin": "ㄖㄣˊ ㄎㄡˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "population"
     },
     "三口人": {
         "zhuyin": "ㄙㄢ ㄎㄡˇ ㄖㄣˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "three(count) people"
     },
     "口子": {
         "zhuyin": "ㄎㄡˇ ㄗˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "hole, opening, cut, rip"
     },
     "小手": {
         "zhuyin": "ㄒㄧㄠˇ ㄕㄡˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "pickpocket"
     },
     "門口": {
         "zhuyin": "ㄇㄣˊ ㄎㄡˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "doorway, area by entrance"
     },
     "天天": {
         "zhuyin": "ㄊㄧㄢ ㄊㄧㄢ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "every day"
     },
     "好笑": {
         "zhuyin": "ㄏㄠˇ ㄒㄧㄠˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "be easy to laugh at, funny, ridiculous"
     },
     "矮子": {
         "zhuyin": "ㄞˇ ㄗˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "short person, dwarf"
     },
     "忙人": {
         "zhuyin": "ㄇㄤˊ ㄖㄣˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "busy person"
     },
     "小心": {
         "zhuyin": "ㄒㄧㄠˇ ㄒㄧㄣ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "Be careful!"
     },
     "無心": {
         "zhuyin": "ㄨˊ ㄒㄧㄣ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "not feel like, not in the mood for, unintentionally"
     },
     "不好": {
         "zhuyin": "ㄅㄨˋ ㄏㄠˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "no good, it's not good"
     },
     "不很": {
         "zhuyin": "ㄅㄨˋ ㄏㄣˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "not very"
     },
     "很不": {
         "zhuyin": "ㄏㄣˇ ㄅㄨˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "very un-"
     },
     "不忙": {
         "zhuyin": "ㄅㄨˋ ㄇㄤˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "there is no hurry, take your time"
     },
     "太太": {
         "zhuyin": "ㄊㄞˋ ㄊㄞˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "wife"
     },
     "太子": {
         "zhuyin": "ㄊㄞˋ ㄗˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "prince"
     },
     "太忙": {
         "zhuyin": "ㄊㄞˋ ㄇㄤˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "be too busy"
     },
     "可笑": {
         "zhuyin": "ㄎㄜˇ ㄒㄧㄠˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "be laughable"
     },
     "可口": {
         "zhuyin": "ㄎㄜˇ ㄎㄡˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "suit one's mouth, taste good"
     },
     "可心": {
         "zhuyin": "ㄎㄜˇ ㄒㄧㄣ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "be satisfying, pleasing"
     },
     "不可": {
         "zhuyin": "ㄅㄨˋ ㄎㄜˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "should not"
     },
     "又不": {
         "zhuyin": "ㄧㄡˋ ㄅㄨˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "not at all"
     },
     "土人": {
         "zhuyin": "ㄊㄨˇ ㄖㄣˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "native person"
     },
     "土木": {
         "zhuyin": "ㄊㄨˇ ㄇㄨˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "building and construction"
     },
     "幸好": {
         "zhuyin": "ㄒㄧㄥˋ ㄏㄠˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "fortunately, luckily"
     },
     "不幸": {
         "zhuyin": "ㄅㄨˋ ㄒㄧㄥˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "bad luck, unlucky, unfortunately"
     },
     "筆心": {
         "zhuyin": "ㄅㄧˇ ㄒㄧㄣ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "pencil lead, pen refill"
     },
     "山口": {
         "zhuyin": "ㄕㄢ ㄎㄡˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "mountain pass"
     },
     "鋼筆": {
         "zhuyin": "ㄍㄤ ㄅㄧˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "pen"
     },
     "王八": {
         "zhuyin": "ㄨㄤˊ ㄅㄚ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "cuck, stupid man"
     },
     "王八蛋": {
         "zhuyin": "ㄨㄤˊ ㄅㄚ ㄉㄢˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "son of a bitch, stupid motherfucker"
     },
     "鉛筆": {
         "zhuyin": "ㄑㄧㄢ ㄅㄧˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "pencil"
     },
     "刀子": {
         "zhuyin": "ㄉㄠ ㄗˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "knife"
     },
     "分手": {
         "zhuyin": "ㄈㄣ ㄕㄡˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "to part w/ somebody"
     },
     "分心": {
         "zhuyin": "ㄈㄣ ㄒㄧㄣ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "to distract somebody's attention"
     },
     "童女": {
         "zhuyin": "ㄊㄨㄥˊ ㄋㄩˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "maiden, virgin"
     },
     "童心": {
         "zhuyin": "ㄊㄨㄥˊ ㄒㄧㄣ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "childish disposition"
     },
     "童山": {
         "zhuyin": "ㄊㄨㄥˊ ㄕㄢ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "bare hills, bald mountain"
     },
     "十分鐘": {
         "zhuyin": "ㄕˊ ㄈㄣ ㄓㄨㄥ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "ten minutes"
     },
     "大衣": {
         "zhuyin": "ㄉㄚˋ ㄧ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "overcoat"
     },
     "手錶": {
         "zhuyin": "ㄕㄡˇ ㄅㄧㄠˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "wristwatch"
     },
     "中心": {
         "zhuyin": "ㄓㄨㄥ ㄒㄧㄣ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "center, core"
     },
     "中立": {
         "zhuyin": "ㄓㄨㄥ ㄌㄧˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "stand in the midde, neutrality"
     },
     "山羊": {
         "zhuyin": "ㄕㄢ ㄧㄤˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "goat"
     },
     "小羊": {
         "zhuyin": "ㄒㄧㄠˇ ㄧㄤˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "lamb"
     },
     "美國": {
         "zhuyin": "ㄇㄟˇ ㄍㄨㄛˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "America"
     },
     "美金": {
         "zhuyin": "ㄇㄟˇ ㄐㄧㄣ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "American money"
     },
     "美好": {
         "zhuyin": "ㄇㄟˇ ㄏㄠˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "be fine, happy, glorious"
     },
     "外表": {
         "zhuyin": "ㄨㄞˋ ㄅㄧㄠˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "outward appearence, surface"
     },
     "看中": {
         "zhuyin": "ㄎㄢˋ ㄓㄨㄥ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "take a liking to, pick out, choose"
     },
     "更好": {
         "zhuyin": "ㄍㄥ ㄏㄠˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "be better, even more"
     },
     "小便": {
         "zhuyin": "ㄒㄧㄠˇ ㄅㄧㄢˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "to pee, piss"
     },
     "大便": {
         "zhuyin": "ㄉㄚˋ ㄅㄧㄢˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "to poop, shit"
     },
     "便依": {
         "zhuyin": "ㄅㄧㄢˋ ㄧ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "street clothes, civvies"
     },
     "便宜": {
         "zhuyin": "ㄅㄧㄢˋ ㄧˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "be inexpensive"
     },
     "要不": {
         "zhuyin": "ㄧㄠˋ ㄅㄨˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "otherwise, or else, or"
     },
     "要好": {
         "zhuyin": "ㄧㄠˋ ㄏㄠˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "be on good terms, good friends, eager to improve"
     },
     "人士": {
         "zhuyin": "ㄖㄣˊ ㄕˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "notable person"
     },
     "士女": {
         "zhuyin": "ㄕˋ ㄋㄩˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "young men and women, guys and gals"
     },
     "女士": {
         "zhuyin": "ㄋㄩˇ ㄕˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "(polite) professional woman"
     },
     "買賣": {
         "zhuyin": "ㄇㄞˇ ㄇㄞˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "buisness"
     },
     "老二": {
         "zhuyin": "ㄌㄠˇ ㄦˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "second child"
     },
     "老者": {
         "zhuyin": "ㄌㄠˇ ㄓㄜˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "old fellow, old man"
     },
     "甘心": {
         "zhuyin": "ㄍㄢ ㄒㄧㄣ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "willingly, be happy with"
     },
     "入口": {
         "zhuyin": "ㄖㄨˋ ㄎㄡˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "entrance"
     },
     "入門": {
         "zhuyin": "ㄖㄨˋ ㄇㄣˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "primer, to start well"
     },
     "入手": {
         "zhuyin": "ㄖㄨˋ ㄕㄡˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "put your hand in, get started"
     },
     "麻木": {
         "zhuyin": "ㄇㄚˊ ㄇㄨˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "numb, apathetic"
     },
     "大麻": {
         "zhuyin": "ㄉㄚˋ ㄇㄚˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "hemp, marijuana"
     },
     "甚麼": {
         "zhuyin": "ㄕㄣˋ ㄇㄜ˙",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "what? (old complex vers.)"
     },
     "書桌": {
         "zhuyin": "ㄕㄨ ㄓㄨㄛ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "writing desk"
     },
     "好奇": {
         "zhuyin": "ㄏㄠˇ ㄑㄧˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "curious, interested in odd things or just many things"
     },
     "好奇心": {
         "zhuyin": "ㄏㄠˇ ㄑㄧˊ ㄒㄧㄣ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "curiosity"
     },
     "金錢": {
         "zhuyin": "ㄐㄧㄣ ㄑㄧㄢˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "money"
     },
     "古老": {
         "zhuyin": "ㄍㄨˇ ㄌㄠˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "ancient"
     },
     "古玩": {
         "zhuyin": "ㄍㄨˇ ㄨㄢˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "antique object, curio"
     },
     "個人": {
         "zhuyin": "ㄍㄜˋ ㄖㄣˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "each person, everyone"
     },
     "這個": {
         "zhuyin": "ㄓㄜˋ ㄍㄜˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "this one"
     },
     "這麼": {
         "zhuyin": "ㄓㄜˋ ㄇㄜ˙",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "so, thus, in this case, to this extent"
     },
     "那個": {
         "zhuyin": "ㄋㄚˋ ㄍㄜˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "that one, that"
     },
     "那麼": {
         "zhuyin": "ㄋㄚˋ ㄇㄜ˙",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "that being so, in that case"
     },
     "有錢": {
         "zhuyin": "ㄧㄡˇ ㄑㄧㄢˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "be rich"
     },
     "沒買": {
         "zhuyin": "ㄇㄟˊ ㄇㄞˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "did not buy, has not bought(yet)"
     },
     "吉他": {
         "zhuyin": "ㄐㄧˊ ㄊㄚ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "guitar"
     },
     "喜人": {
         "zhuyin": "ㄒㄧˇ ㄖㄣˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "to be satisfying"
     },
     "喜好": {
         "zhuyin": "ㄒㄧˇ ㄏㄠˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "to like, love, be fond of"
     },
     "歡笑": {
         "zhuyin": "ㄏㄨㄢ ㄒㄧㄠˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "to laugh delightedly"
     },
     "歡心": {
         "zhuyin": "ㄏㄨㄢ ㄒㄧㄣ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "favor(noun), love (noun)"
     },
     "十足": {
         "zhuyin": "ㄕˊ ㄗㄨˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "sheer, total, absolute"
     },
     "跟上": {
         "zhuyin": "ㄍㄣ ㄕㄤˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "keep up with, keep pace with"
     },
     "誰請": {
         "zhuyin": "ㄕㄨㄟˊ ㄑㄧㄥˇ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "who's paying?"
     },
     "請問": {
         "zhuyin": "ㄑㄧㄥˇ ㄨㄣˋ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "please tell me"
     },
     "聞人": {
         "zhuyin": "ㄨㄣˊ ㄖㄣˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "famous person"
     },
     "耳聞": {
         "zhuyin": "ㄦˇ ㄨㄣˊ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "to hear about from others"
     },
     "田間": {
         "zhuyin": "ㄊㄧㄢˊ ㄐㄧㄢ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "farm, field"
     },
     "人間": {
         "zhuyin": "ㄖㄣˊ ㄐㄧㄢ",
         "pinyin": "",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "the human world, world of human affairs"
     },
     "哪裡": {
         "zhuyin": "ㄋㄚˇ ㄌㄧˇ",
         "pinyin": "nǎlǐ",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "where, wherever"
     },
     "星期一": {
         "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄧ",
         "pinyin": "xīngqīyī",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "Monday"
     },
     "星期二": {
         "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄦˋ",
         "pinyin": "xīngqīèr",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "Tuesday"
     },
     "星期三": {
         "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄙㄢ",
         "pinyin": "xīngqīsān",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "Wednesday"
     },
     "星期四": {
         "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄙˋ",
         "pinyin": "xīngqīsì",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "Thursday"
     },
     "星期五": {
         "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄨˇ",
         "pinyin": "xīngqīwǔ",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "Friday"
     },
     "星期六": {
         "zhuyin": "ㄒㄧㄥ ㄑㄧ ㄌㄧㄡˋ",
         "pinyin": "xīngqīliù",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "Saturday"
     },
     "認識": {
         "zhuyin": "ㄖㄣˋ ㄕˊ",
         "pinyin": "rènshí",
-        "level": "A",
+        "book": "Reading and Writing Chinese: Third Edition",
         "english": "to know, recognize, understand"
     },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
-    //     "level": "A",
+    //     "book": "Reading and Writing Chinese: Third Edition",
     //     "english": ""
     // },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
-    //     "level": "A",
+    //     "book": "Reading and Writing Chinese: Third Edition",
     //     "english": ""
     // },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
-    //     "level": "A",  
+    //     "book": "Reading and Writing Chinese: Third Edition",  
     //     "english": ""
     // },
 };
+const bookWords = {
+
+    "外面": {
+        "zhuyin": "ㄨㄞˋ ㄇㄧㄢˋ",
+        "pinyin": "",
+        "english": "outside",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "一直": {
+        "zhuyin": "ㄧ ㄓˊ",
+        "pinyin": "",
+        "english": "continuously, all along",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "下雨": {
+        "zhuyin": "ㄒㄧㄚˋ ㄩˇ",
+        "pinyin": "",
+        "english": "to rain",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "暖和": {
+        "zhuyin": "ㄋㄨㄢˇ ㄏㄜˊ",
+        "pinyin": "",
+        "english": "warm",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "看起來": {
+        "zhuyin": "ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ",
+        "pinyin": "",
+        "english": "to appear, look a certain way",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "工廠": {
+        "zhuyin": "ㄍㄨㄥ ㄔㄤˇ",
+        "pinyin": "",
+        "english": "factory",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "有錢": {
+        "zhuyin": "ㄧㄡˇ ㄑㄧㄢˊ",
+        "pinyin": "",
+        "english": "rich",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "好像": {
+        "zhuyin": "ㄏㄠˇ ㄒㄧㄤˋ",
+        "pinyin": "",
+        "english": "to seem that",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "出門": {
+        "zhuyin": "ㄔㄨ ㄇㄣˊ",
+        "pinyin": "",
+        "english": "to go out",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "叔叔": {
+        "zhuyin": "ㄕㄨ ㄕㄨ",
+        "pinyin": "",
+        "english": "uncle",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "左右": {
+        "zhuyin": "ㄗㄨㄛˇ ㄧㄡˋ",
+        "pinyin": "",
+        "english": "approximately, around",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "可能": {
+        "zhuyin": "ㄎㄜˇ ㄋㄥˊ",
+        "pinyin": "",
+        "english": "maybe, possibly",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "還是": {
+        "zhuyin": "ㄏㄞˊ ㄕˋ",
+        "pinyin": "",
+        "english": "still",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "說到": {
+        "zhuyin": "ㄕㄨㄛ ㄉㄠˋ",
+        "pinyin": "",
+        "english": "to talk about, to mention",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "同事": {
+        "zhuyin": "ㄊㄨㄥˊ ㄕˋ",
+        "pinyin": "",
+        "english": "coworker",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "後來": {
+        "zhuyin": "ㄏㄡˋ ㄌㄞˊ",
+        "pinyin": "",
+        "english": "afterward",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "生意": {
+        "zhuyin": "ㄕㄥ ㄧˋ",
+        "pinyin": "",
+        "english": "business",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "神奇": {
+        "zhuyin": "ㄕㄣˊ ㄑㄧˊ",
+        "pinyin": "",
+        "english": "mystical, magical",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "故事": {
+        "zhuyin": "ㄍㄨˋ ㄕˋ",
+        "pinyin": "",
+        "english": "story",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "有意思": {
+        "zhuyin": "ㄧㄡˇ ㄧˋ ㄙ",
+        "pinyin": "",
+        "english": "interesting",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "害怕": {
+        "zhuyin": "ㄏㄞˋ ㄆㄚˋ",
+        "pinyin": "",
+        "english": "to fear",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "離開": {
+        "zhuyin": "ㄌㄧˊ ㄎㄞ",
+        "pinyin": "",
+        "english": "",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "一定": {
+        "zhuyin": "ㄧ ㄉㄧㄥˋ",
+        "pinyin": "",
+        "english": "definitely, certainly",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "猴子": {
+        "zhuyin": "ㄏㄡˊ ㄗˇ",
+        "pinyin": "",
+        "english": "monkey",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "爪子": {
+        "zhuyin": "ㄓㄠˇ ㄗˇ",
+        "pinyin": "",
+        "english": "claw, paw",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "猴爪": {
+        "zhuyin": "ㄏㄡˊ ㄓㄠˇ",
+        "pinyin": "",
+        "english": "monkey paw",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "一下子": {
+        "zhuyin": "ㄧ ㄒㄧㄚˋ ㄗˇ",
+        "pinyin": "",
+        "english": "all at once, all off a sudden",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "奇怪": {
+        "zhuyin": "ㄑㄧˊ ㄍㄨㄞˋ",
+        "pinyin": "",
+        "english": "strange, weird",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "一家人": {
+        "zhuyin": "ㄧ ㄐㄧㄚ ㄖㄣˊ",
+        "pinyin": "",
+        "english": "the whole family",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "小看": {
+        "zhuyin": "ㄒㄧㄠˇ ㄎㄢˋ",
+        "pinyin": "",
+        "english": "to look down upon, think little of",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "魔力": {
+        "zhuyin": "ㄇㄛˊ ㄌㄧˋ",
+        "pinyin": "",
+        "english": "magical power, magic",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "認真": {
+        "zhuyin": "ㄖㄣˋ ㄓㄣ",
+        "pinyin": "",
+        "english": "serious, earnest",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "實現": {
+        "zhuyin": "ㄕˊ ㄒㄧㄢˋ",
+        "pinyin": "",
+        "english": "to realize, make real",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "願望": {
+        "zhuyin": "ㄩㄢˋ ㄨㄤˋ",
+        "pinyin": "",
+        "english": "a wish",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "好奇": {
+        "zhuyin": "ㄏㄠˇ ㄑㄧˊ",
+        "pinyin": "",
+        "english": "curious",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "得到": {
+        "zhuyin": "ㄉㄜˊ ㄉㄠˋ",
+        "pinyin": "",
+        "english": "get, gain",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "失去": {
+        "zhuyin": "ㄕ ㄑㄩˋ",
+        "pinyin": "",
+        "english": "to lose (something)",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "小聲": {
+        "zhuyin": "ㄒㄧㄠˇ ㄕㄥ",
+        "pinyin": "",
+        "english": "in a low voice",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "難過": {
+        "zhuyin": "ㄋㄢˊ ㄍㄨㄛˋ",
+        "pinyin": "",
+        "english": "sad, upset",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "老婆": {
+        "zhuyin": "ㄌㄠˇ ㄆㄛˊ",
+        "pinyin": "",
+        "english": "wife",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "沒用": {
+        "zhuyin": "ㄇㄟˊ ㄩㄥˋ",
+        "pinyin": "",
+        "english": "useless",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "送給": {
+        "zhuyin": "ㄙㄨㄥˋ ㄍㄟˇ",
+        "pinyin": "",
+        "english": "to give to (someone)",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "發生": {
+        "zhuyin": "ㄈㄚ ㄕㄥ",
+        "pinyin": "",
+        "english": "to happen, to occur",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "也許": {
+        "zhuyin": "ㄧㄝˇ ㄒㄩˇ",
+        "pinyin": "",
+        "english": "perhaps, maybe",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "相信": {
+        "zhuyin": "ㄒㄧㄤ ㄒㄧㄣˋ",
+        "pinyin": "",
+        "english": "to believe",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "許願": {
+        "zhuyin": "ㄒㄩˇ ㄩㄢˋ",
+        "pinyin": "",
+        "english": "to make a wish",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "小心": {
+        "zhuyin": "ㄒㄧㄠˇ ㄒㄧㄣ",
+        "pinyin": "",
+        "english": "to be careful",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "應該": {
+        "zhuyin": "ㄧㄥ ㄍㄞ",
+        "pinyin": "",
+        "english": "should, ought to",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "想好": {
+        "zhuyin": "ㄒㄧㄤˇ ㄏㄠˇ",
+        "pinyin": "",
+        "english": "to think over",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "記得": {
+        "zhuyin": "ㄐㄧˋ ㄉㄜˊ",
+        "pinyin": "",
+        "english": "to remember",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "樣子": {
+        "zhuyin": "ㄧㄤˋ ㄗˇ",
+        "pinyin": "",
+        "english": "appearance",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    "不一定": {
+        "zhuyin": "ㄅㄨˋ ㄧ ㄉㄧㄥˋ",
+        "pinyin": "",
+        "english": "not necessarily",
+        "book": "侯爪(lv.1 graded reader)",
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    //     "book": "侯爪(lv.1 graded reader)",
+    // },
+}
 //still needs zhuyin also SHIT ITS THE OLD HSK its way unfinished
 const HSK2words = {
     "啊": {
@@ -10659,7 +11112,7 @@ const HSK1words = {
     "哪裡": {
         "zhuyin": "ㄋㄚˇ ㄌㄧˇ",
         "pinyin": "nǎlǐ",
-        "level": "A",
+        "level": "HSK1",
         "english": "where, wherever"
     },
 
@@ -12193,498 +12646,498 @@ const HSK1words = {
         "english": "do, make"
     }
 };
-const bookWords0 = {
+const bookWordsMRG = {
 
     "一直": {
         "zhuyin": "ㄧ ㄓˊ",
         "pinyin": "",
         "english": "all along, continuously",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "生活": {
         "zhuyin": "ㄕㄥ ㄏㄨㄛˊ",
         "pinyin": "",
         "english": "to live, life",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "聽說": {
         "zhuyin": "ㄊㄧㄥ ㄕㄨㄛ",
         "pinyin": "",
         "english": "to hear talk of, heard of",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "條": {
         "zhuyin": "ㄊㄧㄠˊ",
         "pinyin": "",
         "english": "(mw. for rivers, roads, long thin things)",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "需要": {
         "zhuyin": "ㄒㄩ ㄧㄠˋ",
         "pinyin": "",
         "english": "to need",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "帶": {
         "zhuyin": "ㄉㄞˋ",
         "pinyin": "",
         "english": "to carry, take(somebody somewhere)",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "後來": {
         "zhuyin": "ㄏㄡˋ ㄌㄞˊ",
         "pinyin": "",
         "english": "afterward",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "變成": {
         "zhuyin": "ㄅㄧㄢˋ ㄔㄥˊ",
         "pinyin": "",
         "english": "to turn into, become",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "河": {
         "zhuyin": "ㄏㄜˊ",
         "pinyin": "",
         "english": "river",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "從那以後": {
         "zhuyin": "ㄘㄨㄥˊ ㄋㄚˋ ㄧˇ ㄏㄡˋ",
         "pinyin": "",
         "english": "from then on, from that point forward",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "再也沒有": {
         "zhuyin": "ㄗㄞˋ ㄧㄝˇ ㄇㄟˊ ㄧㄡˇ",
         "pinyin": "",
         "english": "never again(do smith), (there was) never again",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "世界": {
         "zhuyin": "ㄕˋ ㄐㄧㄝˋ",
         "pinyin": "",
         "english": "world",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "故事": {
         "zhuyin": "ㄍㄨˋ ㄕˋ",
         "pinyin": "",
         "english": "story",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "眼睛": {
         "zhuyin": "ㄧㄢˇ ㄐㄧㄥ",
         "pinyin": "",
         "english": "eyes",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "出現": {
         "zhuyin": "ㄔㄨ ㄒㄧㄢˋ",
         "pinyin": "",
         "english": "to appear, emerge",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "希望": {
         "zhuyin": "ㄒㄧ ㄨㄤˋ",
         "pinyin": "",
         "english": "to hope",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "想到": {
         "zhuyin": "ㄒㄧㄤˇ ㄉㄠˋ",
         "pinyin": "",
         "english": "to think of, imagine",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "忘記": {
         "zhuyin": "ㄨㄤˋ ㄐㄧˋ",
         "pinyin": "",
         "english": "to forget",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "老婆": {
         "zhuyin": "ㄌㄠˇ ㄆㄛˊ",
         "pinyin": "",
         "english": "wife(informal)",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "難過": {
         "zhuyin": "ㄋㄢˊ ㄍㄨㄛˋ",
         "pinyin": "",
         "english": "sad, upset",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "記住": {
         "zhuyin": "ㄐㄧˋ ㄓㄨˋ",
         "pinyin": "",
         "english": "to memorize, remember in the future",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "告訴": {
         "zhuyin": "ㄍㄠˋ ㄙㄨˋ",
         "pinyin": "",
         "english": "to tell",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "樹": {
         "zhuyin": "ㄕㄨˋ",
         "pinyin": "",
         "english": "tree",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "雪": {
         "zhuyin": "ㄒㄩㄝˇ",
         "pinyin": "",
         "english": "snow",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "種": {
         "zhuyin": "ㄓㄨㄥˇ",
         "pinyin": "",
         "english": "to plant(a tree)",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "越來越": {
         "zhuyin": "ㄩㄝˋ ㄌㄞˊ ㄩㄝˋ",
         "pinyin": "",
         "english": "more and more",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "差": {
         "zhuyin": "ㄔㄚˋ",
         "pinyin": "",
         "english": "pf poor quality",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "草地": {
         "zhuyin": "ㄘㄠˇ ㄉㄧˋ",
         "pinyin": "",
         "english": "grassland, grassy field",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "可怕": {
         "zhuyin": "ㄎㄜˇ ㄆㄚˋ",
         "pinyin": "",
         "english": "frightening",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "過去": {
         "zhuyin": "ㄍㄨㄛˋ ㄑㄩˋ",
         "pinyin": "",
         "english": "to pass, pass through",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "發生": {
         "zhuyin": " ㄈㄚ ㄕㄥ",
         "pinyin": "",
         "english": "to happen, occour",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "有意思": {
         "zhuyin": "ㄧㄡˇ ㄧˋ ㄙ",
         "pinyin": "",
         "english": "interesting",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "想法": {
         "zhuyin": "ㄒㄧㄤˇ ㄈㄚˇ",
         "pinyin": "",
         "english": "way of thinking",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "決定": {
         "zhuyin": "ㄐㄩㄝˊ ㄉㄧㄥˋ",
         "pinyin": "",
         "english": "to decide, decision",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "為了": {
         "zhuyin": "ㄨㄟˊ ㄌㄧㄠˇ",
         "pinyin": "",
         "english": "in order to, for the purpose of",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "要不": {
         "zhuyin": "ㄧㄠˋ ㄅㄨˋ",
         "pinyin": "",
         "english": "how about... (suggestion)",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "另外": {
         "zhuyin": "ㄌㄧㄥˋ ㄨㄞˋ",
         "pinyin": "",
         "english": "another, other",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "一定": {
         "zhuyin": "ㄧ ㄉㄧㄥˋ",
         "pinyin": "",
         "english": "surely, certainly",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "石頭": {
         "zhuyin": "ㄕˊ ㄊㄡˊ",
         "pinyin": "",
         "english": "stone, rock",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "大聲": {
         "zhuyin": "ㄉㄚˋ ㄕㄥ",
         "pinyin": "",
         "english": "loudly, in a loud voice",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "動物": {
         "zhuyin": "ㄉㄨㄥˋ ㄨˋ",
         "pinyin": "",
         "english": "animal",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "醒": {
         "zhuyin": "ㄒㄧㄥˇ",
         "pinyin": "",
         "english": "to awaken",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "發現": {
         "zhuyin": "ㄈㄚ ㄒㄧㄢˋ",
         "pinyin": "",
         "english": "to discover",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "想起": {
         "zhuyin": "ㄒㄧㄤˇ ㄑㄧˇ",
         "pinyin": "",
         "english": "to recall",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "站起來": {
         "zhuyin": "ㄓㄢˋ ㄑㄧˇ ㄌㄞˊ",
         "pinyin": "",
         "english": "to stand up",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "摔": {
         "zhuyin": "ㄕㄨㄞ",
         "pinyin": "",
         "english": "to trip and fall",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "力氣": {
         "zhuyin": "ㄌㄧˋ ㄑㄧˋ",
         "pinyin": "",
         "english": "strength, energy",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "睡著": {
         "zhuyin": "ㄕㄨㄟˋ ㄓㄨㄛˊ",
         "pinyin": "",
         "english": "to fall asleep",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "鳥": {
         "zhuyin": "ㄋㄧㄠˇ",
         "pinyin": "",
         "english": "bird",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "奇怪": {
         "zhuyin": "ㄑㄧˊ ㄍㄨㄞˋ",
         "pinyin": "",
         "english": "strange",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "窗": {
         "zhuyin": "ㄔㄨㄤ",
         "pinyin": "",
         "english": "window",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "顏色": {
         "zhuyin": "ㄧㄢˊ ㄙㄜˋ",
         "pinyin": "",
         "english": "color",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "一點都": {
         "zhuyin": "ㄧ ㄉㄧㄢˇ ㄉㄨ",
         "pinyin": "",
         "english": "not at all",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "難看": {
         "zhuyin": "ㄋㄢˊ ㄎㄢˋ",
         "pinyin": "",
         "english": "bad-looking, ugly",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "生氣": {
         "zhuyin": "ㄕㄥ ㄑㄧˋ",
         "pinyin": "",
         "english": "angry, to get angry",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "耳朵": {
         "zhuyin": "ㄦˇ ㄉㄨㄛˇ",
         "pinyin": "",
         "english": "ear",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "自信": {
         "zhuyin": "ㄗˋ ㄒㄧㄣˋ",
         "pinyin": "",
         "english": "self confidence",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "認真": {
         "zhuyin": "ㄖㄣˋ ㄓㄣ",
         "pinyin": "",
         "english": "earnest, serious",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "抓": {
         "zhuyin": "ㄓㄨㄚ",
         "pinyin": "",
         "english": "to grab",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "摸": {
         "zhuyin": "ㄇㄛ",
         "pinyin": "",
         "english": "to touch, feel(with hands)",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "要不然": {
         "zhuyin": "ㄧㄠˋ ㄅㄨˋ ㄖㄢˊ",
         "pinyin": "",
         "english": "otherwise",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "沒錯": {
         "zhuyin": "ㄇㄟˊ ㄘㄨㄛˋ",
         "pinyin": "",
         "english": "no mistake, quite sure",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "睡醒": {
         "zhuyin": "ㄕㄨㄟˋ ㄒㄧㄥˇ",
         "pinyin": "",
         "english": "to awaken from sleep, be fully awake",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "總是": {
         "zhuyin": "ㄗㄨㄥˇ ㄕˋ",
         "pinyin": "",
         "english": "always",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "有用": {
         "zhuyin": "ㄧㄡˇ ㄩㄥˋ",
         "pinyin": "",
         "english": "useful",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "坐起來": {
         "zhuyin": "ㄗㄨㄛˋ ㄑㄧˇ ㄌㄞˊ",
         "pinyin": "",
         "english": "to sit up",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "暖和": {
         "zhuyin": "ㄋㄨㄢˇ ㄏㄜˊ",
         "pinyin": "",
         "english": "warm",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "睡不著": {
         "zhuyin": "ㄕㄨㄟˋ ㄅㄨˋ ㄓㄨㄛˊ",
         "pinyin": "",
         "english": "to be unable to fall asleep",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "對… 來說": {
         "zhuyin": "ㄉㄨㄟˋ … ㄌㄞˊ ㄕㄨㄛ",
         "pinyin": "",
         "english": "for... (a person)",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "可笑": {
         "zhuyin": "ㄎㄜˇ ㄒㄧㄠˋ",
         "pinyin": "",
         "english": "laughable",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "以為": {
         "zhuyin": "ㄧˇ ㄨㄟˊ",
         "pinyin": "",
         "english": "to (mistakenly) think that",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "拿起": {
         "zhuyin": "ㄋㄚˊ ㄑㄧˇ",
         "pinyin": "",
         "english": "to pick up",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "放下": {
         "zhuyin": "ㄈㄤˋ ㄒㄧㄚˋ",
         "pinyin": "",
         "english": "to put down",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "方向": {
         "zhuyin": "ㄈㄤ ㄒㄧㄤˋ",
         "pinyin": "",
         "english": "direction",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "再也不": {
         "zhuyin": "ㄗㄞˋ ㄧㄝˇ ㄅㄨˋ",
         "pinyin": "",
         "english": "never again",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "用心": {
         "zhuyin": "ㄩㄥˋ ㄒㄧㄣ",
         "pinyin": "",
         "english": "to be attentive",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "機會": {
         "zhuyin": "ㄐㄧ ㄏㄨㄟˋ",
         "pinyin": "",
         "english": "opportunity",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "關心": {
         "zhuyin": "ㄍㄨㄢ ㄒㄧㄣ",
         "pinyin": "",
         "english": "be concerned over",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "再也": {
         "zhuyin": "ㄗㄞˋ ㄧㄝˇ",
         "pinyin": "",
         "english": "never again",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "成為": {
         "zhuyin": "ㄔㄥˊ ㄨㄟˊ",
         "pinyin": "",
         "english": "to become",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     "看不清": {
         "zhuyin": "ㄎㄢˋ ㄅㄨˋ ㄑㄧㄥ ",
         "pinyin": "",
         "english": "unable to see clearly",
-        "book": "盲人國(GR lv.1)",
+        "book": "盲人國(lv.1 graded reader)",
     },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
     //     "english": "",
-    //     "book": "盲人國(GR lv.1)",
+    //     "book": "盲人國(lv.1 graded reader)",
     // },
 };

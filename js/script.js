@@ -371,7 +371,46 @@ function loadBookWordFlashcards() {
     removeAllChildren(flashBox);
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
-    for (var [word, value] of Object.entries(bookWords0)) {
+    let label = "";
+    for (var [word, value] of Object.entries(bookWords)) {
+        label = document.createElement('div');
+        let nuDiv = document.createElement('div');
+        let nuDivTit = document.createElement('h2');
+        let nuTxt = document.createElement('p');
+        let nuTxt2 = document.createElement('p');
+        number++;
+        let nuNumDiv = document.createElement('div');
+        nuNumDiv.classList.add('numLabel');
+        nuNumDiv.textContent = number;
+        nuDivTit.textContent = word;
+        nuTxt.textContent = value.zhuyin;
+        nuTxt2.textContent = value.english;
+        nuTxt2.classList.add('small');
+        nuTxt2.classList.add('opacity');
+        nuTxt2.classList.add('pink');
+        nuDivTit.classList.add('cursive');
+        nuDivTit.classList.add('xlarge');
+        // nuTxt.classList.add('cursive');
+        nuTxt.classList.add('faded');
+        nuDiv.classList.add('radicalFlashcards');
+        nuDiv.addEventListener('click', toggleEnglish);
+        nuDiv.append(nuNumDiv);
+        nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt);
+        nuDiv.append(nuTxt2);
+        flashBox.append(nuDiv);
+        label.textContent = value.book;
+        label.classList.add('label');
+        label.classList.add('radicalFlashcards');
+        function toggleEnglish() {
+            nuTxt2.classList.toggle('opacity');
+        }
+    };
+    flashBox.prepend(label);
+    label = "";
+    number = 0;
+    for (var [word, value] of Object.entries(bookWordsMRG)) {
+        label = document.createElement('div');
         let nuDiv = document.createElement('div');
         let nuDivTit = document.createElement('h2');
         let nuTxt = document.createElement('p');
@@ -397,10 +436,51 @@ function loadBookWordFlashcards() {
         nuDiv.append(nuTxt);
         nuDiv.append(nuTxt2);
         flashBox2.append(nuDiv);
+        label.textContent = value.book;
+        label.classList.add('label');
+        label.classList.add('radicalFlashcards');
         function toggleEnglish() {
             nuTxt2.classList.toggle('opacity');
         }
     };
+    flashBox2.prepend(label);
+    label = "";
+    number = 0;
+    for (var [word, value] of Object.entries(bookWordsRWC)) {
+        let nuDiv = document.createElement('div');
+        let nuDivTit = document.createElement('h2');
+        let nuTxt = document.createElement('p');
+        let nuTxt2 = document.createElement('p');
+        label = document.createElement('div');
+        number++;
+        let nuNumDiv = document.createElement('div');
+        nuNumDiv.classList.add('numLabel');
+        nuNumDiv.textContent = number;
+        nuDivTit.textContent = word;
+        nuTxt.textContent = value.zhuyin;
+        nuTxt2.textContent = value.english;
+        nuTxt2.classList.add('small');
+        nuTxt2.classList.add('opacity');
+        nuTxt2.classList.add('pink');
+        nuDivTit.classList.add('cursive');
+        nuDivTit.classList.add('xlarge');
+        // nuTxt.classList.add('cursive');
+        nuTxt.classList.add('faded');
+        nuDiv.classList.add('radicalFlashcards');
+        nuDiv.addEventListener('click', toggleEnglish);
+        nuDiv.append(nuNumDiv);
+        nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt);
+        nuDiv.append(nuTxt2);
+        flashBox3.append(nuDiv);
+        label.classList.add('label');
+        label.classList.add('radicalFlashcards');
+        label.textContent = value.book;
+        function toggleEnglish() {
+            nuTxt2.classList.toggle('opacity');
+        }
+    };
+    flashBox3.prepend(label);
 };
 function makeButtons(swapEvent, skipEvent) {
     removeAllChildren(buttBox);
@@ -1236,7 +1316,7 @@ function getBookWords() {
     pageHeader.textContent = "";
     pageHeader.textContent = "書話";
     quizStudyBox.classList.remove('hidden');
-    for (var [word, value] of Object.entries(bookWords0)) {
+    for (var [word, value] of Object.entries(bookWords)) {
         // console.log(value.zhuyin);
         hanziArray.push(word);
         zhuyinArray.push(value.zhuyin);
