@@ -13618,7 +13618,7 @@ const bookWords = {
     "離開": {
         "zhuyin": "ㄌㄧˊ ㄎㄞ",
         "pinyin": "",
-        "english": "",
+        "english": "to depart, leave",
         "book": "侯爪(lv.1 graded reader)",
     },
     "一定": {
