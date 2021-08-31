@@ -7246,9 +7246,284 @@ const bookWordsRWC = {
     //     "english": ""
     // },
 };
+const bookWordsCACG = {
+    "詩人": {
+        "zhuyin": "ㄕ ㄖㄣˊ",
+        "english": "poet",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "牡丹": {
+        "zhuyin": "ㄇㄨˇ ㄉㄢ",
+        "english": "peony",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "鞋": {
+        "zhuyin": "ㄒㄧㄝˊ",
+        "english": "shoe(s)",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "鹽": {
+        "zhuyin": "ㄧㄢˊ",
+        "english": "salt",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "語言": {
+        "zhuyin": "ㄩˇ ㄧㄢˊ",
+        "english": "language",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "音樂": {
+        "zhuyin": "ㄧㄣ ㄌㄜˋ",
+        "english": "music",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "廣告": {
+        "zhuyin": "ㄍㄨㄤˇ ㄍㄠˋ",
+        "english": "advertisement",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "比賽": {
+        "zhuyin": "ㄅㄧˇ ㄙㄞˋ",
+        "english": "contest",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "戰爭": {
+        "zhuyin": "ㄓㄢˋ ㄓㄥ",
+        "english": "war",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "地震": {
+        "zhuyin": "ㄉㄧˋ ㄓㄣˋ",
+        "english": "earthquake",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "細胞": {
+        "zhuyin": "ㄒㄧˋ ㄅㄠ",
+        "english": "biology cell",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "分子": {
+        "zhuyin": "ㄈㄣ ㄗˇ",
+        "english": "molecule",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "原則": {
+        "zhuyin": "ㄩㄢˊ ㄗㄜˊ",
+        "english": "atom",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "銅的": {
+        "zhuyin": "ㄊㄨㄥˊ ㄉㄜ˙",
+        "english": "made of brass",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "塑料的": {
+        "zhuyin": "ㄙㄨˋ ㄌㄧㄠˋ ㄉㄜ˙",
+        "english": "made of plastic",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "玻璃的": {
+        "zhuyin": "ㄅㄛ ㄌㄧˊ ㄉㄜ˙",
+        "english": "made of glass",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "父母": {
+        "zhuyin": "ㄈㄨˋ ㄇㄨˇ",
+        "english": "parents",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "夫婦": {
+        "zhuyin": "ㄈㄨ ㄈㄨˋ",
+        "english": "married couple",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "子女": {
+        "zhuyin": "ㄗˇ ㄋㄩˇ",
+        "english": "children",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "師生": {
+        "zhuyin": "ㄕ ㄕㄥ",
+        "english": "teachers and students",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "親友": {
+        "zhuyin": "ㄑㄧㄣ ㄧㄡˇ",
+        "english": "friends and relatives",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "城鄉": {
+        "zhuyin": "ㄔㄥˊ ㄒㄧㄤ",
+        "english": "cities and villages",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "文具": {
+        "zhuyin": "ㄨㄣˊ ㄐㄩˋ",
+        "english": "stationary",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "樹木": {
+        "zhuyin": "ㄕㄨˋ ㄇㄨˋ",
+        "english": "trees",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "飯菜": {
+        "zhuyin": "ㄈㄢˋ ㄘㄞˋ",
+        "english": "food",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "財產": {
+        "zhuyin": "ㄘㄞˊ ㄔㄢˇ",
+        "english": "possessions",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "事項": {
+        "zhuyin": "ㄕˋ ㄒㄧㄤˋ",
+        "english": "matters",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "矛盾": {
+        "zhuyin": "ㄇㄠˊ ㄉㄨㄣˋ",
+        "english": "contradition",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "名聲": {
+        "zhuyin": "ㄇㄧㄥˊ ㄕㄥ",
+        "english": "reputation",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "真理": {
+        "zhuyin": "ㄓㄣ ㄌㄧˇ",
+        "english": "truth",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "範圍": {
+        "zhuyin": "ㄈㄢˋ ㄨㄟˊ",
+        "english": "scope",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "前景": {
+        "zhuyin": "ㄑㄧㄢˊ ㄐㄧㄥˇ",
+        "english": "prospect",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "影響": {
+        "zhuyin": "ㄧㄥˇ ㄒㄧㄤˇ",
+        "english": "influence",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "印象": {
+        "zhuyin": "ㄧㄣˋ ㄒㄧㄤˋ",
+        "english": "impression",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "效果": {
+        "zhuyin": "ㄒㄧㄠˋ ㄍㄨㄛˇ",
+        "english": "effect",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "大自然": {
+        "zhuyin": "ㄉㄚˋ ㄗˋ ㄖㄢˊ",
+        "english": "nature",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "天空": {
+        "zhuyin": "ㄊㄧㄢ ㄎㄨㄥ",
+        "english": "the sky",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "海洋": {
+        "zhuyin": "ㄏㄞˇ ㄧㄤˊ",
+        "english": "the ocean",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "波濤": {
+        "zhuyin": "ㄅㄛ ㄊㄠ",
+        "english": "billows, great waves",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "潮汐": {
+        "zhuyin": "ㄔㄠˊ ㄒㄧ",
+        "english": "the morning and evening tides",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "地勢": {
+        "zhuyin": "ㄉㄧˋ ㄕˋ",
+        "english": "topography, terrain",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "風水": {
+        "zhuyin": "ㄈㄥ ㄕㄨㄟˇ",
+        "english": "fengshui, geomancy",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "烈日": {
+        "zhuyin": "ㄌㄧㄝˋ ㄖˋ",
+        "english": "the scorching sun",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "身心": {
+        "zhuyin": "ㄕㄣ ㄒㄧㄣ",
+        "english": "body and mind",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "体魄": {
+        "zhuyin": "ㄊㄧˇ ㄆㄛˋ",
+        "english": "physical condition",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "外表": {
+        "zhuyin": "ㄨㄞˋ ㄅㄧㄠˇ",
+        "english": "physical appearance",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "心靈": {
+        "zhuyin": "ㄒㄧㄣ ㄌㄧㄥˊ",
+        "english": "heart and soul",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "儀表": {
+        "zhuyin": "ㄧˊ ㄅㄧㄠˇ",
+        "english": "demeanor",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "智能": {
+        "zhuyin": "ㄓˋ ㄋㄥˊ",
+        "english": "intelligence",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "眼界": {
+        "zhuyin": "ㄧㄢˇ ㄐㄧㄝˋ",
+        "english": "outlook, field of vision",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "意境": {
+        "zhuyin": "ㄧˋ ㄐㄧㄥˋ",
+        "english": "frame of mind",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "",
+    //     "book": "Chinese: A Comp. Grammar",
+    // },
+}
+//add these measure words somewhere:
+// 一座山
+// 兩朵花二
+// 四家商店
+// 五棟房子
+// 那個人
+// 這本書
+// 一滴水
+// 三片麵包
+// 一杯茶
+// 五公斤米
+// 二十公升汽油
 
-//still needs zhuyin also SHIT ITS THE OLD HSK its way unfinished
+
 const HSK2words = {
+    //still needs zhuyin also SHIT ITS THE OLD HSK its way unfinished
     "啊": {
         "zhuyin": "",
         "pinyin": "",

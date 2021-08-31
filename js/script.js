@@ -446,7 +446,7 @@ function loadBookWordFlashcards() {
     flashBox2.prepend(label);
     label = "";
     number = 0;
-    for (var [word, value] of Object.entries(bookWordsRWC)) {
+    for (var [word, value] of Object.entries(bookWordsCACG)) {
         let nuDiv = document.createElement('div');
         let nuDivTit = document.createElement('h2');
         let nuTxt = document.createElement('p');
@@ -1656,7 +1656,31 @@ function leSearch() {
             searchResZhuyin.push(value.zhuyin);
         }
     }
-    for (let [key, value] of Object.entries(bookWords0)) {
+    for (let [key, value] of Object.entries(bookWords)) {
+        if (key.search(searchTerm) !== -1) {
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
+        }
+        if (value.english.search(searchTerm) !== -1) {
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
+        }
+    }
+    for (let [key, value] of Object.entries(bookWordsMRG)) {
+        if (key.search(searchTerm) !== -1) {
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
+        }
+        if (value.english.search(searchTerm) !== -1) {
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
+        }
+    }
+    for (let [key, value] of Object.entries(bookWordsCACG)) {
         if (key.search(searchTerm) !== -1) {
             searchRes.push(" " + key);
             searchResMeanings.push(value.english);
