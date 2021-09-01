@@ -5614,7 +5614,263 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    //700/2633 done
+    "角": {
+        "zhuyin": "ㄐㄧㄠˇ",
+        "pinyin": "jiǎo",
+        "tone": 3,
+        "english": "angle, 0.1元",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "懷": {
+        "zhuyin": "ㄏㄨㄞˊ",
+        "pinyin": "huái",
+        "tone": 2,
+        "english": "bosom, heart",
+        "simplified": "怀",
+        "radicals": ["", ""]
+    },
+    "床": {
+        "zhuyin": "ㄔㄨㄤˊ",
+        "pinyin": "chuáng",
+        "tone": 2,
+        "english": "bed",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "奧": {
+        "zhuyin": "ㄠˋ",
+        "pinyin": "ào",
+        "tone": 4,
+        "english": "obscure",
+        "simplified": "奥",
+        "radicals": ["", ""]
+    },
+    "模": {
+        "zhuyin": "ㄇㄛˊ",
+        "pinyin": "mó",
+        "tone": 2,
+        "english": "to imitate",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "驗": {
+        "zhuyin": "ㄧㄢˋ",
+        "pinyin": "yàn",
+        "tone": 4,
+        "english": "to examine",
+        "simplified": "验",
+        "radicals": ["", ""]
+    },
+    "索": {
+        "zhuyin": "ㄙㄨㄛˇ",
+        "pinyin": "suǒ",
+        "tone": 3,
+        "english": "to search, ask",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "街": {
+        "zhuyin": "ㄐㄧㄝ",
+        "pinyin": "jiē",
+        "tone": 1,
+        "english": "street",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "呼": {
+        "zhuyin": "ㄏㄨ",
+        "pinyin": "hū",
+        "tone": 1,
+        "english": "to call",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "祝": {
+        "zhuyin": "ㄓㄨˋ",
+        "pinyin": "zhù",
+        "tone": 4,
+        "english": "to wish, pray",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "料": {
+        "zhuyin": "ㄌㄧㄠˋ",
+        "pinyin": "liào",
+        "tone": 4,
+        "english": "material, stuff",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "休": {
+        "zhuyin": "ㄒㄧㄡ",
+        "pinyin": "xiū",
+        "tone": 1,
+        "english": "to rest",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "靈": {
+        "zhuyin": "ㄌㄧㄥˊ",
+        "pinyin": "líng",
+        "tone": 2,
+        "english": "quick, effective",
+        "simplified": "灵",
+        "radicals": ["", ""]
+    },
+    "獄": {
+        "zhuyin": "ㄩˋ",
+        "pinyin": "yù ",
+        "tone": 4,
+        "english": "prison, lawsuit",
+        "simplified": "狱",
+        "radicals": ["", ""]
+    },
+    "劇": {
+        "zhuyin": "ㄐㄩˋ",
+        "pinyin": "jù",
+        "tone": 4,
+        "english": "drama, play",
+        "simplified": "剧",
+        "radicals": ["", ""]
+    },
+    "亂": {
+        "zhuyin": "ㄌㄨㄢˋ",
+        "pinyin": "luàn",
+        "tone": 4,
+        "english": "messy, disorder",
+        "simplified": "乱",
+        "radicals": ["", ""]
+    },
+    "展": {
+        "zhuyin": "ㄓㄢˇ",
+        "pinyin": "zhǎn",
+        "tone": 3,
+        "english": "to spread out",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "板": {
+        "zhuyin": "ㄅㄢˇ",
+        "pinyin": "bǎn",
+        "tone": 3,
+        "english": "board, plank",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "承": {
+        "zhuyin": "ㄔㄥˊ",
+        "pinyin": "chéng",
+        "tone": 2,
+        "english": "to bear, carry",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "則": {
+        "zhuyin": "ㄗㄜˊ",
+        "pinyin": "zé",
+        "tone": 2,
+        "english": "in contrast, norm",
+        "simplified": "则",
+        "radicals": ["", ""]
+    },
+    "顧": {
+        "zhuyin": "ㄍㄨˋ",
+        "pinyin": "gù",
+        "tone": 4,
+        "english": "to look after",
+        "simplified": "顾",
+        "radicals": ["", ""]
+    },
+    "深": {
+        "zhuyin": "ㄕㄣ",
+        "pinyin": "shēn",
+        "tone": 1,
+        "english": "deep, profound",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "產": {
+        "zhuyin": "ㄔㄢˇ",
+        "pinyin": "chǎn",
+        "tone": 3,
+        "english": "give birth to, produce",
+        "simplified": "产",
+        "radicals": ["", ""]
+    },
+    "洗": {
+        "zhuyin": "ㄒㄧˇ",
+        "pinyin": "xǐ",
+        "tone": 3,
+        "english": "to wash",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "政": {
+        "zhuyin": "ㄓㄥˋ",
+        "pinyin": "zhèng",
+        "tone": 4,
+        "english": "political",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "迷": {
+        "zhuyin": "ㄇㄧˊ",
+        "pinyin": "mí",
+        "tone": 2,
+        "english": "fan (of)",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "領": {
+        "zhuyin": "ㄌㄧㄥˇ",
+        "pinyin": "lǐng",
+        "tone": 3,
+        "english": "neck",
+        "simplified": "领",
+        "radicals": ["", ""]
+    },
+    "午": {
+        "zhuyin": "ㄨˇ",
+        "pinyin": "wǔ",
+        "tone": 3,
+        "english": "noon",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "納": {
+        "zhuyin": "ㄋㄚˋ",
+        "pinyin": "nà",
+        "tone": 4,
+        "english": "to recieve, bring in",
+        "simplified": "纳",
+        "radicals": ["", ""]
+    },
+    "謊": {
+        "zhuyin": "ㄏㄨㄤˇ",
+        "pinyin": "huǎng",
+        "tone": 3,
+        "english": "lie",
+        "simplified": "谎",
+        "radicals": ["", ""]
+    },
+    //730/2633 done
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
@@ -13508,7 +13764,7 @@ const bookWords = {
         "book": "侯爪(lv.1 graded reader)",
     },
     "暖和": {
-        "zhuyin": "ㄋㄨㄢˇ ㄏㄜˊ",
+        "zhuyin": "ㄋㄨㄢˇ ㄏㄨㄛ",
         "pinyin": "",
         "english": "warm",
         "book": "侯爪(lv.1 graded reader)",
