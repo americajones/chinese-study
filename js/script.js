@@ -389,7 +389,7 @@ function loadBookWordFlashcards() {
         nuTxt2.classList.add('opacity');
         nuTxt2.classList.add('pink');
         nuDivTit.classList.add('cursive');
-        nuDivTit.classList.add('xlarge');
+        nuDivTit.classList.add('large');
         // nuTxt.classList.add('cursive');
         nuTxt.classList.add('faded');
         nuDiv.classList.add('radicalFlashcards');
@@ -426,7 +426,7 @@ function loadBookWordFlashcards() {
         nuTxt2.classList.add('opacity');
         nuTxt2.classList.add('pink');
         nuDivTit.classList.add('cursive');
-        nuDivTit.classList.add('xlarge');
+        nuDivTit.classList.add('large');
         // nuTxt.classList.add('cursive');
         nuTxt.classList.add('faded');
         nuDiv.classList.add('radicalFlashcards');
@@ -463,7 +463,7 @@ function loadBookWordFlashcards() {
         nuTxt2.classList.add('opacity');
         nuTxt2.classList.add('pink');
         nuDivTit.classList.add('cursive');
-        nuDivTit.classList.add('xlarge');
+        nuDivTit.classList.add('large');
         // nuTxt.classList.add('cursive');
         nuTxt.classList.add('faded');
         nuDiv.classList.add('radicalFlashcards');
@@ -481,6 +481,43 @@ function loadBookWordFlashcards() {
         }
     };
     flashBox3.prepend(label);
+    label = "";
+    number = 0;
+    for (var [word, value] of Object.entries(bookWordsXWZ)) {
+        let nuDiv = document.createElement('div');
+        let nuDivTit = document.createElement('h2');
+        let nuTxt = document.createElement('p');
+        let nuTxt2 = document.createElement('p');
+        label = document.createElement('div');
+        number++;
+        let nuNumDiv = document.createElement('div');
+        nuNumDiv.classList.add('numLabel');
+        nuNumDiv.textContent = number;
+        nuDivTit.textContent = word;
+        nuTxt.textContent = value.zhuyin;
+        nuTxt2.textContent = value.english;
+        nuTxt2.classList.add('small');
+        nuTxt2.classList.add('opacity');
+        nuTxt2.classList.add('pink');
+        nuDivTit.classList.add('cursive');
+        // nuTxt.classList.add('cursive');
+        nuTxt.classList.add('faded');
+        nuDivTit.classList.add('large');
+        nuDiv.classList.add('radicalFlashcards');
+        nuDiv.addEventListener('click', toggleEnglish);
+        nuDiv.append(nuNumDiv);
+        nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt);
+        nuDiv.append(nuTxt2);
+        flashBox3.append(nuDiv);
+        label.classList.add('label');
+        label.classList.add('radicalFlashcards');
+        label.textContent = value.book;
+        function toggleEnglish() {
+            nuTxt2.classList.toggle('opacity');
+        }
+    };
+    flashBox3.append(label);
 };
 function makeButtons(swapEvent, skipEvent) {
     removeAllChildren(buttBox);
@@ -1657,6 +1694,18 @@ function leSearch() {
         }
     }
     for (let [key, value] of Object.entries(bookWords)) {
+        if (key.search(searchTerm) !== -1) {
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
+        }
+        if (value.english.search(searchTerm) !== -1) {
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
+        }
+    }
+    for (let [key, value] of Object.entries(bookWordsXWZ)) {
         if (key.search(searchTerm) !== -1) {
             searchRes.push(" " + key);
             searchResMeanings.push(value.english);

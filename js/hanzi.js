@@ -7776,7 +7776,208 @@ const bookWordsCACG = {
 // 一杯茶
 // 五公斤米
 // 二十公升汽油
-
+const bookWordsXWZ = {
+    "猛獸": {
+        "zhuyin": "ㄇㄥˇ ㄕㄡˋ",
+        "english": "fierce beast",
+        "book": "小王子",
+    },
+    "親身經歷的故事": {
+        "zhuyin": "ㄑㄧㄣ ㄕㄣ ㄐㄧㄥ ㄌㄧˋ ㄉㄜ˙ ㄍㄨˋ ㄕˋ",
+        "english": "personally experienced stories ",
+        "book": "小王子",
+    },
+    "蟒蛇": {
+        "zhuyin": "ㄇㄤˇ ㄕㄜˊ",
+        "english": "python, boa",
+        "book": "小王子",
+    },
+    "吞食": {
+        "zhuyin": "ㄊㄨㄣ ㄕˊ",
+        "english": "devour",
+        "book": "小王子",
+    },
+    "獵物": {
+        "zhuyin": "ㄌㄧㄝˋ ㄨˋ",
+        "english": "prey",
+        "book": "小王子",
+    },
+    "整個吞下": {
+        "zhuyin": "ㄓㄥˇ ㄍㄜˋ ㄊㄨㄣ ㄒㄧㄚˋ",
+        "english": "swallow down whole",
+        "book": "小王子",
+    },
+    "嚼": {
+        "zhuyin": "ㄐㄧㄠˊ",
+        "english": "chew",
+        "book": "小王子",
+    },
+    "它動彈不了": {
+        "zhuyin": "ㄊㄚ ㄉㄨㄥˋ ㄉㄢˋ ㄅㄨˋ ㄌㄧㄠˇ",
+        "english": "it can't move",
+        "book": "小王子",
+    },
+    "整整": {
+        "zhuyin": "ㄓㄥˇ ㄓㄥˇ",
+        "english": "full",
+        "book": "小王子",
+    },
+    "才能消化肚子裡的東西": {
+        "zhuyin": "ㄘㄞˊ ㄋㄥˊ ㄒㄧㄠ ㄏㄨㄚˋ ㄉㄨˋ ㄗˇ ㄌㄧˇ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ",
+        "english": "to digest what's in the stomach",
+        "book": "小王子",
+    },
+    "職業": {
+        "zhuyin": "ㄓˊ ㄧㄝˋ",
+        "english": "profession",
+        "book": "小王子",
+    },
+    "選": {
+        "zhuyin": "ㄒㄩㄢˇ",
+        "english": "select, choose",
+        "book": "小王子",
+    },
+    "孤獨": {
+        "zhuyin": "ㄍㄨ ㄉㄨˊ",
+        "english": "alone, lonely",
+        "book": "小王子",
+    },
+    "故障": {
+        "zhuyin": "ㄍㄨˋ ㄓㄤˋ",
+        "english": "malfunction, fault",
+        "book": "小王子",
+    },
+    "撒哈拉大沙漠": {
+        "zhuyin": "ㄙㄚ ㄏㄚ ㄌㄚ ㄉㄚˋ ㄕㄚ ㄇㄛˋ",
+        "english": "The Saharah Desert",
+        "book": "小王子",
+    },
+    "引擎": {
+        "zhuyin": "ㄧㄣˇ ㄑㄧㄥˊ",
+        "english": "engine",
+        "book": "小王子",
+    },
+    "東西弄碎了": {
+        "zhuyin": "ㄉㄨㄥ ㄒㄧ ㄋㄨㄥˋ ㄙㄨㄟˋ ㄌㄜ",
+        "english": "something broken",
+        "book": "小王子",
+    },
+    "複雜棘手": {
+        "zhuyin": "ㄈㄨˋ ㄗㄚˊ ㄐㄧˊ ㄕㄡˇ",
+        "english": "complicated and tricky",
+        "book": "小王子",
+    },
+    "修理": {
+        "zhuyin": "ㄒㄧㄡ ㄌㄧˇ",
+        "english": "repair",
+        "book": "小王子",
+    },
+    "只夠": {
+        "zhuyin": "ㄓ ㄍㄡˋ",
+        "english": "only enough",
+        "book": "小王子",
+    },
+    "孤零零": {
+        "zhuyin": "ㄍㄨ ㄌㄧㄥˊ ㄌㄧㄥˊ",
+        "english": "alone",
+        "book": "小王子",
+    },
+    "黎明": {
+        "zhuyin": "ㄌㄧˊ ㄇㄧㄥˊ",
+        "english": "dawn",
+        "book": "小王子",
+    },
+    "因此": {
+        "zhuyin": "ㄧㄣ ㄘˇ",
+        "english": "therefore",
+        "book": "小王子",
+    },
+    "驚": {
+        "zhuyin": "ㄐㄧㄥ",
+        "english": "shock",
+        "book": "小王子",
+    },
+    "綿羊": {
+        "zhuyin": "ㄇㄧㄢˊ ㄧㄤˊ",
+        "english": "sheep",
+        "book": "小王子",
+    },
+    "猛然": {
+        "zhuyin": "ㄇㄥˇ ㄖㄢˊ",
+        "english": "suddenly",
+        "book": "小王子",
+    },
+    "跳": {
+        "zhuyin": "ㄊㄧㄠˋ",
+        "english": "jump",
+        "book": "小王子",
+    },
+    "被雷擊中一樣": {
+        "zhuyin": "ㄅㄟˋ ㄌㄟˊ ㄐㄧ ㄓㄨㄥ ㄧ ㄧㄤˋ",
+        "english": "like being struck by lightening",
+        "book": "小王子",
+    },
+    "拼命": {
+        "zhuyin": "ㄆㄧㄣ ㄇㄧㄥˋ",
+        "english": "desperately, desperation",
+        "book": "小王子",
+    },
+    "揉": {
+        "zhuyin": "ㄖㄡˊ",
+        "english": "rub",
+        "book": "小王子",
+    },
+    "仔細看了看": {
+        "zhuyin": "ㄗ ㄒㄧˋ ㄎㄢˋ ㄌㄧㄠˇ ㄎㄢˋ",
+        "english": "take a closer look",
+        "book": "小王子",
+    },
+    "驚奇": {
+        "zhuyin": "ㄐㄧㄥ ㄑㄧˊ",
+        "english": "surprised, surprise",
+        "book": "小王子",
+    },
+    "失望": {
+        "zhuyin": "ㄕ ㄨㄤˋ",
+        "english": "disappointed",
+        "book": "小王子",
+    },
+    "放棄": {
+        "zhuyin": "ㄈㄤˋ ㄑㄧˋ",
+        "english": "give up",
+        "book": "小王子",
+    },
+    "除了": {
+        "zhuyin": "ㄔㄨˊ ㄌㄜ",
+        "english": "apart from",
+        "book": "小王子",
+    },
+    "瞪": {
+        "zhuyin": "ㄉㄥˋ",
+        "english": "stare",
+        "book": "小王子",
+    },
+    "荒無人煙的地方": {
+        "zhuyin": "ㄏㄨㄤ ㄨˊ ㄖㄣˊ ㄧㄢ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ",
+        "english": "deserted place",
+        "book": "小王子",
+    },
+    "迷了路": {
+        "zhuyin": "ㄇㄧˊ ㄌㄧㄠˇ ㄌㄨˋ",
+        "english": "lost way",
+        "book": "小王子",
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "",
+    //     "book": "小王子",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "",
+    //     "book": "小王子",
+    // },
+}
 
 const HSK2words = {
     //still needs zhuyin also SHIT ITS THE OLD HSK its way unfinished
