@@ -5854,7 +5854,327 @@ const hanziAll = {
         "simplified": "谎",
         "radicals": ["", ""]
     },
-    //730/2633 done
+    "具": {
+        "zhuyin": "ㄐㄩˋ",
+        "pinyin": "jù",
+        "tone": 4,
+        "english": "tool, ability",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "退": {
+        "zhuyin": "ㄊㄨㄟˋ",
+        "pinyin": "tuì",
+        "tone": 4,
+        "english": "to retreat, to decline",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "福": {
+        "zhuyin": "ㄈㄨˊ",
+        "pinyin": "fú",
+        "tone": 2,
+        "english": "luck, fortune",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "習": {
+        "zhuyin": "ㄒㄧˊ",
+        "pinyin": "xí",
+        "tone": 2,
+        "english": "to study, habit",
+        "simplified": "习",
+        "radicals": ["", ""]
+    },
+    "秘": {
+        "zhuyin": "ㄇㄧˋ",
+        "pinyin": "mì",
+        "tone": 4,
+        "english": "secret",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "奶": {
+        "zhuyin": "ㄋㄞˇ",
+        "pinyin": "nǎi",
+        "tone": 3,
+        "english": "milk, breast",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "遇": {
+        "zhuyin": "ㄩˋ",
+        "pinyin": "yù",
+        "tone": 4,
+        "english": "to meet, encounter",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "職": {
+        "zhuyin": "ㄓˊ",
+        "pinyin": "zhí",
+        "tone": 2,
+        "english": "office, duty",
+        "simplified": "职",
+        "radicals": ["", ""]
+    },
+    "架": {
+        "zhuyin": "ㄐㄧㄚˋ",
+        "pinyin": "jià",
+        "tone": 4,
+        "english": "to support, framework",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "即": {
+        "zhuyin": "ㄐㄧˊ",
+        "pinyin": "jí",
+        "tone": 2,
+        "english": "namely, at once",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "挺": {
+        "zhuyin": "ㄊㄧㄥˇ",
+        "pinyin": "tǐng",
+        "tone": 3,
+        "english": "to stand upright",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "史": {
+        "zhuyin": "ㄕˇ",
+        "pinyin": "shǐ",
+        "tone": 3,
+        "english": "history",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "負": {
+        "zhuyin": "ㄈㄨˋ",
+        "pinyin": "fù",
+        "tone": 4,
+        "english": "to bear",
+        "simplified": "负",
+        "radicals": ["", ""]
+    },
+    "千": {
+        "zhuyin": "ㄑㄧㄢ",
+        "pinyin": "qiān",
+        "tone": 1,
+        "english": "thousand",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "脫": {
+        "zhuyin": "ㄊㄨㄛ",
+        "pinyin": "tuō",
+        "tone": 1,
+        "english": "to take off",
+        "simplified": "脱",
+        "radicals": ["", ""]
+    },
+    "瑞": {
+        "zhuyin": "ㄖㄨㄟˋ",
+        "pinyin": "ruì",
+        "tone": 4,
+        "english": "auspicious(conducive to success, favorable)",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "背": {
+        "zhuyin": "ㄅㄟˋ",
+        "pinyin": "bèi",
+        "tone": 4,
+        "english": "back of object",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "僅": {
+        "zhuyin": "ㄐㄧㄣˇ",
+        "pinyin": "jǐn",
+        "tone": 3,
+        "english": "barely, merely",
+        "simplified": "仅",
+        "radicals": ["", ""]
+    },
+    "追": {
+        "zhuyin": "ㄓㄨㄟ",
+        "pinyin": "zhuī",
+        "tone": 1,
+        "english": "to chase",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "倫": {
+        "zhuyin": "ㄌㄨㄣˊ",
+        "pinyin": "lún",
+        "tone": 2,
+        "english": "relationship",
+        "simplified": "伦",
+        "radicals": ["", ""]
+    },
+    //750/2633 done
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
@@ -7758,6 +8078,171 @@ const bookWordsCACG = {
         "english": "frame of mind",
         "book": "Chinese: A Comp. Grammar",
     },
+    "電腦": {
+        "zhuyin": "ㄉㄧㄢˋ ㄋㄠˇ",
+        "english": "computer",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "將來": {
+        "zhuyin": "ㄐㄧㄤ ㄌㄞˊ",
+        "english": "future",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "風景": {
+        "zhuyin": "ㄈㄥ ㄐㄧㄥˇ",
+        "english": "view",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "尊敬": {
+        "zhuyin": "ㄗㄨㄣ ㄐㄧㄥˋ",
+        "english": "respect",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "表面": {
+        "zhuyin": "ㄅㄧㄠˇ ㄇㄧㄢˋ",
+        "english": "surface, superficially",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "部分": {
+        "zhuyin": "ㄅㄨˋ ㄈㄣ",
+        "english": "part, partially",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "集體": {
+        "zhuyin": "ㄐㄧˊ ㄊㄧˇ",
+        "english": "collective",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "和平": {
+        "zhuyin": "ㄏㄜˊ ㄆㄧㄥˊ",
+        "english": "peace",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "本能": {
+        "zhuyin": "ㄅㄣˇ ㄋㄥˊ",
+        "english": "instinct",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "歷史": {
+        "zhuyin": "ㄌㄧˋ ㄕˇ",
+        "english": "history",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "邏輯": {
+        "zhuyin": "ㄌㄨㄛˊ ㄐㄧˊ",
+        "english": "logic",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "雪": {
+        "zhuyin": "ㄒㄩㄝˇ",
+        "english": "snow",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "冰": {
+        "zhuyin": "ㄅㄧㄥ",
+        "english": "ice",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "雹子": {
+        "zhuyin": "ㄅㄠˊ ㄗˇ",
+        "english": "hailstone",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "云": {
+        "zhuyin": "ㄩㄣˊ",
+        "english": "cloud",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "霜": {
+        "zhuyin": "ㄕㄨㄤ",
+        "english": "frost",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "露水": {
+        "zhuyin": "ㄌㄨˋ ㄕㄨㄟˇ",
+        "english": "dew",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "虹": {
+        "zhuyin": "ㄏㄨㄥˊ",
+        "english": "rainbow",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "彩霞": {
+        "zhuyin": "ㄘㄞˇ ㄒㄧㄚˊ",
+        "english": "sunset clouds",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "霧": {
+        "zhuyin": "ㄨˋ",
+        "english": "fog",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "煙霧": {
+        "zhuyin": "ㄧㄢ ㄨˋ",
+        "english": "smog",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "雷": {
+        "zhuyin": "ㄌㄟˊ",
+        "english": "thunder",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "閃電": {
+        "zhuyin": "ㄕㄢˇ ㄉㄧㄢˋ",
+        "english": "lightening",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "毛毛雨": {
+        "zhuyin": "ㄇㄠˊ ㄇㄠˊ ㄩˇ",
+        "english": "drizzle",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "陣雨": {
+        "zhuyin": "ㄓㄣˋ ㄩˇ",
+        "english": "shower",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "暴風雨": {
+        "zhuyin": "ㄅㄠˋ ㄈㄥ ㄩˇ",
+        "english": "storm",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "微風": {
+        "zhuyin": "ㄨㄟ ㄈㄥ",
+        "english": "breeze",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "大風": {
+        "zhuyin": "ㄉㄚˋ ㄈㄥ",
+        "english": "gale",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "台風": {
+        "zhuyin": "ㄊㄞˊ ㄈㄥ",
+        "english": "typhoon",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "颶風": {
+        "zhuyin": "ㄐㄩˋ ㄈㄥ",
+        "english": "hurricane",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    "龍捲風": {
+        "zhuyin": "ㄌㄨㄥˊ ㄐㄩㄢˋ ㄈㄥ",
+        "english": "tornado",
+        "book": "Chinese: A Comp. Grammar",
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "",
+    //     "book": "Chinese: A Comp. Grammar",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "",
+    //     "book": "Chinese: A Comp. Grammar",
+    // },
     // "": {
     //     "zhuyin": "",
     //     "english": "",
