@@ -933,6 +933,7 @@ function loadHanziWritingQuiz() {
     removeAllChildren(flashBox3);
     removeAllChildren(answersBox);
     removeAllChildren(charTarget);
+    removeAllChildren(buttBox);
     removeAllChildren(wbuttBox);
     hanziWriteBox.classList.remove('hidden');
     randoNumber = Math.floor(Math.random() * hanziArray.length);
