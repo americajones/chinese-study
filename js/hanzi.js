@@ -1096,7 +1096,7 @@ const hanziAll = {
         "zhuyin": "ㄍㄢˇ",
         "pinyin": "gǎn",
         "tone": 3,
-        "english": "feel, emotiuon",
+        "english": "feel, emotion",
         "simplified": "",
         "radicals": ["咸", "心"]
     },
@@ -2969,7 +2969,7 @@ const hanziAll = {
         "zhuyin": "ㄩㄣˋ",
         "pinyin": "yùn",
         "tone": 4,
-        "english": "to move fortune",
+        "english": "to move, movement, fortune, luck",
         "simplified": "运",
         "radicals": ["", ""]
     },
@@ -4822,7 +4822,7 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    "葯": {
+    "藥": {
         "zhuyin": "ㄧㄠˋ",
         "pinyin": "yào",
         "tone": 4,
