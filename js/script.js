@@ -372,7 +372,7 @@ function loadBookWordFlashcards() {
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
     let label = "";
-    for (var [word, value] of Object.entries(bookWords)) {
+    for (var [word, value] of Object.entries(plecoLookupWords)) {
         label = document.createElement('div');
         let nuDiv = document.createElement('div');
         let nuDivTit = document.createElement('h2');
@@ -399,7 +399,7 @@ function loadBookWordFlashcards() {
         nuDiv.append(nuTxt);
         nuDiv.append(nuTxt2);
         flashBox.append(nuDiv);
-        label.textContent = value.book;
+        label.textContent = "Pleco";
         label.classList.add('label');
         label.classList.add('radicalFlashcards');
         function toggleEnglish() {
@@ -409,7 +409,7 @@ function loadBookWordFlashcards() {
     flashBox.prepend(label);
     label = "";
     number = 0;
-    for (var [word, value] of Object.entries(bookWordsMRG)) {
+    for (var [word, value] of Object.entries(bookWordsXWZ)) {
         label = document.createElement('div');
         let nuDiv = document.createElement('div');
         let nuDivTit = document.createElement('h2');
@@ -446,7 +446,7 @@ function loadBookWordFlashcards() {
     flashBox2.prepend(label);
     label = "";
     number = 0;
-    for (var [word, value] of Object.entries(bookWordsCACG)) {
+    for (var [word, value] of Object.entries(bookWordsGradedReaders)) {
         let nuDiv = document.createElement('div');
         let nuDivTit = document.createElement('h2');
         let nuTxt = document.createElement('p');
@@ -475,7 +475,7 @@ function loadBookWordFlashcards() {
         flashBox3.append(nuDiv);
         label.classList.add('label');
         label.classList.add('radicalFlashcards');
-        label.textContent = value.book;
+        label.textContent = "Graded Readers";
         function toggleEnglish() {
             nuTxt2.classList.toggle('opacity');
         }
@@ -483,7 +483,7 @@ function loadBookWordFlashcards() {
     flashBox3.prepend(label);
     label = "";
     number = 0;
-    for (var [word, value] of Object.entries(bookWordsXWZ)) {
+    for (var [word, value] of Object.entries(bookWordsCACG)) {
         let nuDiv = document.createElement('div');
         let nuDivTit = document.createElement('h2');
         let nuTxt = document.createElement('p');
@@ -1354,7 +1354,7 @@ function getBookWords() {
     pageHeader.textContent = "";
     pageHeader.textContent = "書話";
     quizStudyBox.classList.remove('hidden');
-    for (var [word, value] of Object.entries(bookWords)) {
+    for (var [word, value] of Object.entries(bookWordsGradedReaders)) {
         // console.log(value.zhuyin);
         hanziArray.push(word);
         zhuyinArray.push(value.zhuyin);

@@ -13935,8 +13935,8 @@ const HSK1words = {
         "english": "do, make"
     }
 };
-const bookWordsMRG = {
-
+const bookWordsGradedReaders = {
+    //blind man's country
     "一直": {
         "zhuyin": "ㄧ ㄓˊ",
         "pinyin": "",
@@ -14423,14 +14423,7 @@ const bookWordsMRG = {
         "english": "unable to see clearly",
         "book": "盲人國(lv.1 graded reader)",
     },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "english": "",
-    //     "book": "盲人國(lv.1 graded reader)",
-    // },
-};
-const bookWords = {
+    //monkey's paw
     "外面": {
         "zhuyin": "ㄨㄞˋ ㄇㄧㄢˋ",
         "pinyin": "",
@@ -14965,10 +14958,368 @@ const bookWords = {
         "english": "ten thousand",
         "book": "侯爪(lv.1 graded reader)",
     },
+    //Emma
+    "老板": {
+        "zhuyin": "ㄌㄠˇ ㄅㄢˇ",
+        "pinyin": "",
+        "english": "boss",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "公司": {
+        "zhuyin": "ㄍㄨㄥ ㄙ",
+        "pinyin": "",
+        "english": "company",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "設計": {
+        "zhuyin": "ㄕㄜˋ ㄐㄧˋ",
+        "pinyin": "",
+        "english": "design",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "長得": {
+        "zhuyin": "ㄔㄤˊ ㄉㄜˊ",
+        "pinyin": "",
+        "english": "to look(pretty, the same, ect)",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "酒吧": {
+        "zhuyin": "ㄐㄧㄡˇ ㄅㄚ",
+        "pinyin": "",
+        "english": "bar",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "想法": {
+        "zhuyin": "ㄒㄧㄤˇ ㄈㄚˇ",
+        "pinyin": "",
+        "english": "idea, thinking",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "最近": {
+        "zhuyin": "ㄗㄨㄟˋ ㄐㄧㄣˋ",
+        "pinyin": "",
+        "english": "recently, these days",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "姑姑": {
+        "zhuyin": "ㄍㄨ ㄍㄨ",
+        "pinyin": "",
+        "english": "father's sister",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "沒想到": {
+        "zhuyin": "ㄇㄟˊ ㄒㄧㄤˇ ㄉㄠˋ",
+        "pinyin": "",
+        "english": "didn't expect",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "結婚": {
+        "zhuyin": "ㄐㄧㄝˊ ㄏㄨㄣ",
+        "pinyin": "",
+        "english": "to get married",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "咖啡": {
+        "zhuyin": "ㄎㄚ ㄈㄟ",
+        "pinyin": "",
+        "english": "coffee",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "關係": {
+        "zhuyin": "ㄍㄨㄢ ㄒㄧˋ",
+        "pinyin": "",
+        "english": "relation, relationship",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "生意": {
+        "zhuyin": "ㄕㄥ ㄧˋ",
+        "pinyin": "",
+        "english": "buisness",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "小心": {
+        "zhuyin": "ㄒㄧㄠˇ ㄒㄧㄣ",
+        "pinyin": "",
+        "english": "to be careful",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "相信": {
+        "zhuyin": "ㄒㄧㄤ ㄒㄧㄣˋ",
+        "pinyin": "",
+        "english": "to believe",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "叫外賣": {
+        "zhuyin": "ㄐㄧㄠˋ ㄨㄞˋ ㄇㄞˋ",
+        "pinyin": "",
+        "english": "to order take-out",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "周末": {
+        "zhuyin": "ㄓㄡ ㄇㄛˋ",
+        "pinyin": "",
+        "english": "weekend",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "不好意思": {
+        "zhuyin": "ㄅㄨˋ ㄏㄠˇ ㄧˋ ㄙ",
+        "pinyin": "",
+        "english": "to feel embarrassed or awkward",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "發短信": {
+        "zhuyin": "ㄈㄚ ㄉㄨㄢˇ ㄒㄧㄣˋ",
+        "pinyin": "",
+        "english": "send out a text message",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "發現": {
+        "zhuyin": "ㄈㄚ ㄒㄧㄢˋ",
+        "pinyin": "",
+        "english": "to find, discover",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "生日": {
+        "zhuyin": "ㄕㄥ ㄖˋ",
+        "pinyin": "",
+        "english": "birthday",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "自拍": {
+        "zhuyin": "ㄗˋ ㄆㄞ",
+        "pinyin": "",
+        "english": "to take a selfie",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "網上": {
+        "zhuyin": "ㄨㄤˇ ㄕㄤˋ",
+        "pinyin": "",
+        "english": "online",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "親": {
+        "zhuyin": "ㄑㄧㄣ",
+        "pinyin": "",
+        "english": "kiss",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "發生": {
+        "zhuyin": "ㄈㄚ ㄕㄥ",
+        "pinyin": "",
+        "english": "to happen",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "以為": {
+        "zhuyin": "ㄧˇ ㄨㄟˊ",
+        "pinyin": "",
+        "english": "to (mistakenly) think",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "身邊": {
+        "zhuyin": "ㄕㄣ ㄅㄧㄢ",
+        "pinyin": "",
+        "english": "at one's side, on hand",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "好意": {
+        "zhuyin": "ㄏㄠˇ ㄧˋ",
+        "pinyin": "",
+        "english": "good intentions, kindness",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "出差": {
+        "zhuyin": "ㄔㄨ ㄔㄚˋ",
+        "pinyin": "",
+        "english": "to go on a buisness trip",
+        "book": "安末(lv.1 graded reader)",
+    },
+    "過得": {
+        "zhuyin": "ㄍㄨㄛˋ ㄉㄜˊ",
+        "pinyin": "",
+        "english": "to get by, spend time",
+        "book": "安末(lv.1 graded reader)",
+    },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
     //     "english": "",
-    //     "book": "侯爪(lv.1 graded reader)",
+    //     "book": "(lv.1 graded reader)",
+    // },
+
+};
+const plecoLookupWords = {
+    "站": {
+        "zhuyin": "ㄓㄢˋ",
+        "pinyin": "",
+        "english": "stand",
+    },
+    "哭": {
+        "zhuyin": "ㄎㄨ",
+        "pinyin": "",
+        "english": "cry, weep, wail",
+    },
+    "平常": {
+        "zhuyin": "ㄆㄧㄥˊ ㄔㄤˊ",
+        "pinyin": "",
+        "english": "generally, usually, ordinarily, as a rule, common",
+    },
+    "送": {
+        "zhuyin": "ㄙㄨㄥˋ",
+        "pinyin": "",
+        "english": "deliver, carry, give as a present",
+    },
+    "隻": {
+        "zhuyin": "ㄓ",
+        "pinyin": "",
+        "english": "single, one, only",
+    },
+    "完": {
+        "zhuyin": "ㄨㄢˊ",
+        "pinyin": "",
+        "english": "finish, intact, whole, exhaust",
+    },
+    "總是": {
+        "zhuyin": "ㄗㄨㄥˇ ㄕˋ",
+        "pinyin": "",
+        "english": "always",
+    },
+    "才": {
+        "zhuyin": "ㄘㄞˊ",
+        "pinyin": "",
+        "english": "ability, talent, gift",
+    },
+    "更": {
+        "zhuyin": "ㄍㄥ",
+        "pinyin": "",
+        "english": "more, even more, further",
+    },
+    "剛": {
+        "zhuyin": "ㄍㄤ",
+        "pinyin": "",
+        "english": "firm, strong, unyielding, just, exactly, precisely, barely, only",
+    },
+    "已經": {
+        "zhuyin": "ㄧˇ ㄐㄧㄥ",
+        "pinyin": "",
+        "english": "already",
+    },
+    "會心": {
+        "zhuyin": "ㄏㄨㄟˋ ㄒㄧㄣ",
+        "pinyin": "",
+        "english": "understand",
+    },
+    "酒": {
+        "zhuyin": "ㄐㄧㄡˇ",
+        "pinyin": "",
+        "english": "wine",
+    },
+    "送給": {
+        "zhuyin": "ㄙㄨㄥˋ ㄍㄟˇ",
+        "pinyin": "",
+        "english": "to send, give as a present",
+    },
+    "離": {
+        "zhuyin": "ㄌㄧˊ",
+        "pinyin": "",
+        "english": "leave, part from",
+    },
+    "向": {
+        "zhuyin": "ㄒㄧㄤˋ",
+        "pinyin": "",
+        "english": "take a side, be partial to, towards, in the direction of",
+    },
+    "森林": {
+        "zhuyin": "ㄙㄣ ㄌㄧㄣˊ",
+        "pinyin": "",
+        "english": "forest",
+    },
+    "原始": {
+        "zhuyin": "ㄩㄢˊ ㄕˇ",
+        "pinyin": "",
+        "english": "original, firsthand, primeval, primitive",
+    },
+    "存在": {
+        "zhuyin": "ㄘㄨㄣˊ ㄗㄞˋ",
+        "pinyin": "",
+        "english": "exist, be, existence",
+    },
+    "答": {
+        "zhuyin": "ㄉㄚˊ",
+        "pinyin": "",
+        "english": "answer, reply, respond",
+    },
+    "事實": {
+        "zhuyin": "ㄕˋ ㄕˊ",
+        "pinyin": "",
+        "english": "fact",
+    },
+    "假如": {
+        "zhuyin": "ㄐㄧㄚˇ ㄖㄨˊ",
+        "pinyin": "",
+        "english": "if, supposing, in case",
+    },
+    "紅臉": {
+        "zhuyin": "ㄏㄨㄥˊ ㄌㄧㄢˇ",
+        "pinyin": "",
+        "english": "red face",
+    },
+    "危險": {
+        "zhuyin": "ㄨㄟ ㄒㄧㄢˇ",
+        "pinyin": "",
+        "english": "dangerous, perilous",
+    },
+    "由": {
+        "zhuyin": "ㄧㄡˊ",
+        "pinyin": "",
+        "english": "cause, reason",
+    },
+    "雖然": {
+        "zhuyin": "ㄙㄨㄟ ㄖㄢˊ",
+        "pinyin": "",
+        "english": "though, although"
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    // },
+}
+const bookWords = {
+
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "english": "",
+    //     "book": "",
     // },
 }
