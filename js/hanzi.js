@@ -6014,87 +6014,839 @@ const hanziAll = {
         "simplified": "伦",
         "radicals": ["", ""]
     },
-    //750/2633 done
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
+    "炸": {
+        "zhuyin": "ㄓㄚˋ",
+        "pinyin": "zhá",
+        "tone": 2,
+        "english": "to fry in oil",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "資": {
+        "zhuyin": "ㄗ",
+        "pinyin": "zī",
+        "tone": 1,
+        "english": "property, wealth",
+        "simplified": "资",
+        "radicals": ["", ""]
+    },
+    "畫": {
+        "zhuyin": "ㄏㄨㄚˋ",
+        "pinyin": "huà",
+        "tone": 4,
+        "english": "to draw, picture",
+        "simplified": "画",
+        "radicals": ["", ""]
+    },
+    "蹤": {
+        "zhuyin": "ㄗㄨㄥ",
+        "pinyin": "zōng",
+        "tone": 1,
+        "english": "footprints, traces",
+        "simplified": "踪",
+        "radicals": ["", ""]
+    },
+    "射": {
+        "zhuyin": "ㄕㄜˋ",
+        "pinyin": "shè",
+        "tone": 4,
+        "english": "to shoot",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "棄": {
+        "zhuyin": "ㄑㄧˋ",
+        "pinyin": "qì",
+        "tone": 4,
+        "english": "to abandon",
+        "simplified": "弃",
+        "radicals": ["", ""]
+    },
+    "傻": {
+        "zhuyin": "ㄕㄚˇ",
+        "pinyin": "shǎ",
+        "tone": 3,
+        "english": "foolish",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "藏": {
+        "zhuyin": "ㄘㄤˊ",
+        "pinyin": "cáng",
+        "tone": 2,
+        "english": "to conceal, to store",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "屁": {
+        "zhuyin": "ㄆㄧˋ",
+        "pinyin": "pì",
+        "tone": 4,
+        "english": "fart, nonsense",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "瞧": {
+        "zhuyin": "ㄑㄧㄠˊ",
+        "pinyin": "qiáo ",
+        "tone": 2,
+        "english": "to glance at",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "修": {
+        "zhuyin": "ㄒㄧㄡ",
+        "pinyin": "xiū",
+        "tone": 1,
+        "english": "to repair",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "屍": {
+        "zhuyin": "ㄕ",
+        "pinyin": "shī",
+        "tone": 1,
+        "english": "corpse",
+        "simplified": "尸",
+        "radicals": ["", ""]
+    },
+    "聞": {
+        "zhuyin": "ㄨㄣˊ",
+        "pinyin": "wén",
+        "tone": 2,
+        "english": "to hear, news",
+        "simplified": "闻",
+        "radicals": ["", ""]
+    },
+    "共": {
+        "zhuyin": "ㄍㄨㄥˋ",
+        "pinyin": "gòng",
+        "tone": 4,
+        "english": "common, general",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "懂": {
+        "zhuyin": "ㄉㄨㄥˇ",
+        "pinyin": "dǒng",
+        "tone": 3,
+        "english": "to understand",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "蒂": {
+        "zhuyin": "ㄉㄧˋ",
+        "pinyin": "dì",
+        "tone": 4,
+        "english": "stem of plant",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "危": {
+        "zhuyin": "ㄨㄟ",
+        "pinyin": "wēi",
+        "tone": 1,
+        "english": "danger",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "專": {
+        "zhuyin": "ㄓㄨㄢ",
+        "pinyin": "zhuān",
+        "tone": 1,
+        "english": "specialized",
+        "simplified": "专",
+        "radicals": ["", ""]
+    },
+    "呆": {
+        "zhuyin": "ㄉㄞ",
+        "pinyin": "dái",
+        "tone": 2,
+        "english": "blank, stupid",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "介": {
+        "zhuyin": "ㄐㄧㄝˋ",
+        "pinyin": "jiè",
+        "tone": 4,
+        "english": "to introduce",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "薩": {
+        "zhuyin": "ㄙㄚˋ",
+        "pinyin": "sà",
+        "tone": 4,
+        "english": "Bodhisattva (Buddhism)",
+        "simplified": "萨",
+        "radicals": ["", ""]
+    },
+    "魔": {
+        "zhuyin": "ㄇㄛˊ",
+        "pinyin": "mó",
+        "tone": 2,
+        "english": "devil, magic",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "急": {
+        "zhuyin": "ㄐㄧˊ",
+        "pinyin": "jí",
+        "tone": 2,
+        "english": "urgent, worried",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "碰": {
+        "zhuyin": "ㄆㄥˋ",
+        "pinyin": "pèng",
+        "tone": 4,
+        "english": "to bump",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "甚": {
+        "zhuyin": "ㄕㄣˋ",
+        "pinyin": "shén",
+        "tone": 2,
+        "english": "variant of 什",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "糕": {
+        "zhuyin": "ㄍㄠ",
+        "pinyin": "gāo ",
+        "tone": 1,
+        "english": "cake",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "苦": {
+        "zhuyin": "ㄎㄨˇ",
+        "pinyin": "kǔ",
+        "tone": 3,
+        "english": "bitter, pain",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "念": {
+        "zhuyin": "ㄋㄧㄢˋ",
+        "pinyin": "niàn",
+        "tone": 4,
+        "english": "to miss (sb), thought",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "適": {
+        "zhuyin": "ㄕˋ",
+        "pinyin": "shì",
+        "tone": 4,
+        "english": "to fit, suitable",
+        "simplified": "适",
+        "radicals": ["", ""]
+    },
+    "華": {
+        "zhuyin": "ㄏㄨㄚˊ",
+        "pinyin": "huá",
+        "tone": 2,
+        "english": "splendid",
+        "simplified": "华",
+        "radicals": ["", ""]
+    },
+    "沖": {
+        "zhuyin": "ㄔㄨㄥ",
+        "pinyin": "chōng",
+        "tone": 1,
+        "english": "to clash, rinse",
+        "simplified": "冲",
+        "radicals": ["", ""]
+    },
+    "騙": {
+        "zhuyin": "ㄆㄧㄢˋ",
+        "pinyin": "piàn",
+        "tone": 4,
+        "english": "to cheat",
+        "simplified": "骗",
+        "radicals": ["", ""]
+    },
+    "厭": {
+        "zhuyin": "ㄧㄢˋ",
+        "pinyin": "yàn",
+        "tone": 4,
+        "english": "to loathe",
+        "simplified": "厌",
+        "radicals": ["", ""]
+    },
+    "型": {
+        "zhuyin": "ㄒㄧㄥˊ",
+        "pinyin": "xíng",
+        "tone": 2,
+        "english": "model, type",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "麥": {
+        "zhuyin": "ㄇㄞˋ",
+        "pinyin": "mài",
+        "tone": 4,
+        "english": "wheat, oats",
+        "simplified": "麦",
+        "radicals": ["", ""]
+    },
+    "似": {
+        "zhuyin": "ㄙˋ",
+        "pinyin": "sì",
+        "tone": 4,
+        "english": "-like, similar",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "紅": {
+        "zhuyin": "ㄏㄨㄥˊ",
+        "pinyin": "hóng",
+        "tone": 2,
+        "english": "red",
+        "simplified": "红",
+        "radicals": ["", ""]
+    },
+    "值": {
+        "zhuyin": "ㄓˊ",
+        "pinyin": "zhí",
+        "tone": 2,
+        "english": "value",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "腳": {
+        "zhuyin": "ㄐㄧㄠˇ",
+        "pinyin": "jiǎo",
+        "tone": 3,
+        "english": "foot",
+        "simplified": "脚",
+        "radicals": ["", ""]
+    },
+    "六": {
+        "zhuyin": "ㄌㄧㄡˋ",
+        "pinyin": "liù",
+        "tone": 4,
+        "english": "six",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "謀": {
+        "zhuyin": "ㄇㄡˊ",
+        "pinyin": "móu",
+        "tone": 2,
+        "english": "plan, scheme",
+        "simplified": "谋",
+        "radicals": ["", ""]
+    },
+    "套": {
+        "zhuyin": "ㄊㄠˋ",
+        "pinyin": "tào",
+        "tone": 4,
+        "english": "cover, (mw. for sets)",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "凱": {
+        "zhuyin": "ㄎㄞˇ",
+        "pinyin": "kǎi",
+        "tone": 3,
+        "english": "triumphant",
+        "simplified": "凯",
+        "radicals": ["", ""]
+    },
+    "眾": {
+        "zhuyin": "ㄓㄨㄥˋ",
+        "pinyin": "zhòng",
+        "tone": 4,
+        "english": "many, crowd",
+        "simplified": "众",
+        "radicals": ["", ""]
+    },
+    "預": {
+        "zhuyin": "ㄩˋ",
+        "pinyin": "yù",
+        "tone": 4,
+        "english": "to advance, prepare",
+        "simplified": "预",
+        "radicals": ["", ""]
+    },
+    "際": {
+        "zhuyin": "ㄐㄧˋ",
+        "pinyin": "jì",
+        "tone": 4,
+        "english": "border, between",
+        "simplified": "际",
+        "radicals": ["", ""]
+    },
+    "咱": {
+        "zhuyin": "ㄗㄢˊ",
+        "pinyin": "zá/zán",
+        "tone": 2,
+        "english": "we, us",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "波": {
+        "zhuyin": "ㄅㄛ",
+        "pinyin": "bō",
+        "tone": 1,
+        "english": "wave",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "衛": {
+        "zhuyin": "ㄨㄟˋ",
+        "pinyin": "wèi",
+        "tone": 4,
+        "english": "to guard",
+        "simplified": "卫",
+        "radicals": ["", ""]
+    },
+    "聊": {
+        "zhuyin": "ㄌㄧㄠˊ",
+        "pinyin": "liáo",
+        "tone": 2,
+        "english": "to chat",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "養": {
+        "zhuyin": "ㄧㄤˇ",
+        "pinyin": "yǎng",
+        "tone": 3,
+        "english": "to raise, bring up",
+        "simplified": "养",
+        "radicals": ["", ""]
+    },
+    "導": {
+        "zhuyin": "ㄉㄠˇ",
+        "pinyin": "dǎo",
+        "tone": 3,
+        "english": "to guide",
+        "simplified": "导",
+        "radicals": ["", ""]
+    },
+    "慮": {
+        "zhuyin": "ㄌㄩˋ",
+        "pinyin": "lǜ",
+        "tone": 4,
+        "english": "to think over",
+        "simplified": "虑",
+        "radicals": ["", ""]
+    },
+    "私": {
+        "zhuyin": "ㄙ",
+        "pinyin": "sī",
+        "tone": 1,
+        "english": "private",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "戴": {
+        "zhuyin": "ㄉㄞˋ",
+        "pinyin": "dài",
+        "tone": 4,
+        "english": "to put on",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "毀": {
+        "zhuyin": "ㄏㄨㄟˇ",
+        "pinyin": "huǐ",
+        "tone": 3,
+        "english": "to destroy",
+        "simplified": "毁",
+        "radicals": ["", ""]
+    },
+    "魚": {
+        "zhuyin": "ㄩˊ",
+        "pinyin": "yú",
+        "tone": 2,
+        "english": "fish",
+        "simplified": "鱼",
+        "radicals": ["", ""]
+    },
+    "滾": {
+        "zhuyin": "ㄍㄨㄣˇ",
+        "pinyin": "gǔn",
+        "tone": 3,
+        "english": "to boil",
+        "simplified": "滚",
+        "radicals": ["", ""]
+    },
+    "志": {
+        "zhuyin": "ㄓˋ",
+        "pinyin": "zhì",
+        "tone": 4,
+        "english": "sign, ambition",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "雜": {
+        "zhuyin": "ㄗㄚˊ",
+        "pinyin": "zá",
+        "tone": 2,
+        "english": "mixed",
+        "simplified": "杂",
+        "radicals": ["", ""]
+    },
+    "居": {
+        "zhuyin": "ㄐㄩ",
+        "pinyin": "jū",
+        "tone": 1,
+        "english": "to reside, residence",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "詞": {
+        "zhuyin": "ㄘˊ",
+        "pinyin": "cí",
+        "tone": 2,
+        "english": "word",
+        "simplified": "词",
+        "radicals": ["", ""]
+    },
+    "食": {
+        "zhuyin": "ㄕˊ",
+        "pinyin": "shí",
+        "tone": 2,
+        "english": "food",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "諾": {
+        "zhuyin": "ㄋㄨㄛˋ",
+        "pinyin": "nuò",
+        "tone": 4,
+        "english": "promise",
+        "simplified": "诺",
+        "radicals": ["", ""]
+    },
+    "讀": {
+        "zhuyin": "ㄉㄨˊ",
+        "pinyin": "dú",
+        "tone": 2,
+        "english": "to read",
+        "simplified": "读",
+        "radicals": ["", ""]
+    },
+    "誤": {
+        "zhuyin": "ㄨˋ",
+        "pinyin": "wù",
+        "tone": 4,
+        "english": "mistake",
+        "simplified": "误",
+        "radicals": ["", ""]
+    },
+    "撒": {
+        "zhuyin": "ㄙㄚ",
+        "pinyin": "sā",
+        "tone": 1,
+        "english": "to release",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "突": {
+        "zhuyin": "ㄊㄨ",
+        "pinyin": "tū",
+        "tone": 1,
+        "english": "to dash, sudden",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "牛": {
+        "zhuyin": "ㄋㄧㄡˊ",
+        "pinyin": "niú",
+        "tone": 2,
+        "english": "cow",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "館": {
+        "zhuyin": "ㄍㄨㄢˇ",
+        "pinyin": "guǎn",
+        "tone": 3,
+        "english": "building, shop",
+        "simplified": "馆",
+        "radicals": ["", ""]
+    },
+    "規": {
+        "zhuyin": "ㄍㄨㄟ",
+        "pinyin": "guī",
+        "tone": 1,
+        "english": "a rule, compass",
+        "simplified": "规",
+        "radicals": ["", ""]
+    },
+    "陪": {
+        "zhuyin": "ㄆㄟˊ",
+        "pinyin": "péi",
+        "tone": 2,
+        "english": "to accompany",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "州": {
+        "zhuyin": "ㄓㄡ",
+        "pinyin": "zhōu",
+        "tone": 1,
+        "english": "a state",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "肉": {
+        "zhuyin": "ㄖㄡˋ",
+        "pinyin": "ròu",
+        "tone": 4,
+        "english": "meat, flesh",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "形": {
+        "zhuyin": "ㄒㄧㄥˊ",
+        "pinyin": "xíng",
+        "tone": 2,
+        "english": "form, appear",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "凶": {
+        "zhuyin": "ㄒㄩㄥ",
+        "pinyin": "xiōng",
+        "tone": 1,
+        "english": "culprit, scary",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "森": {
+        "zhuyin": "ㄙㄣ",
+        "pinyin": "sēn",
+        "tone": 1,
+        "english": "forest",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "商": {
+        "zhuyin": "ㄕㄤ",
+        "pinyin": "shāng",
+        "tone": 1,
+        "english": "commerce",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "紀": {
+        "zhuyin": "ㄐㄧˋ",
+        "pinyin": "jì",
+        "tone": 4,
+        "english": "order, to dicipline",
+        "simplified": "纪",
+        "radicals": ["", ""]
+    },
+    "浪": {
+        "zhuyin": "ㄌㄤˋ",
+        "pinyin": "làng",
+        "tone": 4,
+        "english": "wave, unrestrained",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "石": {
+        "zhuyin": "ㄕˊ",
+        "pinyin": "shí",
+        "tone": 2,
+        "english": "stone",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "順": {
+        "zhuyin": "ㄕㄨㄣˋ",
+        "pinyin": "shùn",
+        "tone": 4,
+        "english": "to obey, along",
+        "simplified": "顺",
+        "radicals": ["", ""]
+    },
+    "舉": {
+        "zhuyin": "ㄐㄩˇ",
+        "pinyin": "jǔ",
+        "tone": 3,
+        "english": "to lift",
+        "simplified": "举",
+        "radicals": ["", ""]
+    },
+    "按": {
+        "zhuyin": "ㄢˋ",
+        "pinyin": "àn",
+        "tone": 4,
+        "english": "to press, retrain",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "旅": {
+        "zhuyin": "ㄌㄩˇ",
+        "pinyin": "lǚ",
+        "tone": 3,
+        "english": "journey",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "努": {
+        "zhuyin": "ㄋㄨˇ",
+        "pinyin": "nǔ",
+        "tone": 3,
+        "english": "to exert",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "堅": {
+        "zhuyin": "ㄐㄧㄢ",
+        "pinyin": "jiān",
+        "tone": 1,
+        "english": "strong",
+        "simplified": "坚",
+        "radicals": ["", ""]
+    },
+    "測": {
+        "zhuyin": "ㄘㄜˋ",
+        "pinyin": "cè",
+        "tone": 4,
+        "english": "to measure",
+        "simplified": "测",
+        "radicals": ["", ""]
+    },
+    "免": {
+        "zhuyin": "ㄇㄧㄢˇ",
+        "pinyin": "miǎn",
+        "tone": 3,
+        "english": "to exempt, avoid",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "喔": {
+        "zhuyin": "ㄛ",
+        "pinyin": "ō",
+        "tone": 1,
+        "english": "I see, oh",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "絲": {
+        "zhuyin": "ㄙ",
+        "pinyin": "sī",
+        "tone": 1,
+        "english": "silk",
+        "simplified": "丝",
+        "radicals": ["", ""]
+    },
+    "輛": {
+        "zhuyin": "ㄌㄧㄤˋ",
+        "pinyin": "liàng",
+        "tone": 4,
+        "english": "(mw. for vehicles)",
+        "simplified": "辆",
+        "radicals": ["", ""]
+    },
+    "喬": {
+        "zhuyin": "ㄑㄧㄠˊ",
+        "pinyin": "qiáo",
+        "tone": 2,
+        "english": "tall, lofty",
+        "simplified": "乔",
+        "radicals": ["", ""]
+    },
+    "防": {
+        "zhuyin": "ㄈㄤˊ",
+        "pinyin": "fáng",
+        "tone": 2,
+        "english": "to protect",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "句": {
+        "zhuyin": "ㄐㄩˋ",
+        "pinyin": "jù",
+        "tone": 4,
+        "english": "sentence",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "印": {
+        "zhuyin": "ㄧㄣˋ",
+        "pinyin": "yìn",
+        "tone": 4,
+        "english": "to print, image",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "戀": {
+        "zhuyin": "ㄌㄧㄢˋ",
+        "pinyin": "liàn",
+        "tone": 4,
+        "english": "to feel attached to",
+        "simplified": "恋",
+        "radicals": ["", ""]
+    },
+    "弗": {
+        "zhuyin": "ㄈㄨˊ",
+        "pinyin": "fú",
+        "tone": 2,
+        "english": "not, negative",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "季": {
+        "zhuyin": "ㄐㄧˋ",
+        "pinyin": "jì",
+        "tone": 4,
+        "english": "season",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "嚴": {
+        "zhuyin": "ㄧㄢˊ",
+        "pinyin": "yán",
+        "tone": 2,
+        "english": "strict, tight",
+        "simplified": "严",
+        "radicals": ["", ""]
+    },
+    "推": {
+        "zhuyin": "ㄊㄨㄟ",
+        "pinyin": "tuī",
+        "tone": 1,
+        "english": "to push",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "伯": {
+        "zhuyin": "ㄅㄛˊ",
+        "pinyin": "bó",
+        "tone": 2,
+        "english": "eldest uncle",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "莉": {
+        "zhuyin": "ㄌㄧˋ",
+        "pinyin": "lì",
+        "tone": 4,
+        "english": "white jasmine",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "武": {
+        "zhuyin": "ㄨˇ",
+        "pinyin": "wǔ",
+        "tone": 3,
+        "english": "martial",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    //854/2633 done
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
