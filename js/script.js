@@ -954,6 +954,7 @@ function loadHanziWritingQuiz() {
     wskipButt.addEventListener('click', loadHanziWritingQuiz);
     wskipButt.removeEventListener('click', loadWordsWritingQuiz);
 };
+
 function handleAnswerClick2() {
     selectedAnswer = charInput.value;
     console.log("ANSWER IS: ", selectedAnswer);
@@ -1271,7 +1272,7 @@ function loadWordsMeaningsQuiz2() {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', (e) => {
-            handleAnswerClick(loadWordsMeaningsQuiz, e, 1000)
+            handleAnswerClick(loadWordsMeaningsQuiz2, e, 1000)
         })
         newDiv.classList.add('answer');
         newDiv.classList.add('cursive');
@@ -1477,7 +1478,7 @@ function loadBookWordsMeaningsQuiz2() {
         let newDiv = document.createElement('div');
         newDiv.textContent = answer;
         newDiv.addEventListener('click', (e) => {
-            handleAnswerClick(loadBookWordsMeaningsQuiz, e, 1000)
+            handleAnswerClick(loadBookWordsMeaningsQuiz2, e, 1000)
         })
         newDiv.classList.add('answer');
         newDiv.classList.add('cursive');
@@ -1694,7 +1695,7 @@ function leSearch() {
             searchResZhuyin.push(value.zhuyin);
         }
     }
-    for (let [key, value] of Object.entries(bookWords)) {
+    for (let [key, value] of Object.entries(plecoLookupWords)) {
         if (key.search(searchTerm) !== -1) {
             searchRes.push(" " + key);
             searchResMeanings.push(value.english);
@@ -1718,7 +1719,7 @@ function leSearch() {
             searchResZhuyin.push(value.zhuyin);
         }
     }
-    for (let [key, value] of Object.entries(bookWordsMRG)) {
+    for (let [key, value] of Object.entries(bookWordsGradedReaders)) {
         if (key.search(searchTerm) !== -1) {
             searchRes.push(" " + key);
             searchResMeanings.push(value.english);
