@@ -289,14 +289,14 @@ const hanziAll = {
     //     "simplified": "",
     //     "radicals": ["一", "口"]
     // },
-    "知": {
-        "zhuyin": "ㄓ",
-        "pinyin": "zhī",
-        "tone": 1,
-        "english": "to know",
-        "simplified": "",
-        "radicals": ["矢", "口"]
-    },
+    // "知": {
+    //     "zhuyin": "ㄓ",
+    //     "pinyin": "zhī",
+    //     "tone": 1,
+    //     "english": "to know",
+    //     "simplified": "",
+    //     "radicals": ["矢", "口"]
+    // },
     // "得": {
     //     "zhuyin": "ㄉㄜ",
     //     "pinyin": "de",
@@ -514,14 +514,14 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["扌", "巴"]
     },
-    "開": {
-        "zhuyin": "ㄎㄞ",
-        "pinyin": "kāi",
-        "tone": 1,
-        "english": "to open, to start",
-        "simplified": "开",
-        "radicals": ["門", "一"]
-    },
+    // "開": {
+    //     "zhuyin": "ㄎㄞ",
+    //     "pinyin": "kāi",
+    //     "tone": 1,
+    //     "english": "to open, to start",
+    //     "simplified": "开",
+    //     "radicals": ["門", "一"]
+    // },
     "讓": {
         "zhuyin": "ㄖㄤˋ",
         "pinyin": "ràng",
@@ -530,30 +530,30 @@ const hanziAll = {
         "simplified": "让",
         "radicals": ["言", "口"]
     },
-    "給": {
-        "zhuyin": "ㄍㄟˇ",
-        "pinyin": "gěi",
-        "tone": 3,
-        "english": "give, to, for",
-        "simplified": "给",
-        "radicals": ["糹", "口"]
-    },
-    "但": {
-        "zhuyin": "ㄉㄢˋ",
-        "pinyin": "dàn",
-        "tone": 4,
-        "english": "but",
-        "simplified": "",
-        "radicals": ["亻", "日"]
-    },
-    "謝": {
-        "zhuyin": "ㄒ一ㄝˋ",
-        "pinyin": "xiè",
-        "tone": 4,
-        "english": "thanks",
-        "simplified": "谢",
-        "radicals": ["言", "身", "寸"]
-    },
+    // "給": {
+    //     "zhuyin": "ㄍㄟˇ",
+    //     "pinyin": "gěi",
+    //     "tone": 3,
+    //     "english": "give, to, for",
+    //     "simplified": "给",
+    //     "radicals": ["糹", "口"]
+    // },
+    // "但": {
+    //     "zhuyin": "ㄉㄢˋ",
+    //     "pinyin": "dàn",
+    //     "tone": 4,
+    //     "english": "but",
+    //     "simplified": "",
+    //     "radicals": ["亻", "日"]
+    // },
+    // "謝": {
+    //     "zhuyin": "ㄒ一ㄝˋ",
+    //     "pinyin": "xiè",
+    //     "tone": 4,
+    //     "english": "thanks",
+    //     "simplified": "谢",
+    //     "radicals": ["言", "身", "寸"]
+    // },
     "着": {
         "zhuyin": "ㄓㄜ˙",
         "pinyin": "zhe",
@@ -570,14 +570,14 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["口", "八"]
     },
-    "些": {
-        "zhuyin": "ㄒ一ㄝ",
-        "pinyin": "xiē",
-        "tone": 1,
-        "english": "some, few",
-        "simplified": "",
-        "radicals": ["止", "匕", "二"]
-    },
+    // "些": {
+    //     "zhuyin": "ㄒ一ㄝ",
+    //     "pinyin": "xiē",
+    //     "tone": 1,
+    //     "english": "some, few",
+    //     "simplified": "",
+    //     "radicals": ["止", "匕", "二"]
+    // },
     "如": {
         "zhuyin": "ㄖㄨˊ",
         "pinyin": "rú",
@@ -586,14 +586,14 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["女", "口"]
     },
-    "家": {
-        "zhuyin": "ㄐ一ㄚ",
-        "pinyin": "jiā",
-        "tone": 1,
-        "english": "home, family",
-        "simplified": "",
-        "radicals": ["宀", "一", "𧰨"]
-    },
+    // "家": {
+    //     "zhuyin": "ㄐ一ㄚ",
+    //     "pinyin": "jiā",
+    //     "tone": 1,
+    //     "english": "home, family",
+    //     "simplified": "",
+    //     "radicals": ["宀", "一", "𧰨"]
+    // },
     "后": {
         "zhuyin": "ㄏㄡˋ",
         "pinyin": "hòu",
@@ -602,22 +602,22 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["一", "口"]
     },
-    "兒": {
-        "zhuyin": "ㄦˊ",
-        "pinyin": "ér",
-        "tone": 2,
-        "english": "son",
-        "simplified": "儿",
-        "radicals": ["彐", "儿"]
-    },
-    "多": {
-        "zhuyin": "ㄉㄨㄛ",
-        "pinyin": "duō",
-        "tone": 1,
-        "english": "many, much",
-        "simplified": "",
-        "radicals": ["夕"]
-    },
+    // "兒": {
+    //     "zhuyin": "ㄦˊ",
+    //     "pinyin": "ér",
+    //     "tone": 2,
+    //     "english": "son",
+    //     "simplified": "儿",
+    //     "radicals": ["彐", "儿"]
+    // },
+    // "多": {
+    //     "zhuyin": "ㄉㄨㄛ",
+    //     "pinyin": "duō",
+    //     "tone": 1,
+    //     "english": "many, much",
+    //     "simplified": "",
+    //     "radicals": ["夕"]
+    // },
     "意": {
         "zhuyin": "一ˋ",
         "pinyin": "yì",
@@ -650,14 +650,14 @@ const hanziAll = {
         "simplified": "话",
         "radicals": ["言", "舌"]
     },
-    "小": {
-        "zhuyin": "ㄒ一ㄠˇ",
-        "pinyin": "xiǎo",
-        "tone": 3,
-        "english": "small",
-        "simplified": "",
-        "radicals": ["㇚", "八"]
-    },
+    // "小": {
+    //     "zhuyin": "ㄒ一ㄠˇ",
+    //     "pinyin": "xiǎo",
+    //     "tone": 3,
+    //     "english": "small",
+    //     "simplified": "",
+    //     "radicals": ["㇚", "八"]
+    // },
     "自": {
         "zhuyin": "ㄗˋ",
         "pinyin": "zì",
@@ -698,22 +698,22 @@ const hanziAll = {
         "simplified": "发",
         "radicals": ["癶", "弓", "殳"]
     },
-    "見": {
-        "zhuyin": "ㄐ一ㄢˋ",
-        "pinyin": "jiàn",
-        "tone": 4,
-        "english": "to see, to meet",
-        "simplified": "见",
-        "radicals": ["目", "儿"]
-    },
-    "心": {
-        "zhuyin": "ㄒ一ㄣ",
-        "pinyin": "xīn",
-        "tone": 1,
-        "english": "heart",
-        "simplified": "",
-        "radicals": ["丶"]
-    },
+    // "見": {
+    //     "zhuyin": "ㄐ一ㄢˋ",
+    //     "pinyin": "jiàn",
+    //     "tone": 4,
+    //     "english": "to see, to meet",
+    //     "simplified": "见",
+    //     "radicals": ["目", "儿"]
+    // },
+    // "心": {
+    //     "zhuyin": "ㄒ一ㄣ",
+    //     "pinyin": "xīn",
+    //     "tone": 1,
+    //     "english": "heart",
+    //     "simplified": "",
+    //     "radicals": ["丶"]
+    // },
     "走": {
         "zhuyin": "ㄗㄡˇ",
         "pinyin": "zǒu",
@@ -730,14 +730,14 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["宀", "一", "止"]
     },
-    "聽": {
-        "zhuyin": "ㄊ一ㄥ",
-        "pinyin": "tīng",
-        "tone": 1,
-        "english": "to listen",
-        "simplified": "听",
-        "radicals": ["耳", "王", "十", "罒", "一", "心"]
-    },
+    // "聽": {
+    //     "zhuyin": "ㄊ一ㄥ",
+    //     "pinyin": "tīng",
+    //     "tone": 1,
+    //     "english": "to listen",
+    //     "simplified": "听",
+    //     "radicals": ["耳", "王", "十", "罒", "一", "心"]
+    // },
     "覺": {
         "zhuyin": "ㄐㄩㄝˊ",
         "pinyin": "jué",
@@ -746,14 +746,14 @@ const hanziAll = {
         "simplified": "觉",
         "radicals": ["臼", "爻", "冖", "見"]
     },
-    "太": {
-        "zhuyin": "ㄊㄞˋ",
-        "pinyin": "tài",
-        "tone": 4,
-        "english": "too (much)",
-        "simplified": "",
-        "radicals": ["大", "丶"]
-    },
+    // "太": {
+    //     "zhuyin": "ㄊㄞˋ",
+    //     "pinyin": "tài",
+    //     "tone": 4,
+    //     "english": "too (much)",
+    //     "simplified": "",
+    //     "radicals": ["大", "丶"]
+    // },
     "該": {
         "zhuyin": "ㄍㄞ",
         "pinyin": "gāi",
@@ -778,48 +778,48 @@ const hanziAll = {
         "simplified": "经",
         "radicals": ["糹", "巛", "工"]
     },
-    "媽": {
-        "zhuyin": "ㄇㄚ",
-        "pinyin": "mā",
-        "tone": 1,
-        "english": "mom",
-        "simplified": "妈",
-        "radicals": ["女", "灬"]
-    },
-    "用": {
-        "zhuyin": "ㄩㄥˋ",
-        "pinyin": "yòng",
-        "tone": 4,
-        "english": "to use",
-        "simplified": "",
-        "radicals": ["丨", "二"]
-    },
-    "打": {
-        "zhuyin": "ㄉㄚˇ",
-        "pinyin": "dǎ",
-        "tone": 3,
-        "english": "to hit",
-        "simplified": "",
-        "radicals": ["扌", "一"]
-    },
+    // "媽": {
+    //     "zhuyin": "ㄇㄚ",
+    //     "pinyin": "mā",
+    //     "tone": 1,
+    //     "english": "mom",
+    //     "simplified": "妈",
+    //     "radicals": ["女", "灬"]
+    // },
+    // "用": {
+    //     "zhuyin": "ㄩㄥˋ",
+    //     "pinyin": "yòng",
+    //     "tone": 4,
+    //     "english": "to use",
+    //     "simplified": "",
+    //     "radicals": ["丨", "二"]
+    // },
+    // "打": {
+    //     "zhuyin": "ㄉㄚˇ",
+    //     "pinyin": "dǎ",
+    //     "tone": 3,
+    //     "english": "to hit",
+    //     "simplified": "",
+    //     "radicals": ["扌", "一"]
+    // },
 
 
-    "地": {
-        "zhuyin": "ㄉㄜ˙",
-        "pinyin": "de",
-        "tone": 5,
-        "english": "-ly, structural p.",
-        "simplified": "",
-        "radicals": ["土", "也"]
-    },
-    "再": {
-        "zhuyin": "ㄗㄞˋ",
-        "pinyin": "zài",
-        "tone": 4,
-        "english": "again, then",
-        "simplified": "",
-        "radicals": ["一", "土"]
-    },
+    // "地": {
+    //     "zhuyin": "ㄉㄜ˙",
+    //     "pinyin": "de",
+    //     "tone": 5,
+    //     "english": "-ly, structural p.",
+    //     "simplified": "",
+    //     "radicals": ["土", "也"]
+    // },
+    // "再": {
+    //     "zhuyin": "ㄗㄞˋ",
+    //     "pinyin": "zài",
+    //     "tone": 4,
+    //     "english": "again, then",
+    //     "simplified": "",
+    //     "radicals": ["一", "土"]
+    // },
     "因": {
         "zhuyin": "ㄧㄣ",
         "pinyin": "yīn",
@@ -836,14 +836,14 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    "女": {
-        "zhuyin": "ㄋㄩˇ",
-        "pinyin": "nǚ",
-        "tone": 3,
-        "english": "woman",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "女": {
+    //     "zhuyin": "ㄋㄩˇ",
+    //     "pinyin": "nǚ",
+    //     "tone": 3,
+    //     "english": "woman",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "告": {
         "zhuyin": "ㄍㄠˋ",
         "pinyin": "gào",
@@ -956,22 +956,22 @@ const hanziAll = {
         "simplified": "从",
         "radicals": ["", ""]
     },
-    "明": {
-        "zhuyin": "ㄇㄧㄥˊ",
-        "pinyin": "míng",
-        "tone": 2,
-        "english": "bright",
-        "simplified": "",
-        "radicals": ["日", "月"]
-    },
-    "中": {
-        "zhuyin": "ㄓㄨㄥ",
-        "pinyin": "zhōng",
-        "tone": 1,
-        "english": "middle, center",
-        "simplified": "",
-        "radicals": ["口", "丨"]
-    },
+    // "明": {
+    //     "zhuyin": "ㄇㄧㄥˊ",
+    //     "pinyin": "míng",
+    //     "tone": 2,
+    //     "english": "bright",
+    //     "simplified": "",
+    //     "radicals": ["日", "月"]
+    // },
+    // "中": {
+    //     "zhuyin": "ㄓㄨㄥ",
+    //     "pinyin": "zhōng",
+    //     "tone": 1,
+    //     "english": "middle, center",
+    //     "simplified": "",
+    //     "radicals": ["口", "丨"]
+    // },
     "哦": {
         "zhuyin": "ㄛˊ",
         "pinyin": "ó",
@@ -1020,14 +1020,14 @@ const hanziAll = {
         "simplified": "诉",
         "radicals": ["", ""]
     },
-    "愛": {
-        "zhuyin": "ㄞˋ",
-        "pinyin": "ài",
-        "tone": 4,
-        "english": "love",
-        "simplified": "爱",
-        "radicals": ["", ""]
-    },
+    // "愛": {
+    //     "zhuyin": "ㄞˋ",
+    //     "pinyin": "ài",
+    //     "tone": 4,
+    //     "english": "love",
+    //     "simplified": "爱",
+    //     "radicals": ["", ""]
+    // },
     "已": {
         "zhuyin": "ㄧˇ",
         "pinyin": "yǐ",
@@ -1044,14 +1044,14 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    "問": {
-        "zhuyin": "ㄨㄣˋ",
-        "pinyin": "wèn",
-        "tone": 4,
-        "english": "ask",
-        "simplified": "问",
-        "radicals": ["門", "口"]
-    },
+    // "問": {
+    //     "zhuyin": "ㄨㄣˋ",
+    //     "pinyin": "wèn",
+    //     "tone": 4,
+    //     "english": "ask",
+    //     "simplified": "问",
+    //     "radicals": ["門", "口"]
+    // },
     "錯": {
         "zhuyin": "ㄘㄨㄛˋ",
         "pinyin": "cuò",
@@ -1084,14 +1084,14 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    "它": {
-        "zhuyin": "ㄊㄚ",
-        "pinyin": "tā",
-        "tone": 1,
-        "english": "it",
-        "simplified": "",
-        "radicals": ["宀", "匕"]
-    },
+    // "它": {
+    //     "zhuyin": "ㄊㄚ",
+    //     "pinyin": "tā",
+    //     "tone": 1,
+    //     "english": "it",
+    //     "simplified": "",
+    //     "radicals": ["宀", "匕"]
+    // },
     "感": {
         "zhuyin": "ㄍㄢˇ",
         "pinyin": "gǎn",
@@ -1116,14 +1116,14 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    "電": {
-        "zhuyin": "ㄉㄧㄢˋ",
-        "pinyin": "diàn",
-        "tone": 4,
-        "english": "electric",
-        "simplified": "电",
-        "radicals": ["雨", "电"]
-    },
+    // "電": {
+    //     "zhuyin": "ㄉㄧㄢˋ",
+    //     "pinyin": "diàn",
+    //     "tone": 4,
+    //     "english": "electric",
+    //     "simplified": "电",
+    //     "radicals": ["雨", "电"]
+    // },
     "間": {
         "zhuyin": "ㄐㄧㄢ",
         "pinyin": "jiān",
@@ -1180,14 +1180,14 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    "歡": {
-        "zhuyin": "ㄏㄨㄢ",
-        "pinyin": "huān",
-        "tone": 1,
-        "english": "joyous, pleased",
-        "simplified": "欢",
-        "radicals": ["雚", "欠"]
-    },
+    // "歡": {
+    //     "zhuyin": "ㄏㄨㄢ",
+    //     "pinyin": "huān",
+    //     "tone": 1,
+    //     "english": "joyous, pleased",
+    //     "simplified": "欢",
+    //     "radicals": ["雚", "欠"]
+    // },
     "正": {
         "zhuyin": "ㄓㄥˋ",
         "pinyin": "zhèng",
@@ -1228,22 +1228,22 @@ const hanziAll = {
         "simplified": "车",
         "radicals": ["二", "日"]
     },
-    "年": {
-        "zhuyin": "ㄋㄧㄢˊ",
-        "pinyin": "nián",
-        "tone": 2,
-        "english": "year",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "喜": {
-        "zhuyin": "ㄒㄧˇ",
-        "pinyin": "xǐ",
-        "tone": 3,
-        "english": "fond of, to like",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "年": {
+    //     "zhuyin": "ㄋㄧㄢˊ",
+    //     "pinyin": "nián",
+    //     "tone": 2,
+    //     "english": "year",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "喜": {
+    //     "zhuyin": "ㄒㄧˇ",
+    //     "pinyin": "xǐ",
+    //     "tone": 3,
+    //     "english": "fond of, to like",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "認": {
         "zhuyin": "ㄖㄣˋ",
         "pinyin": "rèn",
@@ -1292,14 +1292,14 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["亠", "㇓", "㇆"]
     },
-    "老": {
-        "zhuyin": "ㄌㄠˇ",
-        "pinyin": "	lǎo",
-        "tone": 3,
-        "english": "old (prefix)",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "老": {
+    //     "zhuyin": "ㄌㄠˇ",
+    //     "pinyin": "	lǎo",
+    //     "tone": 3,
+    //     "english": "old (prefix)",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "應": {
         "zhuyin": "ㄧㄥ",
         "pinyin": "yīng",
@@ -1364,14 +1364,14 @@ const hanziAll = {
         "simplified": "机",
         "radicals": ["木", "戈", "幺"]
     },
-    "分": {
-        "zhuyin": "ㄈㄣ",
-        "pinyin": "",
-        "tone": 1,
-        "english": "to divide, fraction",
-        "simplified": "",
-        "radicals": ["八", "刀"]
-    },
+    // "分": {
+    //     "zhuyin": "ㄈㄣ",
+    //     "pinyin": "",
+    //     "tone": 1,
+    //     "english": "to divide, fraction",
+    //     "simplified": "",
+    //     "radicals": ["八", "刀"]
+    // },
     "特": {
         "zhuyin": "ㄊㄜˋ",
         "pinyin": "",
@@ -1508,14 +1508,14 @@ const hanziAll = {
         "simplified": "东",
         "radicals": ["", ""]
     },
-    "名": {
-        "zhuyin": "ㄇㄧㄥˊ",
-        "pinyin": "",
-        "tone": 2,
-        "english": "name",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "名": {
+    //     "zhuyin": "ㄇㄧㄥˊ",
+    //     "pinyin": "",
+    //     "tone": 2,
+    //     "english": "name",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "同": {
         "zhuyin": "ㄊㄨㄥˊ",
         "pinyin": "",
@@ -1572,14 +1572,14 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    "學": {
-        "zhuyin": "ㄒㄩㄝˊ",
-        "pinyin": "",
-        "tone": 2,
-        "english": "learn",
-        "simplified": "学",
-        "radicals": ["", ""]
-    },
+    // "學": {
+    //     "zhuyin": "ㄒㄩㄝˊ",
+    //     "pinyin": "",
+    //     "tone": 2,
+    //     "english": "learn",
+    //     "simplified": "学",
+    //     "radicals": ["", ""]
+    // },
     "安": {
         "zhuyin": "ㄢ",
         "pinyin": "",
@@ -1596,14 +1596,14 @@ const hanziAll = {
         "simplified": "尔",
         "radicals": ["", ""]
     },
-    "叫": {
-        "zhuyin": "ㄐㄧㄠˋ",
-        "pinyin": "",
-        "tone": 4,
-        "english": "call",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "叫": {
+    //     "zhuyin": "ㄐㄧㄠˋ",
+    //     "pinyin": "",
+    //     "tone": 4,
+    //     "english": "call",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "理": {
         "zhuyin": "ㄌㄧˇ",
         "pinyin": "",
@@ -1613,14 +1613,14 @@ const hanziAll = {
         "radicals": ["", ""]
     },
 
-    "本": {
-        "zhuyin": "ㄅㄣˇ",
-        "pinyin": "",
-        "tone": 3,
-        "english": "measure w. for books",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "本": {
+    //     "zhuyin": "ㄅㄣˇ",
+    //     "pinyin": "",
+    //     "tone": 3,
+    //     "english": "measure w. for books",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "國": {
         "zhuyin": "ㄍㄨㄛˊ",
         "pinyin": "",
@@ -1645,14 +1645,14 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    "高": {
-        "zhuyin": "ㄍㄠ",
-        "pinyin": "",
-        "tone": 1,
-        "english": "high, tall",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "高": {
+    //     "zhuyin": "ㄍㄠ",
+    //     "pinyin": "",
+    //     "tone": 1,
+    //     "english": "high, tall",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "兩": {
         "zhuyin": "ㄌㄧㄤˇ",
         "pinyin": "",
@@ -1709,14 +1709,14 @@ const hanziAll = {
         "simplified": "记",
         "radicals": ["", ""]
     },
-    "身": {
-        "zhuyin": "ㄕㄣ",
-        "pinyin": "",
-        "tone": 1,
-        "english": "body",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "身": {
+    //     "zhuyin": "ㄕㄣ",
+    //     "pinyin": "",
+    //     "tone": 1,
+    //     "english": "body",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "受": {
         "zhuyin": "ㄕㄡˋ",
         "pinyin": "",
@@ -1837,14 +1837,14 @@ const hanziAll = {
         "simplified": "谈",
         "radicals": ["", ""]
     },
-    "又": {
-        "zhuyin": "ㄧㄡˋ",
-        "pinyin": "yòu",
-        "tone": 4,
-        "english": "again, also",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "又": {
+    //     "zhuyin": "ㄧㄡˋ",
+    //     "pinyin": "yòu",
+    //     "tone": 4,
+    //     "english": "again, also",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "新": {
         "zhuyin": "ㄒㄧㄣ",
         "pinyin": "xīn",
@@ -1869,14 +1869,14 @@ const hanziAll = {
         "simplified": "钱",
         "radicals": ["", ""]
     },
-    "馬": {
-        "zhuyin": "ㄇㄚˇ",
-        "pinyin": "mǎ",
-        "tone": 3,
-        "english": "horse",
-        "simplified": "马",
-        "radicals": ["", ""]
-    },
+    // "馬": {
+    //     "zhuyin": "ㄇㄚˇ",
+    //     "pinyin": "mǎ",
+    //     "tone": 3,
+    //     "english": "horse",
+    //     "simplified": "马",
+    //     "radicals": ["", ""]
+    // },
     "思": {
         "zhuyin": "ㄙ",
         "pinyin": "sī",
@@ -1989,14 +1989,14 @@ const hanziAll = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    "外": {
-        "zhuyin": "ㄨㄞˋ",
-        "pinyin": "wài",
-        "tone": 4,
-        "english": "outside, foreign",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "外": {
+    //     "zhuyin": "ㄨㄞˋ",
+    //     "pinyin": "wài",
+    //     "tone": 4,
+    //     "english": "outside, foreign",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "件": {
         "zhuyin": "ㄐㄧㄢˋ",
         "pinyin": "jiàn",
