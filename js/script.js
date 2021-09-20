@@ -143,6 +143,49 @@ function getIdioms() {
         nuDiv.classList.add('grammBox');
     }
 };
+function getMeasureWords() {
+    grammarArray = [];
+    gMeaningsArray = [];
+    gZhuyinArray = [];
+    gExplanationArray = [];
+    gPatternsArray = [];
+    pageHeader.textContent = "";
+    pageHeader.textContent = "量詞";
+    quizStudyBox.classList.add('hidden');
+    sentenceBox.classList.remove('hidden');
+    hanziWriteBox.classList.add('hidden');
+    removeAllChildren(flashBox);
+    removeAllChildren(flashBox2);
+    removeAllChildren(flashBox3);
+    removeAllChildren(sentenceBox);
+    for (var [word, value] of Object.entries(measureWords)) {
+        grammarArray.push(word);
+        gZhuyinArray.push(value.zhuyin);
+        gMeaningsArray.push(value.english);
+        let nuDiv = document.createElement('div');
+        let nuDivTit = document.createElement('h1');
+        let nuDivTit2 = document.createElement('h3');
+        let nuTxt = document.createElement('p');
+        let nuTxt2 = document.createElement('p');
+        nuDivTit.textContent = word;
+        nuTxt.textContent = value.zhuyin;
+        nuTxt2.textContent = value.english;
+        // nuDivTit.classList.add('light');
+        nuDivTit2.classList.add('small');
+        nuDivTit.classList.add('cursive');
+        nuDivTit.classList.add('large');
+        // nuDivTit2.classList.add('cursive');
+        // nuTxt.classList.add('center');
+        nuTxt.classList.add('faded');
+        nuTxt.classList.remove('cursive');
+        nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt);
+        nuDiv.append(nuDivTit2);
+        nuDiv.append(nuTxt2);
+        flashBox2.append(nuDiv);
+        nuDiv.classList.add('radicalFlashcards');
+    }
+};
 function getSentences() {
     sentencesArray = [];
     sMeaningsArray = [];
@@ -1667,8 +1710,10 @@ function leSearch() {
     let searchBox = document.querySelector('.searchBox');
     let searchResBox = document.querySelector('.searchRes');
     let searchResBox2 = document.querySelector('.searchRes2');
+    let searchResBox3 = document.querySelector('.searchRes2');
     removeAllChildren(searchResBox);
     removeAllChildren(searchResBox2);
+    removeAllChildren(searchResBox3);
     let searchTerm = searchBox.value;
     console.log(searchTerm);
     for (let [key, value] of Object.entries(hanziAll)) {
@@ -1732,6 +1777,18 @@ function leSearch() {
         }
     }
     for (let [key, value] of Object.entries(bookWordsCACG)) {
+        if (key.search(searchTerm) !== -1) {
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
+        }
+        if (value.english.search(searchTerm) !== -1) {
+            searchRes.push(" " + key);
+            searchResMeanings.push(value.english);
+            searchResZhuyin.push(value.zhuyin);
+        }
+    }
+    for (let [key, value] of Object.entries(measureWords)) {
         if (key.search(searchTerm) !== -1) {
             searchRes.push(" " + key);
             searchResMeanings.push(value.english);

@@ -10050,6 +10050,143 @@ const bookWords = {
     //     "book": "",
     // },
 }
+const measureWords = {
+    "個": {
+        "zhuyin": "ㄍㄜˋ",
+        "english": "general measure word for people or things",
+        "simplified": "个"
+    },
+    "位": {
+        "zhuyin": "ㄨㄟˋ",
+        "english": "respectful measure word for people",
+        "simplified": ""
+    },
+    "名": {
+        "zhuyin": "ㄇㄧㄥˊ",
+        "english": "measure word for professionals, doctors",
+        "simplified": ""
+    },
+    "口": {
+        "zhuyin": "ㄎㄡˇ",
+        "english": "measure word for dependents",
+        "simplified": ""
+    },
+    "具": {
+        "zhuyin": "ㄐㄩˋ",
+        "english": "measure word for corpses",
+        "simplified": ""
+    },
+    "戶": {
+        "zhuyin": "ㄏㄨˋ",
+        "english": "measure word for households",
+        "simplified": "户"
+    },
+    "只": {
+        "zhuyin": "ㄓ",
+        "english": "measure word for animals, birds",
+        "simplified": ""
+    },
+    "頭": {
+        "zhuyin": "ㄊㄡˊ",
+        "english": "measure word for livestock, cows",
+        "simplified": "头"
+    },
+    "匹": {
+        "zhuyin": "ㄆㄧˇ",
+        "english": "measure word for horses",
+        "simplified": ""
+    },
+    "條": {
+        "zhuyin": "ㄊㄧㄠˊ",
+        "english": "measure word for fish, snakes",
+        "simplified": ""
+    },
+    "棵": {
+        "zhuyin": "ㄎㄜ",
+        "english": "measure word for trees",
+        "simplified": ""
+    },
+    "株": {
+        "zhuyin": "ㄓㄨ",
+        "english": "measure word for plants, flowers still in the ground",
+        "simplified": ""
+    },
+    "朵": {
+        "zhuyin": "ㄉㄨㄛˇ",
+        "english": "measure word for flower bulbs or stems",
+        "simplified": ""
+    },
+    "把": {
+        "zhuyin": "ㄅㄚˇ",
+        "english": "measure word for handfuls",
+        "simplified": ""
+    },
+    "支": {
+        "zhuyin": "ㄓ",
+        "english": "measure word for long (and straight) things, pens",
+        "simplified": ""
+    },
+    "條": {
+        "zhuyin": "ㄊㄧㄠˊ",
+        "english": "measure word for long (and winding) things, rivers, roads",
+        "simplified": ""
+    },
+    "根": {
+        "zhuyin": "ㄍㄣ",
+        "english": "measure word for long (and thin) things, hair",
+        "simplified": ""
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+}
 //add these measure words somewhere:
 // 一座山
 // 兩朵花二
