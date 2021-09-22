@@ -167,6 +167,7 @@ function getMeasureWords() {
         let nuDivTit2 = document.createElement('h3');
         let nuTxt = document.createElement('p');
         let nuTxt2 = document.createElement('p');
+        let nuTxt3 = document.createElement('p');
         nuDivTit.textContent = word;
         nuTxt.textContent = value.zhuyin;
         nuTxt2.textContent = value.english;
@@ -174,6 +175,9 @@ function getMeasureWords() {
         nuDivTit2.classList.add('small');
         nuDivTit.classList.add('cursive');
         nuDivTit.classList.add('large');
+        nuTxt3.textContent = value.simplified;
+        nuTxt3.classList.add('semifaded');
+        nuTxt3.classList.add('simplified');
         // nuDivTit2.classList.add('cursive');
         // nuTxt.classList.add('center');
         nuTxt.classList.add('faded');
@@ -182,6 +186,7 @@ function getMeasureWords() {
         nuDiv.append(nuTxt);
         nuDiv.append(nuDivTit2);
         nuDiv.append(nuTxt2);
+        nuDiv.append(nuTxt3);
         flashBox2.append(nuDiv);
         nuDiv.classList.add('radicalFlashcards');
     }

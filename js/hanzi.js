@@ -209,14 +209,14 @@ const hanzi1to500 = {
     //     "simplified": "吗",
     //     "radicals": ["口", "馬"]
     // },
-    "為": {
-        "zhuyin": "ㄨㄟˋ",
-        "pinyin": "wèi",
-        "tone": 4,
-        "english": "because of",
-        "simplified": "为",
-        "radicals": ["丶", "灬"]
-    },
+    // "為": {
+    //     "zhuyin": "ㄨㄟˋ",
+    //     "pinyin": "wèi",
+    //     "tone": 4,
+    //     "english": "because of",
+    //     "simplified": "为",
+    //     "radicals": ["丶", "灬"]
+    // },
     // "想": {
     //     "zhuyin": "ㄒ一ㄤˇ",
     //     "pinyin": "xiǎng",
@@ -715,14 +715,14 @@ const hanzi1to500 = {
     //     "simplified": "",
     //     "radicals": ["丶"]
     // },
-    "走": {
-        "zhuyin": "ㄗㄡˇ",
-        "pinyin": "zǒu",
-        "tone": 3,
-        "english": "to walk, away",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "走": {
+    //     "zhuyin": "ㄗㄡˇ",
+    //     "pinyin": "zǒu",
+    //     "tone": 3,
+    //     "english": "to walk, away",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "定": {
         "zhuyin": "ㄉ一ㄥˋ",
         "pinyin": "dìng",
@@ -877,14 +877,14 @@ const hanzi1to500 = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    "找": {
-        "zhuyin": "ㄓㄠˇ",
-        "pinyin": "zhǎo",
-        "tone": 3,
-        "english": "find, to look for",
-        "simplified": "",
-        "radicals": ["扌", "戈"]
-    },
+    // "找": {
+    //     "zhuyin": "ㄓㄠˇ",
+    //     "pinyin": "zhǎo",
+    //     "tone": 3,
+    //     "english": "find, to look for",
+    //     "simplified": "",
+    //     "radicals": ["扌", "戈"]
+    // },
     "行": {
         "zhuyin": "ㄒㄧㄥˊ",
         "pinyin": "xíng",
@@ -893,14 +893,14 @@ const hanzi1to500 = {
         "simplified": "",
         "radicals": ["彳", "亍"]
     },
-    "快": {
-        "zhuyin": "ㄎㄨㄞˋ",
-        "pinyin": "kuài",
-        "tone": 4,
-        "english": "quick, rapid, almost",
-        "simplified": "",
-        "radicals": ["忄", "人"]
-    },
+    // "快": {
+    //     "zhuyin": "ㄎㄨㄞˋ",
+    //     "pinyin": "kuài",
+    //     "tone": 4,
+    //     "english": "quick, rapid, almost",
+    //     "simplified": "",
+    //     "radicals": ["忄", "人"]
+    // },
     "而": {
         "zhuyin": "ㄦˊ",
         "pinyin": "ér",
@@ -917,22 +917,22 @@ const hanzi1to500 = {
         "simplified": "",
         "radicals": ["歹", "匕"]
     },
-    "先": {
-        "zhuyin": "ㄒㄧㄢ",
-        "pinyin": "xiān",
-        "tone": 1,
-        "english": "first, former",
-        "simplified": "",
-        "radicals": ["⺧", "儿"]
-    },
-    "像": {
-        "zhuyin": "ㄒㄧㄤˋ",
-        "pinyin": "xiàng",
-        "tone": 4,
-        "english": "resemble, to be like, image",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "先": {
+    //     "zhuyin": "ㄒㄧㄢ",
+    //     "pinyin": "xiān",
+    //     "tone": 1,
+    //     "english": "first, former",
+    //     "simplified": "",
+    //     "radicals": ["⺧", "儿"]
+    // },
+    // "像": {
+    //     "zhuyin": "ㄒㄧㄤˋ",
+    //     "pinyin": "xiàng",
+    //     "tone": 4,
+    //     "english": "resemble, to be like, image",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "等": {
         "zhuyin": "ㄉㄥˇ",
         "pinyin": "děng",
@@ -997,22 +997,22 @@ const hanzi1to500 = {
         "simplified": "",
         "radicals": ["亻", "乍"]
     },
-    "跟": {
-        "zhuyin": "ㄍㄣ",
-        "pinyin": "gēn",
-        "tone": 1,
-        "english": "with, to follow",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
-    "面": {
-        "zhuyin": "ㄇㄧㄢˋ",
-        "pinyin": "miàn",
-        "tone": 4,
-        "english": "face, surface, noodles, side, aspect",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "跟": {
+    //     "zhuyin": "ㄍㄣ",
+    //     "pinyin": "gēn",
+    //     "tone": 1,
+    //     "english": "with, to follow",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "面": {
+    //     "zhuyin": "ㄇㄧㄢˋ",
+    //     "pinyin": "miàn",
+    //     "tone": 4,
+    //     "english": "face, surface, noodles, side, aspect",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "訴": {
         "zhuyin": "ㄙㄨˋ",
         "pinyin": "sù",
@@ -1061,14 +1061,14 @@ const hanzi1to500 = {
         "simplified": "错",
         "radicals": ["", ""]
     },
-    "孩": {
-        "zhuyin": "ㄏㄞˊ",
-        "pinyin": "hái",
-        "tone": 2,
-        "english": "child",
-        "simplified": "",
-        "radicals": ["", ""]
-    },
+    // "孩": {
+    //     "zhuyin": "ㄏㄞˊ",
+    //     "pinyin": "hái",
+    //     "tone": 2,
+    //     "english": "child",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     "斯": {
         "zhuyin": "ㄙ",
         "pinyin": "sī",
@@ -10485,7 +10485,7 @@ const measureWords = {
     "條": {
         "zhuyin": "ㄊㄧㄠˊ",
         "english": "measure word for fish, snakes",
-        "simplified": ""
+        "simplified": "条"
     },
     "棵": {
         "zhuyin": "ㄎㄜ",
@@ -10515,13 +10515,368 @@ const measureWords = {
     "條": {
         "zhuyin": "ㄊㄧㄠˊ",
         "english": "measure word for long (and winding) things, rivers, roads",
-        "simplified": ""
+        "simplified": "条"
     },
     "根": {
         "zhuyin": "ㄍㄣ",
         "english": "measure word for long (and thin) things, hair",
         "simplified": ""
     },
+    "張": {
+        "zhuyin": "ㄓㄤ",
+        "english": "measure word for flat things, paper, a ticket",
+        "simplified": "张"
+    },
+    "團": {
+        "zhuyin": "ㄊㄨㄢˊ",
+        "english": "measure word for piles",
+        "simplified": "团"
+    },
+    "堆": {
+        "zhuyin": "ㄉㄨㄟ",
+        "english": "measure word for big piles",
+        "simplified": ""
+    },
+    "顆": {
+        "zhuyin": "ㄎㄜ",
+        "english": "measure word for small, compact things, pearls",
+        "simplified": "颗"
+    },
+    "粒": {
+        "zhuyin": "ㄌㄧˋ",
+        "english": "measure word for tiny things, pills",
+        "simplified": ""
+    },
+    "扇": {
+        "zhuyin": "ㄕㄢˋ",
+        "english": "measure word for leaves, things that turns on a hinge, doors",
+        "simplified": ""
+    },
+    "包": {
+        "zhuyin": "ㄅㄠ",
+        "english": "measure word for packs",
+        "simplified": ""
+    },
+    "卷": {
+        "zhuyin": "ㄐㄩㄢˋ",
+        "english": "measure word for rolls",
+        "simplified": ""
+    },
+    "封": {
+        "zhuyin": "ㄈㄥ",
+        "english": "measure word for envelopes, letters",
+        "simplified": ""
+    },
+    "桶": {
+        "zhuyin": "ㄊㄨㄥˇ",
+        "english": "measure word for tubes, buckets, paint",
+        "simplified": ""
+    },
+    "盒": {
+        "zhuyin": "ㄏㄜˊ",
+        "english": "measure word for boxes of things",
+        "simplified": ""
+    },
+    "束": {
+        "zhuyin": "ㄕㄨˋ",
+        "english": "measure word for boquets",
+        "simplified": ""
+    },
+    "本": {
+        "zhuyin": "ㄅㄣˇ",
+        "english": "measure word for books",
+        "simplified": ""
+    },
+    "份": {
+        "zhuyin": "ㄈㄣˋ",
+        "english": "measure word for newspapers",
+        "simplified": ""
+    },
+    "件": {
+        "zhuyin": "ㄐㄧㄢˋ",
+        "english": "measure word for incidents, circumstances, 事s",
+        "simplified": ""
+    },
+    "節": {
+        "zhuyin": "ㄐㄧㄝˊ",
+        "english": "measure word for events, episodes, one class from a series or course",
+        "simplified": "节"
+    },
+    "門": {
+        "zhuyin": "ㄇㄣˊ",
+        "english": "measure word for subjects or series of classes",
+        "simplified": "门"
+    },
+    "次": {
+        "zhuyin": "ㄘˋ",
+        "english": "measure word for times, occurrences",
+        "simplified": ""
+    },
+    "場": {
+        "zhuyin": "ㄔㄤˊ",
+        "english": "measure word for large events",
+        "simplified": "场"
+    },
+    "段": {
+        "zhuyin": "ㄉㄨㄢˋ",
+        "english": "measure word for a period of time",
+        "simplified": ""
+    },
+    "陣": {
+        "zhuyin": "ㄓㄣˋ",
+        "english": "measure word for sudden, passing events",
+        "simplified": "阵"
+    },
+    "刻": {
+        "zhuyin": "ㄎㄜˋ",
+        "english": "measure word for a moment, moments",
+        "simplified": ""
+    },
+    "番": {
+        "zhuyin": "ㄈㄢ",
+        "english": "measure word for a long period of time, stretch, or an activity that requires significant effort",
+        "simplified": ""
+    },
+    "趟": {
+        "zhuyin": "ㄊㄤˋ",
+        "english": "measure word for trips, tours",
+        "simplified": ""
+    },
+    "間": {
+        "zhuyin": "ㄐㄧㄢ",
+        "english": "measure word for rooms, houses",
+        "simplified": "间"
+    },
+    "棟": {
+        "zhuyin": "ㄉㄨㄥˋ",
+        "english": "measure word for tall buildings",
+        "simplified": "栋"
+    },
+    "層": {
+        "zhuyin": "ㄘㄥˊ",
+        "english": "measure word for floors, stories(of building)",
+        "simplified": "层"
+    },
+    "堵": {
+        "zhuyin": "ㄉㄨˇ",
+        "english": "measure word for walls",
+        "simplified": ""
+    },
+    "面": {
+        "zhuyin": "ㄇㄧㄢˋ",
+        "english": "measure word for walls",
+        "simplified": ""
+    },
+    "所": {
+        "zhuyin": "ㄙㄨㄛˇ",
+        "english": "measure word for multi building complex, hospitals",
+        "simplified": ""
+    },
+    "場": {
+        "zhuyin": "ㄔㄤˊ",
+        "english": "measure word for fields, open public spaces",
+        "simplified": "场"
+    },
+    "家": {
+        "zhuyin": "ㄐㄧㄚ",
+        "english": "measure word for places of work",
+        "simplified": ""
+    },
+    "座": {
+        "zhuyin": "ㄗㄨㄛˋ",
+        "english": "measure word for large structures, bridges, mountains",
+        "simplified": ""
+    },
+    "份": {
+        "zhuyin": "ㄈㄣˋ",
+        "english": "measure word for portions",
+        "simplified": ""
+    },
+    "片": {
+        "zhuyin": "ㄆㄧㄢˋ",
+        "english": "measure word for pieces",
+        "simplified": ""
+    },
+    "塊": {
+        "zhuyin": "ㄎㄨㄞˋ",
+        "english": "measure word for pieces, slices",
+        "simplified": "块"
+    },
+    "口": {
+        "zhuyin": "ㄎㄡˇ",
+        "english": "measure word for sips, mouthfuls",
+        "simplified": ""
+    },
+    "道": {
+        "zhuyin": "ㄉㄠˋ",
+        "english": "measure word for dishes",
+        "simplified": ""
+    },
+    "頓": {
+        "zhuyin": "ㄉㄨㄣˋ",
+        "english": "measure word for meals",
+        "simplified": "顿"
+    },
+    "碗": {
+        "zhuyin": "ㄨㄢˇ",
+        "english": "measure word for bowls of food",
+        "simplified": ""
+    },
+    "盤": {
+        "zhuyin": "ㄆㄢˊ",
+        "english": "measure word for plates of food",
+        "simplified": "盘"
+    },
+    "滴": {
+        "zhuyin": "ㄉㄧ",
+        "english": "measure word for drops",
+        "simplified": ""
+    },
+    "杯": {
+        "zhuyin": "ㄅㄟ",
+        "english": "measure word for cups",
+        "simplified": ""
+    },
+    "瓶": {
+        "zhuyin": "ㄆㄧㄥˊ",
+        "english": "measure word for bottles",
+        "simplified": ""
+    },
+    "壺": {
+        "zhuyin": "ㄏㄨˊ",
+        "english": "measure word for teapots",
+        "simplified": "壶"
+    },
+    "罐": {
+        "zhuyin": "ㄍㄨㄢˋ",
+        "english": "measure word for cans, jars",
+        "simplified": ""
+    },
+    "股": {
+        "zhuyin": "ㄍㄨˇ",
+        "english": "measure word for whiffs, smells, aromas",
+        "simplified": ""
+    },
+    "條": {
+        "zhuyin": "ㄊㄧㄠˊ",
+        "english": "measure word for towels, tablecloths, blankets",
+        "simplified": "条"
+    },
+    "盞": {
+        "zhuyin": "ㄓㄢˇ",
+        "english": "measure word for lamps",
+        "simplified": "盏"
+    },
+    "幅": {
+        "zhuyin": "ㄈㄨˊ",
+        "english": "measure word for paintings or drawings",
+        "simplified": ""
+    },
+    "幀": {
+        "zhuyin": "ㄓㄣ",
+        "english": "measure word for printed pictures",
+        "simplified": "帧"
+    },
+    "件": {
+        "zhuyin": "ㄐㄧㄢˋ",
+        "english": "measure word for articles of clothing",
+        "simplified": ""
+    },
+    "條": {
+        "zhuyin": "ㄊㄧㄠˊ",
+        "english": "measure word for a long articles of clothing, neckties",
+        "simplified": "条"
+    },
+    "套": {
+        "zhuyin": "ㄊㄠˋ",
+        "english": "measure word for costumes",
+        "simplified": ""
+    },
+    "頂": {
+        "zhuyin": "ㄉㄧㄥˇ",
+        "english": "measure word for hats",
+        "simplified": "顶"
+    },
+    "雙": {
+        "zhuyin": "ㄕㄨㄤ",
+        "english": "measure word for pairs of identical objects, eyes",
+        "simplified": "双"
+    },
+    "副": {
+        "zhuyin": "ㄈㄨˋ",
+        "english": "measure word for pairs of complementary objects",
+        "simplified": ""
+    },
+    "對": {
+        "zhuyin": "ㄉㄨㄟˋ",
+        "english": "measure word for married pairs",
+        "simplified": "对"
+    },
+    "些": {
+        "zhuyin": "ㄒㄧㄝ",
+        "english": "measure word for few things",
+        "simplified": ""
+    },
+    "種": {
+        "zhuyin": "ㄓㄨㄥˇ",
+        "english": "measure word for kinds, typess",
+        "simplified": "种"
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "measure word for ",
+    //     "simplified": ""
+    // },
     // "": {
     //     "zhuyin": "",
     //     "english": "measure word for ",
