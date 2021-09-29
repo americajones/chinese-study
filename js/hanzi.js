@@ -8419,6 +8419,342 @@ const hanzi1001to1500 = {
         "radicals": ["", ""]
     },
     // 1050/2633 done
+    "透": {
+        "zhuyin": "ㄊㄡˋ",
+        "pinyin": "tòu",
+        "tone": 4,
+        "english": "to penetrate",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "魂": {
+        "zhuyin": "ㄏㄨㄣˊ",
+        "pinyin": "hún",
+        "tone": 2,
+        "english": "soul, spirit",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "藝": {
+        "zhuyin": "ㄧˋ",
+        "pinyin": "yì",
+        "tone": 4,
+        "english": "skill, art",
+        "simplified": "艺",
+        "radicals": ["", ""]
+    },
+    "掌": {
+        "zhuyin": "ㄓㄤˇ",
+        "pinyin": "zhǎng",
+        "tone": 3,
+        "english": "palm of hand",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "啥": {
+        "zhuyin": "ㄕㄚˊ",
+        "pinyin": "shà",
+        "tone": 2,
+        "english": "what?",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "升": {
+        "zhuyin": "ㄕㄥ",
+        "pinyin": "shēng",
+        "tone": 1,
+        "english": "to ascend, promote",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "褲": {
+        "zhuyin": "ㄎㄨˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "trousers",
+        "simplified": "裤",
+        "radicals": ["", ""]
+    },
+    "臨": {
+        "zhuyin": "ㄌㄧㄣˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "to face",
+        "simplified": "临",
+        "radicals": ["", ""]
+    },
+    "智": {
+        "zhuyin": "ㄓˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "wisdom",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "盤": {
+        "zhuyin": "ㄆㄢˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "plate",
+        "simplified": "盘",
+        "radicals": ["", ""]
+    },
+    "研": {
+        "zhuyin": "ㄧㄢˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "study, research",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "菲": {
+        "zhuyin": "ㄈㄟ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "fragrant, luxuriant",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "歸": {
+        "zhuyin": "ㄍㄨㄟ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "to return",
+        "simplified": "归",
+        "radicals": ["", ""]
+    },
+    "撞": {
+        "zhuyin": "ㄓㄨㄤˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "to hit",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "隱": {
+        "zhuyin": "ㄧㄣˇ",
+        "pinyin": "",
+        "tone": 3,
+        "english": "secret",
+        "simplified": "隐",
+        "radicals": ["", ""]
+    },
+    "附": {
+        "zhuyin": "ㄈㄨˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "to be close to, to add",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "搜": {
+        "zhuyin": "ㄙㄡ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "to seek",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "擺": {
+        "zhuyin": "ㄅㄞˇ",
+        "pinyin": "",
+        "tone": 3,
+        "english": "to arrange",
+        "simplified": "摆",
+        "radicals": ["", ""]
+    },
+    "散": {
+        "zhuyin": "ㄙㄢˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "to scatter",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": "",
+    //     "radicals": ["", ""]
+    // },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
@@ -13587,6 +13923,7 @@ const bookWordsGradedReaders = {
 
 
 };
+
 
 //100% complete
 const zhuyinCharacters = {
