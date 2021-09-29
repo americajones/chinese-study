@@ -396,6 +396,44 @@ function loadHanziFlashcards() {
             nuTxt2.classList.toggle('opacity');
         }
     };
+    for (var [hanzi, value] of Object.entries(hanzi1001to1500)) {
+        hanziCharArray.push(hanzi);
+        hanziZhuyinArray.push(value.zhuyin);
+        hanziMeaningsArray.push(value.english);
+        let nuDiv = document.createElement('div');
+        let nuDivTit = document.createElement('h2');
+        let nuTxt = document.createElement('p');
+        let nuTxt2 = document.createElement('p');
+        let nuTxt3 = document.createElement('p');
+        numberrr++;
+        let nuNumDiv = document.createElement('div');
+        nuNumDiv.classList.add('numLabel');
+        nuNumDiv.textContent = numberrr;
+        nuDivTit.textContent = hanzi;
+        nuTxt.textContent = value.zhuyin;
+        nuTxt2.textContent = value.english;
+        nuTxt3.textContent = value.simplified;
+        nuTxt3.classList.add('semifaded');
+        nuTxt3.classList.add('simplified');
+        nuTxt2.classList.add('small');
+        nuTxt2.classList.add('opacity');
+        nuTxt2.classList.add('pink');
+        nuDivTit.classList.add('cursive');
+        nuDivTit.classList.add('xlarge');
+        // nuTxt.classList.add('cursive');
+        nuTxt.classList.add('faded');
+        nuDiv.classList.add('radicalFlashcards');
+        nuDiv.addEventListener('click', toggleEnglish);
+        nuDiv.append(nuNumDiv);
+        nuDiv.append(nuDivTit);
+        nuDiv.append(nuTxt);
+        nuDiv.append(nuTxt2);
+        nuDiv.append(nuTxt3);
+        flashBox2.append(nuDiv);
+        function toggleEnglish() {
+            nuTxt2.classList.toggle('opacity');
+        }
+    };
 };
 function loadWordFlashcards() {
     let number = 0;
@@ -2048,15 +2086,17 @@ function loadSearchPage() {
     let button = document.createElement('button');
     let searchResults = document.createElement('div');
     let searchResults2 = document.createElement('div');
+    let searchResults3 = document.createElement('div');
     nuDiv.classList.add('searchBundle');
     input.classList.add('searchBox');
     searchResults.classList.add('searchRes');
     searchResults2.classList.add('searchRes2');
+    searchResults3.classList.add('searchRes3');
     button.classList.add('searchButt');
     button.classList.add('butt');
     button.textContent = "search";
     button.addEventListener('click', leSearch);
-    nuDiv.append(input, button, searchResults, searchResults2);
+    nuDiv.append(input, button, searchResults, searchResults2, searchResults3);
     flashBox.append(nuDiv);
 };
 
@@ -2072,7 +2112,7 @@ function leSearch() {
     let searchBox = document.querySelector('.searchBox');
     let searchResBox = document.querySelector('.searchRes');
     let searchResBox2 = document.querySelector('.searchRes2');
-    let searchResBox3 = document.querySelector('.searchRes2');
+    let searchResBox3 = document.querySelector('.searchRes3');
     removeAllChildren(searchResBox);
     removeAllChildren(searchResBox2);
     removeAllChildren(searchResBox3);
