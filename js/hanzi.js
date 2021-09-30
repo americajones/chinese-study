@@ -13915,10 +13915,170 @@ const bookWordsGradedReaders = {
         "english": "wheelchair",
         "book": "秘密花園(lv.1 graded reader)",
     },
+    "搬到": {
+        "zhuyin": "ㄅㄢ ㄉㄠˋ",
+        "english": "to move to",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "聯繫": {
+        "zhuyin": "ㄌㄧㄢˊ ㄒㄧˋ",
+        "english": "to contact, contact",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "沒想到": {
+        "zhuyin": "ㄇㄟˊ ㄒㄧㄤˇ ㄉㄠˋ",
+        "english": "didn't expect that",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "教書": {
+        "zhuyin": "ㄐㄧㄠˋ ㄕㄨ",
+        "english": "to teach classes",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "化學": {
+        "zhuyin": "ㄏㄨㄚˋ ㄒㄩㄝˊ",
+        "english": "Chemistry",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "實驗室": {
+        "zhuyin": "ㄕˊ ㄧㄢˋ ㄕˋ",
+        "english": "laboratory (experiment room)",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "實驗": {
+        "zhuyin": "ㄕˊ ㄧㄢˋ",
+        "english": "experiment",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "除了": {
+        "zhuyin": "ㄔㄨˊ ㄌ",
+        "english": "except for, besides",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "關心": {
+        "zhuyin": "ㄍㄨㄢ ㄒㄧㄣ",
+        "english": "to show concern for",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "事情": {
+        "zhuyin": "ㄕˋ ㄑㄧㄥˊ",
+        "english": "matter, affair, thing",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "生活": {
+        "zhuyin": "ㄕㄥ ㄏㄨㄛˊ",
+        "english": "life",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "公交車": {
+        "zhuyin": "ㄍㄨㄥ ㄐㄧㄠ ㄔㄜ",
+        "english": "public bus",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "上班": {
+        "zhuyin": "ㄕㄤˋ ㄅㄢ",
+        "english": "go to work",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "下班": {
+        "zhuyin": "ㄒㄧㄚˋ ㄅㄢ",
+        "english": "get off work",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "習慣": {
+        "zhuyin": "ㄒㄧˊ ㄍㄨㄢˋ",
+        "english": "get used to, habit",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "以前": {
+        "zhuyin": "ㄧˇ ㄑㄧㄢˊ",
+        "english": "before, ago",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "於是": {
+        "zhuyin": "ㄩˊ ㄕˋ",
+        "english": "consequently",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "偷偷的": {
+        "zhuyin": "ㄊㄡ ㄊㄡ ㄉㄜ˙",
+        "english": "secretly, stealthily",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "跟在": {
+        "zhuyin": "ㄍㄣ ㄗㄞˋ",
+        "english": "to follow",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "緊張": {
+        "zhuyin": "ㄐㄧㄣˇ ㄓㄤ",
+        "english": "nervous",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "急": {
+        "zhuyin": "ㄐㄧˊ",
+        "english": "hurry, anxious",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "煩": {
+        "zhuyin": "ㄈㄢˊ",
+        "english": "annoying, annoyed",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "願意": {
+        "zhuyin": "ㄩㄢˋ ㄧˋ",
+        "english": "to be willing (to do)",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "清楚": {
+        "zhuyin": "ㄑㄧㄥ ㄔㄨˇ",
+        "english": "clear",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "回頭": {
+        "zhuyin": "ㄏㄨㄟˊ ㄊㄡˊ",
+        "english": "to look back",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "老樣子": {
+        "zhuyin": "ㄌㄠˇ ㄧㄤˋ ㄗˇ",
+        "english": "same as always",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "原因": {
+        "zhuyin": "ㄩㄢˊ ㄧㄣ",
+        "english": "cause, reason",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "聊": {
+        "zhuyin": "ㄌㄧㄠˊ",
+        "english": "to chat",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
     // "": {
     //     "zhuyin": "",
     //     "english": "",
-    //     "book": "(lv. graded reader)",
+    //     "book": "江可和黑德(lv.2 graded reader)",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "",
+    //     "book": "江可和黑德(lv.2 graded reader)",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "",
+    //     "book": "江可和黑德(lv.2 graded reader)",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "",
+    //     "book": "江可和黑德(lv.2 graded reader)",
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "english": "",
+    //     "book": "江可和黑德(lv.2 graded reader)",
     // },
 
 
