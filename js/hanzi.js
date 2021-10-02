@@ -14055,30 +14055,290 @@ const bookWordsGradedReaders = {
         "english": "to chat",
         "book": "江可和黑德(lv.2 graded reader)",
     },
+    "關係": {
+        "zhuyin": "ㄍㄨㄢ ㄒㄧˋ",
+        "english": "relationship",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "短": {
+        "zhuyin": "ㄉㄨㄢˇ",
+        "english": "short",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "冷冰冰": {
+        "zhuyin": "ㄌㄥˇ ㄅㄧㄥ ㄅㄧㄥ",
+        "english": "ice cold",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "談": {
+        "zhuyin": "ㄊㄢˊ",
+        "english": "to talk (about)",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "藥水": {
+        "zhuyin": "ㄧㄠˋ ㄕㄨㄟˇ",
+        "english": "(liquid) medicine",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "心理學": {
+        "zhuyin": "ㄒㄧㄣ ㄌㄧˇ ㄒㄩㄝˊ",
+        "english": "Psychology",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "各種": {
+        "zhuyin": "ㄍㄜˋ ㄓㄨㄥˇ",
+        "english": "all kinds",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "其中": {
+        "zhuyin": "ㄑㄧˊ ㄓㄨㄥ",
+        "english": "among",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "睡著": {
+        "zhuyin": "ㄕㄨㄟˋ ㄓㄨㄛˊ",
+        "english": "to fall asleep",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "反應": {
+        "zhuyin": "ㄈㄢˇ ㄧㄥ",
+        "english": "reaction, response",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "金色": {
+        "zhuyin": "ㄐㄧㄣ ㄙㄜˋ",
+        "english": "gold (in color)",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "另外": {
+        "zhuyin": "ㄌㄧㄥˋ ㄨㄞˋ",
+        "english": "in addition",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "教學樓": {
+        "zhuyin": "ㄐㄧㄠˋ ㄒㄩㄝˊ ㄌㄡˊ",
+        "english": "classroom building",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "看… 一眼": {
+        "zhuyin": "ㄎㄢˋ … ㄧ ㄧㄢˇ",
+        "english": "to take a look at",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "化學品": {
+        "zhuyin": "ㄏㄨㄚˋ ㄒㄩㄝˊ ㄆㄧㄣˇ",
+        "english": "chemicals",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "辣椒": {
+        "zhuyin": "ㄌㄚˋ ㄐㄧㄠ",
+        "english": "hot pepper",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "也許": {
+        "zhuyin": "ㄧㄝˇ ㄒㄩˇ",
+        "english": "perhaps",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "瓶": {
+        "zhuyin": "ㄆㄧㄥˊ",
+        "english": "measure word for liquid in bottles",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "離開": {
+        "zhuyin": "ㄌㄧˊ ㄎㄞ",
+        "english": "to leave",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "戴": {
+        "zhuyin": "ㄉㄞˋ",
+        "english": "to wear(on the face, glasses, a mask)",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "面具": {
+        "zhuyin": "ㄇㄧㄢˋ ㄐㄩˋ",
+        "english": "mask",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "看上去": {
+        "zhuyin": "ㄎㄢˋ ㄕㄤˋ ㄑㄩˋ",
+        "english": "it would appear that",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "找死": {
+        "zhuyin": "ㄓㄠˇ ㄙˇ",
+        "english": "be looking to get killed",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "發火": {
+        "zhuyin": "ㄈㄚ ㄏㄨㄛˇ",
+        "english": "to lose one's temper",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "十萬": {
+        "zhuyin": "ㄕˊ ㄨㄢˋ",
+        "english": "100,000",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "老大": {
+        "zhuyin": "ㄌㄠˇ ㄉㄚˋ",
+        "english": "mob boss",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "借": {
+        "zhuyin": "ㄐㄧㄝˋ",
+        "english": "to borrow",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "黑社會": {
+        "zhuyin": "ㄏㄟ ㄕㄜˋ ㄏㄨㄟˋ",
+        "english": "the mob, organized crime",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "用力": {
+        "zhuyin": "ㄩㄥˋ ㄌㄧˋ",
+        "english": "forcefully",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "抓了起來": {
+        "zhuyin": "ㄓㄨㄚ ㄌㄜ˙ ㄑㄧˇ ㄌㄞˊ",
+        "english": "grabbed and lifted up",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "放下": {
+        "zhuyin": "ㄈㄤˋ ㄒㄧㄚˋ",
+        "english": "to put down",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "受傷": {
+        "zhuyin": "ㄕㄡˋ ㄕㄤ",
+        "english": "to be injured",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "掉": {
+        "zhuyin": "ㄉㄧㄠˋ",
+        "english": "to fall",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "最後": {
+        "zhuyin": "ㄗㄨㄟˋ ㄏㄡˋ",
+        "english": "in the end",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "機會": {
+        "zhuyin": "ㄐㄧ ㄏㄨㄟˋ",
+        "english": "opportunity",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "站著": {
+        "zhuyin": "ㄓㄢˋ ㄓㄨㄛˊ",
+        "english": "standing",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "吵": {
+        "zhuyin": "ㄔㄠˇ",
+        "english": "noisy, to argue",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "怎麼回事": {
+        "zhuyin": "ㄗㄣˇ ㄇㄜ˙ ㄏㄨㄟˊ ㄕˋ",
+        "english": "what's going on?",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "一開始": {
+        "zhuyin": "ㄧ ㄎㄞ ㄕˇ",
+        "english": "at first",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "掛了電話": {
+        "zhuyin": "ㄍㄨㄚˋ ㄌㄜ˙ ㄉㄧㄢˋ ㄏㄨㄚˋ",
+        "english": "hung up the phone",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "嚴重": {
+        "zhuyin": "ㄧㄢˊ ㄓㄨㄥˋ",
+        "english": "serious",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "解決": {
+        "zhuyin": "ㄐㄧㄝˇ ㄐㄩㄝˊ",
+        "english": "to resolve",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "聰明": {
+        "zhuyin": "ㄘㄨㄥ ㄇㄧㄥˊ",
+        "english": "smart, intelligent",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "住進": {
+        "zhuyin": "ㄓㄨˋ ㄐㄧㄣˋ",
+        "english": "to be admitted for overnight stay",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "放好": {
+        "zhuyin": "ㄈㄤˋ ㄏㄠˇ",
+        "english": "to put away",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "動作": {
+        "zhuyin": "ㄉㄨㄥˋ ㄗㄨㄛˋ",
+        "english": "action",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "有道理": {
+        "zhuyin": "ㄧㄡˇ ㄉㄠˋ ㄌㄧˇ",
+        "english": "make sense, reasonable",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "待": {
+        "zhuyin": "ㄉㄞˋ",
+        "english": "to stay",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "吵架": {
+        "zhuyin": "ㄔㄠˇ ㄐㄧㄚˋ",
+        "english": "to argue, fight",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "偷": {
+        "zhuyin": "ㄊㄡ",
+        "english": "to steal",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "老地方": {
+        "zhuyin": "ㄌㄠˇ ㄉㄧˋ ㄈㄤ",
+        "english": "the usual place",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "拿走": {
+        "zhuyin": "ㄋㄚˊ ㄗㄡˇ",
+        "english": "to walk off with",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "輕輕的": {
+        "zhuyin": "ㄑㄧㄥ ㄑㄧㄥ ㄉㄜ˙",
+        "english": "lightly",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "髒髒的": {
+        "zhuyin": "ㄗㄤˋ ㄗㄤˋ ㄉㄜ˙",
+        "english": "dirty",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "結果": {
+        "zhuyin": "ㄐㄧㄝˊ ㄍㄨㄛˇ",
+        "english": "as a result",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
+    "留": {
+        "zhuyin": "ㄌㄧㄡˊ",
+        "english": "to leave (smth for smone",
+        "book": "江可和黑德(lv.2 graded reader)",
+    },
     // "": {
     //     "zhuyin": "",
     //     "english": "",
-    //     "book": "江可和黑德(lv.2 graded reader)",
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "english": "",
-    //     "book": "江可和黑德(lv.2 graded reader)",
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "english": "",
-    //     "book": "江可和黑德(lv.2 graded reader)",
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "english": "",
-    //     "book": "江可和黑德(lv.2 graded reader)",
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "english": "",
-    //     "book": "江可和黑德(lv.2 graded reader)",
+    //     "book": "(lv.2 graded reader)",
     // },
 
 
