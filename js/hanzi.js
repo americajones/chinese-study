@@ -8571,134 +8571,351 @@ const hanzi1001to1500 = {
         "simplified": "",
         "radicals": ["", ""]
     },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": "",
-    //     "radicals": ["", ""]
-    // },
+    "陽": {
+        "zhuyin": "ㄧㄤˊ",
+        "pinyin": "yáng",
+        "tone": 2,
+        "english": "male, sun",
+        "simplified": "阳",
+        "radicals": ["", ""]
+    },
+    "協": {
+        "zhuyin": "ㄒㄧㄝˊ",
+        "pinyin": "xié",
+        "tone": 2,
+        "english": "to cooperate",
+        "simplified": "协",
+        "radicals": ["", ""]
+    },
+    "租": {
+        "zhuyin": "ㄗㄨ",
+        "pinyin": "zū",
+        "tone": 1,
+        "english": "to hire",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "泰": {
+        "zhuyin": "ㄊㄞˋ",
+        "pinyin": "tài",
+        "tone": 4,
+        "english": "safe, grand",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "島": {
+        "zhuyin": "ㄉㄠˇ",
+        "pinyin": "dǎo",
+        "tone": 3,
+        "english": "island",
+        "simplified": "岛",
+        "radicals": ["", ""]
+    },
+    "健": {
+        "zhuyin": "ㄐㄧㄢˋ",
+        "pinyin": "jiàn",
+        "tone": 4,
+        "english": "healthy",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "餅": {
+        "zhuyin": "ㄅㄧㄥˇ",
+        "pinyin": "bǐng",
+        "tone": 3,
+        "english": "biscuits",
+        "simplified": "饼",
+        "radicals": ["", ""]
+    },
+    "較": {
+        "zhuyin": "ㄐㄧㄠˋ",
+        "pinyin": "jiào",
+        "tone": 4,
+        "english": "comparatively",
+        "simplified": "较",
+        "radicals": ["", ""]
+    },
+    "避": {
+        "zhuyin": "ㄅㄧˋ",
+        "pinyin": "bì",
+        "tone": 4,
+        "english": "to flee, avoid",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "貓": {
+        "zhuyin": "ㄇㄠ",
+        "pinyin": "māo",
+        "tone": 1,
+        "english": "cat",
+        "simplified": "猫",
+        "radicals": ["", ""]
+    },
+    "七": {
+        "zhuyin": "ㄑㄧ",
+        "pinyin": "qī",
+        "tone": 1,
+        "english": "seven",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "菜": {
+        "zhuyin": "ㄘㄞˋ",
+        "pinyin": "cài",
+        "tone": 4,
+        "english": "dish, cuisine, vegetable",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "糖": {
+        "zhuyin": "ㄊㄤˊ",
+        "pinyin": "táng",
+        "tone": 2,
+        "english": "sugar, sweets",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "痴": {
+        "zhuyin": "ㄔ",
+        "pinyin": "chī",
+        "tone": 1,
+        "english": "imbecile",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "富": {
+        "zhuyin": "ㄈㄨˋ",
+        "pinyin": "fù",
+        "tone": 4,
+        "english": "rich, abundant",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "降": {
+        "zhuyin": "ㄐㄧㄤˋ",
+        "pinyin": "jiàng",
+        "tone": 4,
+        "english": "to drop, descend",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "憐": {
+        "zhuyin": "ㄌㄧㄢˊ",
+        "pinyin": "lián",
+        "tone": 2,
+        "english": "to pity",
+        "simplified": "怜",
+        "radicals": ["", ""]
+    },
+    "既": {
+        "zhuyin": "ㄐㄧˋ",
+        "pinyin": "jì",
+        "tone": 4,
+        "english": "already, both",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "織": {
+        "zhuyin": "ㄓ",
+        "pinyin": "zhī",
+        "tone": 1,
+        "english": "to weave",
+        "simplified": "织",
+        "radicals": ["", ""]
+    },
+    "執": {
+        "zhuyin": "ㄓˊ",
+        "pinyin": "zhí",
+        "tone": 2,
+        "english": "to execute, grasp",
+        "simplified": "执",
+        "radicals": ["", ""]
+    },
+    "戒": {
+        "zhuyin": "ㄐㄧㄝˋ",
+        "pinyin": "jiè",
+        "tone": 4,
+        "english": "to warn",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "佛": {
+        "zhuyin": "ㄈㄛˊ",
+        "pinyin": "fó",
+        "tone": 2,
+        "english": "Buddha",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "抗": {
+        "zhuyin": "ㄎㄤˋ",
+        "pinyin": "kàng",
+        "tone": 4,
+        "english": "to resist, anti-",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "笨": {
+        "zhuyin": "ㄅㄣˋ",
+        "pinyin": "bèn",
+        "tone": 4,
+        "english": "stupid",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "航": {
+        "zhuyin": "ㄏㄤˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "boat, to sail",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "妙": {
+        "zhuyin": "ㄇㄧㄠˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "wonderful",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "邁": {
+        "zhuyin": "ㄇㄞˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "to pass by",
+        "simplified": "迈",
+        "radicals": ["", ""]
+    },
+    "耳": {
+        "zhuyin": "ㄦˇ",
+        "pinyin": "",
+        "tone": 3,
+        "english": "ear",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "匙": {
+        "zhuyin": "ㄔˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "spoon",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "宣": {
+        "zhuyin": "ㄒㄩㄢ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "to announce",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "爛": {
+        "zhuyin": "ㄌㄢˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "soft, rotten",
+        "simplified": "烂",
+        "radicals": ["", ""]
+    },
+    "秒": {
+        "zhuyin": "ㄇㄧㄠˇ",
+        "pinyin": "",
+        "tone": 3,
+        "english": "a second",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "掛": {
+        "zhuyin": "ㄍㄨㄚˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "to hang, register",
+        "simplified": "挂",
+        "radicals": ["", ""]
+    },
+    "旁": {
+        "zhuyin": "ㄆㄤˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "beside, side",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "勇": {
+        "zhuyin": "ㄩㄥˇ",
+        "pinyin": "",
+        "tone": 3,
+        "english": "brave",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "鑰": {
+        "zhuyin": "ㄩㄝˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "key, lock",
+        "simplified": "钥",
+        "radicals": ["", ""]
+    },
+    "悲": {
+        "zhuyin": "ㄅㄟ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "sorrow",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "婦": {
+        "zhuyin": "ㄈㄨˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "married woman",
+        "simplified": "妇",
+        "radicals": ["", ""]
+    },
+    "圈": {
+        "zhuyin": "ㄑㄩㄢ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "ring, to cricle",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "敬": {
+        "zhuyin": "ㄐㄧㄥˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "to respect",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "勁": {
+        "zhuyin": "ㄐㄧㄣˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "strong, tough",
+        "simplified": "劲",
+        "radicals": ["", ""]
+    },
+    "帕": {
+        "zhuyin": "ㄆㄚˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "turban, veil",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "草": {
+        "zhuyin": "ㄘㄠˇ",
+        "pinyin": "",
+        "tone": 3,
+        "english": "grass",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    // 1112/2500 done
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
@@ -12470,21 +12687,21 @@ const HSK2words = {
 };
 const bookWordsGradedReaders = {
     //blind man's country
-    "一直": {
-        "zhuyin": "ㄧ ㄓˊ",
-        "english": "all along, continuously",
-        "book": "盲人國(lv.1 graded reader)",
-    },
+    // "一直": {
+    //     "zhuyin": "ㄧ ㄓˊ",
+    //     "english": "all along, continuously",
+    //     "book": "盲人國(lv.1 graded reader)",
+    // },
     "生活": {
         "zhuyin": "ㄕㄥ ㄏㄨㄛˊ",
         "english": "to live, life",
         "book": "盲人國(lv.1 graded reader)",
     },
-    "聽說": {
-        "zhuyin": "ㄊㄧㄥ ㄕㄨㄛ",
-        "english": "to hear talk of, heard of",
-        "book": "盲人國(lv.1 graded reader)",
-    },
+    // "聽說": {
+    //     "zhuyin": "ㄊㄧㄥ ㄕㄨㄛ",
+    //     "english": "to hear talk of, heard of",
+    //     "book": "盲人國(lv.1 graded reader)",
+    // },
     "條": {
         "zhuyin": "ㄊㄧㄠˊ",
         "english": "(mw. for rivers, roads, long thin things)",
@@ -12525,11 +12742,11 @@ const bookWordsGradedReaders = {
         "english": "never again(do smith), (there was) never again",
         "book": "盲人國(lv.1 graded reader)",
     },
-    "世界": {
-        "zhuyin": "ㄕˋ ㄐㄧㄝˋ",
-        "english": "world",
-        "book": "盲人國(lv.1 graded reader)",
-    },
+    // "世界": {
+    //     "zhuyin": "ㄕˋ ㄐㄧㄝˋ",
+    //     "english": "world",
+    //     "book": "盲人國(lv.1 graded reader)",
+    // },
     "故事": {
         "zhuyin": "ㄍㄨˋ ㄕˋ",
         "english": "story",
