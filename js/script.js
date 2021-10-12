@@ -607,7 +607,7 @@ function loadBookWordFlashcards() {
     flashBox3.prepend(label);
     label = "";
     number = 0;
-    for (var [word, value] of Object.entries(bookWordsCACG)) {
+    for (var [word, value] of Object.entries(bookWordsRWC)) {
         let nuDiv = document.createElement('div');
         let nuDivTit = document.createElement('h2');
         let nuTxt = document.createElement('p');
