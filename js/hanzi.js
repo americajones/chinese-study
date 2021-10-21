@@ -1690,18 +1690,175 @@ const bookWordsRWC = {
         "english": "aim, purpose",
         "book": "Reading and Writing Chinese: Third Edition",
     },
+    "日本": {
+        "zhuyin": "ㄖˋ ㄅㄣˇ",
+        "pinyin": "",
+        "english": "Japan",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "本人": {
+        "zhuyin": "ㄅㄣˇ ㄖㄣˊ",
+        "pinyin": "",
+        "english": "in person",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "本錢": {
+        "zhuyin": "ㄅㄣˇ ㄑㄧㄢˊ",
+        "pinyin": "",
+        "english": "capital, money",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "對了": {
+        "zhuyin": "ㄉㄨㄟˋ ㄌ",
+        "pinyin": "",
+        "english": "that's right",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "對手": {
+        "zhuyin": "ㄉㄨㄟˋ ㄕㄡˇ",
+        "pinyin": "",
+        "english": "adversary, opponent",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "對鐘": {
+        "zhuyin": "ㄉㄨㄟˋ ㄓㄨㄥ",
+        "pinyin": "",
+        "english": "to set a clock",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "兄弟": {
+        "zhuyin": "ㄒㄩㄥ ㄉㄧˋ",
+        "pinyin": "",
+        "english": "brothers",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "表兄": {
+        "zhuyin": "ㄅㄧㄠˇ ㄒㄩㄥ",
+        "pinyin": "",
+        "english": "older male cousin on mother's side",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "兌給": {
+        "zhuyin": "ㄉㄨㄟˋ ㄍㄟˇ",
+        "pinyin": "",
+        "english": "to pay to",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "說笑": {
+        "zhuyin": "ㄕㄨㄛ ㄒㄧㄠˋ",
+        "pinyin": "",
+        "english": "to talk and laugh together",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "說一不二": {
+        "zhuyin": "ㄕㄨㄛ ㄧ ㄅㄨˋ ㄦ",
+        "pinyin": "",
+        "english": "to mean what you say",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "千里": {
+        "zhuyin": "ㄑㄧㄢ ㄌㄧˇ",
+        "pinyin": "",
+        "english": "many miles, long journey",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "千古": {
+        "zhuyin": "ㄑㄧㄢ ㄍㄨˇ",
+        "pinyin": "",
+        "english": "eternal, of the ages",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "買重了": {
+        "zhuyin": "ㄇㄞˇ ㄓㄨㄥˋ ㄌ",
+        "pinyin": "",
+        "english": "bought an extra",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "貴重": {
+        "zhuyin": "ㄍㄨㄟˋ ㄓㄨㄥˋ",
+        "pinyin": "",
+        "english": "be valuable",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "重了": {
+        "zhuyin": "ㄓㄨㄥˋ ㄌ",
+        "pinyin": "",
+        "english": "be done twice, get repeated",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "古董": {
+        "zhuyin": "ㄍㄨˇ ㄉㄨㄥˇ",
+        "pinyin": "",
+        "english": "antique, old fart",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "看不懂": {
+        "zhuyin": "ㄎㄢˋ ㄅㄨˋ ㄉㄨㄥˇ",
+        "pinyin": "",
+        "english": "be unable to read",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "不是": {
+        "zhuyin": "ㄅㄨˋ ㄕˋ",
+        "pinyin": "",
+        "english": "no!, a fault",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "是的": {
+        "zhuyin": "ㄕˋ ㄉㄜ˙",
+        "pinyin": "",
+        "english": "yes!, that's right",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "要是": {
+        "zhuyin": "ㄧㄠˋ ㄕˋ",
+        "pinyin": "",
+        "english": "if",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "先父": {
+        "zhuyin": "ㄒㄧㄢ ㄈㄨˋ",
+        "pinyin": "",
+        "english": "my late father",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "先生": {
+        "zhuyin": "ㄒㄧㄢ ㄕㄥ",
+        "pinyin": "",
+        "english": "Mr.",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "李子": {
+        "zhuyin": "ㄌㄧˇ ㄗˇ",
+        "pinyin": "",
+        "english": "plum",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "姓氏": {
+        "zhuyin": "ㄒㄧㄥˋ ㄕˋ",
+        "pinyin": "",
+        "english": "surname",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "字母": {
+        "zhuyin": "ㄗˋ ㄇㄨˇ",
+        "pinyin": "",
+        "english": "alphabet, letter",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
+    "別字": {
+        "zhuyin": "ㄅㄧㄝˊ ㄗˋ",
+        "pinyin": "",
+        "english": "mispronounced or wrongly written character",
+        "book": "Reading and Writing Chinese: Third Edition",
+    },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
     //     "english": "",
     //     "book": "Reading and Writing Chinese: Third Edition",
     // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "english": "",
-    //     "book": "Reading and Writing Chinese: Third Edition",
-    // },
+
 };
 const bookWordsCACG = {
     "詩人": {
@@ -3798,306 +3955,306 @@ const HSK2words = {
         "english": "obtain results, reach conclusion"
     },
     //116/772 done
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "第一": {
-        "zhuyin": "",
-        "pinyin": "dì yī",
-        "level": "HSK2",
-        "english": "first, number one"
-    },
-    "服務員": {
-        "zhuyin": "",
-        "pinyin": "fú wù yuán",
-        "level": "HSK2",
-        "english": "attendant, customer service person, waiter"
-    },
-    "公共汽車": {
-        "zhuyin": "",
-        "pinyin": "gōng gòng qì chē",
-        "level": "HSK2",
-        "english": "bus"
-    },
-    "公司": {
-        "zhuyin": "",
-        "pinyin": "gōng sī",
-        "level": "HSK2",
-        "english": "buisness, company"
-    },
-    "火車站": {
-        "zhuyin": "",
-        "pinyin": "huǒ chē zhàn",
-        "level": "HSK2",
-        "english": "train station"
-    },
-    "機場": {
-        "zhuyin": "",
-        "pinyin": "jī chǎng",
-        "level": "HSK2",
-        "english": "airport"
-    },
-    "教室": {
-        "zhuyin": "",
-        "pinyin": "jiào shì",
-        "level": "HSK2",
-        "english": "classroom"
-    },
-    "咖啡": {
-        "zhuyin": "",
-        "pinyin": "kā fēi",
-        "level": "HSK2",
-        "english": "coffee"
-    },
-    "開始": {
-        "zhuyin": "",
-        "pinyin": "kāi shǐ",
-        "level": "HSK2",
-        "english": "to begin, start, initial"
-    },
-    "可能": {
-        "zhuyin": "",
-        "pinyin": "kě néng",
-        "level": "HSK2",
-        "english": "might, possible, probable, maybe"
-    },
-    "可以": {
-        "zhuyin": "",
-        "pinyin": "kě yǐ",
-        "level": "HSK2",
-        "english": "can, may, possible, able to"
-    },
-    "快樂": {
-        "zhuyin": "",
-        "pinyin": "kuài lè",
-        "level": "HSK2",
-        "english": "happy, merry"
-    },
-    "旅遊": {
-        "zhuyin": "",
-        "pinyin": "lǚ yóu",
-        "level": "HSK2",
-        "english": "trip, journey, tourism, travel"
-    },
-    "妹妹": {
-        "zhuyin": "",
-        "pinyin": "mèi mei",
-        "level": "HSK2",
-        "english": "younger sister"
-    },
-    "麵條": {
-        "zhuyin": "",
-        "pinyin": "miàn tiáo",
-        "level": "HSK2",
-        "english": "noodles"
-    },
-    "牛奶": {
-        "zhuyin": "",
-        "pinyin": "niú nǎi",
-        "level": "HSK2",
-        "english": "cow's milk"
-    },
-    "跑步": {
-        "zhuyin": "",
-        "pinyin": "pǎo bù",
-        "level": "HSK2",
-        "english": "to walk quickly, march, run"
-    },
-    "便宜": {
-        "zhuyin": "",
-        "pinyin": "pián yi",
-        "level": "HSK2",
-        "english": "cheap, inexpensive"
-    },
-    "妻子": {
-        "zhuyin": "",
-        "pinyin": "qī zi",
-        "level": "HSK2",
-        "english": "wife"
-    },
-    "鉛筆": {
-        "zhuyin": "",
-        "pinyin": "qiān bǐ",
-        "level": "HSK2",
-        "english": "lead pencil"
-    },
-    "事情": {
-        "zhuyin": "",
-        "pinyin": "shì qing",
-        "level": "HSK2",
-        "english": "affair, matter, buisness, thing"
-    },
-    "手錶": {
-        "zhuyin": "",
-        "pinyin": "shǒu biǎo",
-        "level": "HSK2",
-        "english": "wristwatch"
-    },
-    "跳舞": {
-        "zhuyin": "",
-        "pinyin": "tiào wǔ",
-        "level": "HSK2",
-        "english": "to dance"
-    },
-    "為什麼": {
-        "zhuyin": "",
-        "pinyin": "wèi shén me",
-        "level": "HSK2",
-        "english": "for what reason? why?"
-    },
-    "問題": {
-        "zhuyin": "",
-        "pinyin": "wèn tí",
-        "level": "HSK2",
-        "english": "question, problem, issue, topic"
-    },
-    "希望": {
-        "zhuyin": "",
-        "pinyin": "xī wàng",
-        "level": "HSK2",
-        "english": "to wish for, desire, hope"
-    },
-    "西瓜": {
-        "zhuyin": "",
-        "pinyin": "xī guā",
-        "level": "HSK2",
-        "english": "watermelon"
-    },
-    "顏色": {
-        "zhuyin": "",
-        "pinyin": "yán sè",
-        "level": "HSK2",
-        "english": "color"
-    },
-    "眼睛": {
-        "zhuyin": "",
-        "pinyin": "yǎn jing",
-        "level": "HSK2",
-        "english": "eye"
-    },
-    "一下": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": "(used after a verb) give it a go, to try, once in a while"
-    },
-    "已經": {
-        "zhuyin": "",
-        "pinyin": "yǐ jīng",
-        "level": "HSK2",
-        "english": "already"
-    },
-    "意思": {
-        "zhuyin": "",
-        "pinyin": "yì si",
-        "level": "HSK2",
-        "english": "idea, opinion, meaining"
-    },
-    "游泳": {
-        "zhuyin": "",
-        "pinyin": "yóu yǒng",
-        "level": "HSK2",
-        "english": "swim"
-    },
-    "運動": {
-        "zhuyin": "",
-        "pinyin": "yùn dòng",
-        "level": "HSK2",
-        "english": "movement, campaign, sports"
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
-    "": {
-        "zhuyin": "",
-        "pinyin": "",
-        "level": "HSK2",
-        "english": ""
-    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "第一": {
+    //     "zhuyin": "",
+    //     "pinyin": "dì yī",
+    //     "level": "HSK2",
+    //     "english": "first, number one"
+    // },
+    // "服務員": {
+    //     "zhuyin": "",
+    //     "pinyin": "fú wù yuán",
+    //     "level": "HSK2",
+    //     "english": "attendant, customer service person, waiter"
+    // },
+    // "公共汽車": {
+    //     "zhuyin": "",
+    //     "pinyin": "gōng gòng qì chē",
+    //     "level": "HSK2",
+    //     "english": "bus"
+    // },
+    // "公司": {
+    //     "zhuyin": "",
+    //     "pinyin": "gōng sī",
+    //     "level": "HSK2",
+    //     "english": "buisness, company"
+    // },
+    // "火車站": {
+    //     "zhuyin": "",
+    //     "pinyin": "huǒ chē zhàn",
+    //     "level": "HSK2",
+    //     "english": "train station"
+    // },
+    // "機場": {
+    //     "zhuyin": "",
+    //     "pinyin": "jī chǎng",
+    //     "level": "HSK2",
+    //     "english": "airport"
+    // },
+    // "教室": {
+    //     "zhuyin": "",
+    //     "pinyin": "jiào shì",
+    //     "level": "HSK2",
+    //     "english": "classroom"
+    // },
+    // "咖啡": {
+    //     "zhuyin": "",
+    //     "pinyin": "kā fēi",
+    //     "level": "HSK2",
+    //     "english": "coffee"
+    // },
+    // "開始": {
+    //     "zhuyin": "",
+    //     "pinyin": "kāi shǐ",
+    //     "level": "HSK2",
+    //     "english": "to begin, start, initial"
+    // },
+    // "可能": {
+    //     "zhuyin": "",
+    //     "pinyin": "kě néng",
+    //     "level": "HSK2",
+    //     "english": "might, possible, probable, maybe"
+    // },
+    // "可以": {
+    //     "zhuyin": "",
+    //     "pinyin": "kě yǐ",
+    //     "level": "HSK2",
+    //     "english": "can, may, possible, able to"
+    // },
+    // "快樂": {
+    //     "zhuyin": "",
+    //     "pinyin": "kuài lè",
+    //     "level": "HSK2",
+    //     "english": "happy, merry"
+    // },
+    // "旅遊": {
+    //     "zhuyin": "",
+    //     "pinyin": "lǚ yóu",
+    //     "level": "HSK2",
+    //     "english": "trip, journey, tourism, travel"
+    // },
+    // "妹妹": {
+    //     "zhuyin": "",
+    //     "pinyin": "mèi mei",
+    //     "level": "HSK2",
+    //     "english": "younger sister"
+    // },
+    // "麵條": {
+    //     "zhuyin": "",
+    //     "pinyin": "miàn tiáo",
+    //     "level": "HSK2",
+    //     "english": "noodles"
+    // },
+    // "牛奶": {
+    //     "zhuyin": "",
+    //     "pinyin": "niú nǎi",
+    //     "level": "HSK2",
+    //     "english": "cow's milk"
+    // },
+    // "跑步": {
+    //     "zhuyin": "",
+    //     "pinyin": "pǎo bù",
+    //     "level": "HSK2",
+    //     "english": "to walk quickly, march, run"
+    // },
+    // "便宜": {
+    //     "zhuyin": "",
+    //     "pinyin": "pián yi",
+    //     "level": "HSK2",
+    //     "english": "cheap, inexpensive"
+    // },
+    // "妻子": {
+    //     "zhuyin": "",
+    //     "pinyin": "qī zi",
+    //     "level": "HSK2",
+    //     "english": "wife"
+    // },
+    // "鉛筆": {
+    //     "zhuyin": "",
+    //     "pinyin": "qiān bǐ",
+    //     "level": "HSK2",
+    //     "english": "lead pencil"
+    // },
+    // "事情": {
+    //     "zhuyin": "",
+    //     "pinyin": "shì qing",
+    //     "level": "HSK2",
+    //     "english": "affair, matter, buisness, thing"
+    // },
+    // "手錶": {
+    //     "zhuyin": "",
+    //     "pinyin": "shǒu biǎo",
+    //     "level": "HSK2",
+    //     "english": "wristwatch"
+    // },
+    // "跳舞": {
+    //     "zhuyin": "",
+    //     "pinyin": "tiào wǔ",
+    //     "level": "HSK2",
+    //     "english": "to dance"
+    // },
+    // "為什麼": {
+    //     "zhuyin": "",
+    //     "pinyin": "wèi shén me",
+    //     "level": "HSK2",
+    //     "english": "for what reason? why?"
+    // },
+    // "問題": {
+    //     "zhuyin": "",
+    //     "pinyin": "wèn tí",
+    //     "level": "HSK2",
+    //     "english": "question, problem, issue, topic"
+    // },
+    // "希望": {
+    //     "zhuyin": "",
+    //     "pinyin": "xī wàng",
+    //     "level": "HSK2",
+    //     "english": "to wish for, desire, hope"
+    // },
+    // "西瓜": {
+    //     "zhuyin": "",
+    //     "pinyin": "xī guā",
+    //     "level": "HSK2",
+    //     "english": "watermelon"
+    // },
+    // "顏色": {
+    //     "zhuyin": "",
+    //     "pinyin": "yán sè",
+    //     "level": "HSK2",
+    //     "english": "color"
+    // },
+    // "眼睛": {
+    //     "zhuyin": "",
+    //     "pinyin": "yǎn jing",
+    //     "level": "HSK2",
+    //     "english": "eye"
+    // },
+    // "一下": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": "(used after a verb) give it a go, to try, once in a while"
+    // },
+    // "已經": {
+    //     "zhuyin": "",
+    //     "pinyin": "yǐ jīng",
+    //     "level": "HSK2",
+    //     "english": "already"
+    // },
+    // "意思": {
+    //     "zhuyin": "",
+    //     "pinyin": "yì si",
+    //     "level": "HSK2",
+    //     "english": "idea, opinion, meaining"
+    // },
+    // "游泳": {
+    //     "zhuyin": "",
+    //     "pinyin": "yóu yǒng",
+    //     "level": "HSK2",
+    //     "english": "swim"
+    // },
+    // "運動": {
+    //     "zhuyin": "",
+    //     "pinyin": "yùn dòng",
+    //     "level": "HSK2",
+    //     "english": "movement, campaign, sports"
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
 };
 const bookWordsGradedReaders = {
     //blind man's country
@@ -5966,10 +6123,315 @@ const bookWordsGradedReaders = {
         "english": "to leave (smth for smone",
         "book": "江可和黑德(lv.2 graded reader)",
     },
+    "村子": {
+        "zhuyin": "ㄘㄨㄣ ㄗˇ",
+        "english": "village",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "死小孩": {
+        "zhuyin": "ㄙˇ ㄒㄧㄠˇ ㄏㄞˊ",
+        "english": "rotten kid",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "感謝": {
+        "zhuyin": "ㄍㄢˇ ㄒㄧㄝˋ",
+        "english": "to be grateful to",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "修理工": {
+        "zhuyin": "ㄒㄧㄡ ㄌㄧˇ ㄍㄨㄥ",
+        "english": "repairman",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "不管": {
+        "zhuyin": "ㄅㄨˋ ㄍㄨㄢˇ",
+        "english": "no matter",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "髒": {
+        "zhuyin": "ㄗㄤˋ",
+        "english": "dirty",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "破": {
+        "zhuyin": "ㄆㄛˋ",
+        "english": "worn out, run down",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "腳": {
+        "zhuyin": "ㄐㄧㄠˇ",
+        "english": "foot",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "犯人": {
+        "zhuyin": "ㄈㄢˋ ㄖㄣˊ",
+        "english": "convict",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "修理點": {
+        "zhuyin": "ㄒㄧㄡ ㄌㄧˇ ㄉㄧㄢˇ",
+        "english": "repair shop",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "按": {
+        "zhuyin": "ㄢˋ",
+        "english": "to press, hold down",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "千萬": {
+        "zhuyin": "ㄑㄧㄢ ㄨㄢˋ",
+        "english": "absolutely (not)",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "難道": {
+        "zhuyin": "ㄋㄢˊ ㄉㄠˋ",
+        "english": "could it be that...?",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "節日": {
+        "zhuyin": "ㄐㄧㄝˊ ㄖˋ",
+        "english": "holiday",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "月餅": {
+        "zhuyin": "ㄩㄝˋ ㄅㄧㄥˇ",
+        "english": "moon cake",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "買不起": {
+        "zhuyin": " ㄇㄞˇ ㄅㄨˋ ㄑㄧˇ",
+        "english": "cannot afford (to buy)",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "平時": {
+        "zhuyin": "ㄆㄧㄥˊ ㄕˊ",
+        "english": "usually",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "除了": {
+        "zhuyin": "ㄔㄨˊ ㄌㄜ",
+        "english": "except for",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "臉色": {
+        "zhuyin": "ㄌㄧㄢˇ ㄙㄜˋ",
+        "english": "the look on one's face",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "待": {
+        "zhuyin": "ㄉㄞˋ",
+        "english": "to stay",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "撞": {
+        "zhuyin": "ㄓㄨㄤˋ",
+        "english": "to crash into ",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "只有": {
+        "zhuyin": "ㄓ ㄧㄡˇ",
+        "english": "only if",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "只是": {
+        "zhuyin": "ㄓ ㄕˋ",
+        "english": "it's just that",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "願意": {
+        "zhuyin": "ㄩㄢˋ ㄧˋ",
+        "english": "to be willing",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "胖": {
+        "zhuyin": "ㄆㄤˋ",
+        "english": "fat",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "瘦": {
+        "zhuyin": "ㄕㄡˋ ",
+        "english": "thin",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "公主": {
+        "zhuyin": "ㄍㄨㄥ ㄓㄨˇ",
+        "english": "princess",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "有好": {
+        "zhuyin": "ㄧㄡˇ ㄏㄠˇ",
+        "english": "friendly",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "婚紗": {
+        "zhuyin": "ㄏㄨㄣ ㄕㄚ",
+        "english": "wedding dress",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "其實": {
+        "zhuyin": "ㄑㄧˊ ㄕˊ",
+        "english": "actually",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "無聊": {
+        "zhuyin": "ㄨˊ ㄌㄧㄠˊ",
+        "english": "bored, boring",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "笨": {
+        "zhuyin": "ㄅㄣˋ",
+        "english": "stupid",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "傷": {
+        "zhuyin": "ㄕㄤ",
+        "english": "to hurt (someone)",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "理解": {
+        "zhuyin": "ㄌㄧˇ ㄐㄧㄝˇ",
+        "english": "to understand, comprehend",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "心情": {
+        "zhuyin": "ㄒㄧㄣ ㄑㄧㄥˊ",
+        "english": "mood",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "打傷": {
+        "zhuyin": "ㄉㄚˇ ㄕㄤ",
+        "english": "to hit and injure",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "打算": {
+        "zhuyin": "ㄉㄚˇ ㄙㄨㄢˋ",
+        "english": "to plan to, plans",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "原來": {
+        "zhuyin": "ㄩㄢˊ ㄌㄞˊ",
+        "english": "originally",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "玩具": {
+        "zhuyin": "ㄨㄢˊ ㄐㄩˋ",
+        "english": "toy",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "幹活": {
+        "zhuyin": "ㄍㄢ ㄏㄨㄛˊ",
+        "english": "to do manual labor",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "就算": {
+        "zhuyin": "ㄐㄧㄡˋ ㄙㄨㄢˋ",
+        "english": "even if",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "只要": {
+        "zhuyin": "ㄓ ㄧㄠˋ",
+        "english": "as long as",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "住口": {
+        "zhuyin": "ㄓㄨˋ ㄎㄡˇ",
+        "english": "to shut one's mouth",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "了不起": {
+        "zhuyin": "ㄌㄧㄠˇ ㄅㄨ ㄑㄧˇ",
+        "english": "amazing",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "好不容易": {
+        "zhuyin": "ㄏㄠˇ ㄅㄨˋ ㄖㄨㄥˊ ㄧˋ",
+        "english": "with great difficulty",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "戴": {
+        "zhuyin": "ㄉㄞˋ",
+        "english": "to wear(glasses, jewelry, accessories)",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "打架": {
+        "zhuyin": "ㄉㄚˇ ㄐㄧㄚˋ",
+        "english": "to fight",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "贏": {
+        "zhuyin": "ㄧㄥˊ",
+        "english": "to win",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "親": {
+        "zhuyin": "ㄑㄧㄣ",
+        "english": "to kiss",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "要飯的": {
+        "zhuyin": "ㄧㄠˋ ㄈㄢˋ ㄉㄜ˙",
+        "english": "beggar",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "前途": {
+        "zhuyin": "ㄑㄧㄢˊ ㄊㄨˊ",
+        "english": "prospects, future, expectations",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "交給": {
+        "zhuyin": "ㄐㄧㄠ ㄍㄟˇ",
+        "english": "to hand over",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "意識到": {
+        "zhuyin": "ㄧˋ ㄕˊ ㄉㄠˋ",
+        "english": "to realize",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "家具": {
+        "zhuyin": "ㄐㄧㄚ ㄐㄩˋ",
+        "english": "furniture",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "當": {
+        "zhuyin": "ㄉㄤ",
+        "english": "to become",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "失去": {
+        "zhuyin": "ㄕ ㄑㄩˋ",
+        "english": "to lose",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "認出": {
+        "zhuyin": "ㄖㄣˋ ㄔㄨ",
+        "english": "to recognize (someone)",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "律師": {
+        "zhuyin": " ㄌㄩˋ ㄕ",
+        "english": "lawyer",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "美好": {
+        "zhuyin": "ㄇㄟˇ ㄏㄠˇ",
+        "english": "wonderful, glorious",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "條件": {
+        "zhuyin": "ㄊㄧㄠˊ ㄐㄧㄢˋ",
+        "english": "condition, living conditions",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
+    "受傷": {
+        "zhuyin": "ㄕㄡˋ ㄕㄤ",
+        "english": "to be injured",
+        "book": "美好的前途（上）(lv.2 graded reader)",
+    },
     // "": {
     //     "zhuyin": "",
     //     "english": "",
-    //     "book": "(lv.2 graded reader)",
+    //     "book": "美好的前途（）(lv.2 graded reader)",
     // },
 
 
@@ -10698,7 +11160,7 @@ const HSK1words = {
         "english": "do, make"
     }
 };
-const hanzi1to500 = {
+const hanziAll = {
     // "我": {
     //     "zhuyin": "ㄨㄛˇ",
     //     "pinyin": "wǒ ",
@@ -14712,8 +15174,7 @@ const hanzi1to500 = {
         "simplified": "台",
         "radicals": ["", ""]
     },
-}
-const hanzi501to1000 = {
+    // count 500 ish
     "另": {
         "zhuyin": "ㄌㄧㄥˋ",
         "pinyin": "lìng",
@@ -18714,8 +19175,7 @@ const hanzi501to1000 = {
         "simplified": "",
         "radicals": ["", ""]
     },
-}
-const hanzi1001to1500 = {
+    //count 1000 ish
     "漢": {
         "zhuyin": "ㄏㄢˋ",
         "pinyin": "hàn",
@@ -22712,4 +23172,3971 @@ const hanzi1001to1500 = {
         "simplified": "",
         "radicals": ["", ""]
     },
+    "遊": {
+        "zhuyin": "ㄧㄡˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "to walk, tour, roam, travel",
+        "simplified": "游",
+        "radicals": ["", ""]
+    },
+    "碟": {
+        "zhuyin": "ㄉㄧㄝˊ",
+        "pinyin": "dié",
+        "tone": 2,
+        "english": "dish, plate",
+        "simplified": "",
+        "radicals": ["", ""]
+    },
+    "灣": {
+        "zhuyin": "ㄨㄢ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "bay, gulf",
+        "simplified": "湾",
+        "radicals": ["", ""]
+    },
+    "鳳": {
+        "zhuyin": "ㄈㄥˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "phoenix",
+        "simplified": "凤",
+        "radicals": ["", ""]
+    },
+    //count 1500 ish
+    "唉": {
+        "zhuyin": "ㄞ",
+        "pinyin": "āi",
+        "tone": 1,
+        "english": "sigh",
+        "simplified": ""
+    },
+    "貞": {
+        "zhuyin": "ㄓㄣ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "chaste",
+        "simplified": "贞"
+    },
+    "係": {
+        "zhuyin": "ㄒㄧˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "link",
+        "simplified": "系"
+    },
+    "嗚": {
+        "zhuyin": "ㄨ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "humming or whmpering",
+        "simplified": "呜"
+    },
+    "亦": {
+        "zhuyin": "ㄧˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "likewise",
+        "simplified": ""
+    },
+    "宜": {
+        "zhuyin": "ㄧˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "fitting, appropriate, suitable",
+        "simplified": ""
+    },
+    // "楊": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "灌": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "徵": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "隻": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "君": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "宿": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "江": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "宗": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "壘": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "緣": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "週": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "蠻": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "俊": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "輯": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "趙": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "仁": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "劍": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "劉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "諸": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "琴": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "罵": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "益": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "湖": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "含": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "製": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "扁": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "註": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "虎": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "皆": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "葉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "銘": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "欣": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鐘": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "囉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "磁": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "螢": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "薦": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "嘻": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "均": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "濟": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "劃": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "郭": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "慧": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "詳": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "逢": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "冊": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "衝": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "乾": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鷹": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "縣": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "秋": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "淡": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "詩": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "嘉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "曉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "績": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "獅": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "餘": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "柔": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "範": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "輝": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "譯": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "積": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "蔡": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "愈": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "碩": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "凡": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "朱": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "籃": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "港": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "宏": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "誌": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "圓": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "俠": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "輔": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "玉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "唸": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "兮": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "採": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "屆": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "縮": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "咧": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "砍": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "刊": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "漸": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鋼": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "樞": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "賢": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "佈": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "仙": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "析": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "蒼": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "籍": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "懶": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "橋": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "詢": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "塵": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "慣": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "佔": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "茶": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "階": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "豐": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "暑": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "寒": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "械": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "爸": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "予": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "振": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "哲": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "乃": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "哩": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鄭": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "洪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "芳": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "峰": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "惠": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "浮": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "狼": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "椰": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "忽": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "複": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "莊": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "企": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "揚": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "癡": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "喵": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "霸": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "寂": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "倚": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "距": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "頁": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "隆": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "延": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "蕭": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "昭": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "盟": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "覆": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "憲": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "耐": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "愁": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "撥": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "沈": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "昇": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "髮": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "哀": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "龜": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "眉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "閒": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "映": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "託": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鴻": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "媒": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "擬": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "憂": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "藉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "寢": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "井": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "徐": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "川": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "奈": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "倍": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "橫": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "齊": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "譜": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "瞭": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鬆": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "棋": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "孫": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "牠": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "潮": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "役": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "冬": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "桃": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "乙": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "迴": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "崇": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "淨": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "牽": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "惑": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "溪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "眠": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "巷": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "溝": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "俗": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "宋": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "飄": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "淺": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "麵": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "艦": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "榜": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "縱": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "蓮": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "耀": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "旋": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "閱": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "紫": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "妨": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "洽": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "逐": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "填": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "踏": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "跌": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "藤": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "慕": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "闆": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "殊": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "姊": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "憑": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "寞": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "岸": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "芬": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "葛": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鋒": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "寬": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "函": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "驅": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "裁": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "蟹": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "革": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "頗": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "臥": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "昌": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "孟": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "遙": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "翔": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "蠍": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "齋": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "仰": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "旗": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "勵": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "厚": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "丸": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "宙": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "逸": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "裕": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "兼": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "飲": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "赤": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "閣": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "庸": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "啪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "勿": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "砂": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "丌": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "穹": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "儘": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "欄": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "勸": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "賜": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "菩": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "闡": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "幽": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "擴": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "污": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "彰": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "祥": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "証": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "番": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "狐": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "衡": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "擎": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "汪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "籌": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "誇": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "邱": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "稅": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "浩": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "拆": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "紛": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "吾": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "漏": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "淑": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鬱": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "砲": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "柏": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "窩": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "傾": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "羽": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "渡": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "廖": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "齡": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "培": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "甘": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "酸": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "邏": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "豈": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "涼": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "谷": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "孔": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "徑": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "玫": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "晶": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "胞": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "煞": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "脆": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "抹": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "築": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "呂": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "噴": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "截": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "幣": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "串": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "壯": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "伸": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "弦": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "泥": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "繁": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "忌": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "億": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "叭": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "恥": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "捨": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "怡": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "玲": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "唐": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "窮": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "悉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "拔": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "逛": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "朵": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "摘": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "喇": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "醜": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "躍": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "繳": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "泉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "澤": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "碧": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "韓": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "彥": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "猛": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "緩": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "坡": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "召": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "幼": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "艾": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "恆": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "割": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "盾": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "么": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "昏": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "辨": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "軒": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "巫": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鑑": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "彎": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "賦": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "坪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "悠": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "薪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "刪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "彬": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "悟": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "珠": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "勤": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "瑰": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "植": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "礙": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "敝": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "盃": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "盼": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "亨": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "逝": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "濃": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "洛": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "乏": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "壁": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "釣": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "暖": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "曰": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "捷": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "嘆": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "玄": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "滴": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "扣": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "抵": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "奔": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "翁": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "蹟": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "棚": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "惱": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "牲": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "恰": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "滄": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "蔣": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "焦": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "勉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "萊": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "貪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "抄": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "涯": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "箭": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "穌": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "涉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "稿": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "署": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "礎": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "僑": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "涵": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "霧": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "屠": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "犧": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "唷": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "繞": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "壽": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "騷": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "氏": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "翼": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "云": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "肚": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "吝": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "梁": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "咪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "繪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "廉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "飽": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鳴": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "貌": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "霹": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "炮": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "捐": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "炎": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "貢": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "壢": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "奉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鈴": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "耗": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "融": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "筋": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "撿": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "儒": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "飾": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "禍": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "侯": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "唬": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "幅": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "廷": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "咦": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "撐": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "柳": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "薄": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "捲": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "嵐": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "吊": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "靂": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "擠": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "覽": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "凌": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "茫": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "燃": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "瑪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "弘": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "矛": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "敦": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "瑜": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "錦": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "楓": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "琪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "側": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "悶": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "晴": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "齒": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "嶺": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "仲": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "韻": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "旭": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "綜": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "兔": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "姿": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "傢": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "譽": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "孝": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "促": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "駛": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "粗": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "牧": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "舟": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "殼": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "蝶": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "兇": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鍋": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "銳": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "吟": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "虧": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "枝": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "闊": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "毅": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "刷": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "夾": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "陀": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "哉": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "悅": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "契": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "轟": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "屏": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "駐": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "賭": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "蜂": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "扇": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "疏": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "欽": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "坤": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "堪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "洩": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "逆": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "抬": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "哎": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "彌": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "貫": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "綱": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "翹": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "墮": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "狠": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "頑": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "贈": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "凝": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "滋": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "靖": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "彭": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "辱": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "慰": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "禪": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "蛙": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "秦": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "災": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "讚": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "夥": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "碗": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "丙": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "卒": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "荷": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "披": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "趨": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "迅": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "笛": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "肩": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "矣": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "遷": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "汝": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鹿": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "缸": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "慾": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "爐": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "魅": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "巡": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "措": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "秤": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "沿": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "濫": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "漲": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "腰": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "賤": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "妥": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "鵝": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "軌": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // },
+    // "陵": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "tone": ,
+    //     "english": "",
+    //     "simplified": ""
+    // }
 }
