@@ -4454,12 +4454,12 @@ const HSK2words = {
         "english": "customer"
     },
     // 200/700 done
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
+    "關機": {
+        "zhuyin": "ㄍㄨㄢ ㄐㄧ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "shutdown"
+    },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
