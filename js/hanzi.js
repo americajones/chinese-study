@@ -4453,235 +4453,241 @@ const HSK2words = {
         "level": "HSK2",
         "english": "customer"
     },
-    // 200/700 done
     "關機": {
         "zhuyin": "ㄍㄨㄢ ㄐㄧ",
         "pinyin": "",
         "level": "HSK2",
         "english": "shutdown"
     },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
+    "關心": {
+        "zhuyin": "ㄍㄨㄢ ㄒㄧㄣ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "care for"
+    },
+    "觀點": {
+        "zhuyin": "ㄍㄨㄢ ㄉㄧㄢˇ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "viewpoint"
+    },
+    "廣場": {
+        "zhuyin": "ㄍㄨㄤˇ ㄔㄤˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "square"
+    },
+    "廣告": {
+        "zhuyin": "ㄍㄨㄤˇ ㄍㄠˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "advertisement"
+    },
+    "國際": {
+        "zhuyin": "ㄍㄨㄛˊ ㄐㄧˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "international"
+    },
+    "過來": {
+        "zhuyin": "ㄍㄨㄛˋ ㄌㄞˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "come, come over"
+    },
+    "過年": {
+        "zhuyin": "ㄍㄨㄛˋ ㄋㄧㄢˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "celebrate the new year"
+    },
+    "過去": {
+        "zhuyin": "ㄍㄨㄛˋ ㄑㄩˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "go over, pass by"
+    },
+    "過": {
+        "zhuyin": "ㄍㄨㄛˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "cross, pass, spend, live"
+    },
+    "海": {
+        "zhuyin": "ㄏㄞˇ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "sea"
+    },
+    "海邊": {
+        "zhuyin": "ㄏㄞˇ ㄅㄧㄢ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "seaside"
+    },
+    "喊": {
+        "zhuyin": "ㄏㄢˇ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "shout"
+    },
+    "好處": {
+        "zhuyin": "ㄏㄠˇ ㄔㄨˇ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "benefit"
+    },
+    "好多": {
+        "zhuyin": "ㄏㄠˇ ㄉㄨㄛ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "many, a lot of"
+    },
+    "好久": {
+        "zhuyin": "ㄏㄠˇ ㄐㄧㄡˇ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "for a long time, long"
+    },
+    "好人": {
+        "zhuyin": "ㄏㄠˇ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "good person"
+    },
+    "好事": {
+        "zhuyin": "ㄏㄠˇ ㄕˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "good deed, good thing"
+    },
+    "好像": {
+        "zhuyin": "ㄏㄠˇ ㄒㄧㄤˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "be like"
+    },
+    "合適": {
+        "zhuyin": "ㄏㄜˊ ㄕˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "appropriate"
+    },
+    "河": {
+        "zhuyin": "ㄏㄜˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "river"
+    },
+    "黑": {
+        "zhuyin": "ㄏㄟ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "black"
+    },
+    "黑板": {
+        "zhuyin": "ㄏㄟ ㄅㄢˇ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "blackboard"
+    },
+    "黑色": {
+        "zhuyin": "ㄏㄟ ㄙㄜˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "black color"
+    },
+    "紅": {
+        "zhuyin": "",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "red"
+    },
+    "紅色": {
+        "zhuyin": "ㄏㄨㄥˊ ㄙㄜˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "red color"
+    },
+    "後來": {
+        "zhuyin": "ㄏㄡˋ ㄌㄞˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "later"
+    },
+    "忽然": {
+        "zhuyin": "ㄏㄨ ㄖㄢˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "suddenly"
+    },
+    "湖": {
+        "zhuyin": "ㄏㄨˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "lake"
+    },
+    "護照": {
+        "zhuyin": "ㄏㄨˋ ㄓㄠˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "passport"
+    },
+    "花": {
+        "zhuyin": "ㄏㄨㄚ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "spend, expend"
+    },
+    "花園": {
+        "zhuyin": "ㄏㄨㄚ ㄩㄢˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "garden"
+    },
+    "畫": {
+        "zhuyin": "ㄏㄨㄚˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "painting"
+    },
+    "畫家": {
+        "zhuyin": "ㄏㄨㄚˋ ㄐㄧㄚ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "painter, artist"
+    },
+    "畫兒": {
+        "zhuyin": "ㄏㄨㄚˋ ㄦˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "painting, drawing"
+    },
+    "壞處": {
+        "zhuyin": "ㄏㄨㄞˋ ㄔㄨˇ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "disadvantage, harm"
+    },
+    "壞人": {
+        "zhuyin": "ㄏㄨㄞˋ ㄖㄣˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "bad person"
+    },
+    "歡迎": {
+        "zhuyin": "ㄏㄨㄢ ㄧㄥˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "welcome"
+    },
+    "換": {
+        "zhuyin": "ㄏㄨㄢˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "change"
+    },
+    // 240/700 done
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
@@ -24286,48 +24292,48 @@ const hanziAll = {
         "english": "Su",
         "simplified": ""
     },
-    // "江": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "宗": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "壘": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "緣": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "週": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "蠻": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
+    "江": {
+        "zhuyin": "ㄐㄧㄤ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "river, surname",
+        "simplified": ""
+    },
+    "宗": {
+        "zhuyin": "ㄗㄨㄥ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "school, sect, measure word for batches, surname",
+        "simplified": ""
+    },
+    "壘": {
+        "zhuyin": "ㄌㄟˇ",
+        "pinyin": "",
+        "tone": 3,
+        "english": "rampart, base(in baseball), to build with stones",
+        "simplified": "垒"
+    },
+    "緣": {
+        "zhuyin": "ㄩㄢˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "cause, reason, karma, fate, margin, hem, edge, along",
+        "simplified": "缘"
+    },
+    "週": {
+        "zhuyin": "ㄓㄡ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "week",
+        "simplified": "周"
+    },
+    "蠻": {
+        "zhuyin": "ㄇㄢˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "barbarian, bullying, rough, reckless",
+        "simplified": "蛮"
+    },
     // "俊": {
     //     "zhuyin": "",
     //     "pinyin": "",
