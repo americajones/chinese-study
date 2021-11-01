@@ -1887,7 +1887,7 @@ const bookWordsCACG = {
         "book": "Chinese: A Comp. Grammar",
     },
     "音樂": {
-        "zhuyin": "ㄧㄣ ㄌㄜˋ",
+        "zhuyin": "ㄧㄣ ㄩㄝˋ",
         "english": "music",
         "book": "Chinese: A Comp. Grammar",
     },
@@ -2788,7 +2788,7 @@ const measureWords = {
     //     "simplified": ""
     // },
 }
-//add these measure words somewhere:
+//add some mw tests sometime?
 // 一座山
 // 兩朵花二
 // 四家商店
@@ -5259,6 +5259,9 @@ const HSK2words = {
     //     "english": ""
     // },
 };
+
+//100% complete
+
 const bookWordsGradedReaders = {
     //blind man's country
     // "一直": {
@@ -5266,11 +5269,11 @@ const bookWordsGradedReaders = {
     //     "english": "all along, continuously",
     //     "book": "盲人國(lv.1 graded reader)",
     // },
-    "生活": {
-        "zhuyin": "ㄕㄥ ㄏㄨㄛˊ",
-        "english": "to live, life",
-        "book": "盲人國(lv.1 graded reader)",
-    },
+    // "生活": {
+    //     "zhuyin": "ㄕㄥ ㄏㄨㄛˊ",
+    //     "english": "to live, life",
+    //     "book": "盲人國(lv.1 graded reader)",
+    // },
     // "聽說": {
     //     "zhuyin": "ㄊㄧㄥ ㄕㄨㄛ",
     //     "english": "to hear talk of, heard of",
@@ -5286,11 +5289,11 @@ const bookWordsGradedReaders = {
         "english": "to need",
         "book": "盲人國(lv.1 graded reader)",
     },
-    "帶": {
-        "zhuyin": "ㄉㄞˋ",
-        "english": "to carry, take(somebody somewhere)",
-        "book": "盲人國(lv.1 graded reader)",
-    },
+    // "帶": {
+    //     "zhuyin": "ㄉㄞˋ",
+    //     "english": "to carry, take(somebody somewhere)",
+    //     "book": "盲人國(lv.1 graded reader)",
+    // },
     "後來": {
         "zhuyin": "ㄏㄡˋ ㄌㄞˊ",
         "english": "afterward",
@@ -5311,26 +5314,26 @@ const bookWordsGradedReaders = {
         "english": "from then on, from that point forward",
         "book": "盲人國(lv.1 graded reader)",
     },
-    "再也沒有": {
-        "zhuyin": "ㄗㄞˋ ㄧㄝˇ ㄇㄟˊ ㄧㄡˇ",
-        "english": "never again(do smith), (there was) never again",
-        "book": "盲人國(lv.1 graded reader)",
-    },
+    // "再也沒有": {
+    //     "zhuyin": "ㄗㄞˋ ㄧㄝˇ ㄇㄟˊ ㄧㄡˇ",
+    //     "english": "never again(do smith), (there was) never again",
+    //     "book": "盲人國(lv.1 graded reader)",
+    // },
     // "世界": {
     //     "zhuyin": "ㄕˋ ㄐㄧㄝˋ",
     //     "english": "world",
     //     "book": "盲人國(lv.1 graded reader)",
     // },
-    "故事": {
-        "zhuyin": "ㄍㄨˋ ㄕˋ",
-        "english": "story",
-        "book": "盲人國(lv.1 graded reader)",
-    },
-    "眼睛": {
-        "zhuyin": "ㄧㄢˇ ㄐㄧㄥ",
-        "english": "eyes",
-        "book": "盲人國(lv.1 graded reader)",
-    },
+    // "故事": {
+    //     "zhuyin": "ㄍㄨˋ ㄕˋ",
+    //     "english": "story",
+    //     "book": "盲人國(lv.1 graded reader)",
+    // },
+    // "眼睛": {
+    //     "zhuyin": "ㄧㄢˇ ㄐㄧㄥ",
+    //     "english": "eyes",
+    //     "book": "盲人國(lv.1 graded reader)",
+    // },
     "出現": {
         "zhuyin": "ㄔㄨ ㄒㄧㄢˋ",
         "english": "to appear, emerge",
@@ -7431,16 +7434,222 @@ const bookWordsGradedReaders = {
         "english": "to be injured",
         "book": "美好的前途（上）(lv.2 graded reader)",
     },
+    "辦公室": {
+        "zhuyin": "ㄅㄢˋ ㄍㄨㄥ ㄕˋ",
+        "english": "office",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "小偷": {
+        "zhuyin": "ㄒㄧㄠˇ ㄊㄡ",
+        "english": "thief",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "注意": {
+        "zhuyin": "ㄓㄨˋ ㄧˋ",
+        "english": "to notice",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "輛": {
+        "zhuyin": "ㄌㄧㄤˋ",
+        "english": "measure word for cars",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "司機": {
+        "zhuyin": "ㄙ ㄐㄧ",
+        "english": "driver",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "認出": {
+        "zhuyin": "ㄖㄣˋ ㄔㄨ",
+        "english": "to recognize (someone)",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "無聊": {
+        "zhuyin": "ㄨˊ ㄌㄧㄠˊ",
+        "english": "bored, boring, lame",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "傷害": {
+        "zhuyin": "ㄕㄤ ㄏㄞˋ",
+        "english": "to hurt, harm",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "陽光": {
+        "zhuyin": "ㄧㄤˊ ㄍㄨㄤ",
+        "english": "sunlight",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "意識到": {
+        "zhuyin": "ㄧˋ ㄕˊ ㄉㄠˋ",
+        "english": "to realize",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "原來": {
+        "zhuyin": "ㄩㄢˊ ㄌㄞˊ",
+        "english": "it turns out that-, originally",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "於是": {
+        "zhuyin": "ㄩˊ ㄕˋ",
+        "english": "as a result-, and then-",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "信用卡": {
+        "zhuyin": "ㄒㄧㄣˋ ㄩㄥˋ ㄎㄚˇ",
+        "english": "credit card",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "撞": {
+        "zhuyin": "ㄓㄨㄤˋ",
+        "english": "to crash into",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "高一": {
+        "zhuyin": "ㄍㄠ ㄧ",
+        "english": "first year of high school",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "難道": {
+        "zhuyin": "ㄋㄢˊ ㄉㄠˋ",
+        "english": "could it be that? (rhetorical question)",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "真心": {
+        "zhuyin": "ㄓㄣ ㄒㄧㄣ",
+        "english": "sincere, heartfelt",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "感到": {
+        "zhuyin": "ㄍㄢˇ ㄉㄠˋ",
+        "english": "to feel",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "留": {
+        "zhuyin": "ㄌㄧㄡˊ",
+        "english": "leave behind, stay behind",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "感情": {
+        "zhuyin": "ㄍㄢˇ ㄑㄧㄥˊ",
+        "english": "emotion, sentiment",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "待": {
+        "zhuyin": "ㄉㄞˋ",
+        "english": "to stay",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "失望": {
+        "zhuyin": "ㄕ ㄨㄤˋ",
+        "english": "to be disappointed",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "怪": {
+        "zhuyin": "ㄍㄨㄞˋ",
+        "english": "to blame",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "受不了": {
+        "zhuyin": "ㄕㄡˋ ㄅㄨˋ ㄌㄧㄠˇ",
+        "english": "to be unable to stand (smth)",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "原因": {
+        "zhuyin": "ㄩㄢˊ ㄧㄣ",
+        "english": "cause, reason",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "條件": {
+        "zhuyin": "ㄊㄧㄠˊ ㄐㄧㄢˋ",
+        "english": "condition, living conditions",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "自然": {
+        "zhuyin": "ㄗˋ ㄖㄢˊ",
+        "english": "naturally, natural",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "放開": {
+        "zhuyin": "ㄈㄤˋ ㄎㄞ",
+        "english": "to let go",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "做生意": {
+        "zhuyin": "ㄗㄨㄛˋ ㄕㄥ ㄧˋ",
+        "english": "to do business",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "哥們兒": {
+        "zhuyin": "ㄍㄜ ㄇㄣˊ ㄦˊ",
+        "english": "dude, bro",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "罪": {
+        "zhuyin": "ㄗㄨㄟˋ",
+        "english": "crime, sin",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "嚴重": {
+        "zhuyin": "ㄧㄢˊ ㄓㄨㄥˋ",
+        "english": "serious, grave",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "同情": {
+        "zhuyin": "ㄊㄨㄥˊ ㄑㄧㄥˊ",
+        "english": "to sympathize with",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "照片": {
+        "zhuyin": "ㄓㄠˋ ㄆㄧㄢˋ",
+        "english": "photograph",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "意外": {
+        "zhuyin": "ㄧˋ ㄨㄞˋ",
+        "english": "unexpected",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "受傷": {
+        "zhuyin": "ㄕㄡˋ ㄕㄤ",
+        "english": "to be injured",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "倒": {
+        "zhuyin": "ㄉㄠˇ",
+        "english": "to fall over, fall down",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "交通事故": {
+        "zhuyin": "ㄐㄧㄠ ㄊㄨㄥ ㄕˋ ㄍㄨˋ",
+        "english": "traffic accident",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "拆": {
+        "zhuyin": "ㄔㄞ",
+        "english": "tear down, disassemble",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "離婚": {
+        "zhuyin": "ㄌㄧˊ ㄏㄨㄣ",
+        "english": "to get divorced",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "月亮": {
+        "zhuyin": "ㄩㄝˋ ㄌㄧㄤˋ",
+        "english": "the moon",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
+    "月光": {
+        "zhuyin": "ㄩㄝˋ ㄍㄨㄤ",
+        "english": "moonlight",
+        "book": "美好的前途（下）(lv.2 graded reader)",
+    },
     // "": {
     //     "zhuyin": "",
     //     "english": "",
-    //     "book": "美好的前途（）(lv.2 graded reader)",
+    //     "book": "美好的前途（下）(lv.2 graded reader)",
     // },
-
-
 };
-
-//100% complete
 const zhuyinCharacters = {
     "ㄅ": {
         "pinyin": "b",
