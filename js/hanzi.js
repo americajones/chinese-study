@@ -4687,103 +4687,97 @@ const HSK2words = {
         "level": "HSK2",
         "english": "change"
     },
-    // 240/700 done
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK2",
-    //     "english": ""
-    // },
+    "黃": {
+        "zhuyin": "ㄏㄨㄤˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "yellow"
+    },
+    "黃色": {
+        "zhuyin": "ㄏㄨㄤˊ ㄙㄜˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "yellow(in color)"
+    },
+    "回國": {
+        "zhuyin": "ㄏㄨㄟˊ ㄍㄨㄛˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "return home from abroad"
+    },
+    "會": {
+        "zhuyin": "ㄏㄨㄟˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "meeting, gathering, union, party"
+    },
+    "活動": {
+        "zhuyin": "ㄏㄨㄛˊ ㄉㄨㄥˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "activity"
+    },
+    "或": {
+        "zhuyin": "ㄏㄨㄛˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "or"
+    },
+    "或者": {
+        "zhuyin": "ㄏㄨㄛˋ ㄓㄜˇ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "perhaps"
+    },
+    "機會": {
+        "zhuyin": "ㄐㄧ ㄏㄨㄟˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "opportunity"
+    },
+    "雞": {
+        "zhuyin": "ㄐㄧ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "chicken"
+    },
+    "級": {
+        "zhuyin": "ㄐㄧˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "level, rank, grade, degree, step"
+    },
+    "急": {
+        "zhuyin": "ㄐㄧˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "fast, anxious, urgent, annoyed"
+    },
+    "計劃": {
+        "zhuyin": "ㄐㄧˋ ㄏㄨㄚˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "plan"
+    },
+    "計算機": {
+        "zhuyin": "ㄐㄧˋ ㄙㄨㄢˋ ㄐㄧ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "computer"
+    },
+    "加": {
+        "zhuyin": "ㄐㄧㄚ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "add, increase, put in"
+    },
+    "加油": {
+        "zhuyin": "ㄐㄧㄚ ㄧㄡˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "oil, refuel, make an all-out effort"
+    },
+    // 257/700 done
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
