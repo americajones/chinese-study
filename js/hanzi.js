@@ -5468,18 +5468,378 @@ const HSK2words = {
         "level": "HSK2",
         "english": "trip, journey, tourism, travel"
     },
-    //369/700 done
-    // "妹妹": {
+    "綠": {
+        "zhuyin": "ㄌㄩ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "green"
+    },
+    "綠色": {
+        "zhuyin": "ㄌㄩ ㄙㄜˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "green (in color)"
+    },
+    "賣": {
+        "zhuyin": "ㄇㄞˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "sell"
+    },
+    "滿": {
+        "zhuyin": "ㄇㄢˇ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "full"
+    },
+    "滿意": {
+        "zhuyin": "ㄇㄢˇ ㄧˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "satisfied"
+    },
+    "貓": {
+        "zhuyin": "ㄇㄠ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "cat"
+    },
+    "米": {
+        "zhuyin": "ㄇㄧˇ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "meter"
+    },
+    "面": {
+        "zhuyin": "ㄇㄧㄢˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "(measure word), side, aspect"
+    },
+    "面": {
+        "zhuyin": "ㄇㄧㄢˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "face, surface, outside, side, scale, flour"
+    },
+    "面前": {
+        "zhuyin": "ㄇㄧㄢˋ ㄑㄧㄢˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "in front of, before"
+    },
+    "名": {
+        "zhuyin": "ㄇㄧㄥˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "name"
+    },
+    "名稱": {
+        "zhuyin": "ㄇㄧㄥˊ ㄔㄥ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "name, designation"
+    },
+    "名單": {
+        "zhuyin": "ㄇㄧㄥˊ ㄉㄢ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "list"
+    },
+    "明星": {
+        "zhuyin": "ㄇㄧㄥˊ ㄒㄧㄥ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "star"
+    },
+    "目的": {
+        "zhuyin": "ㄇㄨˋ ㄉㄧˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "objective"
+    },
+    "拿出": {
+        "zhuyin": "ㄋㄚˊ ㄔㄨ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "take out"
+    },
+    "拿到": {
+        "zhuyin": "ㄋㄚˊ ㄉㄠˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "get"
+    },
+    "那": {
+        "zhuyin": "ㄋㄚˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "then, in that case"
+    },
+    "那會兒": {
+        "zhuyin": "ㄋㄚˋ ㄏㄨㄟˋ ㄦˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "at that time, then"
+    },
+    "那麼": {
+        "zhuyin": "ㄋㄚˋ ㄇㄜ˙",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "then, in that case"
+    },
+    "那時候": {
+        "zhuyin": "ㄋㄚˋ ㄕˊ ㄏㄡˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "at that time, then"
+    },
+    "那樣": {
+        "zhuyin": "ㄋㄚˋ ㄧㄤˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "that kind, like that, such"
+    },
+    "南方": {
+        "zhuyin": "ㄋㄢˊ ㄈㄤ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "south"
+    },
+    "難過": {
+        "zhuyin": "ㄋㄢˊ ㄍㄨㄛˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "sorry"
+    },
+    "難看": {
+        "zhuyin": "ㄋㄢˊ ㄎㄢˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "ugly"
+    },
+    "難受": {
+        "zhuyin": "ㄋㄢˊ ㄕㄡˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "uncomfortable"
+    },
+    "難題": {
+        "zhuyin": "ㄋㄢˊ ㄊㄧˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "problen, difficult problem, puzzle"
+    },
+    "難聽": {
+        "zhuyin": "ㄋㄢˊ ㄊㄧㄥ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "unpleasant to hear"
+    },
+    "能夠": {
+        "zhuyin": "ㄋㄥˊ ㄍㄡ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "be able to, can"
+    },
+    "年級": {
+        "zhuyin": "ㄋㄧㄢˊ ㄐㄧˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "grade"
+    },
+    "年輕": {
+        "zhuyin": "ㄋㄧㄢˊ ㄑㄧㄥ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "young, light in years"
+    },
+    "鳥": {
+        "zhuyin": "ㄋㄧㄠˇ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "bird"
+    },
+    "弄": {
+        "zhuyin": "ㄋㄨㄥˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "get, make"
+    },
+    "努力": {
+        "zhuyin": "ㄋㄨˇ ㄌㄧˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "strive, great effort"
+    },
+    "爬": {
+        "zhuyin": "ㄆㄚˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "climb, creep, crawl, scramble"
+    },
+    "爬山": {
+        "zhuyin": "ㄆㄚˊ ㄕㄢ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "mountain climbing"
+    },
+    "怕": {
+        "zhuyin": "ㄆㄚˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "be afraid, fear, dread"
+    },
+    "排": {
+        "zhuyin": "ㄆㄞˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "row, line"
+    },
+    "排隊": {
+        "zhuyin": "ㄆㄞˊ ㄉㄨㄟˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "queue, stand in a line"
+    },
+    "排球": {
+        "zhuyin": "ㄆㄞˊ ㄑㄧㄡˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "volleyball"
+    },
+    "碰": {
+        "zhuyin": "ㄆㄥˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "touch, meet"
+    },
+    "碰到": {
+        "zhuyin": "ㄆㄥˋ ㄉㄠˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "meet, run into, bump into"
+    },
+    "碰見": {
+        "zhuyin": "ㄆㄥˋ ㄐㄧㄢˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "meet, run into, bump into"
+    },
+    "篇": {
+        "zhuyin": "ㄆㄧㄢ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "piece"
+    },
+    "便宜": {
+        "zhuyin": "ㄅㄧㄢˋ ㄧˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "cheap"
+    },
+    "片": {
+        "zhuyin": "ㄆㄧㄢˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "slice"
+    },
+    "漂亮": {
+        "zhuyin": "ㄆㄧㄠ ㄌㄧㄤˋ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "well done, beautiful"
+    },
+    "平": {
+        "zhuyin": "ㄆㄧㄥˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "flat"
+    },
+    "平安": {
+        "zhuyin": "ㄆㄧㄥˊ ㄢ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "sound and safe"
+    },
+    "平常": {
+        "zhuyin": "ㄆㄧㄥˊ ㄔㄤˊ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "usual"
+    },
+    "平等": {
+        "zhuyin": "ㄆㄧㄥˊ ㄉㄥˇ",
+        "pinyin": "",
+        "level": "HSK2",
+        "english": "equality"
+    },
+    // 420/700 done
+    // "": {
     //     "zhuyin": "",
-    //     "pinyin": "mèi mei",
+    //     "pinyin": "",
     //     "level": "HSK2",
-    //     "english": "younger sister"
+    //     "english": ""
     // },
-    // "麵條": {
+    // "": {
     //     "zhuyin": "",
-    //     "pinyin": "miàn tiáo",
+    //     "pinyin": "",
     //     "level": "HSK2",
-    //     "english": "noodles"
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK2",
+    //     "english": ""
     // },
     // "牛奶": {
     //     "zhuyin": "",
@@ -5510,12 +5870,6 @@ const HSK2words = {
     //     "pinyin": "qiān bǐ",
     //     "level": "HSK2",
     //     "english": "lead pencil"
-    // },
-    // "事情": {
-    //     "zhuyin": "",
-    //     "pinyin": "shì qing",
-    //     "level": "HSK2",
-    //     "english": "affair, matter, buisness, thing"
     // },
     // "手錶": {
     //     "zhuyin": "",
@@ -21873,17 +22227,17 @@ const hanziAll = {
     },
     "敵": {
         "zhuyin": "ㄉㄧˊ",
-        "pinyin": "enemy, to resist",
+        "pinyin": "",
         "tone": 2,
-        "english": "",
+        "english": "enemy, to resist",
         "simplified": "敌",
         "radicals": ["", ""]
     },
     "夏": {
         "zhuyin": "ㄒㄧㄚˋ",
-        "pinyin": "summer",
+        "pinyin": "",
         "tone": 4,
-        "english": "",
+        "english": "summer",
         "simplified": "",
         "radicals": ["", ""]
     },
