@@ -3252,6 +3252,325 @@ const HSK3words = {
         "level": "HSK3",
         "english": "love"
     },
+    "安排": {
+        "zhuyin": "ㄢ ㄆㄞˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "arrange"
+    },
+    "安裝": {
+        "zhuyin": "ㄢ ㄓㄨㄤ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "install"
+    },
+    "按": {
+        "zhuyin": "ㄢˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "press, push, check, restrain"
+    },
+    "按照": {
+        "zhuyin": "ㄢˋ ㄓㄠ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "according to"
+    },
+    "把": {
+        "zhuyin": "ㄅㄚˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "(particle marking the following noun as a direct object)"
+    },
+    "把": {
+        "zhuyin": "ㄅㄚˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "(measure word for things with handles)"
+    },
+    "把握": {
+        "zhuyin": "ㄅㄚˇ ㄨㄛˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "grasp"
+    },
+    "白": {
+        "zhuyin": "ㄅㄞˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "without results, in vain, waste efforts"
+    },
+    "白菜": {
+        "zhuyin": "ㄅㄞˊ ㄘㄞˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "chinese cabbage"
+    },
+    "班級": {
+        "zhuyin": "ㄅㄢ ㄐㄧˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "class"
+    },
+    "搬": {
+        "zhuyin": "ㄅㄢ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "turn, move"
+    },
+    "搬家": {
+        "zhuyin": "ㄅㄢ ㄐㄧㄚ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "move houses"
+    },
+    "板": {
+        "zhuyin": "ㄅㄢˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "board, plank, shutter"
+    },
+    "辦理": {
+        "zhuyin": "ㄅㄢˋ ㄌㄧˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "handle"
+    },
+    "保": {
+        "zhuyin": "ㄅㄠˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "defend, protect, keep, guarantee, ensure"
+    },
+    "保安": {
+        "zhuyin": "ㄅㄠˇ ㄢ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "security guard, public security, ensure safety"
+    },
+    "保持": {
+        "zhuyin": "ㄅㄠˇ ㄔˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "keep"
+    },
+    "保存": {
+        "zhuyin": "ㄅㄠˇ ㄘㄨㄣˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "preservation"
+    },
+    "保護": {
+        "zhuyin": "ㄅㄠˇ ㄏㄨˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "protect"
+    },
+    "保留": {
+        "zhuyin": "ㄅㄠˇ ㄌㄧㄡˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "retain"
+    },
+    "保險": {
+        "zhuyin": "ㄅㄠˇ ㄒㄧㄢˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "insurance"
+    },
+    "保證": {
+        "zhuyin": "ㄅㄠˇ ㄓㄥˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "ensure"
+    },
+    "報": {
+        "zhuyin": "ㄅㄠˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "newspaper, periodical, journal, report, telegram"
+    },
+    "報到": {
+        "zhuyin": "ㄅㄠˋ ㄉㄠˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "register, check in"
+    },
+    "報道": {
+        "zhuyin": "ㄅㄠˋ ㄉㄠˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "report"
+    },
+    "報告": {
+        "zhuyin": "ㄅㄠˋ ㄍㄠˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "presentation"
+    },
+    "背": {
+        "zhuyin": "ㄅㄟˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "back"
+    },
+    "北部": {
+        "zhuyin": "ㄅㄟˇ ㄅㄨˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "north"
+    },
+    "背": {
+        "zhuyin": "ㄅㄟˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "back of the body, back side of an object"
+    },
+    "背後": {
+        "zhuyin": "ㄅㄟˋ ㄏㄡˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "behind, at the back"
+    },
+    "被": {
+        "zhuyin": "ㄅㄟˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "cover"
+    },
+    "被子": {
+        "zhuyin": "ㄅㄟˋ ㄗˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "quilt"
+    },
+    "本來": {
+        "zhuyin": "ㄅㄣˇ ㄌㄞˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "originally"
+    },
+    "本領": {
+        "zhuyin": "ㄅㄣˇ ㄌㄧㄥˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "ability"
+    },
+    "本事": {
+        "zhuyin": "ㄅㄣˇ ㄕˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "skill"
+    },
+    "比較": {
+        "zhuyin": "ㄅㄧˇ ㄐㄧㄠˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "compare"
+    },
+    "比例": {
+        "zhuyin": "ㄅㄧˇ ㄌㄧˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "proportion"
+    },
+    "比賽": {
+        "zhuyin": "ㄅㄧˇ ㄙㄞˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "match"
+    },
+    "必然": {
+        "zhuyin": "ㄅㄧˋ ㄖㄢˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "inevitable"
+    },
+    "必要": {
+        "zhuyin": "ㄅㄧˋ ㄧㄠˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "necessary"
+    },
+    "變化": {
+        "zhuyin": " ㄅㄧㄢˋ ㄏㄨㄚˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "change"
+    },
+    "變為": {
+        "zhuyin": "ㄅㄧㄢˋ ㄨㄟˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "become, turn into, chnage into"
+    },
+    "標題": {
+        "zhuyin": "ㄅㄧㄠ ㄊㄧˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "title, heading"
+    },
+    "標準": {
+        "zhuyin": "ㄅㄧㄠ ㄓㄨㄣˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "standard"
+    },
+    "表達": {
+        "zhuyin": "ㄅㄧㄠˇ ㄉㄚˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "expression"
+    },
+    "表格": {
+        "zhuyin": "ㄅㄧㄠˇ ㄍㄜˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "form"
+    },
+    "表面": {
+        "zhuyin": "ㄅㄧㄠˇ ㄇㄧㄢˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "surface"
+    },
+    "表明": {
+        "zhuyin": "ㄅㄧㄠˇ ㄇㄧㄥˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "indicate"
+    },
+    "表現": {
+        "zhuyin": "ㄅㄧㄠˇ ㄒㄧㄢˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "performance"
+    },
+    // 50/973 done
+    "表演": {
+        "zhuyin": "ㄅㄧㄠˇ ㄧㄢˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "perform"
+    },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK3",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK3",
+    //     "english": ""
+    // },
+    // "": {
+    //     "zhuyin": "",
+    //     "pinyin": "",
+    //     "level": "HSK3",
+    //     "english": ""
+    // },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",

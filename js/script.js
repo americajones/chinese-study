@@ -381,6 +381,10 @@ function loadWordFlashcards(num) {
         for (var [word, value] of Object.entries(HSK2words)) {
             loadCards();
         }
+    } else if (num === 3) {
+        for (var [word, value] of Object.entries(HSK3words)) {
+            loadCards();
+        }
     }
     function loadCards() {
         hanziCharArray.push(word);
@@ -1222,6 +1226,13 @@ function getWords(num) {
             zhuyinArray.push(value.zhuyin);
             meaningsArray.push(value.english);
         };
+    } else if (num === 3) {
+        for (var [word, value] of Object.entries(HSK3words)) {
+            // console.log(value.zhuyin);
+            hanziArray.push(word);
+            zhuyinArray.push(value.zhuyin);
+            meaningsArray.push(value.english);
+        };
     }
 };
 function loadWordsFamiliQuiz() {
@@ -1585,6 +1596,190 @@ function loadWords2ZhuyinQuiz2() {
         newDiv.textContent = answer;
         newDiv.addEventListener('click', (e) => {
             handleAnswerClickEng(loadWords2ZhuyinQuiz2, e, 1000)
+        })
+        newDiv.classList.add('answer');
+        newDiv.classList.add('cursive');
+        newDiv.classList.add('large');
+        answersBox.append(newDiv);
+    });
+};
+function loadWords3FamiliQuiz() {
+    getWords(3);
+    removeAllChildren(answersBox);
+    makeButtons(loadWords3FamiliQuiz2, loadWords3FamiliQuiz);
+    thisHanzi = hanziArray[initNumber];
+    mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
+    secondaryCharText.textContent = zhuyinArray[initNumber];
+    secondaryCharText.classList.add('small')
+    let answersArray = [];
+    trueAnswer = meaningsArray[initNumber];
+    if (initNumber === hanziArray.length - 1) {
+        initNumber = 0;
+    } else initNumber++;
+    answersArray.push(trueAnswer);
+    for (let i = 0; i < 8; i++) {
+        let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
+        let randoAnswer = meaningsArray[nuRandoNum];
+        answersArray.push(randoAnswer);
+    }
+    shuffleArray(answersArray);
+    answersArray.forEach(answer => {
+        let newDiv = document.createElement('div');
+        newDiv.textContent = answer;
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadWords3FamiliQuiz, e, 1000)
+        })
+        newDiv.classList.add('answer');
+        answersBox.append(newDiv);
+    });
+};
+function loadWords3FamiliQuiz2() {
+    getWords(3);
+    removeAllChildren(answersBox);
+    makeButtons(loadWords3FamiliQuiz, loadWords3FamiliQuiz2);
+    thisHanzi = hanziArray[initNumber];
+    mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
+    secondaryCharText.textContent = meaningsArray[initNumber];
+    secondaryCharText.classList.remove('cursive');
+    secondaryCharText.classList.add('small')
+    let answersArray = [];
+    trueAnswer = zhuyinArray[initNumber];
+    answersArray.push(trueAnswer);
+    if (initNumber === hanziArray.length - 1) {
+        initNumber = 0;
+    } else initNumber++;
+    for (let i = 0; i < 8; i++) {
+        let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
+        let randoAnswer = zhuyinArray[nuRandoNum];
+        answersArray.push(randoAnswer);
+    }
+    shuffleArray(answersArray);
+    answersArray.forEach(answer => {
+        let newDiv = document.createElement('div');
+        newDiv.textContent = answer;
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadWords3FamiliQuiz2, e, 1000)
+        })
+        newDiv.classList.add('answer');
+        answersBox.append(newDiv);
+    });
+};
+function loadWords3MeaningsQuiz() {
+    getWords(3);
+    removeAllChildren(answersBox);
+    makeButtons(loadWords3MeaningsQuiz2, loadWords3MeaningsQuiz);
+    randoNumber = Math.floor(Math.random() * hanziArray.length);
+    thisHanzi = hanziArray[randoNumber];
+    mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
+    secondaryCharText.textContent = zhuyinArray[randoNumber];
+    secondaryCharText.classList.remove('cursive');
+    secondaryCharText.classList.add('small')
+    let answersArray = [];
+    trueAnswer = meaningsArray[randoNumber];
+    answersArray.push(trueAnswer);
+    for (let i = 0; i < 8; i++) {
+        let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
+        let randoAnswer = meaningsArray[nuRandoNum];
+        answersArray.push(randoAnswer);
+    }
+    shuffleArray(answersArray);
+    answersArray.forEach(answer => {
+        let newDiv = document.createElement('div');
+        newDiv.textContent = answer;
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadWords3MeaningsQuiz, e, 1000)
+        })
+        newDiv.classList.add('answer');
+        answersBox.append(newDiv);
+    });
+};
+function loadWords3MeaningsQuiz2() {
+    getWords(3);
+    removeAllChildren(answersBox);
+    makeButtons(loadWords3MeaningsQuiz, loadWords3MeaningsQuiz2);
+    randoNumber = Math.floor(Math.random() * hanziArray.length);
+    thisHanzi = meaningsArray[randoNumber];
+    mainCharText.textContent = thisHanzi;
+    mainCharText.classList.remove('cursive');
+    secondaryCharText.textContent = zhuyinArray[randoNumber];
+    secondaryCharText.classList.add('small')
+    let answersArray = [];
+    trueAnswer = hanziArray[randoNumber];
+    answersArray.push(trueAnswer);
+    for (let i = 0; i < 8; i++) {
+        let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
+        let randoAnswer = hanziArray[nuRandoNum];
+        answersArray.push(randoAnswer);
+    }
+    shuffleArray(answersArray);
+    answersArray.forEach(answer => {
+        let newDiv = document.createElement('div');
+        newDiv.textContent = answer;
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClick(loadWords3MeaningsQuiz2, e, 1000)
+        })
+        newDiv.classList.add('answer');
+        newDiv.classList.add('cursive');
+        newDiv.classList.add('large');
+        answersBox.append(newDiv);
+    });
+};
+
+function loadWords3ZhuyinQuiz() {
+    getWords(3);
+    removeAllChildren(answersBox);
+    makeButtons(loadWords3ZhuyinQuiz2, loadWords3ZhuyinQuiz);
+    randoNumber = Math.floor(Math.random() * hanziArray.length);
+    thisHanzi = hanziArray[randoNumber];
+    mainCharText.textContent = thisHanzi;
+    mainCharText.classList.add('cursive');
+    secondaryCharText.textContent = "";
+    let answersArray = [];
+    trueAnswer = zhuyinArray[randoNumber];
+    answersArray.push(trueAnswer);
+    for (let i = 0; i < 8; i++) {
+        let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
+        let randoAnswer = zhuyinArray[nuRandoNum];
+        answersArray.push(randoAnswer);
+    }
+    shuffleArray(answersArray);
+    answersArray.forEach(answer => {
+        let newDiv = document.createElement('div');
+        newDiv.textContent = answer;
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClickEng(loadWords3ZhuyinQuiz, e, 1000)
+        })
+        newDiv.classList.add('answer');
+        // newDiv.classList.add('cursive');
+        answersBox.append(newDiv);
+    });
+};
+function loadWords3ZhuyinQuiz2() {
+    getWords(3);
+    removeAllChildren(answersBox);
+    makeButtons(loadWords3ZhuyinQuiz, loadWords3ZhuyinQuiz2);
+    randoNumber = Math.floor(Math.random() * hanziArray.length);
+    thisHanzi = zhuyinArray[randoNumber];
+    mainCharText.textContent = thisHanzi;
+    secondaryCharText.textContent = "";
+    mainCharText.classList.remove('cursive');
+    let answersArray = [];
+    trueAnswer = hanziArray[randoNumber];
+    answersArray.push(trueAnswer);
+    for (let i = 0; i < 8; i++) {
+        let nuRandoNum = Math.floor(Math.random() * hanziArray.length);
+        let randoAnswer = hanziArray[nuRandoNum];
+        answersArray.push(randoAnswer);
+    }
+    shuffleArray(answersArray);
+    answersArray.forEach(answer => {
+        let newDiv = document.createElement('div');
+        newDiv.textContent = answer;
+        newDiv.addEventListener('click', (e) => {
+            handleAnswerClickEng(loadWords3ZhuyinQuiz2, e, 1000)
         })
         newDiv.classList.add('answer');
         newDiv.classList.add('cursive');
