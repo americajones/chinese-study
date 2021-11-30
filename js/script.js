@@ -1210,7 +1210,7 @@ function getWords(num) {
     removeAllChildren(flashBox2);
     removeAllChildren(flashBox3);
     pageHeader.textContent = "";
-    pageHeader.textContent = "話";
+    pageHeader.textContent = "詞";
     quizStudyBox.classList.remove('hidden');
     if (num === 1) {
         for (var [word, value] of Object.entries(HSK1words)) {
