@@ -5047,162 +5047,162 @@ const HSK3words = {
         "english": "ethnic chinese"
     },
     // 300/973 done
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
-    // "": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "level": "HSK3",
-    //     "english": ""
-    // },
+    "化": {
+        "zhuyin": "ㄏㄨㄚˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "suffix(like in 現代化: modernize)"
+    },
+    "話劇": {
+        "zhuyin": "ㄏㄨㄚˋ ㄐㄩˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "drama"
+    },
+    "話題": {
+        "zhuyin": "ㄏㄨㄚˋ ㄊㄧˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "topic of conversation"
+    },
+    "歡樂": {
+        "zhuyin": "ㄏㄨㄢ ㄌㄜˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "happy"
+    },
+    "環": {
+        "zhuyin": "ㄏㄨㄢˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "ring, loop, link"
+    },
+    "環保": {
+        "zhuyin": "ㄏㄨㄢˊ ㄅㄠˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "environment"
+    },
+    "環境": {
+        "zhuyin": "ㄏㄨㄢˊ ㄐㄧㄥˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "Environment"
+    },
+    "會議": {
+        "zhuyin": "ㄏㄨㄟˋ ㄧˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "meeting"
+    },
+    "會員": {
+        "zhuyin": "ㄏㄨㄟˋ ㄩㄢˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "membership"
+    },
+    "活": {
+        "zhuyin": "ㄏㄨㄛˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "life, save, work, living, alive"
+    },
+    "火": {
+        "zhuyin": "ㄏㄨㄛˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "fire, anger, temper"
+    },
+    "機器": {
+        "zhuyin": "ㄐㄧ ㄑㄧˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "machine"
+    },
+    "積極": {
+        "zhuyin": "ㄐㄧ ㄐㄧˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "positive"
+    },
+    "基本": {
+        "zhuyin": "ㄐㄧ ㄅㄣˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "basic"
+    },
+    "基本上": {
+        "zhuyin": "ㄐㄧ ㄅㄣˇ ㄕㄤˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "basically"
+    },
+    "基礎": {
+        "zhuyin": "ㄐㄧ ㄔㄨˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "basics"
+    },
+    "及時": {
+        "zhuyin": "ㄐㄧˊ ㄕˊ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "timely"
+    },
+    "...極了": {
+        "zhuyin": " ...ㄐㄧˊ ㄌㄧㄠˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "extremely, exceedingly"
+    },
+    "集體": {
+        "zhuyin": "ㄐㄧˊ ㄊㄧˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "collective"
+    },
+    "集中": {
+        "zhuyin": "ㄐㄧˊ ㄓㄨㄥ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "focus"
+    },
+    "計算": {
+        "zhuyin": "ㄐㄧˋ ㄙㄨㄢˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "calculation"
+    },
+    "記錄": {
+        "zhuyin": "ㄐㄧˋ ㄌㄨˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "record"
+    },
+    "記者": {
+        "zhuyin": "ㄐㄧˋ ㄓㄜˇ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "reporter"
+    },
+    "紀錄": {
+        "zhuyin": "ㄐㄧˋ ㄌㄨˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "record"
+    },
+    "紀念": {
+        "zhuyin": "ㄐㄧˋ ㄋㄧㄢˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "anniversary"
+    },
+    "技術": {
+        "zhuyin": "ㄐㄧˋ ㄕㄨˋ",
+        "pinyin": "",
+        "level": "HSK3",
+        "english": "technology"
+    },
     // "": {
     //     "zhuyin": "",
     //     "pinyin": "",
@@ -17950,12 +17950,12 @@ const hanziAll = {
     //     "simplified": "",
     //     "radicals": ["宀", "一", "𧰨"]
     // },
-    "后": {
+    "後": {
         "zhuyin": "ㄏㄡˋ",
         "pinyin": "hòu",
         "tone": 4,
         "english": "behind, after",
-        "simplified": "",
+        "simplified": "后",
         "radicals": ["一", "口"]
     },
     // "兒": {
