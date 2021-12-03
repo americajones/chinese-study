@@ -8680,7 +8680,7 @@ const HSK3words = {
     // }
 };
 
-//100% complete
+//100% complete sets
 
 const bookWordsGradedReaders = {
     //blind man's country
@@ -33014,48 +33014,48 @@ const hanziAll = {
         "english": "circle, round, circular, spherical",
         "simplified": "圆"
     },
-    // "俠": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "輔": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "玉": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "唸": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "兮": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "採": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
+    "俠": {
+        "zhuyin": "ㄒㄧㄚˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "hero, heroic, brave",
+        "simplified": "侠"
+    },
+    "輔": {
+        "zhuyin": "ㄈㄨˇ",
+        "pinyin": "",
+        "tone": 3,
+        "english": "to assist",
+        "simplified": "辅"
+    },
+    "玉": {
+        "zhuyin": "ㄩˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "jade",
+        "simplified": ""
+    },
+    "唸": {
+        "zhuyin": "ㄋㄧㄢˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "to read aloud",
+        "simplified": "念"
+    },
+    "兮": {
+        "zhuyin": "ㄒㄧ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "(particle in old Chinese similar to 啊)",
+        "simplified": ""
+    },
+    "採": {
+        "zhuyin": "ㄘㄞˇ",
+        "pinyin": "",
+        "tone": 3,
+        "english": "to pick, pluck, collect, select, choose, gather ",
+        "simplified": "采"
+    },
     // "屆": {
     //     "zhuyin": "",
     //     "pinyin": "",
