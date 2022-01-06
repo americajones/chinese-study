@@ -33148,97 +33148,97 @@ const hanziAll = {
         "english": "to separate, divide, analyze",
         "simplified": ""
     },
-    // "蒼": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "籍": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "懶": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "橋": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "詢": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "塵": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "慣": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "佔": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "茶": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "階": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "豐": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "暑": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
-    // "寒": {
-    //     "zhuyin": "",
-    //     "pinyin": "",
-    //     "tone": ,
-    //     "english": "",
-    //     "simplified": ""
-    // },
+    "蒼": {
+        "zhuyin": "ㄘㄤ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "dark blue, deep green, ash grey, surname Cang",
+        "simplified": "苍"
+    },
+    "籍": {
+        "zhuyin": "ㄐㄧˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "book or record, registry, surname Ji",
+        "simplified": ""
+    },
+    "懶": {
+        "zhuyin": "ㄌㄢˇ",
+        "pinyin": "",
+        "tone": 3,
+        "english": "lazy",
+        "simplified": "懒"
+    },
+    "橋": {
+        "zhuyin": "ㄑㄧㄠˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "bridge",
+        "simplified": "桥"
+    },
+    "詢": {
+        "zhuyin": "ㄒㄩㄣˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "to ask about, inquire about",
+        "simplified": "询"
+    },
+    "塵": {
+        "zhuyin": "ㄔㄣˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "dust, dirt, earth",
+        "simplified": "尘"
+    },
+    "慣": {
+        "zhuyin": "ㄍㄨㄢˋ",
+        "pinyin": "",
+        "tone": 4,
+        "english": "used to, accustomed to, indulge",
+        "simplified": "惯"
+    },
+    "佔": {
+        "zhuyin": "ㄓㄢ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "to take possession of, occupy, take up",
+        "simplified": "占"
+    },
+    "茶": {
+        "zhuyin": "ㄔㄚˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "tea, tea plant",
+        "simplified": ""
+    },
+    "階": {
+        "zhuyin": "ㄐㄧㄝ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "rank or step, stairs",
+        "simplified": "阶"
+    },
+    "豐": {
+        "zhuyin": "ㄈㄥ",
+        "pinyin": "",
+        "tone": 1,
+        "english": "abundent, plentiful, fertile, plump, great, surname Feng",
+        "simplified": "丰"
+    },
+    "暑": {
+        "zhuyin": "ㄕㄨˇ",
+        "pinyin": "",
+        "tone": 3,
+        "english": "heat, hot weather, summer heat",
+        "simplified": ""
+    },
+    "寒": {
+        "zhuyin": "ㄏㄢˊ",
+        "pinyin": "",
+        "tone": 2,
+        "english": "cold, poor, to tremble",
+        "simplified": ""
+    },
     // "械": {
     //     "zhuyin": "",
     //     "pinyin": "",
