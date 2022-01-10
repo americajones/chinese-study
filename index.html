@@ -21,15 +21,18 @@
                 <ul class="submenu">
                     <li class="subitem final"><a href="#" onclick="loadZhuyinRadicalFlashcards()">ㄅㄆㄇㄈ and Radicals</a>
                     </li>
-                    <li class="subitem final"><a href="#" onclick="loadHanziFlashcards()">Hanzi</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadWordFlashcards(1)">HSK1</a></li>
+                    <li class="subitem final"><a href="#" onclick="loadHanziFlashcards(1)">Hanzi 1-500</a></li>
+                    <li class="subitem final"><a href="#" onclick="loadHanziFlashcards(2)">Hanzi 501-1000</a></li>
+                    <li class="subitem final"><a href="#" onclick="loadHanziFlashcards(3)">Hanzi 1001-1500</a></li>
+                    <li class="subitem final"><a href="#" onclick="loadHanziFlashcards(4)">Hanzi 1501-2000</a></li>
+                    <!-- <li class="subitem final"><a href="#" onclick="loadWordFlashcards(1)">HSK1</a></li>
                     <li class="subitem final"><a href="#" onclick="loadWordFlashcards(2)">HSK2</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadWordFlashcards(3)">HSK3</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadBookWordFlashcards()">Book Words</a></li>
-                    <li class="subitem final"><a href="#" onclick="getGrammar()">Grammar</a></li>
-                    <li class="subitem final"><a href="#" onclick="getIdioms()">Idioms</a></li>
-                    <li class="subitem final"><a href="#" onclick="getSentences()">Sentences</a></li>
-                    <li class="subitem final"><a href="#" onclick="getMeasureWords()">Measure Words</a></li>
+                    <li class="subitem final"><a href="#" onclick="loadWordFlashcards(3)">HSK3</a></li> -->
+                    <!-- <li class="subitem final"><a href="#" onclick="loadBookWordFlashcards()">Book Words</a></li> -->
+                    <!-- <li class="subitem final"><a href="#" onclick="getGrammar()">Grammar</a></li> -->
+                    <!-- <li class="subitem final"><a href="#" onclick="getIdioms()">Idioms</a></li> -->
+                    <!-- <li class="subitem final"><a href="#" onclick="getSentences()">Sentences</a></li> -->
+                    <!-- <li class="subitem final"><a href="#" onclick="getMeasureWords()">Measure Words</a></li> -->
                 </ul>
             </li>
             <!-- <li class="item has-submenu">
@@ -41,7 +44,7 @@
                 </ul>
             </li> -->
             <li class="item has-submenu">
-                <a tabindex="0">Hanzi</a>
+                <a tabindex="0">Hanzi 1-500</a>
                 <ul class="submenu">
                     <li class="subitem final"><a href="#" onclick="loadHanziFamiliQuiz()">Familiarity</a></li>
                     <li class="subitem final"><a href="#" onclick="loadHanziMeaningsQuiz()">Meanings</a></li>
@@ -51,39 +54,33 @@
                 </ul>
             </li>
             <li class="item has-submenu">
-                <a tabindex="0">HSK1</a>
+                <a tabindex="0">Hanzi 501-1000</a>
                 <ul class="submenu">
-                    <li class="subitem final"><a href="#" onclick="loadWordsFamiliQuiz()">Familiarity</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadWordsMeaningsQuiz()">Meanings</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadWordsZhuyinQuiz()">ㄅㄆㄇㄈ</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadWordsWritingQuiz()">Typing</a></li>
+                    <li class="subitem final"><a href="#" onclick="load2HanziFamiliQuiz()">Familiarity</a></li>
+                    <li class="subitem final"><a href="#" onclick="load2HanziMeaningsQuiz()">Meanings</a></li>
+                    <li class="subitem final"><a href="#" onclick="load2HanziZhuyinQuiz()">ㄅㄆㄇㄈ</a></li>
+                    <li class="subitem final"><a href="#" onclick="load2HanziToneQuiz()">Tone</a></li>
+                    <li class="subitem final"><a href="#" onclick="load2HanziWritingQuiz()">Typing</a></li>
                 </ul>
             </li>
             <li class="item has-submenu">
-                <a tabindex="0">HSK2</a>
+                <a tabindex="0">Hanzi 1000-1500</a>
                 <ul class="submenu">
-                    <li class="subitem final"><a href="#" onclick="loadWords2FamiliQuiz()">Familiarity</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadWords2MeaningsQuiz()">Meanings</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadWords2ZhuyinQuiz()">ㄅㄆㄇㄈ</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadWords2WritingQuiz()">Typing</a></li>
+                    <li class="subitem final"><a href="#" onclick="load3HanziFamiliQuiz()">Familiarity</a></li>
+                    <li class="subitem final"><a href="#" onclick="load3HanziMeaningsQuiz()">Meanings</a></li>
+                    <li class="subitem final"><a href="#" onclick="load3HanziZhuyinQuiz()">ㄅㄆㄇㄈ</a></li>
+                    <li class="subitem final"><a href="#" onclick="load3HanziToneQuiz()">Tone</a></li>
+                    <li class="subitem final"><a href="#" onclick="load3HanziWritingQuiz()">Typing</a></li>
                 </ul>
             </li>
             <li class="item has-submenu">
-                <a tabindex="0">HSK3</a>
+                <a tabindex="0">Hanzi 1500-2000</a>
                 <ul class="submenu">
-                    <li class="subitem final"><a href="#" onclick="loadWords3FamiliQuiz()">Familiarity</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadWords3MeaningsQuiz()">Meanings</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadWords3ZhuyinQuiz()">ㄅㄆㄇㄈ</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadWords3WritingQuiz()">Typing</a></li>
-                </ul>
-            </li>
-            <li class="item has-submenu">
-                <a tabindex="0">Book Words</a>
-                <ul class="submenu">
-                    <li class="subitem final"><a href="#" onclick="loadBookWordsFamiliQuiz()">Familiarity</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadBookWordsMeaningsQuiz()">Meanings</a></li>
-                    <li class="subitem final"><a href="#" onclick="loadBookWordsZhuyinQuiz()">ㄅㄆㄇㄈ</a></li>
-
+                    <li class="subitem final"><a href="#" onclick="load4HanziFamiliQuiz()">Familiarity</a></li>
+                    <li class="subitem final"><a href="#" onclick="load4HanziMeaningsQuiz()">Meanings</a></li>
+                    <li class="subitem final"><a href="#" onclick="load4HanziZhuyinQuiz()">ㄅㄆㄇㄈ</a></li>
+                    <li class="subitem final"><a href="#" onclick="load4HanziToneQuiz()">Tone</a></li>
+                    <li class="subitem final"><a href="#" onclick="load4HanziWritingQuiz()">Typing</a></li>
                 </ul>
             </li>
             <li class="item final"><a href="#" onclick="loadSearchPage()">Search</a></li>
